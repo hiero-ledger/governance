@@ -22,4 +22,4 @@ repositories:
 - name: governance
   teams:
     lf-staff: maintain
-  visibility: private
+  visibility: public
