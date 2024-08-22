@@ -1,0 +1,16 @@
+teams:
+- name: lf-staff
+  maintainers:
+  - ryjones
+  members:
+  - SeanBohan
+  - daniela-barbosa
+  - davidwboswell
+  - hartm
+  - minyu66
+  - thelinuxfoundation
+repositories:
+- name: governance
+  teams:
+    lf-staff: maintain
+  visibility: private
