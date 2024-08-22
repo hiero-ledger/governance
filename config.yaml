@@ -23,3 +23,8 @@ repositories:
   teams:
     lf-staff: maintain
   visibility: public
+- name: planning
+  teams:
+    community: maintain
+    lf-staff: maintain
+  visibility: private
