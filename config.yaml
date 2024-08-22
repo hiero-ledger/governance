@@ -1,4 +1,13 @@
 teams:
+- name: community
+  maintainers:
+  - ryjones
+  members:
+  - hendrikebbers
+  - popowycz
+  - dmueller2001
+  - rbair23
+  - awaiken
 - name: lf-staff
   maintainers:
   - ryjones
