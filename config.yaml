@@ -1,13 +1,19 @@
 teams:
 - name: community
   maintainers:
-  - ryjones
-  members:
   - hendrikebbers
+  members:
   - popowycz
   - dmueller2001
   - rbair23
   - awaiken
+  - samswag
+- name: tsc
+  maintainers:
+  - hendrikebbers
+  members:
+  - popowycz
+  - rbair23
 - name: lf-staff
   maintainers:
   - ryjones
@@ -22,6 +28,15 @@ repositories:
 - name: governance
   teams:
     lf-staff: maintain
+    tsc: maintain
+  visibility: public
+- name: website
+  teams:
+    tsc: maintain
+  visibility: public
+- name: hiero
+  teams:
+    tsc: maintain
   visibility: public
 - name: planning
   teams:
