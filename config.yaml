@@ -3,10 +3,10 @@ teams:
   maintainers:
   - hendrikebbers
   members:
-  - popowycz
-  - dmueller2001
-  - rbair23
   - awaiken
+  - dmueller2001
+  - popowycz
+  - rbair23
   - samswag
 - name: tsc
   maintainers:
