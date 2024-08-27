@@ -2,12 +2,12 @@ teams:
 - name: community
   maintainers:
   - hendrikebbers
+  - samswag
   members:
   - awaiken
   - dmueller2001
   - popowycz
   - rbair23
-  - samswag
 - name: tsc
   maintainers:
   - hendrikebbers
