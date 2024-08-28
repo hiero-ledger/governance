@@ -45,8 +45,3 @@ repositories:
   teams:
     tsc: maintain
   visibility: private
-- name: planning
-  teams:
-    community: maintain
-    lf-staff: maintain
-  visibility: private
