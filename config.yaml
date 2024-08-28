@@ -2,18 +2,21 @@ teams:
 - name: community
   maintainers:
   - hendrikebbers
+  - samswag
   members:
   - awaiken
   - dmueller2001
   - popowycz
   - rbair23
-  - samswag
 - name: tsc
   maintainers:
   - hendrikebbers
   members:
   - popowycz
   - rbair23
+  - stoqnkpL
+  - Perseverance
+  - lbaird
 - name: lf-staff
   maintainers:
   - ryjones
@@ -33,13 +36,8 @@ repositories:
 - name: website
   teams:
     tsc: maintain
-  visibility: public
+  visibility: private
 - name: hiero
   teams:
     tsc: maintain
   visibility: public
-- name: planning
-  teams:
-    community: maintain
-    lf-staff: maintain
-  visibility: private
