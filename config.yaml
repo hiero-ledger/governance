@@ -41,7 +41,3 @@ repositories:
   teams:
     tsc: maintain
   visibility: public
-- name: tsc
-  teams:
-    tsc: maintain
-  visibility: private
