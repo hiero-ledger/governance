@@ -49,3 +49,7 @@ repositories:
   teams:
     community: maintain
   visibility: private
+- name: .github
+  teams:
+    tsc: maintain
+  visibility: public
