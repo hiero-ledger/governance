@@ -8,6 +8,8 @@ teams:
   - dmueller2001
   - popowycz
   - rbair23
+  - travismccracken11
+  - fakepaulbugeja
 - name: tsc
   maintainers:
   - hendrikebbers
@@ -35,6 +37,7 @@ repositories:
   visibility: public
 - name: website
   teams:
+    community: maintain
     tsc: maintain
   visibility: private
 - name: hiero
