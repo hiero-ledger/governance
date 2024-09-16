@@ -38,7 +38,7 @@ repositories:
   teams:
     community: maintain
     tsc: maintain
-  visibility: private
+  visibility: public
 - name: hiero
   teams:
     tsc: maintain
