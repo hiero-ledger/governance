@@ -42,7 +42,7 @@ repositories:
 - name: hiero
   teams:
     tsc: maintain
-  visibility: private
+  visibility: public
 - name: tsc
   teams:
     tsc: maintain
