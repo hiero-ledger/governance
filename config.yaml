@@ -46,7 +46,7 @@ repositories:
 - name: tsc
   teams:
     tsc: maintain
-  visibility: private
+  visibility: public
 - name: awesome-contributions
   teams:
     community: maintain
