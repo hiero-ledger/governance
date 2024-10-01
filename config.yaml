@@ -50,7 +50,7 @@ repositories:
 - name: awesome-contributions
   teams:
     community: maintain
-  visibility: private
+  visibility: public
 - name: .github
   teams:
     tsc: maintain
