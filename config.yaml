@@ -34,6 +34,12 @@ teams:
   members:
   - SimiHunjan
   - rwalworth
+- name: hiero-sdk-go-maintainers
+  maintainers:
+  - hendrikebbers
+  members:
+  - SimiHunjan
+  - rwalworth
 repositories:
 - name: governance
   teams:
