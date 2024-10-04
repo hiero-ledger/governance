@@ -9,6 +9,8 @@ teams:
   - rbair23
   - travismccracken11
   - fakepaulbugeja
+  - SimiHunjan
+  - rwalworth
 - name: tsc
   maintainers:
   - hendrikebbers
@@ -34,12 +36,16 @@ teams:
   members:
   - SimiHunjan
   - rwalworth
+  - izik
+  - RickyLB
 - name: hiero-sdk-go-maintainers
   maintainers:
   - hendrikebbers
   members:
   - SimiHunjan
   - rwalworth
+  - 0xivanov
+  - andrix10
 repositories:
 - name: governance
   teams:
