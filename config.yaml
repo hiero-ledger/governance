@@ -29,11 +29,11 @@ teams:
   - minyu66
   - thelinuxfoundation
 - name: hiero-sdk-swift-maintainers
-   maintainers:
-   - hendrikebbers
-   members:
-   - SimiHunjan
-   - rwalworth
+  maintainers:
+  - hendrikebbers
+  members:
+  - SimiHunjan
+  - rwalworth
 repositories:
 - name: governance
   teams:
