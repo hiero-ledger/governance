@@ -32,18 +32,20 @@ teams:
   - thelinuxfoundation
 - name: hiero-sdk-swift-maintainers
   maintainers:
+  - hendrikebbers
+  members:
+  - SimiHunjan
+  - rwalworth
   - izik
   - RickyLB
-  members:
-  - SimiHunjan
-  - rwalworth
 - name: hiero-sdk-go-maintainers
   maintainers:
-  - 0xivanov
-  - andrix10
+  - hendrikebbers
   members:
   - SimiHunjan
   - rwalworth
+  - 0xivanov
+  - andrix10
 repositories:
 - name: governance
   teams:
