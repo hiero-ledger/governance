@@ -53,11 +53,11 @@ repositories:
     lf-staff: maintain
     tsc: maintain
   visibility: public
-- name: website
-  teams:
-    community: maintain
-    tsc: maintain
-  visibility: public
+#- name: website
+#  teams:
+#    community: maintain
+#    tsc: maintain
+#  visibility: public
 - name: hiero
   teams:
     tsc: maintain
