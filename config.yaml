@@ -142,6 +142,11 @@ teams:
   - SimiHunjan
   - andrix10
   - rwalworth
+- name: hiero-sdk-cpp-maintainers
+  maintainers:
+  - rwalworth
+  members:
+  - SimiHunjan
 repositories:
 - name: governance
   teams:
