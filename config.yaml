@@ -11,104 +11,191 @@ teams:
   - fakepaulbugeja
   - SimiHunjan
   - rwalworth
-  - nathanklick
-  - alex-kuzmin-hg
+  - 0xivanov
   - AlfredoG87
+  - AliNik4n
+  - Ashe-Oro
+  - BartoszSolkaArianelabs
+  - CMiville42
+  - Coiling-Dragon
+  - Daniel-K-Ivanov
+  - Defigirlxo
+  - ElijahLynn
+  - Evdokia-Georgieva
+  - IvanKavaldzhiev
+  - Ivo-Yankov
+  - JeffreyDallas
+  - JivkoKelchev
+  - Kirqkas
+  - LionelChocron
+  - Mark-Swirlds
+  - MiroslavGatsanoga
+  - Nana-EC
+  - Neeharika-Sompalli
+  - Neurone
+  - OlegMazurov
+  - Petyo-Lukanov
+  - RAMTO
+  - RaphaelMessian
+  - Reccetech
+  - RickyLB
+  - Sheng-Long
+  - SimiHunjan
+  - StanislawMazowieckiAriane
+  - StoyanDrumev
+  - SvetBorislavov
+  - VMN00B
+  - a-saksena
+  - acuarica
+  - agadzhalov
+  - alex-kuzmin-hg
   - alikatamjani
   - allison-hashgraph
-  - ohsnapandrew
+  - amckay7777
+  - anastasiya-kovaliova
+  - andrewb1269hg
+  - annamariyaivanova
   - anthony-swirldslabs
-  - a-saksena
+  - ar-conmit
+  - arianejasuwienas
   - arlanharris
+  - arrusev
   - artemananiev
-  - Ashe-Oro
+  - ata-nas
+  - attest08
   - atul-hedera
   - atulmahamuni
-  - litt3
   - beeradb
   - bguiz
+  - bibitibooo1
+  - bilyana-gospodinova
   - cweagans
-  - CMiville42
   - dalvizu
   - david-bakin-sl
   - derektriley
+  - devmab
+  - dikel
+  - dimitar-dinev
+  - dimitrovmaksim
   - diptimahamuni
+  - dmueller2001
+  - donaldthibeau
   - dougvk
+  - dr20240304
+  - ebadiere
   - ed-marquez
   - edward-swirldslabs
   - edwin-greene
   - elijahlynn
-  - ebadiere
-  - Neurone
+  - ericleponner
+  - failfmi
+  - fakepaulbugeja
+  - georg-getz
+  - georgi-l95
+  - georgiyazovaliiski
   - gregscullard
-  - web3-nomad
-  - iwsimon
-  - isaac-swirldslabs
+  - gsstoykov
+  - ibankov
   - imalygin
-  - VMN00B
+  - instamenta
+  - isaac-swirldslabs
+  - ivaylogarnev-limechain
+  - ivaylonikolov7
+  - iwsimon
+  - izik1
+  - janaakhterov
   - jasperpotts
-  - JeffreyDallas
-  - jeromy-cannon
-  - jnels124
-  - joebxmoxx
+  - jayv80
   - jbair06
+  - jeromy-cannon
+  - jjohannes
+  - jnels124
+  - joan41868
+  - joebxmoxx
   - jsync-swirlds
   - justin-atwell
-  - kfbr
-  - Reccetech
-  - poulok
-  - kimbor
+  - kacper-koza-arianelabs
+  - kenthejr
   - kfa-aguda
-  - theekrystallee
-  - lpetrovic05
+  - kfbr
+  - kimbor
+  - konstantinabl
+  - kselveliev
   - lbaird
   - leninmehedy
-  - povolev15
-  - LionelChocron
-  - quiet-node
-  - acuarica 
+  - litt3
+  - lpetrovic05
   - lukelee-sl
-  - Mark-Swirlds
-  - mattp-swirldslabs
-  - rustyShacklefurd
-  - matteriben
-  - mhess-swl
-  - mx-swirldslabs
   - m-swirldslabs
-  - Defigirlxo 
-  - netopyr
-  - tinker-michaelj
+  - maptuhec
+  - matteriben
+  - mattp-swirldslabs
   - mb-swirlds
   - mgarbs
-  - michielmulders
   - mgoelswirlds
-  - Nana-EC
+  - mhess-swl
+  - michalrozekariane
+  - michielmulders
+  - mishomihov00
+  - mmalik-al
+  - mustafauzunn
+  - mx-swirldslabs
+  - mxtartaglia-sl
+  - nadezhdapopovaa
+  - natanasow
   - nathanklick
-  - Neeharika-Sompalli
+  - netopyr
+  - nickeynikolovv
   - nirbosl
-  - OlegMazurov
+  - nistanimirov
+  - norbert-kulus-arianelabs
+  - ochikov
+  - ohsnapandrew
+  - olsentorfinn
   - pathornteng
-  - fakepaulbugeja
-  - RaphaelMessian
+  - petreze
+  - pjn82
+  - pkaterskiLime
+  - popowycz
+  - poulok
+  - povolev15
+  - quiet-node
   - rbair23
-  - rwalworth
-  - rbarkerSL 
+  - rbarkerSL
+  - reachtobhavesh
+  - rickyrodmac
   - rsinha
+  - rustyShacklefurd
+  - rwalworth
   - ryan-swirldslabs
+  - san-est
+  - se7enarianelabs
   - sergmetelin
   - shezaan-hashgraph
-  - SimiHunjan
   - steven-sheehy
+  - stoqnkpL
+  - stoyan-lime
+  - stoyanov-st
+  - svetoslav-nikol0v
+  - svienot
   - tannerjfco
-  - tolorukooba
+  - tdermendzhievv
+  - theekrystallee
+  - thenswan
   - thomas-swirlds-labs
   - tim-mchale
   - timo0
+  - tinker-michaelj
+  - tolorukooba
   - tomzhenghedera
-  - olsentorfinn 
   - travismccracken11
-  - ty-swirldslabs 
+  - ty-swirldslabs
+  - victor-yanev
+  - vtronkov
+  - web3-nomad
   - xin-hedera
+  - yiliev0
+  - yosiftouma
 - name: tsc
   maintainers:
   - hendrikebbers
@@ -147,7 +234,8 @@ teams:
   - rwalworth
   members:
   - SimiHunjan
-- name: hiero-project-committers
+- name: voting-candidates
+  #All people that contributed to hashgraph repos and are approvide voters or candidates for TAC
   maintainers:
     - nathanklick
   members:
@@ -321,7 +409,7 @@ repositories:
   visibility: public
 - name: hiero-website
   teams:
-    community: maintain
+    community: triage
     tsc: maintain
   visibility: public
 - name: hiero
@@ -334,7 +422,7 @@ repositories:
   visibility: public
 - name: awesome-contributions
   teams:
-    community: maintain
+    community: triage
   visibility: public
 - name: .github
   teams:
