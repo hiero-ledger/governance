@@ -238,11 +238,27 @@ teams:
   - rwalworth
   members:
   - SimiHunjan
+- name: hiero-sdk-cpp-committers
+  maintainers:
+    - rwalworth
+  members:
+    - gsstoykov
+    - agadzhalov
 - name: hiero-sdk-tck-maintainers
   maintainers:
     - rwalworth
   members:
     - SimiHunjan
+- name: hiero-sdk-tck-committers
+  maintainers:
+    - rwalworth
+  members:
+    - ivaylogarnev-limechain
+    - 0xivanov
+    - agadzhalov
+    - ivaylonikolov7
+    - gsstoykov
+    - RickyLB
 - name: voting-candidates
   #All people that contributed to hashgraph repos and are approvide voters or candidates for TAC
   maintainers:
@@ -448,10 +464,12 @@ repositories:
     tsc: maintain
     github-maintainers: admin
     hiero-sdk-cpp-maintainers: maintain
+    hiero-sdk-cpp-committers: write
   visibility: public
 - name: hiero-sdk-tck
   teams:
     tsc: maintain
     github-maintainers: admin
     hiero-sdk-tck-maintainers: maintain
+    hiero-sdk-tck-committers: write
   visibility: public
