@@ -447,11 +447,11 @@ repositories:
   teams:
     tsc: maintain
     github-maintainers: maintain
-    hiero-sdk-cpp-maintainers: maintain
+    hiero-sdk-cpp-maintainers: admin
   visibility: public
 - name: hiero-sdk-tck
   teams:
     tsc: maintain
     github-maintainers: maintain
-    hiero-sdk-tck-maintainers: maintain
+    hiero-sdk-tck-maintainers: admin
   visibility: public
