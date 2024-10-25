@@ -446,12 +446,12 @@ repositories:
 - name: hiero-sdk-cpp
   teams:
     tsc: maintain
-    github-maintainers: maintain
-    hiero-sdk-cpp-maintainers: admin
+    github-maintainers: admin
+    hiero-sdk-cpp-maintainers: maintain
   visibility: public
 - name: hiero-sdk-tck
   teams:
     tsc: maintain
-    github-maintainers: maintain
-    hiero-sdk-tck-maintainers: admin
+    github-maintainers: admin
+    hiero-sdk-tck-maintainers: maintain
   visibility: public
