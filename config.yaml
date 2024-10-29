@@ -5,6 +5,13 @@ teams:
   members:
   - rbarkerSL
   - nathanklick
+  - andrewb1269hg
+- name: github-committers
+  maintainers:
+  - hendrikebbers
+  members:
+  - san-est
+  - mishomihov00
 - name: community
   maintainers:
   - hendrikebbers
@@ -463,6 +470,7 @@ repositories:
   teams:
     tsc: maintain
     github-maintainers: admin
+    github-committers: write
     hiero-sdk-cpp-maintainers: maintain
     hiero-sdk-cpp-committers: write
   visibility: public
@@ -470,6 +478,7 @@ repositories:
   teams:
     tsc: maintain
     github-maintainers: admin
+    github-committers: write
     hiero-sdk-tck-maintainers: maintain
     hiero-sdk-tck-committers: write
   visibility: public
