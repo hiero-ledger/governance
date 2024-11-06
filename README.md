@@ -19,10 +19,10 @@ The `config.yaml` file defines several groups that all have different usecases:
 
 ## Definitions of roles
 
-For each project the following roles should be defined. Roles are based on the [GitHub role defintions](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization).
+For each project the following roles should be defined for the groups that work on the repository. All roles are based on the [GitHub role defintions](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization).
 
-- **`github-maintainers`**: ADMIN
-- **`github-committers`**: WRITE
-- **`tsc`**: ADMIN
-- **`REPO-maintainers`**: MAINTAIN
-- **`REPO-committers`**: WRITE
+- **`github-maintainers`**: `ADMIN`
+- **`github-committers`**: `WRITE`
+- **`tsc`**: `ADMIN`
+- **`REPO-maintainers`**: `MAINTAIN`
+- **`REPO-committers`**: `WRITE`
