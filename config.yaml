@@ -15,11 +15,11 @@ teams:
   - name: community
     maintainers:
       - hendrikebbers
-      - samswag
     members:
       - dmueller2001
       - popowycz
       - rbair23
+      - samswag
       - travismccracken11
       - fakepaulbugeja
       - SimiHunjan
