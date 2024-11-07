@@ -265,6 +265,20 @@ teams:
       - ivaylonikolov7
       - gsstoykov
       - RickyLB
+  - name: hiero-gradle-conventions-maintainers
+    maintainers:
+      - rbarkerSL
+      - andrewb1269hg
+    members:
+      - nathanklick
+      - jjohannes
+  - name: hiero-gradle-conventions-committers
+    maintainers:
+      - rbarkerSL
+      - andrewb1269hg
+    members:
+      - mishomihov00
+      - san-est
   - name: voting-candidates
     #All people that contributed to hashgraph repos and are approvide voters or candidates for TAC
     maintainers:
@@ -479,4 +493,12 @@ repositories:
       github-committers: write
       hiero-sdk-tck-maintainers: maintain
       hiero-sdk-tck-committers: write
+    visibility: public
+  - name: hiero-gradle-conventions
+    teams:
+      tsc: maintain
+      github-maintainers: admin
+      github-committers: write
+      hiero-gradle-conventions-maintainers: maintain
+      hiero-gradle-conventions-committers: write
     visibility: public
