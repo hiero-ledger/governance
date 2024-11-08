@@ -26,3 +26,7 @@ For each project the following roles should be defined for the groups that work 
 - **`tsc`**: `ADMIN`
 - **`REPO-maintainers`**: `MAINTAIN`
 - **`REPO-committers`**: `WRITE`
+
+### Difference between committers and maintainers
+
+As said we have a `REPO-maintainers` and `REPO-committers` group per project. The idea is that the `REPO-maintainers` group contains 1-3 people that will manage/lead the development of that project. The people in the group have some additional rights next to the people in the `REPO-committers` group. All differences can be found in the [GitHub role defintions](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization) but some concrete examples are the management of labels for the repository or the mutation of the project description that is only allowed by people in the `REPO-maintainers` group.
