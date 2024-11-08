@@ -16,3 +16,13 @@ The `config.yaml` file defines several groups that all have different usecases:
 - **`REPO-committers`**: For each repository/project we have a group that defines the committers of that repository/project.
 - **`voting-candidates`**: A temporary group that contains all people that did contributions to [Hashgraph repositories](https://github.com/hashgraph) in the past and
   therefore are allowed to vote on [TAC votings](https://lf-decentralized-trust.github.io/governance/member-info/).
+
+## Definitions of roles
+
+For each project the following roles should be defined for the groups that work on the repository. All roles are based on the [GitHub role defintions](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization).
+
+- **`github-maintainers`**: `ADMIN`
+- **`github-committers`**: `WRITE`
+- **`tsc`**: `ADMIN`
+- **`REPO-maintainers`**: `MAINTAIN`
+- **`REPO-committers`**: `WRITE`
