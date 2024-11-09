@@ -281,9 +281,10 @@ teams:
       - san-est
   - name: hiero-block-node-maintainers
     maintainers:
+      - Nana-EC
+    members:
       - AlfredoG87
       - mattp-swirldslabs
-      - Nana-EC
   - name: hiero-block-node-committers
     maintainers:
       - AlfredoG87
