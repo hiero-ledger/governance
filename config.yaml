@@ -244,18 +244,64 @@ teams:
       - xin-hedera
   - name: hiero-sdk-swift-maintainers
     maintainers:
-      - rwalworth
+      - RickyLB
+    members:
+      - SimiHunjan
+  - name: hiero-sdk-swift-committers
+    maintainers:
+      - RickyLB
     members:
       - izik
+      - rwalworth
+  - name: hiero-sdk-rust-maintainers
+    maintainers:
       - RickyLB
+    members:
       - SimiHunjan
+  - name: hiero-sdk-rust-committers
+    maintainers:
+      - RickyLB
+    members:
+      - agadzhalov
+      - ivaylogarnev-limechain
+      - ivaylonikolov7
   - name: hiero-sdk-go-maintainers
     maintainers:
       - 0xivanov
     members:
       - SimiHunjan
-      - andrix10
-      - rwalworth
+      - agadzhalov
+      - gsstoykov
+  - name: hiero-sdk-go-committers
+    maintainers:
+      - 0xivanov
+    members:
+      - agadzhalov
+      - gsstoykov
+  - name: hiero-sdk-java-maintainers
+    maintainers:
+      - 0xivanov
+    members:
+      - SimiHunjan
+      - agadzhalov
+  - name: hiero-sdk-java-committers
+    maintainers:
+      - 0xivanov
+    members:
+      - agadzhalov
+  - name: hiero-sdk-js-maintainers
+    maintainers:
+      - ivaylonikolov7
+    members:
+      - SimiHunjan
+      - agadzhalov
+      - ivaylogarnev-limechain
+  - name: hiero-sdk-js-committers
+    maintainers:
+      - ivaylonikolov7
+    members:
+      - agadzhalov
+      - ivaylogarnev-limechain
   - name: hiero-sdk-cpp-maintainers
     maintainers:
       - rwalworth
