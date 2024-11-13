@@ -279,7 +279,29 @@ teams:
     members:
       - mishomihov00
       - san-est
-  - name: voting-candidates
+  - name: hiero-block-node-maintainers
+    maintainers:
+      - Nana-EC
+    members:
+      - AlfredoG87
+      - mattp-swirldslabs
+  - name: hiero-block-node-committers
+    maintainers:
+      - AlfredoG87
+      - Nana-EC
+    members:
+      - rbarkerSL
+      - georgi-l95
+      - ata-nas
+      - jsync-swirlds
+      - san-est
+      - rbair23
+      - mishomihov00
+      - jjohannes
+      - a-saksena
+      - CMiville42
+      - mattp-swirldslabs
+  - name: voting-candidates  
     #All people that contributed to hashgraph repos and are approvide voters or candidates for TAC
     maintainers:
       - nathanklick
