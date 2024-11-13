@@ -291,17 +291,18 @@ teams:
       - agadzhalov
   - name: hiero-sdk-js-maintainers
     maintainers:
-      - ivaylonikolov7
-    members:
       - SimiHunjan
+    members:
+      - ivaylonikolov7
       - agadzhalov
       - ivaylogarnev-limechain
   - name: hiero-sdk-js-committers
     maintainers:
-      - ivaylonikolov7
+      - SimiHunjan
     members:
       - agadzhalov
       - ivaylogarnev-limechain
+      - ivaylonikolov7
   - name: hiero-sdk-cpp-maintainers
     maintainers:
       - rwalworth
