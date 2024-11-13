@@ -225,6 +225,23 @@ teams:
       - hartm
       - minyu66
       - thelinuxfoundation
+  - name: hiero-mirror-node-committers
+    maintainers:
+      - steven-sheehy
+      - xin-hedera
+    members:
+      - bilyana-gospodinova
+      - edwin-greene
+      - IvanKavaldzhiev
+      - jnels124
+      - kselveliev
+      - mgoelswirlds
+      - nickeynikolovv
+  - name: hiero-mirror-node-maintainers
+    maintainers:
+      - steven-sheehy
+    members:
+      - xin-hedera
   - name: hiero-sdk-swift-maintainers
     maintainers:
       - rwalworth
