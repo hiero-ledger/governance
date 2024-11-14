@@ -318,7 +318,32 @@ teams:
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
-  - name: voting-candidates  
+  - name: hiero-services-maintainers
+    maintainers:
+      - netopyr
+    members:
+      - tinker-michaelj
+      - Neeharika-Sompalli
+  - name: hiero-services-committers
+    maintainers:
+      - netopyr
+      - tinker-michaelj
+      - Neeharika-Sompalli
+    members:
+      - anastasiya-kovaliova
+      - derektriley
+      - Evdokia-Georgieva
+      - ibankov
+      - iwsimon
+      - JivkoKelchev
+      - kimbor
+      - mhess-swl
+      - MiroslavGatsanoga
+      - petreze
+      - povolev15
+      - thomas-swirlds-labs
+      - vtronkov
+  - name: voting-candidates
     #All people that contributed to hashgraph repos and are approvide voters or candidates for TAC
     maintainers:
       - nathanklick
