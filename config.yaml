@@ -322,13 +322,13 @@ teams:
     maintainers:
       - netopyr
     members:
-      - tinker-michaelj
       - Neeharika-Sompalli
+      - tinker-michaelj
   - name: hiero-services-committers
     maintainers:
+      - Neeharika-Sompalli
       - netopyr
       - tinker-michaelj
-      - Neeharika-Sompalli
     members:
       - anastasiya-kovaliova
       - derektriley
