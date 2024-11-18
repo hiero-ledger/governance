@@ -365,7 +365,32 @@ teams:
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
-  - name: voting-candidates  
+  - name: hiero-protobufs-maintainers
+    maintainers:
+      - netopyr
+    members:
+      - Neeharika-Sompalli
+      - tinker-michaelj
+  - name: hiero-protobufs-committers
+    maintainers:
+      - Neeharika-Sompalli
+      - netopyr
+      - tinker-michaelj
+    members:
+      - anastasiya-kovaliova
+      - derektriley
+      - Evdokia-Georgieva
+      - ibankov
+      - iwsimon
+      - JivkoKelchev
+      - kimbor
+      - mhess-swl
+      - MiroslavGatsanoga
+      - petreze
+      - povolev15
+      - thomas-swirlds-labs
+      - vtronkov
+  - name: voting-candidates
     #All people that contributed to hashgraph repos and are approvide voters or candidates for TAC
     maintainers:
       - nathanklick
