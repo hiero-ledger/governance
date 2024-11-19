@@ -265,19 +265,6 @@ teams:
       - agadzhalov
       - ivaylogarnev-limechain
       - ivaylonikolov7
-  - name: hiero-sdk-go-maintainers
-    maintainers:
-      - 0xivanov
-    members:
-      - SimiHunjan
-      - agadzhalov
-      - gsstoykov
-  - name: hiero-sdk-go-committers
-    maintainers:
-      - 0xivanov
-    members:
-      - agadzhalov
-      - gsstoykov
   - name: hiero-sdk-java-maintainers
     maintainers:
       - 0xivanov
@@ -331,12 +318,11 @@ teams:
       - RickyLB
   - name: hiero-sdk-go-maintainers
     maintainers:
-      - rwalworth
+      - SimiHunjan
     members:
       - 0xivanov
       - agadzhalov
       - gsstoykov
-      - SimiHunjan
   - name: hiero-sdk-go-committers
     maintainers:
       - SimiHunjan
