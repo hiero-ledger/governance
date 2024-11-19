@@ -365,6 +365,31 @@ teams:
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
+  - name: hiero-services-maintainers
+    maintainers:
+      - netopyr
+    members:
+      - Neeharika-Sompalli
+      - tinker-michaelj
+  - name: hiero-services-committers
+    maintainers:
+      - Neeharika-Sompalli
+      - netopyr
+      - tinker-michaelj
+    members:
+      - anastasiya-kovaliova
+      - derektriley
+      - Evdokia-Georgieva
+      - ibankov
+      - iwsimon
+      - JivkoKelchev
+      - kimbor
+      - mhess-swl
+      - MiroslavGatsanoga
+      - petreze
+      - povolev15
+      - thomas-swirlds-labs
+      - vtronkov
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
