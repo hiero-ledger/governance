@@ -265,19 +265,6 @@ teams:
       - agadzhalov
       - ivaylogarnev-limechain
       - ivaylonikolov7
-  - name: hiero-sdk-go-maintainers
-    maintainers:
-      - 0xivanov
-    members:
-      - SimiHunjan
-      - agadzhalov
-      - gsstoykov
-  - name: hiero-sdk-go-committers
-    maintainers:
-      - 0xivanov
-    members:
-      - agadzhalov
-      - gsstoykov
   - name: hiero-sdk-java-maintainers
     maintainers:
       - 0xivanov
@@ -329,6 +316,20 @@ teams:
       - ivaylonikolov7
       - gsstoykov
       - RickyLB
+  - name: hiero-sdk-go-maintainers
+    maintainers:
+      - SimiHunjan
+    members:
+      - 0xivanov
+      - agadzhalov
+      - gsstoykov
+  - name: hiero-sdk-go-committers
+    maintainers:
+      - SimiHunjan
+    members:
+      - 0xivanov
+      - agadzhalov
+      - gsstoykov
   - name: hiero-gradle-conventions-maintainers
     maintainers:
       - rbarkerSL
@@ -637,4 +638,12 @@ repositories:
       github-committers: write
       hiero-gradle-conventions-maintainers: maintain
       hiero-gradle-conventions-committers: write
+    visibility: public
+  - name: hiero-sdk-go
+    teams:
+      tsc: maintain
+      github-maintainers: admin
+      github-committers: write
+      hiero-sdk-go-maintainers: maintain
+      hiero-sdk-go-committers: write
     visibility: public
