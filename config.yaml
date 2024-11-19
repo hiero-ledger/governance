@@ -331,7 +331,7 @@ teams:
       - RickyLB
   - name: hiero-sdk-go-maintainers
     maintainers:
-      - SimiHunjan
+      - rwalworth
     members:
       - 0xivanov
       - agadzhalov
