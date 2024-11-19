@@ -336,6 +336,7 @@ teams:
       - 0xivanov
       - agadzhalov
       - gsstoykov
+      - SimiHunjan
   - name: hiero-sdk-go-committers
     maintainers:
       - SimiHunjan
