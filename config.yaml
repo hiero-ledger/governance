@@ -240,6 +240,24 @@ teams:
       - steven-sheehy
     members:
       - xin-hedera
+  - name: hiero-local-node-committers
+    maintainers:
+      - georgi-l95
+      - Nana-EC
+      - natanasow
+    members:
+      - beeradb
+      - Neeharika-Sompalli
+      - Ivo-Yankov
+      - konstantinabl
+      - nathanklick
+      - victor-yanev
+  - name: hiero-local-node-maintainers
+    maintainers:
+      - Nana-EC
+    members:
+      - georgi-l95
+      - natanasow
   - name: hiero-sdk-swift-maintainers
     maintainers:
       - RickyLB
