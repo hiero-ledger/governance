@@ -12,7 +12,6 @@ teams:
     members:
       - mishomihov00
       - PavelSBorisov
-      - san-est
   - name: community
     maintainers:
       - hendrikebbers
