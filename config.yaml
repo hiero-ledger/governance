@@ -12,6 +12,7 @@ teams:
     members:
       - san-est
       - mishomihov00
+      - PavelSBorisov
   - name: community
     maintainers:
       - hendrikebbers
@@ -47,6 +48,7 @@ teams:
       - Neeharika-Sompalli
       - Neurone
       - OlegMazurov
+      - PavelSBorisov
       - Petyo-Lukanov
       - RAMTO
       - RaphaelMessian
