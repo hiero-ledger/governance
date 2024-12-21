@@ -413,7 +413,6 @@ repositories:
     visibility: public
   - name: hiero-website
     teams:
-      community: triage
       tsc: maintain
       github-maintainers: maintain
     visibility: public
@@ -429,7 +428,6 @@ repositories:
     visibility: public
   - name: awesome-contributions
     teams:
-      community: triage
       github-maintainers: maintain
     visibility: public
   - name: .github
