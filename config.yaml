@@ -10,8 +10,8 @@ teams:
     maintainers:
       - hendrikebbers
     members:
-      - san-est
       - mishomihov00
+      - PavelSBorisov
   - name: tsc
     maintainers:
       - hendrikebbers
@@ -241,7 +241,7 @@ teams:
       - thomas-swirlds-labs
       - vtronkov
   - name: voting-candidates
-    #All people that contributed to hashgraph repos and are approvide voters or candidates for TAC
+    #All people that contributed to hashgraph repos and are approved voters or candidates for TAC
     maintainers:
       - nathanklick
     members:
