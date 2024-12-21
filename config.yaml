@@ -10,8 +10,8 @@ teams:
     maintainers:
       - hendrikebbers
     members:
-      - san-est
       - mishomihov00
+      - PavelSBorisov
   - name: community
     maintainers:
       - hendrikebbers
