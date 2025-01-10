@@ -8,7 +8,7 @@ The `config.yaml` file defines several groups that all have different usecases:
 
 - **`github-maintainers`**: The group is responsible for maintaining our GitHub environment and infrastructure (including GitHub Action runners, ...).
 - **`github-committers`**:
-- **`community`**: A group that contains all people that are currently not part of any other group.
+- **`community`**: A group that contains all people that are currently not part of any other (non-temporary) group.
   We use this temporarly to invite people to the Hiero org.
 - **`tsc`**: The group that contains all members of the technical steering committee (TSC) as defined [here](https://github.com/hiero-ledger/tsc).
 - **`lf-staff`**: The group contains all Linux Foundation and LF Decentralized Trust members that needs (mostly ADMIN) rights on the org.
