@@ -368,6 +368,18 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
+  - name: hiero-docs-maintainers
+    maintainers:
+      - SimiHunjan
+      - theekrystallee
+    members:
+      - deshmukhpranali
+  - name: hiero-docs-committers
+    maintainers:
+      - SimiHunjan
+      - theekrystallee
+    members:
+      - deshmukhpranali
 repositories:
   - name: governance
     teams:
