@@ -368,6 +368,18 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
+  - name: hiero-docs-maintainers
+    maintainers:
+      - SimiHunjan
+      - theekrystallee
+    members:
+      - deshmukhpranali
+  - name: hiero-docs-committers
+    maintainers:
+      - SimiHunjan
+      - theekrystallee
+    members:
+      - deshmukhpranali
 repositories:
   - name: governance
     teams:
@@ -432,4 +444,12 @@ repositories:
       github-committers: write
       hiero-sdk-go-maintainers: maintain
       hiero-sdk-go-committers: write
+    visibility: public
+  - name: hiero-docs
+    teams:
+      tsc: maintain
+      github-maintainers: admin
+      github-committers: write
+      hiero-docs-maintainers: maintain
+      hiero-docs-committers: write
     visibility: public
