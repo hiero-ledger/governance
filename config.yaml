@@ -445,11 +445,3 @@ repositories:
       hiero-sdk-go-maintainers: maintain
       hiero-sdk-go-committers: write
     visibility: public
-  - name: hiero-docs
-    teams:
-      tsc: maintain
-      github-maintainers: admin
-      github-committers: write
-      hiero-docs-maintainers: maintain
-      hiero-docs-committers: write
-    visibility: public
