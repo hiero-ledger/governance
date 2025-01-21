@@ -318,13 +318,13 @@ teams:
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
-  - name: hiero-services-maintainers
+  - name: hiero-consensus-node-maintainers
     maintainers:
       - netopyr
     members:
       - Neeharika-Sompalli
       - tinker-michaelj
-  - name: hiero-services-committers
+  - name: hiero-consensus-node-committers
     maintainers:
       - Neeharika-Sompalli
       - netopyr
