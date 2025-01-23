@@ -461,3 +461,11 @@ repositories:
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
     visibility: public
+  - name: hiero-sdk-swift
+    teams:
+      tsc: maintain
+      github-maintainers: admin
+      github-committers: write
+      hiero-sdk-swift-maintainers: maintain
+      hiero-sdk-swift-committers: write
+    visibility: public
