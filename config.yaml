@@ -454,6 +454,14 @@ repositories:
       hiero-local-node-maintainers: maintain
       hiero-local-node-committers: write
     visibility: public
+  - name: hiero-sdk-java
+    teams:
+      tsc: maintain
+      github-maintainers: admin
+      github-committers: write
+      hiero-sdk-java-maintainers: maintain
+      hiero-sdk-java-committers: write
+    visibility: public
   - name: hiero-sdk-js
     teams:
       tsc: maintain
