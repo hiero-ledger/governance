@@ -490,3 +490,11 @@ repositories:
       hiero-sdk-swift-maintainers: maintain
       hiero-sdk-swift-committers: write
     visibility: public
+  - name: hiero-sdk-python
+    teams:
+      tsc: maintain
+      github-maintainers: admin
+      github-committers: write
+      hiero-sdk-python-maintainers: maintain
+      hiero-sdk-python-committers: write
+    visibility: public
