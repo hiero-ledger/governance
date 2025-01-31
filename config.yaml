@@ -207,6 +207,17 @@ teams:
     members:
       - izik
       - rwalworth
+  - name: hiero-sdk-python-maintainers
+    maintainers:
+      - nadineloepfe
+    members:
+      - hendrikebbers
+      - rbair23
+  - name: hiero-sdk-python-committers
+    maintainers:
+      - nadineloepfe
+    members:
+      - exploreriii
   - name: hiero-sdk-rust-maintainers
     maintainers:
       - RickyLB
