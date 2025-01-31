@@ -172,6 +172,12 @@ teams:
       - kselveliev
       - mgoelswirlds
       - nickeynikolovv
+  - name: hiero-solo-action-maintainers
+    maintainers:
+      - hendrikebbers
+  - name: hiero-solo-action-committers
+    maintainers:
+      - hendrikebbers
   - name: hiero-mirror-node-maintainers
     maintainers:
       - steven-sheehy
