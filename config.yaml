@@ -356,6 +356,32 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
+  - name: hcn-consensus-maintainers
+    maintainers:
+      - poulok
+    members:
+      - lpetrovic05
+      - cody-littley
+      - poulok
+  - name: hcn-consensus-committers
+    maintainers:
+      - poulok
+    members:
+      - edward-swirldslabs
+      - litt3
+  - name: hcn-tools-and-libs-maintainers
+    maintainers:
+      - artemananiev
+    members:
+      - artemananiev
+      - OlegMazurov
+  - name: hcn-tools-and-libs-committers
+    maintainers:
+      - artemananiev
+    members:
+      - imalygin
+      - thenswan
+      - anthony-swirldslabs
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
