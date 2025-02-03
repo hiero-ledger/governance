@@ -421,6 +421,18 @@ teams:
       - theekrystallee
     members:
       - deshmukhpranali
+  - name: hiero-mirror-node-explorer-maintainers
+    maintainers:
+      - svienot
+      - ericleponner
+    members:
+      - SimiHunjan
+  - name: hiero-mirror-node-explorer-committers
+    maintainers:
+      - svienot
+      - ericleponner
+    members:
+      - SimiHunjan
 repositories:
   - name: governance
     teams:
