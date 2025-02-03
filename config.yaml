@@ -362,7 +362,6 @@ teams:
     members:
       - lpetrovic05
       - cody-littley
-      - poulok
   - name: hcn-consensus-committers
     maintainers:
       - poulok
@@ -373,7 +372,6 @@ teams:
     maintainers:
       - artemananiev
     members:
-      - artemananiev
       - OlegMazurov
   - name: hcn-tools-and-libs-committers
     maintainers:
