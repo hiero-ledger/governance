@@ -331,13 +331,13 @@ teams:
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
-  - name: hiero-consensus-node-maintainers
+  - name: hcn-execution-maintainers
     maintainers:
       - netopyr
     members:
       - Neeharika-Sompalli
       - tinker-michaelj
-  - name: hiero-consensus-node-committers
+  - name: hcn-execution-committers
     maintainers:
       - Neeharika-Sompalli
       - netopyr
