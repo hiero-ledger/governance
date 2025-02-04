@@ -65,13 +65,14 @@ The initial term for Cohort A shall be measured from September 1st, 2023, and sh
 shall therefore be re-elected on September 1st, 2026 and every two years thereafter.
 
 As of January 2025, not all seats on Hiero were filled during the initial setup of the project. A special election shall
-be held on February 17th, 2025 to fill the remaining seats.
+be opened on March 18th, 2025 and closed by March 31st, 2025 to fill the remaining seats. Nominations shall be open from
+February 10th, 2025 until March 10th, 2025. 
 
 ## Nominations
 
 All candidates must be nominated. They may be nominated by themselves or another party, but must agree to the
 nomination. Each nomination shall be submitted as a PR to the appropriate election folder beneath /elections/nominees.
-Each nominee must submit a markdown file formatted as [sample-nomination.md](/elections/nominees/feb-2025-election/sample-nomination.md).
+Each nominee must submit a markdown file formatted as [sample-nomination.md](/elections/nominees/mar-2025-election/sample-nomination.md).
 
 ## Voting Procedure
 
