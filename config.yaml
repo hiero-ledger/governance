@@ -368,6 +368,22 @@ teams:
     members:
       - edward-swirldslabs
       - litt3
+  - name: hcn-smart-contract-maintainers
+    maintainers:
+      - Nana-EC
+      - Ferparishuertas
+    members:
+      - lukelee-sl
+  - name: hcn-smart-contract-committers
+    maintainers:
+      - Nana-EC
+      - Ferparishuertas
+    members:
+      - bubo
+      - david-bakin-sl
+      - shemnon
+      - stoqnkpL
+      - stoyanov-st
   - name: hcn-tools-and-libs-maintainers
     maintainers:
       - artemananiev
