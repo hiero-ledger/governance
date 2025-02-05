@@ -240,6 +240,7 @@ teams:
     maintainers:
       - 0xivanov
     members:
+      - naydenovn
       - agadzhalov
   - name: hiero-sdk-js-maintainers
     maintainers:
