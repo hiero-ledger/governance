@@ -3,7 +3,7 @@ teams:
     maintainers:
       - hendrikebbers
     members:
-      - rbarkerSL
+      - rbarker-dev
       - nathanklick
       - andrewb1269hg
   - name: github-committers
@@ -297,14 +297,14 @@ teams:
       - gsstoykov
   - name: hiero-gradle-conventions-maintainers
     maintainers:
-      - rbarkerSL
+      - rbarker-dev
       - andrewb1269hg
     members:
       - nathanklick
       - jjohannes
   - name: hiero-gradle-conventions-committers
     maintainers:
-      - rbarkerSL
+      - rbarker-dev
       - andrewb1269hg
     members:
       - mishomihov00
@@ -320,7 +320,7 @@ teams:
       - AlfredoG87
       - Nana-EC
     members:
-      - rbarkerSL
+      - rbarker-dev
       - georgi-l95
       - ata-nas
       - jsync-swirlds
