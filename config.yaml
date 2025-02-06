@@ -543,6 +543,6 @@ repositories:
       tsc: maintain
       github-maintainers: admin
       github-committers: write
-      hiero-docs-maintainers: maintain
+      hiero-docs-maintainers: admin
       hiero-docs-committers: write
     visibility: public
