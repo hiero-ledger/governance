@@ -538,3 +538,11 @@ repositories:
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
     visibility: public
+  - name: hiero-docs
+    teams:
+      tsc: maintain
+      github-maintainers: admin
+      github-committers: write
+      hiero-docs-maintainers: maintain
+      hiero-docs-committers: write
+    visibility: public
