@@ -3,7 +3,7 @@ teams:
     maintainers:
       - hendrikebbers
     members:
-      - rbarkerSL
+      - rbarker-dev
       - nathanklick
       - andrewb1269hg
   - name: github-committers
@@ -16,6 +16,7 @@ teams:
     maintainers:
       - hendrikebbers
     members:
+      - Ferparishuertas
       - nadineloepfe
       - samswag
       - AliNik4n
@@ -240,6 +241,7 @@ teams:
     maintainers:
       - 0xivanov
     members:
+      - naydenovn
       - agadzhalov
   - name: hiero-sdk-js-maintainers
     maintainers:
@@ -253,6 +255,7 @@ teams:
       - SimiHunjan
     members:
       - agadzhalov
+      - 0xivanov
       - ivaylogarnev-limechain
       - ivaylonikolov7
   - name: hiero-sdk-cpp-maintainers
@@ -292,19 +295,20 @@ teams:
     maintainers:
       - SimiHunjan
     members:
+      - ivaylogarnev-limechain
       - 0xivanov
       - agadzhalov
       - gsstoykov
   - name: hiero-gradle-conventions-maintainers
     maintainers:
-      - rbarkerSL
+      - rbarker-dev
       - andrewb1269hg
     members:
       - nathanklick
       - jjohannes
   - name: hiero-gradle-conventions-committers
     maintainers:
-      - rbarkerSL
+      - rbarker-dev
       - andrewb1269hg
     members:
       - mishomihov00
@@ -320,7 +324,7 @@ teams:
       - AlfredoG87
       - Nana-EC
     members:
-      - rbarkerSL
+      - rbarker-dev
       - georgi-l95
       - ata-nas
       - jsync-swirlds
@@ -331,13 +335,13 @@ teams:
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
-  - name: hiero-consensus-node-maintainers
+  - name: hcn-execution-maintainers
     maintainers:
       - netopyr
     members:
       - Neeharika-Sompalli
       - tinker-michaelj
-  - name: hiero-consensus-node-committers
+  - name: hcn-execution-committers
     maintainers:
       - Neeharika-Sompalli
       - netopyr
