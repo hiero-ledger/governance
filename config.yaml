@@ -208,6 +208,7 @@ teams:
     members:
       - izik
       - rwalworth
+      - Sheng-Long
   - name: hiero-sdk-python-maintainers
     maintainers:
       - nadineloepfe
