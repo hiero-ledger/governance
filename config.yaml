@@ -263,6 +263,7 @@ teams:
       - rwalworth
     members:
       - SimiHunjan
+      - gsstoykov
   - name: hiero-sdk-cpp-committers
     maintainers:
       - rwalworth
