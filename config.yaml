@@ -300,6 +300,16 @@ teams:
       - 0xivanov
       - agadzhalov
       - gsstoykov
+  - name: hiero-solo-action-maintainers
+    maintainers:
+      - hendrikebbers
+    members:
+      - gsstoykov
+  - name: hiero-solo-action-committers
+    maintainers:
+      - hendrikebbers
+    members:
+      - Ndacyayisenga-droid
   - name: hiero-gradle-conventions-maintainers
     maintainers:
       - rbarker-dev
