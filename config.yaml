@@ -219,6 +219,17 @@ teams:
       - nadineloepfe
     members:
       - exploreriii
+  - name: hiero-did-sdk-python-maintainers
+    maintainers:
+      - Reccetech
+    members:
+      - AlexanderShenshin
+      - dmueller2001
+  - name: hiero-did-sdk-python-committers
+    maintainers:
+      - Reccetech
+    members:
+      - paulo-caldas-code
   - name: hiero-sdk-rust-maintainers
     maintainers:
       - RickyLB
@@ -563,6 +574,14 @@ repositories:
       github-committers: write
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
+    visibility: public
+  - name: hiero-did-sdk-python
+    teams:
+      tsc: maintain
+      github-maintainers: admin
+      github-committers: write
+      hiero-did-sdk-python-maintainers: maintain
+      hiero-did-sdk-python-committers: write
     visibility: public
   - name: hiero-docs
     teams:
