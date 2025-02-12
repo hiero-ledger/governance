@@ -251,7 +251,7 @@ teams:
       - ivaylonikolov7
       - agadzhalov
       - ivaylogarnev-limechain
-  - name: hiero-sdk-js-committersa
+  - name: hiero-sdk-js-committers
     maintainers:
       - SimiHunjan
     members:
