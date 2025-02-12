@@ -379,6 +379,25 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
+  - name: hcn-execution-codeowners
+    maintainers:
+      - netopyr
+    members:
+      - Neeharika-Sompalli
+      - tinker-michaelj
+      - anastasiya-kovaliova
+      - derektriley
+      - Evdokia-Georgieva
+      - ibankov
+      - iwsimon
+      - JivkoKelchev
+      - kimbor
+      - mhess-swl
+      - MiroslavGatsanoga
+      - petreze
+      - povolev15
+      - thomas-swirlds-labs
+      - vtronkov
   - name: hcn-consensus-maintainers
     maintainers:
       - poulok
@@ -391,6 +410,26 @@ teams:
     members:
       - edward-swirldslabs
       - litt3
+      - mxtartaglia-sl
+      - timo0
+      - timfn-hg
+      - mustafauzunn
+      - IvanKavaldzhiev
+      - abies
+  - name: hcn-consensus-codeowners
+    maintainers:
+      - poulok
+    members:
+      - lpetrovic05
+      - cody-littley
+      - edward-swirldslabs
+      - litt3
+      - mxtartaglia-sl
+      - timo0
+      - timfn-hg
+      - mustafauzunn
+      - IvanKavaldzhiev
+      - abies
   - name: hcn-smart-contract-maintainers
     maintainers:
       - Nana-EC
@@ -406,6 +445,16 @@ teams:
       - bubo
       - stoqnkpL
       - stoyanov-st
+  - name: hcn-smart-contract-codeowners
+    maintainers:
+      - Nana-EC
+      - Ferparishuertas
+    members:
+      - lukelee-sl
+      - david-bakin-sl
+      - bubo
+      - stoqnkpL
+      - stoyanov-st
   - name: hcn-tools-and-libs-maintainers
     maintainers:
       - artemananiev
@@ -415,6 +464,14 @@ teams:
     maintainers:
       - artemananiev
     members:
+      - imalygin
+      - thenswan
+      - anthony-swirldslabs
+  - name: hcn-tools-and-libs-codeowners
+    maintainers:
+      - artemananiev
+    members:
+      - OlegMazurov
       - imalygin
       - thenswan
       - anthony-swirldslabs
