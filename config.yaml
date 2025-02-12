@@ -5,7 +5,9 @@ teams:
     members:
       - rbarker-dev
       - nathanklick
+      - jeromy-cannon
       - andrewb1269hg
+      - leninmehedy
   - name: github-committers
     maintainers:
       - hendrikebbers
@@ -42,7 +44,6 @@ teams:
       - VMN00B
       - acuarica
       - alex-kuzmin-hg
-      - allison-hashgraph
       - amckay7777
       - annamariyaivanova
       - anthony-swirldslabs
@@ -55,8 +56,6 @@ teams:
       - atulmahamuni
       - bguiz
       - bibitibooo1
-      - cweagans
-      - dalvizu
       - david-bakin-sl
       - devmab
       - dikel
@@ -69,7 +68,6 @@ teams:
       - ebadiere
       - ed-marquez
       - edward-swirldslabs
-      - ElijahLynn
       - ericleponner
       - failfmi
       - fakepaulbugeja
@@ -90,8 +88,6 @@ teams:
       - kacper-koza-arianelabs
       - kenthejr
       - kfa-aguda
-      - kfbr
-      - leninmehedy
       - litt3
       - lpetrovic05
       - lukelee-sl
@@ -104,7 +100,6 @@ teams:
       - michielmulders
       - mmalik-al
       - nadezhdapopovaa
-      - nirbosl
       - nistanimirov
       - norbert-kulus-arianelabs
       - ochikov
@@ -122,12 +117,10 @@ teams:
       - ryan-swirldslabs
       - se7enarianelabs
       - sergmetelin
-      - shezaan-hashgraph
       - stoyan-lime
       - stoyanov-st
       - svetoslav-nikol0v
       - svienot
-      - tannerjfco
       - tdermendzhievv
       - theekrystallee
       - thenswan
@@ -205,7 +198,7 @@ teams:
     members:
       - izik
       - rwalworth
-  - name: hiero-sdk-python-maintainers
+  - name: hiero-sdk-python-maintainers  
     maintainers:
       - nadineloepfe
     members:
@@ -258,7 +251,7 @@ teams:
       - ivaylonikolov7
       - agadzhalov
       - ivaylogarnev-limechain
-  - name: hiero-sdk-js-committers
+  - name: hiero-sdk-js-committersa
     maintainers:
       - SimiHunjan
     members:
@@ -354,6 +347,19 @@ teams:
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
+  - name: hcn-devops-codeowners
+    maintainers:
+      - dalvizu
+    members:
+      - cweagans
+      - beeradb
+      - tannerjfco
+      - ElijahLynn
+      - mahmoudian1
+      - nirbosl
+      - kfbr
+      - shezaan-hashgraph
+      - allison-hashgraph
   - name: hcn-execution-maintainers
     maintainers:
       - netopyr
