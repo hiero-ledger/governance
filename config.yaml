@@ -5,7 +5,9 @@ teams:
     members:
       - rbarker-dev
       - nathanklick
+      - jeromy-cannon
       - andrewb1269hg
+      - leninmehedy
   - name: github-committers
     maintainers:
       - hendrikebbers
@@ -42,7 +44,6 @@ teams:
       - VMN00B
       - acuarica
       - alex-kuzmin-hg
-      - allison-hashgraph
       - amckay7777
       - annamariyaivanova
       - anthony-swirldslabs
@@ -55,8 +56,6 @@ teams:
       - atulmahamuni
       - bguiz
       - bibitibooo1
-      - cweagans
-      - dalvizu
       - david-bakin-sl
       - devmab
       - dikel
@@ -69,7 +68,6 @@ teams:
       - ebadiere
       - ed-marquez
       - edward-swirldslabs
-      - ElijahLynn
       - ericleponner
       - failfmi
       - fakepaulbugeja
@@ -90,8 +88,6 @@ teams:
       - kacper-koza-arianelabs
       - kenthejr
       - kfa-aguda
-      - kfbr
-      - leninmehedy
       - litt3
       - lpetrovic05
       - lukelee-sl
@@ -103,10 +99,7 @@ teams:
       - michalrozekariane
       - michielmulders
       - mmalik-al
-      - mustafauzunn
-      - mxtartaglia-sl
       - nadezhdapopovaa
-      - nirbosl
       - nistanimirov
       - norbert-kulus-arianelabs
       - ochikov
@@ -124,17 +117,14 @@ teams:
       - ryan-swirldslabs
       - se7enarianelabs
       - sergmetelin
-      - shezaan-hashgraph
       - stoyan-lime
       - stoyanov-st
       - svetoslav-nikol0v
       - svienot
-      - tannerjfco
       - tdermendzhievv
       - theekrystallee
       - thenswan
       - tim-mchale
-      - timo0
       - tolorukooba
       - tomzhenghedera
       - travismccracken11
@@ -208,7 +198,7 @@ teams:
     members:
       - izik
       - rwalworth
-  - name: hiero-sdk-python-maintainers
+  - name: hiero-sdk-python-maintainers  
     maintainers:
       - nadineloepfe
     members:
@@ -357,6 +347,19 @@ teams:
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
+  - name: hcn-devops-codeowners
+    maintainers:
+      - dalvizu
+    members:
+      - cweagans
+      - beeradb
+      - tannerjfco
+      - ElijahLynn
+      - mahmoudian1
+      - nirbosl
+      - kfbr
+      - shezaan-hashgraph
+      - allison-hashgraph
   - name: hcn-execution-maintainers
     maintainers:
       - netopyr
@@ -382,6 +385,25 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
+  - name: hcn-execution-codeowners
+    maintainers:
+      - netopyr
+    members:
+      - Neeharika-Sompalli
+      - tinker-michaelj
+      - anastasiya-kovaliova
+      - derektriley
+      - Evdokia-Georgieva
+      - ibankov
+      - iwsimon
+      - JivkoKelchev
+      - kimbor
+      - mhess-swl
+      - MiroslavGatsanoga
+      - petreze
+      - povolev15
+      - thomas-swirlds-labs
+      - vtronkov
   - name: hcn-consensus-maintainers
     maintainers:
       - poulok
@@ -394,6 +416,26 @@ teams:
     members:
       - edward-swirldslabs
       - litt3
+      - mxtartaglia-sl
+      - timo0
+      - timfn-hg
+      - mustafauzunn
+      - IvanKavaldzhiev
+      - abies
+  - name: hcn-consensus-codeowners
+    maintainers:
+      - poulok
+    members:
+      - lpetrovic05
+      - cody-littley
+      - edward-swirldslabs
+      - litt3
+      - mxtartaglia-sl
+      - timo0
+      - timfn-hg
+      - mustafauzunn
+      - IvanKavaldzhiev
+      - abies
   - name: hcn-smart-contract-maintainers
     maintainers:
       - Nana-EC
@@ -409,6 +451,16 @@ teams:
       - bubo
       - stoqnkpL
       - stoyanov-st
+  - name: hcn-smart-contract-codeowners
+    maintainers:
+      - Nana-EC
+      - Ferparishuertas
+    members:
+      - lukelee-sl
+      - david-bakin-sl
+      - bubo
+      - stoqnkpL
+      - stoyanov-st
   - name: hcn-tools-and-libs-maintainers
     maintainers:
       - artemananiev
@@ -418,6 +470,14 @@ teams:
     maintainers:
       - artemananiev
     members:
+      - imalygin
+      - thenswan
+      - anthony-swirldslabs
+  - name: hcn-tools-and-libs-codeowners
+    maintainers:
+      - artemananiev
+    members:
+      - OlegMazurov
       - imalygin
       - thenswan
       - anthony-swirldslabs
