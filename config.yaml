@@ -103,8 +103,6 @@ teams:
       - michalrozekariane
       - michielmulders
       - mmalik-al
-      - mustafauzunn
-      - mxtartaglia-sl
       - nadezhdapopovaa
       - nirbosl
       - nistanimirov
@@ -134,7 +132,6 @@ teams:
       - theekrystallee
       - thenswan
       - tim-mchale
-      - timo0
       - tolorukooba
       - tomzhenghedera
       - travismccracken11
@@ -421,6 +418,22 @@ teams:
       - imalygin
       - thenswan
       - anthony-swirldslabs
+  - name: hiero-consensus-node-committers
+    maintainers:
+      - Nana-EC
+      - Ferparishuertas
+      - poulok
+      - Neeharika-Sompalli
+      - netopyr
+      - tinker-michaelj
+      - artemananiev
+    members:
+      - mxtartaglia-sl
+      - timo0
+      - timfn-hg
+      - mustafauzunn
+      - IvanKavaldzhiev
+      - abies
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
