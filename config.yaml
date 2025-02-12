@@ -485,12 +485,36 @@ teams:
       - tinker-michaelj
       - artemananiev
     members:
+      - lpetrovic05
+      - cody-littley
+      - edward-swirldslabs
+      - litt3
       - mxtartaglia-sl
       - timo0
       - timfn-hg
       - mustafauzunn
       - IvanKavaldzhiev
       - abies
+      - anastasiya-kovaliova
+      - derektriley
+      - Evdokia-Georgieva
+      - ibankov
+      - iwsimon
+      - JivkoKelchev
+      - kimbor
+      - mhess-swl
+      - MiroslavGatsanoga
+      - petreze
+      - povolev15
+      - thomas-swirlds-labs
+      - vtronkov
+      - imalygin
+      - thenswan
+      - anthony-swirldslabs
+      - david-bakin-sl
+      - bubo
+      - stoqnkpL
+      - stoyanov-st
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
