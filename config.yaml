@@ -2,8 +2,7 @@ teams:
   - name: hiero-automation
     maintainers:
       - swirlds-automation
-    members:
-      - nathanklick
+    members: []
   - name: github-maintainers
     maintainers:
       - rbarker-dev
