@@ -370,6 +370,19 @@ teams:
       - Mark-Swirlds
       - ty-swirldslabs
       - Reccetech
+  - name: hcn-release-engineers
+    maintainers:
+      - rbarker-dev
+      - nathanklick
+    members:
+      - kimbor
+      - derektriley
+      - povolev15
+      - tinker-michaelj
+      - Neeharika-Sompalli
+      - mhess-swl
+      - iwsimon
+      - thomas-swirlds-labs
   - name: hcn-devops-codeowners
     maintainers:
       - dalvizu
@@ -683,6 +696,7 @@ repositories:
       github-maintainers: admin
       github-committers: write
       hcn-release-managers: write
+      hcn-release-engineers: write
       hcn-devops-codeowners: write
       hcn-execution-maintainers: maintain
       hcn-execution-committers: write
