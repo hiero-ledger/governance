@@ -381,7 +381,7 @@ teams:
       - allison-hashgraph
   - name: hcn-execution-maintainers
     maintainers:
-      Nana-EC
+      - Nana-EC
     members:
       - Neeharika-Sompalli
       - tinker-michaelj
