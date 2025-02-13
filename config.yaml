@@ -1,18 +1,18 @@
 teams:
   - name: github-maintainers
     maintainers:
-      - hendrikebbers
-    members:
       - rbarker-dev
       - nathanklick
+    members:
       - jeromy-cannon
       - andrewb1269hg
       - leninmehedy
   - name: github-committers
     maintainers:
-      - hendrikebbers
+      - rbarker-dev
+      - nathanklick
     members:
-      - mishomihov00
+      - hendrikebbers
       - PavelSBorisov
   - name: community
     maintainers:
@@ -108,7 +108,6 @@ teams:
       - pathornteng
       - pjn82
       - pkaterskiLime
-      - poulok
       - quiet-node
       - reachtobhavesh
       - rickyrodmac
@@ -347,6 +346,26 @@ teams:
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
+  - name: hcn-release-managers
+    maintainers:
+      - rbarker-dev
+      - nathanklick
+    members:
+      - poulok
+      - Nana-EC
+      - netopyr
+      - Ferparishuertas
+      - Jeffrey-morgan34
+      - AliNik4n
+      - steven-sheehy
+      - SimiHunjan
+      - rbair23
+      - dalvizu
+      - a-saksena
+      - olsentorfinn
+      - Mark-Swirlds
+      - ty-swirldslabs
+      - Reccetech
   - name: hcn-devops-codeowners
     maintainers:
       - dalvizu
@@ -362,7 +381,7 @@ teams:
       - allison-hashgraph
   - name: hcn-execution-maintainers
     maintainers:
-      - netopyr
+      - Nana-EC
     members:
       - Neeharika-Sompalli
       - tinker-michaelj
