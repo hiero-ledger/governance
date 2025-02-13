@@ -670,3 +670,24 @@ repositories:
       hiero-docs-maintainers: admin
       hiero-docs-committers: write
     visibility: public
+  - name: hiero-consensus-node
+    teams:
+      tsc: maintain
+      github-maintainers: admin
+      github-committers: write
+      hcn-release-managers: write
+      hcn-devops-codeowners: write
+      hcn-execution-maintainers: maintain
+      hcn-execution-committers: write
+      hcn-execution-codeowners: write
+      hcn-consensus-maintainers: maintain
+      hcn-consensus-committers: write
+      hcn-consensus-codeowners: write
+      hcn-smart-contract-maintainers: maintain
+      hcn-smart-contract-committers: write
+      hcn-smart-contract-codeowners: write
+      hcn-tools-and-libs-maintainers: maintain
+      hcn-tools-and-libs-committers: write
+      hcn-tools-and-libs-codeowners: write
+      hiero-mirror-node-maintainers: write
+    visibility: public
