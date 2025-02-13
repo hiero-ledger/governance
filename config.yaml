@@ -501,6 +501,7 @@ teams:
       - imalygin
       - thenswan
       - anthony-swirldslabs
+      - rsinha
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
