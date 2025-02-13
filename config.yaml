@@ -404,6 +404,7 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
+      - jsync-swirlds
   - name: hcn-execution-codeowners
     maintainers:
       - netopyr
