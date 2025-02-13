@@ -1,4 +1,8 @@
 teams:
+  - name: hiero-automation
+    maintainers:
+      - swirlds-automation
+    members: []
   - name: github-maintainers
     maintainers:
       - rbarker-dev
@@ -675,6 +679,7 @@ repositories:
   - name: hiero-consensus-node
     teams:
       tsc: maintain
+      hiero-automation: write
       github-maintainers: admin
       github-committers: write
       hcn-release-managers: write
