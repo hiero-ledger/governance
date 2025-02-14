@@ -32,12 +32,10 @@ teams:
       - Coiling-Dragon
       - Daniel-K-Ivanov
       - defigirlxo
-      - JeffreyDallas
       - Kirqkas
       - LionelChocron
       - Mark-Swirlds
       - Neurone
-      - OlegMazurov
       - Petyo-Lukanov
       - RAMTO
       - RaphaelMessian
@@ -48,7 +46,6 @@ teams:
       - SvetBorislavov
       - VMN00B
       - acuarica
-      - alex-kuzmin-hg
       - amckay7777
       - annamariyaivanova
       - anthony-swirldslabs
@@ -130,7 +127,6 @@ teams:
       - thenswan
       - tim-mchale
       - tolorukooba
-      - tomzhenghedera
       - travismccracken11
       - ty-swirldslabs
       - web3-nomad
@@ -569,6 +565,15 @@ teams:
       - ericleponner
     members:
       - SimiHunjan
+  - name: hiero-performance-engineers
+    maintainers:
+      - nathanklick
+      - rbarker-dev
+    members:
+      - tomzhenghedera
+      - alex-kuzmin-hg
+      - OlegMazurov
+      - JeffreyDallas
 repositories:
   - name: governance
     teams:
@@ -713,4 +718,5 @@ repositories:
       hcn-tools-and-libs-codeowners: write
       hiero-mirror-node-maintainers: write
       hiero-gradle-conventions-maintainers: write
+      hiero-performance-engineers: write
     visibility: public
