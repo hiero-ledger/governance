@@ -712,4 +712,5 @@ repositories:
       hcn-tools-and-libs-committers: write
       hcn-tools-and-libs-codeowners: write
       hiero-mirror-node-maintainers: write
+      hiero-gradle-conventions-maintainers: write
     visibility: public
