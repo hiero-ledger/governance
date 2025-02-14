@@ -32,7 +32,6 @@ teams:
       - Coiling-Dragon
       - Daniel-K-Ivanov
       - defigirlxo
-      - JeffreyDallas
       - Kirqkas
       - LionelChocron
       - Mark-Swirlds
@@ -574,6 +573,7 @@ teams:
       - tomzhenghedera
       - alex-kuzmin-hg
       - OlegMazurov
+      - JeffreyDallas
 repositories:
   - name: governance
     teams:
