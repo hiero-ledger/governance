@@ -190,6 +190,7 @@ teams:
   - name: hiero-sdk-swift-maintainers
     maintainers:
       - RickyLB
+      - Sheng-Long
     members:
       - SimiHunjan
   - name: hiero-sdk-swift-committers
@@ -223,6 +224,7 @@ teams:
   - name: hiero-sdk-rust-maintainers
     maintainers:
       - RickyLB
+      - Sheng-Long
     members:
       - SimiHunjan
   - name: hiero-sdk-rust-committers
