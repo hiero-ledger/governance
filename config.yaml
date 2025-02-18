@@ -254,6 +254,7 @@ teams:
     members:
       - agadzhalov
       - 0xivanov
+      - venilinvasilev
       - ivaylogarnev-limechain
       - ivaylonikolov7
   - name: hiero-sdk-cpp-maintainers
