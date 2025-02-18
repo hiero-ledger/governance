@@ -730,6 +730,7 @@ repositories:
   - name: hiero-mirror-node
     teams:
       tsc: maintain
+      hiero-automation: write
       hiero-mirror-node-automation: admin
       github-maintainers: admin
       github-committers: write
