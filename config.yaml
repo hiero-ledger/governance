@@ -3,6 +3,9 @@ teams:
     maintainers:
       - swirlds-automation
     members: []
+  - name: hiero-mirror-node-automation
+    maintainers: hedera-github-bot
+    members: []
   - name: github-maintainers
     maintainers:
       - rbarker-dev
@@ -163,6 +166,8 @@ teams:
       - kselveliev
       - mgoelswirlds
       - nickeynikolovv
+      - sdimitrov9
+      - filev94
   - name: hiero-mirror-node-maintainers
     maintainers:
       - steven-sheehy
@@ -721,3 +726,13 @@ repositories:
       hiero-gradle-conventions-maintainers: write
       hiero-performance-engineers: write
     visibility: public
+  - name: hiero-mirror-node
+    teams:
+      tsc: maintain
+      hiero-mirror-node-automation: admin
+      github-maintainers: admin
+      github-committers: write
+      hiero-mirror-node-committers: write
+      hiero-mirror-node-maintainers: maintain
+    visibility: public
+      
