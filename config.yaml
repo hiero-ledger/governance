@@ -735,6 +735,6 @@ repositories:
       github-maintainers: admin
       github-committers: write
       hiero-mirror-node-committers: write
-      hiero-mirror-node-maintainers: maintain
+      hiero-mirror-node-maintainers: admin
     visibility: public
       
