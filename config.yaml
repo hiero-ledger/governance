@@ -4,7 +4,8 @@ teams:
       - swirlds-automation
     members: []
   - name: hiero-mirror-node-automation
-    maintainers: hedera-github-bot
+    maintainers: 
+      - hedera-github-bot
     members: []
   - name: github-maintainers
     maintainers:
