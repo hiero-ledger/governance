@@ -745,6 +745,6 @@ repositories:
       github-maintainers: admin
       github-committers: write
       hiero-block-node-committers: write
-      hiero-block-node-maintainers: write
+      hiero-block-node-maintainers: maintain
       hiero-gradle-conventions-maintainers: write
     visibility: public
