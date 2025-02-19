@@ -736,6 +736,7 @@ repositories:
       github-committers: write
       hiero-mirror-node-committers: write
       hiero-mirror-node-maintainers: admin
+      hiero-gradle-conventions-maintainers: write
     visibility: public
   - name: hiero-block-node
     teams:
@@ -744,5 +745,6 @@ repositories:
       github-maintainers: admin
       github-committers: write
       hiero-block-node-committers: write
-      hiero-block-node-maintainers: admin
+      hiero-block-node-maintainers: write
+      hiero-gradle-conventions-maintainers: write
     visibility: public
