@@ -204,6 +204,7 @@ teams:
     members:
       - izik
       - rwalworth
+      - sheng-long
   - name: hiero-sdk-python-maintainers  
     maintainers:
       - nadineloepfe
@@ -239,6 +240,7 @@ teams:
       - agadzhalov
       - ivaylogarnev-limechain
       - ivaylonikolov7
+      - sheng-long
   - name: hiero-sdk-java-maintainers
     maintainers:
       - 0xivanov
