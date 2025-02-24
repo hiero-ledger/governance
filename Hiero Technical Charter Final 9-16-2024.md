@@ -60,7 +60,7 @@ This Charter sets forth the responsibilities and procedures for technical contri
 
       1. Dr. Leemon Baird, inventor of the hashgraph algorithm, has a permanent seat on the TSC representing himself independent of any Related Parties. 
 
-      2. For the first three (3) years following the inception of the Project (the “Startup Period”), the multi-stakeholder governing body of the Hedera network (currently incorporated as “Hedera Hashgraph, LLC”) has a transitional  seat on the TSC and shall appoint one (1) TSC Member to represent itself.
+      2. For the first three (3) years following the inception of the Project (the “Startup Period”), the multi-stakeholder governing body of the Hedera network (currently incorporated as “Hedera Hashgraph, LLC”) has a transitional seat on the TSC and shall appoint one (1) TSC Member to represent itself.
 
       3. All Maintainers of the Project, including any of its sub-projects, shall together elect three (3) TSC Members.
 
