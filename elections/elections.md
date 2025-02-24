@@ -28,9 +28,8 @@ September 1st, 2027 at which time it reverts to being a TSC seat.
 ### Maintainer Seats
 
 The list of maintainers qualified to vote will be drawn from the maintainers of Hiero GitHub projects, as defined in
-the [Governance config.yaml](/config.yaml) file. Only maintainers of "Graduated" projects may vote (the charter is
-ambiguous on this point: section 3.8.3 does not mention "graduated" while 3.8.7 does). Each maintainer will be able to
-vote once for each available seat with no more than one vote supporting any one candidate.
+the [Governance config.yaml](/config.yaml) file. Only maintainers of "Graduated" projects may vote (see 3.8.7). Each maintainer
+will be able to vote once for each available seat with no more than one vote supporting any one candidate.
 
 ### Contributor Seat
 
