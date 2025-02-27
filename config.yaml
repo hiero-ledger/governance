@@ -753,7 +753,6 @@ repositories:
   - name: hiero-sdk-rust
     teams:
       tsc: maintain
-      hiero-automation: write
       github-maintainers: admin
       github-committers: write
       hiero-sdk-rust-maintainers: maintain
