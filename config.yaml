@@ -750,3 +750,12 @@ repositories:
       hiero-block-node-maintainers: maintain
       hiero-gradle-conventions-maintainers: write
     visibility: public
+  - name: hiero-sdk-rust
+    teams:
+      tsc: maintain
+      hiero-automation: write
+      github-maintainers: admin
+      github-committers: write
+      hiero-sdk-rust-maintainers: maintain
+      hiero-sdk-rust-committers: write
+    visibility: public
