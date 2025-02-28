@@ -351,7 +351,6 @@ teams:
       - san-est
       - rbair23
       - mishomihov00
-      - jjohannes
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
@@ -663,6 +662,7 @@ repositories:
       github-committers: write
       hiero-sdk-java-maintainers: maintain
       hiero-sdk-java-committers: write
+      hiero-gradle-conventions-maintainers: write
     visibility: public
   - name: hiero-sdk-js
     teams:
