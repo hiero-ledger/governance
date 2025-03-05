@@ -15,6 +15,7 @@ teams:
       - jeromy-cannon
       - andrewb1269hg
       - leninmehedy
+      - PavelSBorisov
   - name: github-committers
     maintainers:
       - rbarker-dev
