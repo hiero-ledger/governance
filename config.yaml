@@ -331,7 +331,6 @@ teams:
       - rbarker-dev
       - andrewb1269hg
     members:
-      - mishomihov00
       - san-est
   - name: hiero-block-node-maintainers
     maintainers:
@@ -350,7 +349,6 @@ teams:
       - jsync-swirlds
       - san-est
       - rbair23
-      - mishomihov00
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
