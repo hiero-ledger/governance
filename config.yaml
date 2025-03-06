@@ -447,6 +447,7 @@ teams:
     maintainers:
       - netopyr
     members:
+      - akdev
       - elpinkypie
   - name: hcn-consensus-maintainers
     maintainers:
