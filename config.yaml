@@ -444,6 +444,12 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
+  - name: hcn-execution-internal-contributors
+    maintainers:
+      - netopyr
+    members:
+      - akdev
+      - elpinkypie
   - name: hcn-consensus-maintainers
     maintainers:
       - poulok
@@ -715,6 +721,7 @@ repositories:
       hcn-execution-maintainers: maintain
       hcn-execution-committers: write
       hcn-execution-codeowners: write
+      hcn-execution-internal-contributors: triage
       hcn-consensus-maintainers: maintain
       hcn-consensus-committers: write
       hcn-consensus-codeowners: write
