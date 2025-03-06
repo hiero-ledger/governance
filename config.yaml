@@ -400,7 +400,7 @@ teams:
       - allison-hashgraph
   - name: hcn-execution-maintainers
     maintainers:
-      - Nana-EC
+      - netopyr
     members:
       - Neeharika-Sompalli
       - tinker-michaelj
@@ -410,7 +410,6 @@ teams:
       - netopyr
       - tinker-michaelj
     members:
-      - akdev
       - anastasiya-kovaliova
       - derektriley
       - Evdokia-Georgieva
