@@ -601,6 +601,33 @@ teams:
       - alex-kuzmin-hg
       - OlegMazurov
       - JeffreyDallas
+  - name: hiero-json-rpc-relay-maintainers
+    maintainers:
+      - Ferparishuertas
+      - Nana-EC
+    members:
+      - AlfredoG87
+      - georgi-l95
+      - quiet-node
+  - name: hiero-json-rpc-relay-committers
+    maintainers:
+      - Ferparishuertas
+      - Nana-EC
+    members:
+      - acuarica
+      - AlfredoG87
+      - arianejasuwienas
+      - dimitrovmaksim
+      - ebadiere
+      - georgi-l95
+      - isavov
+      - Ivo-Yankov
+      - konstantinabl
+      - lukelee-sl
+      - natanasow
+      - quiet-node
+      - simzzz
+      - victor-yanev
 repositories:
   - name: governance
     teams:
