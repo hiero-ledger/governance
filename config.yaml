@@ -353,6 +353,20 @@ teams:
       - a-saksena
       - CMiville42
       - mattp-swirldslabs
+  - name: hiero-consensus-node-maintainers
+    maintainers:
+      - Nana-EC
+    members:
+      - poulok
+      - netopyr
+      - Neeharika-Sompalli
+      - tinker-michaelj
+      - lpetrovic05
+      - cody-littley
+      - lukelee-sl
+      - Ferparishuertas
+      - artemananiev
+      - OlegMazurov
   - name: hcn-release-managers
     maintainers:
       - rbarker-dev
@@ -715,6 +729,7 @@ repositories:
       hiero-automation: write
       github-maintainers: admin
       github-committers: write
+      hiero-consensus-node-maintainers: maintain
       hcn-release-managers: write
       hcn-release-engineers: write
       hcn-devops-codeowners: write
