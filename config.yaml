@@ -392,14 +392,10 @@ teams:
       - rbarker-dev
       - nathanklick
     members:
-      - kimbor
       - derektriley
-      - povolev15
       - tinker-michaelj
       - Neeharika-Sompalli
       - mhess-swl
-      - iwsimon
-      - thomas-swirlds-labs
   - name: hcn-devops-codeowners
     maintainers:
       - dalvizu
