@@ -436,6 +436,7 @@ teams:
       - petreze
       - povolev15
       - thomas-swirlds-labs
+      - timfn-hg
       - vtronkov
       - jsync-swirlds
   - name: hcn-execution-codeowners
@@ -455,6 +456,7 @@ teams:
       - MiroslavGatsanoga
       - petreze
       - povolev15
+      - timfn-hg
       - thomas-swirlds-labs
       - vtronkov
   - name: hcn-execution-internal-contributors
@@ -477,7 +479,6 @@ teams:
       - litt3
       - mxtartaglia-sl
       - timo0
-      - timfn-hg
       - mustafauzunn
       - IvanKavaldzhiev
       - abies
@@ -491,7 +492,6 @@ teams:
       - litt3
       - mxtartaglia-sl
       - timo0
-      - timfn-hg
       - mustafauzunn
       - IvanKavaldzhiev
       - abies
