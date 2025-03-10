@@ -338,7 +338,6 @@ teams:
       - Nana-EC
     members:
       - AlfredoG87
-      - mattp-swirldslabs
   - name: hiero-block-node-committers
     maintainers:
       - AlfredoG87
@@ -352,7 +351,6 @@ teams:
       - rbair23
       - a-saksena
       - CMiville42
-      - mattp-swirldslabs
   - name: hiero-consensus-node-maintainers
     maintainers:
       - Nana-EC
@@ -425,14 +423,10 @@ teams:
       - derektriley
       - Evdokia-Georgieva
       - ibankov
-      - iwsimon
       - JivkoKelchev
-      - kimbor
       - mhess-swl
       - MiroslavGatsanoga
       - petreze
-      - povolev15
-      - thomas-swirlds-labs
       - vtronkov
       - jsync-swirlds
   - name: hcn-execution-codeowners
@@ -445,14 +439,10 @@ teams:
       - derektriley
       - Evdokia-Georgieva
       - ibankov
-      - iwsimon
       - JivkoKelchev
-      - kimbor
       - mhess-swl
       - MiroslavGatsanoga
       - petreze
-      - povolev15
-      - thomas-swirlds-labs
       - vtronkov
   - name: hcn-execution-internal-contributors
     maintainers:
@@ -555,14 +545,10 @@ teams:
       - derektriley
       - Evdokia-Georgieva
       - ibankov
-      - iwsimon
       - JivkoKelchev
-      - kimbor
       - mhess-swl
       - MiroslavGatsanoga
       - petreze
-      - povolev15
-      - thomas-swirlds-labs
       - vtronkov
   - name: hiero-docs-maintainers
     maintainers:
