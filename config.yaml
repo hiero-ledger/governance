@@ -806,3 +806,11 @@ repositories:
       hiero-sdk-rust-maintainers: maintain
       hiero-sdk-rust-committers: write
     visibility: public
+  - name: hiero-solo-action
+    teams:
+      tsc: maintain
+      github-maintainers: admin
+      github-committers: write
+      hiero-solo-action-maintainers: maintain
+      hiero-solo-action-committers: write
+    visibility: public
