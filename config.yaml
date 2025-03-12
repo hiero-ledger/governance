@@ -907,11 +907,3 @@ repositories:
       hiero-sdk-rust-maintainers: maintain
       hiero-sdk-rust-committers: write
     visibility: public
-  - name: hiero-improvement-proposal
-    teams:
-      tsc: maintain
-      github-maintainers: admin
-      github-committers: write
-      hiero-improvement-proposal-maintainers: maintain
-      hiero-improvement-proposal-committers: write
-    visibility: public
