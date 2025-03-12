@@ -75,7 +75,6 @@ teams:
       - ebadiere
       - ed-marquez
       - edward-swirldslabs
-      - EMerchant90
       - ericleponner
       - failfmi
       - fakepaulbugeja
@@ -631,13 +630,13 @@ teams:
       - victor-yanev
   - name: hiero-improvement-proposal-maintainers
     maintainers:
-      - EMerchant90
+      - sergmetelin
       - mgarbs
       - RaphaelMessian
     members: []
   - name: hiero-improvement-proposal-committers
     maintainers:
-      - EMerchant90
+      - sergmetelin
       - mgarbs
       - RaphaelMessian
     members:
