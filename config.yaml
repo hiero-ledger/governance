@@ -436,7 +436,6 @@ teams:
       - petreze
       - povolev15
       - thomas-swirlds-labs
-      - timfn-hg
       - vtronkov
       - jsync-swirlds
   - name: hcn-execution-codeowners
