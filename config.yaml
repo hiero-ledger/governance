@@ -815,6 +815,7 @@ repositories:
   - name: hiero-mirror-node-explorer
     teams:
       tsc: maintain
+      hiero-automation: write
       github-maintainers: admin
       github-committers: write
       hiero-mirror-node-explorer-maintainers: maintain
