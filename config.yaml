@@ -337,6 +337,7 @@ teams:
       - Nana-EC
     members:
       - AlfredoG87
+      - jasperpotts
       - mattp-swirldslabs
   - name: hiero-block-node-committers
     maintainers:
@@ -346,6 +347,7 @@ teams:
       - rbarker-dev
       - georgi-l95
       - ata-nas
+      - jasperpotts
       - jsync-swirlds
       - san-est
       - rbair23
