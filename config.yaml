@@ -812,3 +812,11 @@ repositories:
       hiero-solo-action-maintainers: maintain
       hiero-solo-action-committers: write
     visibility: public
+  - name: hiero-mirror-node-explorer
+    teams:
+      tsc: maintain
+      github-maintainers: admin
+      github-committers: write
+      hiero-mirror-node-explorer-maintainers: maintain
+      hiero-mirror-node-explorer-committers: write
+    visibility: public
