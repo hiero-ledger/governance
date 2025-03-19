@@ -2,9 +2,7 @@
 
 ### Candidate
 
-Roger Barker
-
-[@rbarker-dev](github.com/rbarker-dev)
+Roger Barker - @rbarker-dev
 
 ### Nominated Seat
 
