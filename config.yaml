@@ -922,3 +922,12 @@ repositories:
       hiero-mirror-node-explorer-maintainers: maintain
       hiero-mirror-node-explorer-committers: write
     visibility: public
+  - name: hiero-json-rpc-relay
+    teams:
+      tsc: maintain
+      hiero-automation: write
+      github-maintainers: admin
+      github-committers: write
+      hiero-json-rpc-relay-maintainers: maintain
+      hiero-json-rpc-relay-committers: write
+    visibility: public
