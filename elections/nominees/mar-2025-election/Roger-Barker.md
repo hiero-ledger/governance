@@ -19,5 +19,5 @@ excellent candidate for the Contributor Seat on the TSC.
 ### Statement
 
 I would be honored to serve on the TSC. I believe that my experience in the Hedera ecosystem and my technical expertise
-will allow me to make a valuable contribution to the TSC. I am committed to ensuring that the Hedera ecosystem remains
-a leader in the blockchain space and that it continues to provide value to its users.
+will allow me to make a valuable contribution to the TSC. I am committed to ensuring that the Hedera & Hiero-Ledger ecosystems remain
+leaders in the blockchain space and that they continues to provide value to their users.
