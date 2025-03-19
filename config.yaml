@@ -4,7 +4,7 @@ teams:
       - swirlds-automation
     members: []
   - name: hiero-mirror-node-automation
-    maintainers: 
+    maintainers:
       - hedera-github-bot
     members: []
   - name: github-maintainers
@@ -204,7 +204,7 @@ teams:
     members:
       - izik
       - rwalworth
-  - name: hiero-sdk-python-maintainers  
+  - name: hiero-sdk-python-maintainers
     maintainers:
       - nadineloepfe
     members:
@@ -465,6 +465,8 @@ teams:
     members:
       - akdev
       - elpinkypie
+      - joshmarinacci
+      - gkozyryatskyy
   - name: hcn-consensus-maintainers
     maintainers:
       - poulok
