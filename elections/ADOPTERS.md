@@ -19,3 +19,4 @@ It is a violation of the rules of the election for any one elector to vote more 
 
 | Name                     | Public Ledger | Account       | Link                          | Statement                               |
 |--------------------------|---------------|---------------|-------------------------------|-----------------------------------------|
+| HashPack Inc. | Hedera | 0.0.8596411 | https://www.hashpack.app | HashPack is a pioneering force in the Hedera ecosystem since 2020, developing critical infrastructure that enabled the growth of Hedera's retail DeFi ecosystem. As builders of wallet technology used by 95% of Hedera's retail users, HashPack brings essential perspective on user experience, developer needs, and technical implementation challenges that will inform Hiero's development priorities and adoption strategy. |
