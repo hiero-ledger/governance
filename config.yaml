@@ -4,7 +4,7 @@ teams:
       - swirlds-automation
     members: []
   - name: hiero-mirror-node-automation
-    maintainers: 
+    maintainers:
       - hedera-github-bot
     members: []
   - name: github-maintainers
@@ -204,7 +204,7 @@ teams:
     members:
       - izik
       - rwalworth
-  - name: hiero-sdk-python-maintainers  
+  - name: hiero-sdk-python-maintainers
     maintainers:
       - nadineloepfe
     members:
@@ -337,6 +337,7 @@ teams:
       - Nana-EC
     members:
       - AlfredoG87
+      - jasperpotts
       - mattp-swirldslabs
   - name: hiero-block-node-committers
     maintainers:
@@ -346,6 +347,7 @@ teams:
       - rbarker-dev
       - georgi-l95
       - ata-nas
+      - jasperpotts
       - jsync-swirlds
       - san-est
       - rbair23
@@ -476,6 +478,8 @@ teams:
     members:
       - akdev
       - elpinkypie
+      - joshmarinacci
+      - gkozyryatskyy
   - name: hcn-consensus-codeowners
     maintainers:
       - poulok
@@ -593,6 +597,104 @@ teams:
       - quiet-node
       - simzzz
       - victor-yanev
+  - name: hiero-improvement-proposal-maintainers
+    maintainers:
+      - sergmetelin
+      - mgarbs
+      - RaphaelMessian
+    members: []
+  - name: hiero-improvement-proposal-committers
+    maintainers:
+      - sergmetelin
+      - mgarbs
+      - RaphaelMessian
+    members:
+      - swirlds-automation
+      - kenthejr
+      - Daniel-K-Ivanov
+      - lbaird
+      - Cooper-Kunz
+      - SimiHunjan
+      - Nana-EC
+      - failfmi
+      - steven-sheehy
+      - stoqnkpL
+      - publu
+      - netopyr
+      - michielmulders
+      - rbarker-dev
+      - tinker-michaelj
+      - lukelee-sl
+      - mustafauzunn
+      - IvanKavaldzhiev
+      - MiroslavGatsanoga
+      - statop
+      - Neeharika-Sompalli
+      - Neurone
+      - H-Bart
+      - bugbytesinc
+      - sam-at-luther
+      - Mark-Swirlds
+      - mgoelswirlds
+      - kimbor
+      - edward-swirldslabs
+      - superboo
+      - scalemaildev
+      - itsbrandondev
+      - donaldthibeau
+      - danielnorkin
+      - ty-swirldslabs
+      - stoyanov-st
+      - rbair23
+      - kantorcodes
+      - lucashenning
+      - david-bakin-sl
+      - janaakhterov
+      - anighanta
+      - paulatcalaxy
+      - jayv80
+      - gregscullard
+      - mehcode
+      - RECDeFi
+      - jsync-swirlds
+      - iwsimon
+      - georgi-l95
+      - bguiz
+      - Ashe-Oro
+      - AliNik4n
+      - raykhoaza
+      - nickpoorman
+      - petreze
+      - qnswirlds
+      - rahul-kothari
+      - rocketmay
+      - tannerjfco
+      - tim-mchale
+      - tmctl
+      - anvabr
+      - justin-atwell
+      - littletarzan
+      - se7enarianelabs
+      - som-web23
+      - sumapnair-ibm
+      - andrewb1269hg
+      - mcbosserton
+      - cacampbell
+      - soharang
+      - chung-chao
+      - cijujohn
+      - derektriley
+      - dimitar-dinev
+      - edwin-greene
+      - EvelynLWong
+      - fessmm
+      - gerbert-vandenberghe
+      - cmdhema
+      - Ivo-Yankov
+      - jascks
+      - jnels124
+      - justynspooner
+      - Reccetech
 repositories:
   - name: governance
     teams:
@@ -771,4 +873,22 @@ repositories:
       github-committers: write
       hiero-solo-action-maintainers: maintain
       hiero-solo-action-committers: write
+    visibility: public
+  - name: hiero-mirror-node-explorer
+    teams:
+      tsc: maintain
+      hiero-automation: write
+      github-maintainers: admin
+      github-committers: write
+      hiero-mirror-node-explorer-maintainers: maintain
+      hiero-mirror-node-explorer-committers: write
+    visibility: public
+  - name: hiero-json-rpc-relay
+    teams:
+      tsc: maintain
+      hiero-automation: write
+      github-maintainers: admin
+      github-committers: write
+      hiero-json-rpc-relay-maintainers: maintain
+      hiero-json-rpc-relay-committers: write
     visibility: public
