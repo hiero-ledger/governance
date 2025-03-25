@@ -16,14 +16,6 @@ teams:
       - andrewb1269hg
       - leninmehedy
       - PavelSBorisov
-  - name: github-committers
-    maintainers:
-      - rbarker-dev
-      - nathanklick
-    members:
-      - andrewb1269hg
-      - hendrikebbers
-      - PavelSBorisov
   - name: community
     maintainers:
       - hendrikebbers
@@ -765,7 +757,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-sdk-cpp-maintainers: maintain
       hiero-sdk-cpp-committers: write
     visibility: public
@@ -773,7 +764,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-sdk-tck-maintainers: maintain
       hiero-sdk-tck-committers: write
     visibility: public
@@ -781,7 +771,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-gradle-conventions-maintainers: maintain
       hiero-gradle-conventions-committers: write
     visibility: public
@@ -789,7 +778,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-sdk-go-maintainers: maintain
       hiero-sdk-go-committers: write
     visibility: public
@@ -797,7 +785,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-local-node-maintainers: maintain
       hiero-local-node-committers: write
     visibility: public
@@ -805,7 +792,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-sdk-java-maintainers: maintain
       hiero-sdk-java-committers: write
       hiero-gradle-conventions-maintainers: write
@@ -814,7 +800,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
     visibility: public
@@ -822,7 +807,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-sdk-swift-maintainers: maintain
       hiero-sdk-swift-committers: write
     visibility: public
@@ -830,7 +814,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
     visibility: public
@@ -838,7 +821,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-did-sdk-python-maintainers: maintain
       hiero-did-sdk-python-committers: write
     visibility: public
@@ -846,7 +828,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-docs-maintainers: admin
       hiero-docs-committers: write
     visibility: public
@@ -855,7 +836,6 @@ repositories:
       tsc: maintain
       hiero-automation: write
       github-maintainers: maintain
-      github-committers: write
       hiero-consensus-node-maintainers: maintain
       hcn-release-managers: write
       hcn-release-engineers: write
@@ -883,7 +863,6 @@ repositories:
       hiero-automation: write
       hiero-mirror-node-automation: admin
       github-maintainers: maintain
-      github-committers: write
       hiero-mirror-node-committers: write
       hiero-mirror-node-maintainers: admin
       hiero-gradle-conventions-maintainers: write
@@ -893,7 +872,6 @@ repositories:
       tsc: maintain
       hiero-automation: write
       github-maintainers: maintain
-      github-committers: write
       hiero-block-node-committers: write
       hiero-block-node-maintainers: maintain
       hiero-gradle-conventions-maintainers: write
@@ -902,7 +880,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-sdk-rust-maintainers: maintain
       hiero-sdk-rust-committers: write
     visibility: public
@@ -910,7 +887,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      github-committers: write
       hiero-solo-action-maintainers: maintain
       hiero-solo-action-committers: write
     visibility: public
@@ -919,7 +895,6 @@ repositories:
       tsc: maintain
       hiero-automation: write
       github-maintainers: maintain
-      github-committers: write
       hiero-mirror-node-explorer-maintainers: maintain
       hiero-mirror-node-explorer-committers: write
     visibility: public
@@ -928,7 +903,6 @@ repositories:
       tsc: maintain
       hiero-automation: write
       github-maintainers: maintain
-      github-committers: write
       hiero-json-rpc-relay-maintainers: maintain
       hiero-json-rpc-relay-committers: write
     visibility: public
