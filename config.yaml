@@ -507,8 +507,8 @@ teams:
       - stoyanov-st
   - name: hcn-smart-contract-codeowners
     maintainers:
-      - Nana-EC
       - Ferparishuertas
+      - Nana-EC
     members:
       - lukelee-sl
       - david-bakin-sl
@@ -600,9 +600,11 @@ teams:
       - Ferparishuertas
       - Nana-EC
     members:
-      - AlfredoG87
-      - georgi-l95
+      - acuarica
+      - konstantinabl
       - quiet-node
+      - simzzz
+      - natanasow
   - name: hiero-json-rpc-relay-committers
     maintainers:
       - Ferparishuertas
