@@ -508,6 +508,7 @@ teams:
   - name: hcn-smart-contract-codeowners
     maintainers:
       - Ferparishuertas
+      - Nana-EC
     members:
       - lukelee-sl
       - david-bakin-sl
