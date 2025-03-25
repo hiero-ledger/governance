@@ -492,28 +492,27 @@ teams:
       - abies
   - name: hcn-smart-contract-maintainers
     maintainers:
-      - Nana-EC
       - Ferparishuertas
     members:
       - lukelee-sl
+      - bubo
+      - stoyanov-st
   - name: hcn-smart-contract-committers
     maintainers:
-      - Nana-EC
       - Ferparishuertas
     members:
       - david-bakin-sl
       - bubo
+      - Nana-EC
       - stoqnkpL
       - stoyanov-st
+      - lukelee-sl
   - name: hcn-smart-contract-codeowners
     maintainers:
-      - Nana-EC
       - Ferparishuertas
     members:
       - lukelee-sl
-      - david-bakin-sl
       - bubo
-      - stoqnkpL
       - stoyanov-st
   - name: hcn-tools-and-libs-maintainers
     maintainers:
@@ -598,11 +597,12 @@ teams:
   - name: hiero-json-rpc-relay-maintainers
     maintainers:
       - Ferparishuertas
-      - Nana-EC
     members:
-      - AlfredoG87
-      - georgi-l95
+      - acuarica
+      - konstantinabl
       - quiet-node
+      - simzzz
+      - natanasow
   - name: hiero-json-rpc-relay-committers
     maintainers:
       - Ferparishuertas
