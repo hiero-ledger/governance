@@ -764,7 +764,7 @@ repositories:
   - name: hiero-sdk-cpp
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-sdk-cpp-maintainers: maintain
       hiero-sdk-cpp-committers: write
@@ -772,7 +772,7 @@ repositories:
   - name: hiero-sdk-tck
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-sdk-tck-maintainers: maintain
       hiero-sdk-tck-committers: write
@@ -780,7 +780,7 @@ repositories:
   - name: hiero-gradle-conventions
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-gradle-conventions-maintainers: maintain
       hiero-gradle-conventions-committers: write
@@ -788,7 +788,7 @@ repositories:
   - name: hiero-sdk-go
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-sdk-go-maintainers: maintain
       hiero-sdk-go-committers: write
@@ -796,7 +796,7 @@ repositories:
   - name: hiero-local-node
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-local-node-maintainers: maintain
       hiero-local-node-committers: write
@@ -804,7 +804,7 @@ repositories:
   - name: hiero-sdk-java
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-sdk-java-maintainers: maintain
       hiero-sdk-java-committers: write
@@ -813,7 +813,7 @@ repositories:
   - name: hiero-sdk-js
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
@@ -821,7 +821,7 @@ repositories:
   - name: hiero-sdk-swift
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-sdk-swift-maintainers: maintain
       hiero-sdk-swift-committers: write
@@ -829,7 +829,7 @@ repositories:
   - name: hiero-sdk-python
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
@@ -837,7 +837,7 @@ repositories:
   - name: hiero-did-sdk-python
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-did-sdk-python-maintainers: maintain
       hiero-did-sdk-python-committers: write
@@ -845,7 +845,7 @@ repositories:
   - name: hiero-docs
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-docs-maintainers: admin
       hiero-docs-committers: write
@@ -854,7 +854,7 @@ repositories:
     teams:
       tsc: maintain
       hiero-automation: write
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-consensus-node-maintainers: maintain
       hcn-release-managers: write
@@ -882,7 +882,7 @@ repositories:
       tsc: maintain
       hiero-automation: write
       hiero-mirror-node-automation: admin
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-mirror-node-committers: write
       hiero-mirror-node-maintainers: admin
@@ -892,7 +892,7 @@ repositories:
     teams:
       tsc: maintain
       hiero-automation: write
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-block-node-committers: write
       hiero-block-node-maintainers: maintain
@@ -901,7 +901,7 @@ repositories:
   - name: hiero-sdk-rust
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-sdk-rust-maintainers: maintain
       hiero-sdk-rust-committers: write
@@ -909,7 +909,7 @@ repositories:
   - name: hiero-solo-action
     teams:
       tsc: maintain
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-solo-action-maintainers: maintain
       hiero-solo-action-committers: write
@@ -918,7 +918,7 @@ repositories:
     teams:
       tsc: maintain
       hiero-automation: write
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-mirror-node-explorer-maintainers: maintain
       hiero-mirror-node-explorer-committers: write
@@ -927,7 +927,7 @@ repositories:
     teams:
       tsc: maintain
       hiero-automation: write
-      github-maintainers: admin
+      github-maintainers: maintain
       github-committers: write
       hiero-json-rpc-relay-maintainers: maintain
       hiero-json-rpc-relay-committers: write
