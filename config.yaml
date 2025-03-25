@@ -492,27 +492,27 @@ teams:
       - abies
   - name: hcn-smart-contract-maintainers
     maintainers:
+      - Nana-EC
       - Ferparishuertas
     members:
       - lukelee-sl
-      - bubo
-      - stoyanov-st
   - name: hcn-smart-contract-committers
     maintainers:
+      - Nana-EC
       - Ferparishuertas
     members:
       - david-bakin-sl
       - bubo
-      - Nana-EC
       - stoqnkpL
       - stoyanov-st
-      - lukelee-sl
   - name: hcn-smart-contract-codeowners
     maintainers:
       - Ferparishuertas
     members:
       - lukelee-sl
+      - david-bakin-sl
       - bubo
+      - stoqnkpL
       - stoyanov-st
   - name: hcn-tools-and-libs-maintainers
     maintainers:
