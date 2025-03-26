@@ -496,6 +496,8 @@ teams:
       - Ferparishuertas
     members:
       - lukelee-sl
+      - bubo
+      - stoyanov-st
   - name: hcn-smart-contract-committers
     maintainers:
       - Nana-EC
@@ -511,10 +513,8 @@ teams:
       - Nana-EC
     members:
       - lukelee-sl
-      - david-bakin-sl
-      - bubo
-      - stoqnkpL
       - stoyanov-st
+      - bubo
   - name: hcn-tools-and-libs-maintainers
     maintainers:
       - artemananiev
