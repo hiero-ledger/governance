@@ -1008,4 +1008,7 @@ repositories:
       github-committers: write
       hiero-improvement-proposals-maintainers: maintain
       hiero-improvement-proposals-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
