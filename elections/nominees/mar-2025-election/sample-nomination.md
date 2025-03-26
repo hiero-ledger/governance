@@ -1,8 +1,8 @@
 # Nomination
 
-### Candidate
+### Candidate/Elected Position
 
-John Doe
+John Doe - Contributor Seat
 
 ### Qualifications
 

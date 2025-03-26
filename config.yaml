@@ -16,14 +16,6 @@ teams:
       - andrewb1269hg
       - leninmehedy
       - PavelSBorisov
-  - name: github-committers
-    maintainers:
-      - rbarker-dev
-      - nathanklick
-    members:
-      - andrewb1269hg
-      - hendrikebbers
-      - PavelSBorisov
   - name: community
     maintainers:
       - hendrikebbers
@@ -62,7 +54,6 @@ teams:
       - atul-hedera
       - atulmahamuni
       - bguiz
-      - bibitibooo1
       - david-bakin-sl
       - devmab
       - dikel
@@ -516,8 +507,8 @@ teams:
       - stoyanov-st
   - name: hcn-smart-contract-codeowners
     maintainers:
-      - Nana-EC
       - Ferparishuertas
+      - Nana-EC
     members:
       - lukelee-sl
       - david-bakin-sl
@@ -609,9 +600,11 @@ teams:
       - Ferparishuertas
       - Nana-EC
     members:
-      - AlfredoG87
-      - georgi-l95
+      - acuarica
+      - konstantinabl
       - quiet-node
+      - simzzz
+      - natanasow
   - name: hiero-json-rpc-relay-committers
     maintainers:
       - Ferparishuertas
@@ -728,134 +721,194 @@ teams:
       - jnels124
       - justynspooner
       - Reccetech
+  - name: security-maintainers
+    maintainers:
+      - nathanklick
+    members:
+      - CMiville42
+      - VMN00B
+  - name: prod-security
+    maintainers:
+      - nathanklick
+    members:
+      - dr20240304
+      - reachtobhavesh
+      - mody-hashgraph
+      - dpswirld
+  - name: sec-ops
+    maintainers:
+      - nathanklick
+    members:
+      - mbacke-swirlds
+      - NMiller-swirlds
+      - afaling0725
 repositories:
   - name: governance
     teams:
       lf-staff: maintain
       tsc: maintain
       github-maintainers: maintain
+      security-maintainers: write
+      prod-security: write
+      sec-ops: write
     visibility: public
   - name: hiero-website
     teams:
       community: triage
       tsc: maintain
       github-maintainers: maintain
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero
     teams:
       tsc: maintain
       github-maintainers: maintain
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: tsc
     teams:
       tsc: maintain
       github-maintainers: maintain
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: awesome-contributions
     teams:
       community: triage
       github-maintainers: maintain
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: .github
     teams:
       tsc: maintain
       github-maintainers: maintain
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-sdk-cpp
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-sdk-cpp-maintainers: maintain
       hiero-sdk-cpp-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-sdk-tck
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-sdk-tck-maintainers: maintain
       hiero-sdk-tck-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-gradle-conventions
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-gradle-conventions-maintainers: maintain
       hiero-gradle-conventions-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-sdk-go
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-sdk-go-maintainers: maintain
       hiero-sdk-go-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-local-node
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-local-node-maintainers: maintain
       hiero-local-node-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-sdk-java
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-sdk-java-maintainers: maintain
       hiero-sdk-java-committers: write
       hiero-gradle-conventions-maintainers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-sdk-js
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-sdk-swift
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-sdk-swift-maintainers: maintain
       hiero-sdk-swift-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-sdk-python
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-did-sdk-python
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-did-sdk-python-maintainers: maintain
       hiero-did-sdk-python-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-docs
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-docs-maintainers: admin
       hiero-docs-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-consensus-node
     teams:
       tsc: maintain
       hiero-automation: write
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-consensus-node-maintainers: maintain
       hcn-release-managers: write
       hcn-release-engineers: write
@@ -876,61 +929,76 @@ repositories:
       hiero-mirror-node-maintainers: write
       hiero-gradle-conventions-maintainers: write
       hiero-performance-engineers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-mirror-node
     teams:
       tsc: maintain
       hiero-automation: write
       hiero-mirror-node-automation: admin
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-mirror-node-committers: write
       hiero-mirror-node-maintainers: admin
       hiero-gradle-conventions-maintainers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-block-node
     teams:
       tsc: maintain
       hiero-automation: write
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-block-node-committers: write
       hiero-block-node-maintainers: maintain
       hiero-gradle-conventions-maintainers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-sdk-rust
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-sdk-rust-maintainers: maintain
       hiero-sdk-rust-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-solo-action
     teams:
       tsc: maintain
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-solo-action-maintainers: maintain
       hiero-solo-action-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-mirror-node-explorer
     teams:
       tsc: maintain
       hiero-automation: write
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-mirror-node-explorer-maintainers: maintain
       hiero-mirror-node-explorer-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-json-rpc-relay
     teams:
       tsc: maintain
       hiero-automation: write
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-json-rpc-relay-maintainers: maintain
       hiero-json-rpc-relay-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
     visibility: public
   - name: hiero-improvement-proposals
     teams:
