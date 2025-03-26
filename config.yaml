@@ -623,13 +623,13 @@ teams:
       - quiet-node
       - simzzz
       - victor-yanev
-  - name: hiero-improvement-proposal-maintainers
+  - name: hiero-improvement-proposals-maintainers
     maintainers:
       - sergmetelin
       - mgarbs
       - RaphaelMessian
     members: []
-  - name: hiero-improvement-proposal-committers
+  - name: hiero-improvement-proposals-committers
     maintainers:
       - sergmetelin
       - mgarbs
@@ -996,6 +996,17 @@ repositories:
       github-maintainers: maintain
       hiero-json-rpc-relay-maintainers: maintain
       hiero-json-rpc-relay-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: hiero-improvement-proposals
+    teams:
+      tsc: maintain
+      hiero-automation: write
+      github-maintainers: maintain
+      hiero-improvement-proposals-maintainers: maintain
+      hiero-improvement-proposals-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
