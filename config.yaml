@@ -1004,8 +1004,7 @@ repositories:
     teams:
       tsc: maintain
       hiero-automation: write
-      github-maintainers: admin
-      github-committers: write
+      github-maintainers: maintain
       hiero-improvement-proposals-maintainers: maintain
       hiero-improvement-proposals-committers: write
       security-maintainers: triage
