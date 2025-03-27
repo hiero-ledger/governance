@@ -743,6 +743,24 @@ teams:
       - mbacke-swirlds
       - NMiller-swirlds
       - afaling0725
+  - name: sdk-collaboration-hub-maintainers
+    maintainers:
+      - SimiHunjan
+      - hendrikebbers
+      - rwalworth
+    members: []
+  - name: sdk-collaboration-hub-committers
+    maintainers:
+      - nadineloepfe
+      - exploreriii
+      - RickyLB
+      - 0xivanov
+      - ivaylogarnev-limechain
+      - ivaylonikolov7
+      - gsstoykov
+      - venilinvasilev
+      - naydenovn
+    members: []
 repositories:
   - name: governance
     teams:
@@ -1008,6 +1026,17 @@ repositories:
       github-maintainers: maintain
       hiero-improvement-proposals-maintainers: maintain
       hiero-improvement-proposals-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: sdk-collaboration-hub
+    teams:
+      tsc: maintain
+      hiero-automation: write
+      github-maintainers: maintain
+      sdk-collaboration-hub-maintainers: maintain
+      sdk-collaboration-hub-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
