@@ -1,2 +1,5 @@
-*           @hiero-ledger/lf-staff @hiero-ledger/github-maintainers @hiero-ledger/tsc
-config.yaml @hiero-ledger/lf-staff @hiero-ledger/github-maintainers
+*               @hiero-ledger/lf-staff @hiero-ledger/github-maintainers @hiero-ledger/tsc
+
+**.md           @hiero-ledger/lf-staff @hiero-ledger/github-maintainers @hiero-ledger/tsc
+/elections/     @hiero-ledger/tsc
+config.yaml     @hiero-ledger/lf-staff @hiero-ledger/github-maintainers
