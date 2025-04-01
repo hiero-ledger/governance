@@ -2,8 +2,9 @@ org: hiero-ledger
 teams:
   - lf-staff
   - github-maintainers
-  - tsc
+  - release-engineering
   - security
+  - tsc
 repositories:
   - name: .github
     last-date-modified: ""
