@@ -41,7 +41,7 @@ maintainer or member as defined in the [Governance config.yaml](/config.yaml) fi
 ### End User Seat
 
 To become eligible to vote in this election, electors shall create a PR modifying
-the [adopters.md](https://github.com/hiero-ledger/hiero/blob/main/adopters.md) file. The PR shall be reviewed and
+the [adopters.md](ADOPTERS.md) file. The PR shall be reviewed and
 approved by at least 2 members of the TSC or authorized reviewers selected by the TSC. If a dispute arises regarding the
 legitimacy of any elector, any TSC member may call for a vote by the full TSC on the validity of any elector of the End
 User Seat.
