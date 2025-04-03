@@ -361,44 +361,7 @@ teams:
       - OlegMazurov
       - rbarker-dev
       - nathanklick
-  - name: hiero-consensus-node-committers
-    maintainers:
-      - poulok
-      - netopyr
-      - Nana-EC
-    members:
-      - abies
-      - anastasiya-kovaliova
-      - andrewb1296hg
-      - anthony-swirldslabs
-      - bubo
-      - david-bakin-sl
-      - derektriley
-      - edward-swirldslabs
-      - Evdokia-Georgieva
-      - ibankov
-      - imalygin
-      - IvanKavaldzhiev
-      - iwsimon
-      - Jeffrey-morgan34
-      - JivkoKelchev
-      - jsync-swirlds
-      - kimbor
-      - litt3
-      - mhess-swl
-      - MiroslavGatsanoga
-      - mxtartaglia-sl
-      - mustafauzunn
-      - petreze
-      - povolev15
-      - thomas-swirlds-labs
-      - stoqnkpL
-      - stoyanov-st
-      - timo0
-      - timfn-hg
-      - thenswan
-      - vtronkov
-  - name: hcn-release-managers
+  - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
       - nathanklick
@@ -418,7 +381,7 @@ teams:
       - Mark-Swirlds
       - ty-swirldslabs
       - Reccetech
-  - name: hcn-release-engineers
+  - name: hiero-consensus-node-release-engineers
     maintainers:
       - rbarker-dev
       - nathanklick
@@ -431,7 +394,7 @@ teams:
       - mhess-swl
       - iwsimon
       - thomas-swirlds-labs
-  - name: hcn-devops-codeowners
+  - name: hiero-consensus-node-devops-codeowners
     maintainers:
       - dalvizu
     members:
@@ -444,7 +407,33 @@ teams:
       - kfbr
       - shezaan-hashgraph
       - allison-hashgraph
-  - name: hcn-execution-codeowners
+  - name: hiero-consensus-node-execution-maintainers
+    maintainers:
+      - netopyr
+    members:
+      - Neeharika-Sompalli
+      - tinker-michaelj
+  - name: hiero-consensus-node-execution-committers
+    maintainers:
+      - Neeharika-Sompalli
+      - netopyr
+      - tinker-michaelj
+    members:
+      - anastasiya-kovaliova
+      - derektriley
+      - Evdokia-Georgieva
+      - ibankov
+      - iwsimon
+      - JivkoKelchev
+      - kimbor
+      - mhess-swl
+      - MiroslavGatsanoga
+      - petreze
+      - povolev15
+      - thomas-swirlds-labs
+      - vtronkov
+      - jsync-swirlds
+  - name: hiero-consensus-node-execution-codeowners
     maintainers:
       - netopyr
     members:
@@ -463,7 +452,7 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
-  - name: hcn-execution-internal-contributors
+  - name: hiero-consensus-node-execution-internal-contributors
     maintainers:
       - netopyr
     members:
@@ -471,7 +460,25 @@ teams:
       - elpinkypie
       - joshmarinacci
       - gkozyryatskyy
-  - name: hcn-consensus-codeowners
+  - name: hiero-consensus-node-consensus-maintainers
+    maintainers:
+      - poulok
+    members:
+      - lpetrovic05
+      - cody-littley
+  - name: hiero-consensus-node-consensus-committers
+    maintainers:
+      - poulok
+    members:
+      - edward-swirldslabs
+      - litt3
+      - mxtartaglia-sl
+      - timo0
+      - timfn-hg
+      - mustafauzunn
+      - IvanKavaldzhiev
+      - abies
+  - name: hiero-consensus-node-consensus-codeowners
     maintainers:
       - poulok
     members:
@@ -485,7 +492,24 @@ teams:
       - mustafauzunn
       - IvanKavaldzhiev
       - abies
-  - name: hcn-smart-contract-codeowners
+  - name: hiero-consensus-node-smart-contract-maintainers
+    maintainers:
+      - Nana-EC
+      - Ferparishuertas
+    members:
+      - lukelee-sl
+      - bubo
+      - stoyanov-st
+  - name: hiero-consensus-node-smart-contract-committers
+    maintainers:
+      - Nana-EC
+      - Ferparishuertas
+    members:
+      - david-bakin-sl
+      - bubo
+      - stoqnkpL
+      - stoyanov-st
+  - name: hiero-consensus-node-smart-contract-codeowners
     maintainers:
       - Ferparishuertas
       - Nana-EC
@@ -493,7 +517,20 @@ teams:
       - lukelee-sl
       - stoyanov-st
       - bubo
-  - name: hcn-tools-and-libs-codeowners
+  - name: hiero-consensus-node-tools-and-libs-maintainers
+    maintainers:
+      - artemananiev
+    members:
+      - OlegMazurov
+  - name: hiero-consensus-node-tools-and-libs-committers
+    maintainers:
+      - artemananiev
+    members:
+      - imalygin
+      - thenswan
+      - anthony-swirldslabs
+      - Jeffrey-morgan34
+  - name: hiero-consensus-node-tools-and-libs-codeowners
     maintainers:
       - artemananiev
     members:
@@ -892,15 +929,22 @@ repositories:
       hiero-automation: write
       github-maintainers: maintain
       hiero-consensus-node-maintainers: maintain
-      hiero-consensus-node-committers: write
-      hcn-release-managers: write
-      hcn-release-engineers: write
-      hcn-devops-codeowners: write
-      hcn-execution-codeowners: write
-      hcn-execution-internal-contributors: triage
-      hcn-consensus-codeowners: write
-      hcn-smart-contract-codeowners: write
-      hcn-tools-and-libs-codeowners: write
+      hiero-consensus-node-release-managers: write
+      hiero-consensus-node-release-engineers: write
+      hiero-consensus-node-devops-codeowners: write
+      hiero-consensus-node-execution-maintainers: maintain
+      hiero-consensus-node-execution-committers: write
+      hiero-consensus-node-execution-codeowners: write
+      hiero-consensus-node-execution-internal-contributors: triage
+      hiero-consensus-node-consensus-maintainers: maintain
+      hiero-consensus-node-consensus-committers: write
+      hiero-consensus-node-consensus-codeowners: write
+      hiero-consensus-node-smart-contract-maintainers: maintain
+      hiero-consensus-node-smart-contract-committers: write
+      hiero-consensus-node-smart-contract-codeowners: write
+      hiero-consensus-node-tools-and-libs-maintainers: maintain
+      hiero-consensus-node-tools-and-libs-committers: write
+      hiero-consensus-node-tools-and-libs-codeowners: write
       hiero-mirror-node-maintainers: write
       hiero-gradle-conventions-maintainers: write
       hiero-performance-engineers: write
