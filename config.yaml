@@ -522,12 +522,12 @@ teams:
       - lukelee-sl
       - stoyanov-st
       - bubo
-  - name: hiero-consensus-node-foundation-libs-maintainers
+  - name: hiero-consensus-node-foundation-maintainers
     maintainers:
       - artemananiev
     members:
       - OlegMazurov
-  - name: hiero-consensus-node-foundation-libs-committers
+  - name: hiero-consensus-node-foundation-committers
     maintainers:
       - artemananiev
     members:
