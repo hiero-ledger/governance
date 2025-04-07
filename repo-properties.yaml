@@ -103,8 +103,8 @@ repositories:
 
   - name: hiero-consensus-node
     last-date-modified: ""
-    initial-ci-review-by-team: ""
-    initial-ci-review-date: ""
+    initial-ci-review-by-team: "github-maintainers"
+    initial-ci-review-date: "2025-04-07"
     initial-config-review-by-team: ""
     initial-config-review-date: ""
     initial-oss-review-by-team: ""
