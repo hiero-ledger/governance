@@ -369,8 +369,8 @@ repositories:
 
   - name: hiero-sdk-rust
     last-date-modified: ""
-    initial-ci-review-by-team: ""
-    initial-ci-review-date: ""
+    initial-ci-review-by-team: "github-maintainers"
+    initial-ci-review-date: "2024-04-08"
     initial-config-review-by-team: ""
     initial-config-review-date: ""
     initial-oss-review-by-team: ""
@@ -404,6 +404,7 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
+    
   - name: hiero-sdk-tck
     last-date-modified: ""
     initial-ci-review-by-team: ""
