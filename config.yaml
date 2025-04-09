@@ -492,6 +492,11 @@ teams:
       - mustafauzunn
       - IvanKavaldzhiev
       - abies
+  - name: hiero-consensus-node-consensus-internal-contributors
+    maintainers:
+      - poulok
+    members:
+      - Jeffrey-morgan34
   - name: hiero-consensus-node-smart-contract-maintainers
     maintainers:
       - Nana-EC
@@ -517,12 +522,12 @@ teams:
       - lukelee-sl
       - stoyanov-st
       - bubo
-  - name: hiero-consensus-node-tools-and-libs-maintainers
+  - name: hiero-consensus-node-foundation-maintainers
     maintainers:
       - artemananiev
     members:
       - OlegMazurov
-  - name: hiero-consensus-node-tools-and-libs-committers
+  - name: hiero-consensus-node-foundation-committers
     maintainers:
       - artemananiev
     members:
@@ -530,7 +535,7 @@ teams:
       - thenswan
       - anthony-swirldslabs
       - Jeffrey-morgan34
-  - name: hiero-consensus-node-tools-and-libs-codeowners
+  - name: hiero-consensus-node-foundation-codeowners
     maintainers:
       - artemananiev
     members:
@@ -539,6 +544,10 @@ teams:
       - thenswan
       - anthony-swirldslabs
       - rsinha
+  - name: hiero-consensus-node-foundation-internal-contributors
+    maintainers:
+      - artemananiev
+    members: []
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
@@ -939,12 +948,14 @@ repositories:
       hiero-consensus-node-consensus-maintainers: maintain
       hiero-consensus-node-consensus-committers: write
       hiero-consensus-node-consensus-codeowners: write
+      hiero-consensus-node-consensus-internal-contributors: triage
       hiero-consensus-node-smart-contract-maintainers: maintain
       hiero-consensus-node-smart-contract-committers: write
       hiero-consensus-node-smart-contract-codeowners: write
-      hiero-consensus-node-tools-and-libs-maintainers: maintain
-      hiero-consensus-node-tools-and-libs-committers: write
-      hiero-consensus-node-tools-and-libs-codeowners: write
+      hiero-consensus-node-foundation-maintainers: maintain
+      hiero-consensus-node-foundation-committers: write
+      hiero-consensus-node-foundation-codeowners: write
+      hiero-consensus-node-foundation-internal-contributors: triage
       hiero-mirror-node-maintainers: write
       hiero-gradle-conventions-maintainers: write
       hiero-performance-engineers: write
