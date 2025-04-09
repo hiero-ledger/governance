@@ -478,6 +478,7 @@ teams:
       - mustafauzunn
       - IvanKavaldzhiev
       - abies
+      - netopyr
   - name: hiero-consensus-node-consensus-codeowners
     maintainers:
       - poulok
@@ -492,6 +493,7 @@ teams:
       - mustafauzunn
       - IvanKavaldzhiev
       - abies
+      - netopyr
   - name: hiero-consensus-node-consensus-internal-contributors
     maintainers:
       - poulok
