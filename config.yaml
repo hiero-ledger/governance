@@ -549,7 +549,8 @@ teams:
   - name: hiero-consensus-node-foundation-internal-contributors
     maintainers:
       - artemananiev
-    members: []
+    members:
+      - akugal
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
