@@ -26,7 +26,7 @@ As an example a Committer can assign people to issues, merge PRs, or create bran
 A detailed overview of all rights will be given below.
 As long as a Committer follows our Code of Conduct, makes reasonable contributions to the project,
 and is not violating any of our policies, they will keep their Committer role.
-If a Committer is not making any contributions to the project anymore for a longer periode of time they will lose their Committer role.
+If a Committer is not making any contributions to the project anymore for a longer period of time they will lose their Committer role.
 We need to define a reasonable timeframe for that.
 The Maintainers of the project can decide to remove a Committer from the project based on those rules.
 Like with the nomination of a Committer, the vote should be held in a GitHub PR (by doing a change to the `config.yaml` file). 
