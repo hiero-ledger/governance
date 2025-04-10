@@ -52,7 +52,7 @@ really extreme cases where the Maintainer is harming the project or ignoring the
 Since Hiero contains multiple projects, we need to define GitHub **groups** that are used to manage the access to the GitHub repositories.
 The groups are defined in the `config.yaml` file and are used to manage the access to the GitHub repositories that belong to a project.
 Contributors do not have any specific rights, and therefore we do not need to define any groups for them.
-Committers** and Maintainers are defined in groups that are used to manage the access to the GitHub repositories.
+Committers and Maintainers are defined in groups that are used to manage the access to the GitHub repositories.
 For each project we have defined a Committers group and a Maintainers group: 
 
 - **`PROJECT-maintainers`**: For each project we have a group that defines the Maintainers of that project.
