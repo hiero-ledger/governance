@@ -84,7 +84,7 @@ All roles are based on the [GitHub role defintions](https://docs.github.com/en/o
 
 The GitHub roles are assigned in the `config.yaml`.
 
-## Usage of GitHub CODEOWNERS in combination with our roles, groups,and rights
+## Usage of GitHub CODEOWNERS in combination with our roles, groups, and rights
 
 A project can decide to use GitHub `CODEOWNERS` (see https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 Using `CODEOWNERS` is a best practice.
