@@ -6,7 +6,7 @@ https://clowarden.io is used as tool to manage the GitHub resources and the chan
 ## Definition of general roles
 
 In general the Hiero project (and the LFDT) defines 3 different types of **roles**: **Contributors**, **Committers**, and **Maintainers**.
-Independent of the role each person contributes to Hiero must follow our **Code of Conduct** (https://github.com/hiero-ledger/.github/blob/main/CODE_OF_CONDUCT.md).
+Independent of the role each person who contributes to Hiero must follow our **Code of Conduct** (https://github.com/hiero-ledger/.github/blob/main/CODE_OF_CONDUCT.md).
 Those roles are not assigned globally for the Hiero project but per **project**.
 In most cases a project is a single GitHub repository, but it can also be a group of repositories that are related to each other.
 A person can have multiple roles in multiple projects.
