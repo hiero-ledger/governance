@@ -88,7 +88,7 @@ The GitHub roles are assigned in the `config.yaml`.
 
 A project can decide to use GitHub `CODEOWNERS` (see https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 Using `CODEOWNERS` is a best practice.
-It should be encouraged in all projects (certainly not required).
+It should be encouraged in all projects but is not required.
 This helps maintainers ensure that the codebase is getting reviewed by the experts on those areas of the code.
 Combining the Contributors, Committers, and Maintainers roles with GitHub `CODEOWNERS` is a little bit tricky.
 So far, the following definitions are valid:
