@@ -14,7 +14,7 @@ A person can have multiple roles in multiple projects.
 ### Contributors
 In general any person that does any contribution to the project is a Contributor.
 A contribution can be anything from opening an issue, to writing code, to reviewing code, to writing documentation, etc.
-We honor all contributions to the project, and we want to make sure that all contributions are recognized.
+We honor legitimate contributions to the project, and we want to make sure that all contributions are recognized.
 If a person is a Contributor and has made significant contributions to the project, they can be invited to become a Committer.
 Any Committer or Maintainer of the given project can nominate a person to become a Committer.
 All Maintainers should vote on that nomination.
