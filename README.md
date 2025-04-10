@@ -29,7 +29,7 @@ and is not violating any of our policies, they will keep their Committer role.
 If a Committer is not making any contributions to the project anymore for a longer period of time they will lose their Committer role.
 We need to define a reasonable timeframe for that.
 The Maintainers of the project can decide to remove a Committer from the project based on those rules.
-Like with the nomination of a Committer, the vote should be held in a GitHub PR (by doing a change to the `config.yaml` file). 
+Like with the nomination of a Committer, the vote of the maintainers should be held in a GitHub PR (by doing a change to the `config.yaml` file). 
 
 ### Maintainers
 The Maintainers of the project are the people that are responsible for the project.
