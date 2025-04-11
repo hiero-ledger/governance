@@ -61,7 +61,7 @@ For each project we have defined a Committers group and a Maintainers group:
 Next to that you can find some other general groups in the `config.yaml` file:
 
 - **`hiero-automation`**: TODO
-- **`hiero-mirror-node-automation`**: TODO
+- **`hiero-mirror-node-automation`**: CI/CD Automation serice account for hiero-ledger mirror node projects
 - **`github-maintainers`**: The group is responsible for maintaining our GitHub environment and infrastructure (including GitHub Action runners, ...).
 - **`community`**: A group that contains all people that are currently not part of any other (non-temporary) group.
   We use this temporarly to invite people to the Hiero org.
