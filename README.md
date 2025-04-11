@@ -43,7 +43,7 @@ It is not the goal that every Committer of a project becomes a Maintainer.
 Having hundreds of Maintainer for a single project does not make sense.
 As already defined for the Committer role, a Maintainer can lose the Maintainer role if they harm the project in any way.
 For a Maintainer the contribution to the project should be on a really high level.
-Therefore, it is a valid decision to remove a Maintainer from the project and give that person the Committer role.
+Therefore, it is a valid decision to remove a Maintainer from the project and give that person the Committer role after a period of inactivity.
 Removing a Maintainer from the project and giving that person the Contributor role should only happen in
 really extreme cases where the Maintainer is harming the project or ignoring the Code of Conduct.
 
