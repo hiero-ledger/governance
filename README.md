@@ -96,5 +96,5 @@ So far, the following definitions are valid:
 - The `CODEOWNERS` file defines some specific groups that are **codeowner** of particular files (or folders) of the repository.
 - A PR that contains changes on those files needs to be approved by one of those codeowners.
 - A `CODEOWNERS` file will not affect the definition of Contributors, Committers, and Maintainers.
-- With that in mind, it makes zero sense that a group in the `CODEOWNERS` file is not a Committer, and Maintainer group
+- The minimum permission a **codeowner** must have is `write` on a given repository. As such a **codeowner** must be a Committer or Maintainer on the project
   (see **`PROJECT-maintainers`** and **`PROJECT-committers`**) or one of our special groups like **`lf-staff`**.
