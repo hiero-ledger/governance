@@ -67,9 +67,9 @@ Next to that you can find some other general groups in the `config.yaml` file:
   We use this temporarily to invite people to the Hiero org.
 - **`tsc`**: The group that contains all members of the technical steering committee (TSC) as defined [here](https://github.com/hiero-ledger/tsc).
 - **`lf-staff`**: The group contains all Linux Foundation and LF Decentralized Trust members that needs (mostly ADMIN) rights on the org.
-- **`security-maintainers`**: TODO
-- **`prod-security`**: TODO
-- **`sec-ops`**: TODO
+- **`security-maintainers`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects
+- **`prod-security`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects
+- **`sec-ops`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects
 
 ## Definitions of rights
 
