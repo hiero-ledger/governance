@@ -5,27 +5,31 @@ This file contains an overview of our rules for roles and groups
 ## Definition of general roles
 
 The Hiero project (and the LFDT) defines 3 different types of **roles**: **Contributors**, **Committers**, and **Maintainers**.
-Each person who contributes to Hiero must follow our **Code of Conduct** (https://github.com/hiero-ledger/.github/blob/main/CODE_OF_CONDUCT.md).
+Each person who contributes to Hiero must follow our [**Code of Conduct**](https://github.com/hiero-ledger/.github/blob/main/CODE_OF_CONDUCT.md).
 Those roles are not assigned globally for the Hiero project but per **project**.
 In most cases a project is a single GitHub repository, but it can also be a group of repositories that are related to each other.
 A person can have multiple roles in multiple projects.
 
 ### Contributors
-Any person that does any contribution to the project is a Contributor.
-A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
-- If a PR has gone 2 days without approvals or an Issue or Discussion has no activity for 2 days, the owner must reach our to our hiero-general Discord channel.
-- If a PR or discussion has gone stale for 2 weeks, the repo maintainers can close them due to inactivity.
+
+Any person that does any contribution to the project is a Contributor. A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
+
+  - If a PR has gone 2 days without approvals or an Issue or Discussion has no activity for 2 days, the owner must reach our to our hiero-general Discord channel.
+  - If a PR or discussion has gone stale for 2 weeks, the repo maintainers can close them due to inactivity.
 We honor legitimate contributions to the project, and we want to make sure that all contributions are recognized.
 A Contributor can be nominated by a Committer or a Maintainer to become a Committer:
-- **Start Contributing**: Submit pull requests, report bugs, improve docs, review code. Show consistency and quality in your contributions
-- **Build Trust and Tack Record**: Active committers will notice your contributions, your understanding and responsiveness.
-- **Get noticed**: Consistency and valuable contributions will create more project involvement and reliability.
-- **Review elegibility**: A minimum approved PRs and a reasonable time contributing to the project (3-6 months) is the general acceptable basline for eleibility.
+  - **Start Contributing**: Submit pull requests, report bugs, improve docs, review code. Show consistency and quality in your contributions
+  - **Build Trust and Tack Record**: Active committers will notice your contributions, your understanding and responsiveness.
+  - **Get noticed**: Consistency and valuable contributions will create more project involvement and reliability.
+  - **Review elegibility**: A minimum approved PRs and a reasonable time contributing to the project (3-6 months) is the general acceptable basline for eleibility.
 
 ### Committers
+
 A Committer has specific rights for the project.
+
 As an example a Committer can assign people to issues, merge PRs, or create branches directly in a repository of the project.
 Any Committer or Maintainer of the given project should nominate a Contributor to become a Committer based on the project's needs and following these steps:
+
 - **Define your project's needs**: A repository should have minimum 3 committers to ensure a project's sustainability and resilience. It will also allow for fairness in the votes. Project owners, can choose to have more committers depending on the size of their project.
 - **Evaluate your project's performance**: Committers and Maintainers should monitor their project health and velocity and make decisions about whether the project needs more Committers.
 - **Verify your project's needs**: Committers or Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination. This is based on the size and complexity of the repo in question.
@@ -34,28 +38,37 @@ Any Committer or Maintainer of the given project should nominate a Contributor t
 - **Make adjustments**: Maintainers should be responsible for removing inactive committers. A committer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
 As long as a Committer follows our Code of Conduct, makes reasonable contributions to the project,
 and is not violating any of our policies, they will keep their Committer role.
+
 A committer can lose the role if:
+
 - Breaks code of conduct
 - Shown no activity for 6 months and does not responds when reached
 - Keeps making bad decisions (their approvals and contributions are actively affecting the project's performance).
+
 The Maintainers of the project can decide to remove a Committer from the project based on those rules.
 Like with the nomination of a Committer, the vote of the maintainers should be held in a GitHub PR (by doing a change to the `config.yaml` file).
 
 ### Maintainers
+
 The Maintainers of the project are the people that are responsible for the project.
+
 A Maintainer should drive the project's roadmap/vision and take care of topics like community meetings,
 the general structure of the project (fits our best practices, is secure, ...), and so on.
+
 In addition, the Maintainers should report project updates to the Hiero **Technical Steering Committee** (TSC).
 A Committer of a project can be nominated to become a Maintainer:
+
 - **Define your project's needs**: A repository should have 1 to 3 maintainers to ensure a project's sustainability and resilience. It is not necesarily a goal for the committer to become a mintainer unless the project's needs require it to have more maintainers.
 - **Nominate a maintainer**: To promote a candidate, a vote should be held in a GitHub PR (by doing a change to the config.yaml file) and by making mention of the basis reached for nominating the Maintainer.
 - **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when reaching majority of votes.
 - **Make adjustments**: A maintainer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
+
 A maintainer can lose the role if:
+
 - Breaks code of conduct
 - Shown no activity for 6 months and does not responds when reached
 - Keeps making bad decisions (their contributions are actively affecting the project's performance).
-More on maintainer guidelines, can be found in the **LFDT site** (https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html)
+More on maintainer guidelines, can be found in the [**LFDT site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
 
 ## Definition of groups
 
