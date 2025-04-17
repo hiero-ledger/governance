@@ -81,6 +81,8 @@ For candidates working on getting promoted to Committers or Maintainers:
 - The candidate needs to show participation in the project by contributing with code, issues, discussions, reviews, etc.
 - These contributions need to show proper understanding of the project and quality of the work.
 - 3 to 6 months worth of contributions is considered a good minimum for candidates to be selected for a role promotion.
+- A Committer or Maintainer will be considered inactive if they shown no activity for 6 months at least, in such case, they could be selected for removal.
+- A Committer can maintain their privileges independently from their job changes.
 
 For Maintainers and Committers voting on new candidates:
 - When a candidate is selected for becoming a Committer or a Maintainer, this proposal needs to be made via PR request against the config.yaml in the governance repo.
