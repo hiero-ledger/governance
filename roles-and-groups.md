@@ -88,9 +88,14 @@ For Maintainers and Committers voting on new candidates:
 - When a candidate is selected for becoming a Committer or a Maintainer, this proposal needs to be made via PR request against the config.yaml in the governance repo.
 - An example of a promotion can be found in the following [PR](https://github.com/hiero-ledger/governance/pull/208).
 - Once the PR is created, all the maintainers of the repo in question need to be added as reviewers and their vote should be provided.
-- Maintainers can vote in favor of the candidate's promotion by approving the PR, or posting a comment in the PR in case they do not approve the promotion or they do not want to cast a vote in favor or against along with their explanation.
+- The creator of the PR should notify all maintainers that a vote is now open.
+- Maintainers can vote in favor of the candidate's promotion by approving the PR with a comment indicating approval.
+- Maintainers can vote against the candidate's promotion by posting a comment in the PR along with their explanation.
+- Maintainers can abstain from voting by posting a comment in the PR along with their explanation.
+- The comment associated with a maintainers vote should be formatted as `[APPROVE|REJECT|ABSTAIN] - <explanation>`.
+- Maintainers are required to vote, if a maintainer does not participate in five consecutive votes they could have maintainer status revoked
 - Once the PR has gathered the majority of the votes, the PR can be merged and the candidate will be officially part of their new Committer or Maintainer teams.
-- If a PR remains inactive for 2 days, it is a responsability of the PR owner to reach out to the reviewers via Discord, bring it up in Community calls or reach out for help in the hiero-general Discord channel.
+- If a PR remains inactive for 2 days, it is a responsibility of the PR owner to reach out to the reviewers via Discord, bring it up in Community calls or reach out for help in the [hiero-general Discord channel](https://discord.com/channels/905194001349627914/1289954446712770600).
 - If a PR shows no activity for 2 weeks, it will be considered stale and it will be closed with no promotion.
 - A Maintainer or Committer can also nominate a candidate for removal from the teams if the candidate has not shown any activity for 6 months at least or is not responsive.
 - A candidate can also be nominated for removal from the teams if they break code of conduct or has consistently made contributions that are affecting the team.
