@@ -66,7 +66,7 @@ A Committer of a project can be nominated to become a Maintainer:
 A maintainer can lose the role if:
 
 - Breaks code of conduct
-- Shown no activity for 6 months and does not responds when reached
+- Are inactive for 6 months and do not responds when reached
 - Keeps making bad decisions (their contributions are actively affecting the project's performance).
 More on maintainer guidelines, can be found in the [**LFDT site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
 
