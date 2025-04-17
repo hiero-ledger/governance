@@ -23,9 +23,9 @@ A Contributor can be nominated by a Committer or a Maintainer to become a Commit
   - **Start Contributing**: Submit pull requests, report bugs, improve docs, review code. Show consistency and quality in your contributions.
   - **Build Trust and Tack Record**: Active committers will notice your contributions, your understanding, and responsiveness.
   - **Get noticed**: Consistency and valuable contributions will create more project involvement and reliability.
-  - **Review eligibility**: A minimum number of approved PRs and a reasonable time contributing to the project (3-6 months) is the general acceptable baseline for eligibility. 
+  - **Review eligibility**: A minimum number of approved PRs and a reasonable time contributing to the project (3-6 months) is the general acceptable baseline for eligibility.
 
-### Committers
+### [Committers](#committers)
 
 A Committer has specific rights for the project.
 
@@ -72,6 +72,27 @@ A maintainer can lose the role if:
 - Keeps making bad decisions (their contributions are actively affecting the project's performance).
 
 More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
+
+### [Voting](#voting)
+
+When it comes to electing and voting for new committers or new maintainers, the project should consider the following:
+
+For candidates working on getting promoted to Committers or Maintainers:
+- The candidate needs to show participation in the project by contributing with code, issues, discussions, reviews, etc.
+- These contributions need to show proper understanding of the project and quality of the work.
+- 3 to 6 months worth of contributions is considered a good minimum for candidates to be selected for a role promotion.
+
+For Maintainers and Committers voting on new candidates:
+- When a candidate is selected for becoming a Committer or a Maintainer, this proposal needs to be made via PR request against the config.yaml in the governance repo.
+- An example of a promotion can be found in the following [PR](https://github.com/hiero-ledger/governance/pull/208).
+- Once the PR is created, all the maintainers of the repo in question need to be added as reviewers and their vote should be provided.
+- Maintainers can vote in favor of the candidate's promotion by approving the PR, or posting a comment in the PR in case they do not approve the promotion or they do not want to cast a vote in favor or against along with their explanation.
+- Once the PR has gathered the majority of the votes, the PR can be merged and the candidate will be officially part of their new Committer or Maintainer teams.
+- If a PR remains inactive for 2 days, it is a responsability of the PR owner to reach out to the reviewers via Discord, bring it up in Community calls or reach out for help in the hiero-general Discord channel.
+- If a PR shows no activity for 2 weeks, it will be considered stale and it will be closed with no promotion.
+- A Maintainer or Committer can also nominate a candidate for removal from the teams if the candidate has not shown any activity for 6 months at least or is not responsive.
+- A candidate can also be nominated for removal from the teams if they break code of conduct or has consistently made contributions that are affecting the team.
+- The voting process for removing a candiate is the same as the process for promoting a candidate (via PR).
 
 ## [Definition of groups](#groups)
 
