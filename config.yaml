@@ -110,6 +110,7 @@ teams:
     maintainers:
       - RickyLB
       - Sheng-Long
+      - gsstoykov
     members:
       - SimiHunjan
   - name: hiero-sdk-rust-committers
