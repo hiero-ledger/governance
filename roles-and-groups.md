@@ -1,6 +1,6 @@
 # Roles and Groups
 
-This file contains an overview of our rules for roles and groups
+This file contains an overview of our rules for roles and groups.
 
 ## [Definition of general roles](#roles)
 
@@ -43,8 +43,8 @@ and is not violating any of our policies, they will keep their Committer role.
 
 A committer can lose the role if:
 
-- Breaks Code of Conduct
-- Shown no activity for 6 months and does not responds when reached
+- Breaks Code of Conduct.
+- Shown no activity for 6 months and does not responds when reached.
 - Keeps making bad decisions (their approvals and contributions are actively affecting the project's performance).
 
 The Maintainers of the project can decide to remove a Committer from the project based on those rules.
@@ -67,8 +67,8 @@ A Committer of a project can be nominated to become a Maintainer:
 
 A maintainer can lose the role if:
 
-- Breaks Code of Conduct
-- Are inactive for 6 months and does not respond when reached out to
+- Breaks Code of Conduct.
+- Are inactive for 6 months and does not respond when reached out to.
 - Keeps making bad decisions (their contributions are actively affecting the project's performance).
 
 More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
@@ -93,7 +93,7 @@ For Maintainers and Committers voting on new candidates:
 - Maintainers can vote against the candidate's promotion by posting a comment in the PR along with their explanation.
 - Maintainers can abstain from voting by posting a comment in the PR along with their explanation.
 - The comment associated with a maintainers vote should be formatted as `[APPROVE|REJECT|ABSTAIN] - <explanation>`.
-- Maintainers are required to vote, if a maintainer does not participate in five consecutive votes they could have maintainer status revoked
+- Maintainers are required to vote, if a maintainer does not participate in five consecutive votes they could have maintainer status revoked.
 - Once the PR has gathered the majority of the votes, the PR can be merged and the candidate will be officially part of their new Committer or Maintainer teams.
 - If a PR remains inactive for 2 days, it is a responsibility of the PR owner to reach out to the reviewers via Discord, bring it up in Community calls or reach out for help in the [hiero-general Discord channel](https://discord.com/channels/905194001349627914/1289954446712770600).
 - If a PR shows no activity for 2 weeks, it will be considered stale and it will be closed with no promotion.
