@@ -2,7 +2,7 @@
 
 This file contains an overview of our rules for roles and groups
 
-## Definition of general roles
+## [Definition of general roles](#roles)
 
 The Hiero project (and the LFDT) defines 3 different types of **roles**: **Contributors**, **Committers**, and **Maintainers**.
 Each person who contributes to Hiero must follow our [**Code of Conduct**](https://github.com/hiero-ledger/.github/blob/main/CODE_OF_CONDUCT.md).
@@ -10,14 +10,16 @@ Those roles are not assigned globally for the Hiero project but per **project**.
 In most cases a project is a single GitHub repository, but it can also be a group of repositories that are related to each other.
 A person can have multiple roles in multiple projects.
 
-### Contributors
+### [Contributors](#contributors)
 
 Any person that does any contribution to the project is a Contributor. A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
 
-  - If a PR has gone 2 days without approvals or an Issue or Discussion has no activity for 2 days, the owner must reach our to our hiero-general Discord channel.
+  - If a PR has gone 2 days without approvals or an Issue or Discussion has no activity for 2 days, the owner must reach our to our [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
   - If a PR or discussion has gone stale for 2 weeks, the repo maintainers can close them due to inactivity.
 We honor legitimate contributions to the project, and we want to make sure that all contributions are recognized.
+
 A Contributor can be nominated by a Committer or a Maintainer to become a Committer:
+
   - **Start Contributing**: Submit pull requests, report bugs, improve docs, review code. Show consistency and quality in your contributions
   - **Build Trust and Tack Record**: Active committers will notice your contributions, your understanding and responsiveness.
   - **Get noticed**: Consistency and valuable contributions will create more project involvement and reliability.
@@ -48,7 +50,7 @@ A committer can lose the role if:
 The Maintainers of the project can decide to remove a Committer from the project based on those rules.
 Like with the nomination of a Committer, the vote of the maintainers should be held in a GitHub PR (by doing a change to the `config.yaml` file).
 
-### Maintainers
+### [Maintainers](#maintainers)
 
 The Maintainers of the project are the people that are responsible for the project.
 
@@ -68,9 +70,10 @@ A maintainer can lose the role if:
 - Breaks code of conduct
 - Are inactive for 6 months and do not responds when reached
 - Keeps making bad decisions (their contributions are actively affecting the project's performance).
-More on maintainer guidelines, can be found in the [**LFDT site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
 
-## Definition of groups
+More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
+
+## [Definition of groups](#groups)
 
 Since Hiero contains multiple projects, we need to define GitHub **groups** that are used to manage the access to the GitHub repositories.
 The groups are defined in the `config.yaml` file and are used to manage the access to the GitHub repositories that belong to a project.
@@ -81,7 +84,7 @@ For each project we have defined a Committers group and a Maintainers group:
 - **`PROJECT-maintainers`**: For each project we have a group that defines the Maintainers of that project.
 - **`PROJECT-committers`**: For each project we have a group that defines the Committers of that project.
 
-Next to that you can find some other general groups in the `config.yaml` file:
+Next to that you can find some other general groups in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml) file:
 
 - **`hiero-automation`**: CI/CD Automation service account for hiero-ledger projects
 - **`hiero-mirror-node-automation`**: CI/CD Automation serice account for hiero-ledger mirror node projects
@@ -92,7 +95,7 @@ Next to that you can find some other general groups in the `config.yaml` file:
 - **`prod-security`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects
 - **`sec-ops`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects
 
-## Definitions of rights
+## [Definitions of rights](#rights)
 
 For each project the following GitHub roles should be defined for the groups that work on the project.
 Those GitHub roles defines the rights of the groups on the GitHub repositories of the project.
@@ -103,11 +106,11 @@ All roles are based on the [GitHub role defintions](https://docs.github.com/en/o
 - **`PROJECT-maintainers`**: `MAINTAIN`
 - **`PROJECT-committers`**: `WRITE`
 
-The GitHub roles are assigned in the `config.yaml`.
+The GitHub roles are assigned in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml).
 
 ## Usage of GitHub CODEOWNERS in combination with our roles, groups, and rights
 
-A project can decide to use GitHub `CODEOWNERS` (see https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
+A project can decide to use GitHub [`CODEOWNERS`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 Using `CODEOWNERS` is a best practice.
 It should be encouraged in all projects but is not required.
 This helps maintainers ensure that the codebase is getting reviewed by the experts on those areas of the code.
@@ -118,4 +121,4 @@ So far, the following definitions are valid:
 - A PR that contains changes on those files needs to be approved by one of those codeowners.
 - A `CODEOWNERS` file will not affect the definition of Contributors, Committers, and Maintainers.
 - The minimum permission a **codeowner** must have is `write` on a given repository. As such a **codeowner** must be a Committer or Maintainer on the project
-  (see **`PROJECT-maintainers`** and **`PROJECT-committers`**) or one of our special groups like **`lf-staff`**.
+  (see [**`PROJECT-maintainers`**](#rights) and [**`PROJECT-committers`**](#rights) or one of our special groups like [**`lf-staff`**](#rights).
