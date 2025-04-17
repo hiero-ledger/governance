@@ -20,8 +20,8 @@ We honor legitimate contributions to the project, and we want to make sure that 
 
 A Contributor can be nominated by a Committer or a Maintainer to become a Committer:
 
-  - **Start Contributing**: Submit pull requests, report bugs, improve docs, review code. Show consistency and quality in your contributions
-  - **Build Trust and Tack Record**: Active committers will notice your contributions, your understanding and responsiveness.
+  - **Start Contributing**: Submit pull requests, report bugs, improve docs, review code. Show consistency and quality in your contributions.
+  - **Build Trust and Tack Record**: Active committers will notice your contributions, your understanding, and responsiveness.
   - **Get noticed**: Consistency and valuable contributions will create more project involvement and reliability.
   - **Review eligibility**: A minimum number of approved PRs and a reasonable time contributing to the project (3-6 months) is the general acceptable baseline for eligibility. 
 
@@ -32,7 +32,7 @@ A Committer has specific rights for the project.
 As an example a Committer can assign people to issues, merge PRs, or create branches directly in a repository of the project.
 Any Committer or Maintainer of the given project should nominate a Contributor to become a Committer based on the project's needs and following these steps:
 
-- **Define your project's needs**: A repository should have minimum 3 committers to ensure a project's sustainability and resilience. It will also allow for fairness in the votes. Project owners, can choose to have more committers depending on the size of their project.
+- **Define your project's needs**: A repository should have minimum 3 committers to ensure a project's sustainability and resilience. It will also allow for fairness in the votes. Project owners can choose to have more committers depending on the size of their project.
 - **Evaluate your project's performance**: Committers and Maintainers should monitor their project health and velocity and make decisions about whether the project needs more Committers.
 - **Verify your project's needs**: Committers or Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination. This is based on the size and complexity of the repo in question.
 - **Nominate more resources**: To promote a contributor, a vote should be held in a GitHub PR (by doing a change to the config.yaml file) and by making mention of the basis reached for nominating the Contributor.
@@ -43,7 +43,7 @@ and is not violating any of our policies, they will keep their Committer role.
 
 A committer can lose the role if:
 
-- Breaks code of conduct
+- Breaks Code of Conduct
 - Shown no activity for 6 months and does not responds when reached
 - Keeps making bad decisions (their approvals and contributions are actively affecting the project's performance).
 
@@ -67,15 +67,15 @@ A Committer of a project can be nominated to become a Maintainer:
 
 A maintainer can lose the role if:
 
-- Breaks code of conduct
-- Are inactive for 6 months and do not responds when reached
+- Breaks Code of Conduct
+- Are inactive for 6 months and does not respond when reached out to
 - Keeps making bad decisions (their contributions are actively affecting the project's performance).
 
 More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
 
 ## [Definition of groups](#groups)
 
-Since Hiero contains multiple projects, we need to define GitHub **groups** that are used to manage the access to the GitHub repositories.
+Since Hiero contains multiple projects, we define GitHub **groups** that are used to manage the access to the GitHub repositories.
 The groups are defined in the `config.yaml` file and are used to manage the access to the GitHub repositories that belong to a project.
 Contributors do not have any specific rights, and therefore we do not need to define any groups for them.
 Committers and Maintainers are defined in groups that are used to manage the access to the GitHub repositories.
@@ -84,21 +84,21 @@ For each project we have defined a Committers group and a Maintainers group:
 - **`PROJECT-maintainers`**: For each project we have a group that defines the Maintainers of that project.
 - **`PROJECT-committers`**: For each project we have a group that defines the Committers of that project.
 
-Next to that you can find some other general groups in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml) file:
+There are general groups in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml) file as well:
 
-- **`hiero-automation`**: CI/CD Automation service account for hiero-ledger projects
-- **`hiero-mirror-node-automation`**: CI/CD Automation serice account for hiero-ledger mirror node projects
-- **`github-maintainers`**: The group is responsible for maintaining our GitHub environment and infrastructure (including GitHub Action runners, ...).
-- **`tsc`**: The group that contains all members of the technical steering committee (TSC) as defined [here](https://github.com/hiero-ledger/tsc).
-- **`lf-staff`**: The group contains all Linux Foundation and LF Decentralized Trust members that needs (mostly ADMIN) rights on the org.
-- **`security-maintainers`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects
-- **`prod-security`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects
-- **`sec-ops`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects
+- **`hiero-automation`**: This group contains the CI/CD Automation service accounts for hiero-ledger projects.
+- **`hiero-mirror-node-automation`**: This group contains the CI/CD Automation service accounts for hiero-ledger mirror node projects.
+- **`github-maintainers`**: This group contains those responsible for maintaining our GitHub environment and infrastructure (including GitHub Action runners, ...).
+- **`tsc`**: This group contains all members of the technical steering committee (TSC) as defined [here](https://github.com/hiero-ledger/tsc).
+- **`lf-staff`**: This group contains all Linux Foundation and LF Decentralized Trust members that needs (mostly ADMIN) rights on the org.
+- **`security-maintainers`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects.
+- **`prod-security`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects.
+- **`sec-ops`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects.
 
 ## [Definitions of rights](#rights)
 
 For each project the following GitHub roles should be defined for the groups that work on the project.
-Those GitHub roles defines the rights of the groups on the GitHub repositories of the project.
+The GitHub roles define the rights of the groups on the GitHub repositories of the project.
 All roles are based on the [GitHub role defintions](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization).
 
 - **`github-maintainers`**: `MAINTAIN`
