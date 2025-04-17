@@ -1071,6 +1071,7 @@ repositories:
   - name: solo
     teams:
       tsc: maintain
+      hiero-automation: write
       github-maintainers: maintain
       solo-maintainers: maintain
       solo-committers: write
