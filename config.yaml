@@ -676,6 +676,7 @@ teams:
       - JeffreyDallas
       - Ivo-Yankov
       - instamenta
+      - alex-kuzmin-hg
 repositories:
   - name: governance
     teams:
