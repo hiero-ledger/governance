@@ -660,6 +660,22 @@ teams:
       - venilinvasilev
       - naydenovn
     members: []
+  - name: solo-maintainers
+    maintainers:
+      - nathanklick
+    members:
+      - jeromy-cannon
+      - leninmehedy
+  - name: solo-committers
+    maintainers:
+      - nathanklick
+      - jeromy-cannon
+      - leninmehedy
+    members:
+      - matteriben
+      - JeffreyDallas
+      - Ivo-Yankov
+      - instamenta
 repositories:
   - name: governance
     teams:
@@ -936,6 +952,17 @@ repositories:
       github-maintainers: maintain
       sdk-collaboration-hub-maintainers: maintain
       sdk-collaboration-hub-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: solo
+    teams:
+      tsc: maintain
+      hiero-automation: write
+      github-maintainers: maintain
+      solo-maintainers: maintain
+      solo-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
