@@ -21,7 +21,7 @@ A Contributor can be nominated by a Committer or a Maintainer to become a Commit
   - **Start Contributing**: Submit pull requests, report bugs, improve docs, review code. Show consistency and quality in your contributions
   - **Build Trust and Tack Record**: Active committers will notice your contributions, your understanding and responsiveness.
   - **Get noticed**: Consistency and valuable contributions will create more project involvement and reliability.
-  - **Review elegibility**: A minimum approved PRs and a reasonable time contributing to the project (3-6 months) is the general acceptable basline for eleibility.
+  - **Review eligibility**: A minimum number of approved PRs and a reasonable time contributing to the project (3-6 months) is the general acceptable baseline for eligibility. 
 
 ### Committers
 
