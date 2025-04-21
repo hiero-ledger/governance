@@ -2,7 +2,7 @@
 
 This file contains an overview of our rules for roles and groups.
 
-## [Definition of general roles](#roles)
+## Definition of general roles
 
 The Hiero project (and the LFDT) defines 3 different types of **roles**: **Contributors**, **Committers**, and **Maintainers**.
 Each person who contributes to Hiero must follow our [**Code of Conduct**](https://github.com/hiero-ledger/.github/blob/main/CODE_OF_CONDUCT.md).
@@ -10,22 +10,23 @@ Those roles are not assigned globally for the Hiero project but per **project**.
 In most cases a project is a single GitHub repository, but it can also be a group of repositories that are related to each other.
 A person can have multiple roles in multiple projects.
 
-### [Contributors](#contributors)
+### Contributors
 
-Any person that does any contribution to the project is a Contributor. A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
+Any person who contributes to a project is a Contributor. A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
 
-  - If a PR has gone 2 days without approvals or an Issue or Discussion has no activity for 2 days, the owner must reach our to our [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
-  - If a PR or discussion has gone stale for 2 weeks, the repo maintainers can close them due to inactivity.
+  - If a pull request has not received an approval within 2 days or a discussion has no activity for more than 2 days, the owner must reach out to the maintainers via our [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
+  - If a pull request or discussion has gone stale for more than 2 weeks, the repo maintainers may close them due to inactivity.
+
 We honor legitimate contributions to the project, and we want to make sure that all contributions are recognized.
 
 A Contributor can be nominated by a Committer or a Maintainer to become a Committer:
 
   - **Start Contributing**: Submit pull requests, report bugs, improve docs, review code. Show consistency and quality in your contributions.
-  - **Build Trust and Tack Record**: Active committers will notice your contributions, your understanding, and responsiveness.
+  - **Build Trust and Track Record**: Active committers will notice your contributions, your understanding, and responsiveness.
   - **Get noticed**: Consistency and valuable contributions will create more project involvement and reliability.
   - **Review eligibility**: A minimum number of approved PRs and a reasonable time contributing to the project (3-6 months) is the general acceptable baseline for eligibility.
 
-### [Committers](#committers)
+### Committers
 
 A Committer has specific rights for the project.
 
@@ -41,16 +42,15 @@ Any Committer or Maintainer of the given project should nominate a Contributor t
 As long as a Committer follows our Code of Conduct, makes reasonable contributions to the project,
 and is not violating any of our policies, they will keep their Committer role.
 
-A committer can lose the role if:
+Project maintainers may remove a committer if:
 
 - Breaks Code of Conduct.
-- Shown no activity for 6 months and does not responds when reached.
+- Shown no activity for 6 months and does not respond when contacted by the project maintainers or LFDT staff.
 - Keeps making bad decisions (their approvals and contributions are actively affecting the project's performance).
 
-The Maintainers of the project can decide to remove a Committer from the project based on those rules.
-Like with the nomination of a Committer, the vote of the maintainers should be held in a GitHub PR (by doing a change to the `config.yaml` file).
+The addition or removal of committers must be decided by a project maintainer vote. The voting must be held via a GitHub PR (by doing a change to the `config.yaml` file).
 
-### [Maintainers](#maintainers)
+### Maintainers
 
 The Maintainers of the project are the people that are responsible for the project.
 
@@ -65,7 +65,7 @@ A Committer of a project can be nominated to become a Maintainer:
 - **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when reaching majority of votes.
 - **Make adjustments**: A maintainer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
 
-A maintainer can lose the role if:
+Project maintainers or the TSC may remove a maintainer if:
 
 - Breaks Code of Conduct.
 - Are inactive for 6 months and does not respond when reached out to.
@@ -73,7 +73,7 @@ A maintainer can lose the role if:
 
 More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
 
-### [Voting](#voting)
+### Voting
 
 When it comes to electing and voting for new committers or new maintainers, the project should consider the following:
 
@@ -86,7 +86,7 @@ For candidates working on getting promoted to Committers or Maintainers:
 
 For Maintainers and Committers voting on new candidates:
 - When a candidate is selected for becoming a Committer or a Maintainer, this proposal needs to be made via PR request against the config.yaml in the governance repo.
-- An example of a promotion can be found in the following [PR](https://github.com/hiero-ledger/governance/pull/208).
+- An example of a promotion can be found in the following [PR](https://github.com/hiero-ledger/governance/pull/176).
 - Once the PR is created, all the maintainers of the repo in question need to be added as reviewers and their vote should be provided.
 - The creator of the PR should notify all maintainers that a vote is now open.
 - Maintainers can vote in favor of the candidate's promotion by approving the PR with a comment indicating approval.
@@ -101,7 +101,7 @@ For Maintainers and Committers voting on new candidates:
 - A candidate can also be nominated for removal from the teams if they break code of conduct or has consistently made contributions that are affecting the team.
 - The voting process for removing a candiate is the same as the process for promoting a candidate (via PR).
 
-## [Definition of groups](#groups)
+## Definition of groups
 
 Since Hiero contains multiple projects, we define GitHub **groups** that are used to manage the access to the GitHub repositories.
 The groups are defined in the `config.yaml` file and are used to manage the access to the GitHub repositories that belong to a project.
@@ -123,7 +123,7 @@ There are general groups in the [`config.yaml`](https://github.com/hiero-ledger/
 - **`prod-security`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects.
 - **`sec-ops`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects.
 
-## [Definitions of rights](#rights)
+## Definitions of rights
 
 For each project the following GitHub roles should be defined for the groups that work on the project.
 The GitHub roles define the rights of the groups on the GitHub repositories of the project.
