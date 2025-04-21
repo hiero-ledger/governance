@@ -660,6 +660,12 @@ teams:
       - venilinvasilev
       - naydenovn
     members: []
+  - name: solo-admins
+    maintainers:
+      - nathanklick
+    members:
+      - jeromy-cannon
+      - leninmehedy
   - name: solo-maintainers
     maintainers:
       - nathanklick
@@ -962,6 +968,7 @@ repositories:
       tsc: maintain
       hiero-automation: write
       github-maintainers: maintain
+      solo-admins: admin
       solo-maintainers: maintain
       solo-committers: write
       security-maintainers: triage
