@@ -6,5 +6,5 @@ The table below details the projects that the new team has been added to, as wel
 
 | Project Name     | Repository Access Level     |
 |------------------|-----------------------------|
-| `<project-name>` | `[maintain,triage,write]`✍️ |
+| `<project-name>` | `[maintain,triage,write]` ️ |
 | `<project-name>` | `[maintain,triage,write]`   |
