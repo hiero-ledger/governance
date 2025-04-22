@@ -4,16 +4,16 @@ This pull request adds the `<Repository Name>` repository to the Hiero-Ledger or
 
 The table below details the teams that have been added and their repository access levels:
 
-| Team Name                | Repository Access Level |
-|--------------------------|-------------------------|
-| tsc                      | Maintain                |
-| github-maintainers       | Maintain                |
-| hiero-automation         | Write                   |
-| <repository>-maintainers | Maintain                |
-| <repository>-committers  | Write                   |
-| prod-security            | Triage                  |
-| sec-ops                  | Triage                  |
-| security-maintainers     | Triage                  |
+| Team Name                  | Repository Access Level |
+|----------------------------|-------------------------|
+| tsc                        | Maintain                |
+| github-maintainers         | Maintain                |
+| hiero-automation           | Write                   |
+| `<repository>`-maintainers | Maintain                |
+| `<repository>`-committers  | Write                   |
+| prod-security              | Triage                  |
+| sec-ops                    | Triage                  |
+| security-maintainers       | Triage                  |
 
 Visibility on the repository has been set to public.
 
