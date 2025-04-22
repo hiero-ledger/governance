@@ -1,8 +1,3 @@
----
-name: "Template PR: Create New Repository"
-about: "Template for PRs involving creation of new repositories."
----
-
 ## Description
 
 This pull request adds the `<Repository Name>` repository to the Hiero-Ledger organization.
