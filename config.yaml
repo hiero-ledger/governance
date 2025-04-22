@@ -1,3 +1,4 @@
+# Team Definition
 teams:
   - name: hiero-automation
     maintainers:
@@ -684,6 +685,8 @@ teams:
       - Ivo-Yankov
       - instamenta
       - alex-kuzmin-hg
+
+# Repository Definitions
 repositories:
   - name: governance
     teams:
