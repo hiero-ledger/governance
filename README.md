@@ -29,3 +29,15 @@ For each project the following roles should be defined for the groups that work 
 ### Difference between committers and maintainers
 
 As said we have a `REPO-maintainers` and `REPO-committers` group per project. The idea is that the `REPO-maintainers` group contains 1-3 people that will manage/lead the development of that project. The people in the group have some additional rights next to the people in the `REPO-committers` group. All differences can be found in the [GitHub role defintions](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization) but some concrete examples are the management of labels for the repository or the mutation of the project description that is only allowed by people in the `REPO-maintainers` group.
+
+## Creating PRs in the Governance Repository
+
+There are five templates available for creating PRs. The best way to choose between them is with URL switching.
+
+| Template Name            | URL Switch                                                                                                               | Description                                          |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Organization Default     | `https://github.com/hiero-ledger/governance/compare/main...<my-branch>?quick_pull=1`                                     | Default template for PRs in Hiero-Ledger             |
+| Custom Properites Update | `https://github.com/hiero-ledger/governance/compare/main...<my-branch>?template=custom_properties_update_pr_template.md` | Changes to custom properties file                    |
+| Create New Repository    | `https://github.com/hiero-ledger/governance/compare/main...<my-branch>?template=new_repository_pr_template.md`           | Use when creating a new repository                   |
+| Create New Team          | `https://github.com/hiero-ledger/governance/compare/main...<my-branch>?template=new_team_pr_template.md`                 | Use when creating a new team                         |
+| Vote Required            | `https://github.com/hiero-ledger/governance/compare/main...<my-branch>?template=vote_pr_template.md`                     | Use when adding new members or changing member roles |
