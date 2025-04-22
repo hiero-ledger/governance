@@ -1,3 +1,8 @@
+---
+name: "Template PR: Create New Team"
+about: "Template for PRs involving creation of new teams."
+---
+
 ## Description
 
 This pull request adds the `<Team Name>` team(s) to the Hiero-Ledger organization.
