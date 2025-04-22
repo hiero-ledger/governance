@@ -57,10 +57,10 @@ The Maintainers of the project are the people that are responsible for the proje
 A Maintainer should drive the project's roadmap/vision and take care of topics like community meetings,
 the general structure of the project (fits our best practices, is secure, ...), and so on.
 
-In addition, the Maintainers should report project updates to the Hiero **Technical Steering Committee** (TSC).
+In addition, the Maintainers should report project updates to the Hiero **Technical Steering Committee** (TSC) meeting.
 A Committer of a project can be nominated to become a Maintainer:
 
-- **Define your project's needs**: A repository should have 1 to 3 maintainers to ensure a project's sustainability and resilience. It is not necesarily a goal for the committer to become a mintainer unless the project's needs require it to have more maintainers.
+- **Define your project's needs**: A repository should have 1 to 3 maintainers to ensure a project's sustainability and resilience. It is not necesarily a goal for the committer to become a maintainer unless the project's needs require it to have more maintainers.
 - **Nominate a maintainer**: To promote a candidate, a vote should be held in a GitHub PR (by doing a change to the config.yaml file) and by making mention of the basis reached for nominating the Maintainer.
 - **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when reaching majority of votes.
 - **Make adjustments**: A maintainer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
