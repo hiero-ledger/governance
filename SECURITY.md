@@ -16,9 +16,7 @@ This document has the following sections:
 - [Outline](#outline)
 - [What Is a Vulnerability Disclosure Policy?](#what-is-a-vulnerability-disclosure-policy)
 - [Security Team](#security-team)
-- [Discussion Forums](#discussion-forums)
 - [Report Intakes](#report-intakes)
-- [CNA/CVE Reporting](#cnacve-reporting)
 - [Embargo List](#embargo-list)
 - [GitHub Security Advisories](#github-security-advisories)
 - [Private Patch Deployment Infrastructure](#private-patch-deployment-infrastructure)
@@ -44,32 +42,10 @@ The current Hiero security team is:
 
 The security team for Hiero must include at least three project Maintainers that agree to carry out the following duties and responsibilities. Members are added and removed from the team via approved Pull Requests to this repository. For additional background into the role of the security team, see the [People Infrastructure](https://lf-decentralized-trust.github.io/governance/governing-documents/SECURITY-POLICY#people-infrastructure) section of the LF Decentralized Trust Security Policy.
 
-### Responsibilities:
-
-1. Acknowledge the receipt of vulnerability reports to the reporter within 2 business days.
-2. Assess the issue. Engage with the reporter to ask any outstanding questions about the report and how to reproduce it. If the report was received by email and may be a security vulnerability, open a GitHub Security Advisory on the repository to manage the report. If the report is not considered a vulnerability, then the reporter should be informed and this process can be halted. If the report is a regular bug (but not a security vulnerability), the reporter should be informed (if necessary) of the regular process for reporting issues.
-3. Some issues may require more time and resources to correct. If a particular report is complex, discuss an embargo period with the reporter during which time the report will not be publicly disclosed. The embargo period should be negotiated with the reporter.
-4. If necessary, create a private patch development infrastructure for the issue by emailing the [LF Decentralized Trust Community Architects](mailto:community-architects@lfdecentralizedtrust.org).
-5. Request a CVE for the issue (see the [CNA/CVE Reporting](#cnacve-reporting) section).
-6. Decide a date for the public release of the vulnerability report, the date the embargo period ends.
-7. If applicable, notify members of the embargo list of the vulnerability, upcoming patch and release, as described above.
-8. Publish a new (software) release in which the vulnerability is addressed.
-9. Publicly disclose the issue within 48 hours after the release via a GitHub security advisory (see the [(GitHub) Security Advisories](#github-security-advisories) section for details).
-
-## Discussion Forums
-
-Discussions about each reported vulnerability should be carried out in the private GitHub security advisory about the vulnerability. If necessary, a private channel specific to the issue may be created on the LF Decentralized Trust Discord server with invited participants added to the discussion.
-
 ## Report Intakes
 
-Hiero has the following ways to submit security vulnerabilities. While the security team members will do their best to respond to bugs disclosed in all possible ways, it is encouraged for bug finders to report through the following approved channels:
-
-Email the LF Decentralized Trust Foundation security list: To report a security issue, please send an email with the name of the project/repository, a description of the issue, the steps you took to create the issue, affected versions, and if known, mitigations. If in triaging the email, the security team determines the issue may be a security vulnerability, a GitHub security vulnerability report will be opened.
-Open a GitHub security vulnerability report: Open a draft security advisory on the “Security” tab of this GitHub repository. See GitHub Security Advisories to learn more about the security infrastructure in GitHub.
-
-## CNA/CVE Reporting
-
-Hiero maintains a list of Common Vulnerabilities and Exposures (CVE) and uses GitHub as its CVE numbering authority (CNA) for issuing CVEs.
+We're very thankful for security researchers and users who report vulnerabilities to the Hedera community. For information on our bug bounty process or to make a
+report please visit our [Hedera bug bounty program](https://hedera.com/bounty).
 
 ## Embargo List
 
