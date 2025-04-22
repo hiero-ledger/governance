@@ -65,6 +65,8 @@ A Committer of a project can be nominated to become a Maintainer:
 - **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when reaching majority of votes.
 - **Make adjustments**: A maintainer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
 
+Maintainers are responsible for keeping track of project Issues and Discussions and help pushing inactive conversations. Is a responsability of the maintainers to close Issues and Discussions that are considered outdated or stale to the current goals of the project.
+
 Project maintainers or the TSC may remove a maintainer if:
 
 - Breaks Code of Conduct.
