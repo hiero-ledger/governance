@@ -14,7 +14,7 @@ A person can have multiple roles in multiple projects.
 
 Any person who contributes to a project is a Contributor. A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
 
-  - If a pull request has not received an approval within 2 days or a discussion has no activity for more than 2 days, the owner must reach out to the maintainers via our [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
+  - If a pull request has not received an approval within 2 business days or a discussion has no activity for more than 2 business days, the owner must reach out to the maintainers via our [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
   - If a pull request or discussion has gone stale for more than 2 weeks, the repo maintainers may close them due to inactivity.
 
 We honor legitimate contributions to the project, and we want to make sure that all contributions are recognized.
@@ -117,7 +117,6 @@ For each project we have defined a Committers group and a Maintainers group:
 There are general groups in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml) file as well:
 
 - **`hiero-automation`**: This group contains the CI/CD Automation service accounts for hiero-ledger projects.
-- **`hiero-mirror-node-automation`**: This group contains the CI/CD Automation service accounts for hiero-ledger mirror node projects.
 - **`github-maintainers`**: This group contains those responsible for maintaining our GitHub environment and infrastructure (including GitHub Action runners, ...).
 - **`tsc`**: This group contains all members of the technical steering committee (TSC) as defined [here](https://github.com/hiero-ledger/tsc).
 - **`lf-staff`**: This group contains all Linux Foundation and LF Decentralized Trust members that needs (mostly ADMIN) rights on the org.
