@@ -21,24 +21,24 @@ We honor legitimate contributions to the project, and we want to make sure that 
 
 A Contributor can be nominated by a Committer or a Maintainer to become a Committer:
 
-  - **Start Contributing**: Submit pull requests, report bugs, improve docs, review code. Show consistency and quality in your contributions.
+  - **Start Contributing**: Submit pull requests, report bugs, improve documentation, review code. Show consistency and quality in your contributions.
   - **Build Trust and Track Record**: Active committers will notice your contributions, your understanding, and responsiveness.
-  - **Get noticed**: Consistency and valuable contributions will create more project involvement and reliability.
-  - **Review eligibility**: A minimum number of approved PRs and a reasonable time contributing to the project (3-6 months) is the general acceptable baseline for eligibility.
+  - **Get noticed**: Consistent and valuable contributions will demonstrate more project involvement and reliability.
+  - **Review eligibility**: A minimum number of approved PRs and a reasonable time contributing to the project (often 3-6 months) is the general acceptable baseline for eligibility.
 
 ### Committers
 
 A Committer has specific rights for the project.
 
-As an example a Committer can assign people to issues, merge PRs, or create branches directly in a repository of the project.
-Any Committer or Maintainer of the given project should nominate a Contributor to become a Committer based on the project's needs and following these steps:
+As an example, a Committer can assign people to issues, merge PRs, or create branches directly in a repository of the project.
+Any Committer or Maintainer of the given project can nominate a Contributor to become a Committer based on the project's needs and following these steps:
 
 - **Define your project's needs**: A repository should have minimum 3 committers to ensure a project's sustainability and resilience. It will also allow for fairness in the votes. Project owners can choose to have more committers depending on the size of their project.
 - **Evaluate your project's performance**: Committers and Maintainers should monitor their project health and velocity and make decisions about whether the project needs more Committers.
-- **Verify your project's needs**: Committers or Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination. This is based on the size and complexity of the repo in question.
-- **Nominate more resources**: To promote a contributor, a vote should be held in a GitHub PR (by doing a change to the config.yaml file) and by making mention of the basis reached for nominating the Contributor.
-- **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when reaching majority of votes.
-- **Make adjustments**: Maintainers should be responsible for removing inactive committers. A committer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
+- **Verify your project's needs**: Committers and Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination. This is based on the size and complexity of the project in question.
+- **Nominate new committers**: To promote a contributor, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by describing the basis reached for nominating the Contributor.
+- **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed.
+- **Make adjustments**: Maintainers are responsible for removing inactive committers. A committer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
 As long as a Committer follows our Code of Conduct, makes reasonable contributions to the project,
 and is not violating any of our policies, they will keep their Committer role.
 
@@ -46,9 +46,9 @@ Project maintainers may remove a committer if:
 
 - Breaks Code of Conduct.
 - Shown no activity for 6 months and does not respond when contacted by the project maintainers or LFDT staff.
-- Keeps making bad decisions (their approvals and contributions are actively affecting the project's performance).
+- Keeps making bad decisions (their approvals and contributions are negatively affecting the project's performance).
 
-The addition or removal of committers must be decided by a project maintainer vote. The voting must be held via a GitHub PR (by doing a change to the `config.yaml` file).
+The addition or removal of committers must be decided by a project maintainer vote. The voting must be held via a GitHub PR (by proposing a change to the `config.yaml` file).
 
 ### Maintainers
 
@@ -61,17 +61,17 @@ In addition, the Maintainers should report project updates to the Hiero **Techni
 A Committer of a project can be nominated to become a Maintainer:
 
 - **Define your project's needs**: A repository should have 1 to 3 maintainers to ensure a project's sustainability and resilience. It is not necesarily a goal for the committer to become a maintainer unless the project's needs require it to have more maintainers.
-- **Nominate a maintainer**: To promote a candidate, a vote should be held in a GitHub PR (by doing a change to the config.yaml file) and by making mention of the basis reached for nominating the Maintainer.
-- **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when reaching majority of votes.
+- **Nominate a maintainer**: To promote a candidate, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by making mention of the basis reached for nominating the Maintainer.
+- **Approve the nomination**: All maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed.
 - **Make adjustments**: A maintainer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
 
-Maintainers are responsible for keeping track of project Issues and Discussions and help pushing inactive conversations. Is a responsability of the maintainers to close Issues and Discussions that are considered outdated or stale to the current goals of the project.
+Maintainers are responsible for keeping track of project Issues and Discussions and help pushing inactive conversations. It is a responsibility of the maintainers to close Issues and Discussions that are considered outdated or stale to the current goals of the project.
 
-Project maintainers or the TSC may remove a maintainer if:
+Project maintainers or the TSC may remove a maintainer who:
 
 - Breaks Code of Conduct.
-- Are inactive for 6 months and does not respond when reached out to.
-- Keeps making bad decisions (their contributions are actively affecting the project's performance).
+- Is inactive for 6 months and does not respond when contacted.
+- Keeps making bad decisions (their contributions are negatively affecting the project's performance).
 
 More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
 
@@ -79,12 +79,12 @@ More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf
 
 When it comes to electing and voting for new committers or new maintainers, the project should consider the following:
 
-For candidates working on getting promoted to Committers or Maintainers:
+For candidates seeking promotion to Committers or Maintainers:
 - The candidate needs to show participation in the project by contributing with code, issues, discussions, reviews, etc.
 - These contributions need to show proper understanding of the project and quality of the work.
 - 3 to 6 months worth of contributions is considered a good minimum for candidates to be selected for a role promotion.
 - A Committer or Maintainer will be considered inactive if they shown no activity for 6 months at least, in such case, they could be selected for removal.
-- A Committer can maintain their privileges independently from their job changes.
+- A Committer can maintain their project status independently from their employment.
 
 For Maintainers and Committers voting on new candidates:
 - When a candidate is selected for becoming a Committer or a Maintainer, this proposal needs to be made via PR request against the config.yaml in the governance repo.
@@ -95,7 +95,7 @@ For Maintainers and Committers voting on new candidates:
 - Maintainers can vote against the candidate's promotion by posting a comment in the PR along with their explanation.
 - Maintainers can abstain from voting by posting a comment in the PR along with their explanation.
 - The comment associated with a maintainers vote should be formatted as `[APPROVE|REJECT|ABSTAIN] - <explanation>`.
-- Maintainers are required to vote, if a maintainer does not participate in five consecutive votes they could have maintainer status revoked.
+- Maintainers are required to vote, if a maintainer does not participate in five consecutive votes they will be considered "inactive" which can be grounds for removal of maintainer status.
 - Once the PR has gathered the majority of the votes, the PR can be merged and the candidate will be officially part of their new Committer or Maintainer teams.
 - If a PR remains inactive for 2 days, it is a responsibility of the PR owner to reach out to the reviewers via Discord, bring it up in Community calls or reach out for help in the [hiero-general Discord channel](https://discord.com/channels/905194001349627914/1289954446712770600).
 - If a PR shows no activity for 2 weeks, it will be considered stale and it will be closed with no promotion.
@@ -119,15 +119,15 @@ There are general groups in the [`config.yaml`](https://github.com/hiero-ledger/
 - **`hiero-automation`**: This group contains the CI/CD Automation service accounts for hiero-ledger projects.
 - **`github-maintainers`**: This group contains those responsible for maintaining our GitHub environment and infrastructure (including GitHub Action runners, ...).
 - **`tsc`**: This group contains all members of the technical steering committee (TSC) as defined [here](https://github.com/hiero-ledger/tsc).
-- **`lf-staff`**: This group contains all Linux Foundation and LF Decentralized Trust members that needs (mostly ADMIN) rights on the org.
+- **`lf-staff`**: This group contains all Linux Foundation and LF Decentralized Trust members who require (mostly ADMIN) rights on the organization.
 - **`security-maintainers`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects.
 - **`prod-security`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects.
 - **`sec-ops`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects.
 
-## Definitions of rights
+## Definitions of roles
 
 For each project the following GitHub roles should be defined for the groups that work on the project.
-The GitHub roles define the rights of the groups on the GitHub repositories of the project.
+The GitHub roles define the privileges afforded the groups on the GitHub repositories of the project.
 All roles are based on the [GitHub role defintions](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization).
 
 - **`github-maintainers`**: `MAINTAIN`
@@ -141,13 +141,13 @@ The GitHub roles are assigned in the [`config.yaml`](https://github.com/hiero-le
 
 A project can decide to use GitHub [`CODEOWNERS`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 Using `CODEOWNERS` is a best practice.
-It should be encouraged in all projects but is not required.
-This helps maintainers ensure that the codebase is getting reviewed by the experts on those areas of the code.
-Combining the Contributors, Committers, and Maintainers roles with GitHub `CODEOWNERS` is a little bit tricky.
-So far, the following definitions are valid:
+Use of `CODEOWNERS` should be encouraged in all projects but is not required.
+This helps maintainers ensure that the codebase is getting reviewed by the experts in specific areas of the code.
+Combining the Contributors, Committers, and Maintainers roles with GitHub `CODEOWNERS` may require extra care and consideration.
+The following definitions help to describe the current effects:
 
 - The `CODEOWNERS` file defines some specific groups that are **codeowner** of particular files (or folders) of the repository.
 - A PR that contains changes on those files needs to be approved by one of those codeowners.
 - A `CODEOWNERS` file will not affect the definition of Contributors, Committers, and Maintainers.
-- The minimum permission a **codeowner** must have is `write` on a given repository. As such a **codeowner** must be a Committer or Maintainer on the project
-  (see [**`PROJECT-maintainers`**](#rights) and [**`PROJECT-committers`**](#rights) or one of our special groups like [**`lf-staff`**](#rights).
+- The minimum permission a **codeowner** must have is `write` on a given repository. As such a **codeowner** must be a Committer or Maintainer on the project.
+    - See [**`PROJECT-maintainers`**](#rights) and [**`PROJECT-committers`**](#rights) or one of our specific groups (for example, [**`lf-staff`**](#rights)) for added detail.
