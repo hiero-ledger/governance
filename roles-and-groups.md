@@ -36,8 +36,8 @@ Any Committer or Maintainer of the given project can nominate a Contributor to b
 - **Define your project's needs**: A repository should have minimum 3 committers to ensure a project's sustainability and resilience. It will also allow for fairness in the votes. Project owners can choose to have more committers depending on the size of their project.
 - **Evaluate your project's performance**: Committers and Maintainers should monitor their project health and velocity and make decisions about whether the project needs more Committers.
 - **Verify your project's needs**: Committers and Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination. This is based on the size and complexity of the project in question.
-- **Nominate new committers**: To promote a contributor, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by describing the basis reached for nominating the Contributor.
-- **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed.
+- **Nominate new committers**: To promote a contributor, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by describing the basis reached for nominating the Contributor. The template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md) should be used to creating a nomination.
+- **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. The voting procedure is explained in the same template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md).
 - **Make adjustments**: Maintainers are responsible for removing inactive committers. A committer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
 As long as a Committer follows our Code of Conduct, makes reasonable contributions to the project,
 and is not violating any of our policies, they will keep their Committer role.
@@ -61,8 +61,8 @@ In addition, the Maintainers should report project updates to the Hiero **Techni
 A Committer of a project can be nominated to become a Maintainer:
 
 - **Define your project's needs**: A repository should have 1 to 3 maintainers to ensure a project's sustainability and resilience. It is not necesarily a goal for the committer to become a maintainer unless the project's needs require it to have more maintainers.
-- **Nominate a maintainer**: To promote a candidate, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by making mention of the basis reached for nominating the Maintainer.
-- **Approve the nomination**: All maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed.
+- **Nominate a maintainer**: To promote a candidate, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by making mention of the basis reached for nominating the Maintainer. The template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md) should be used to creating a nomination.
+- **Approve the nomination**: All maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. The voting procedure is explained in the same template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md).
 - **Make adjustments**: A maintainer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
 
 Maintainers are responsible for keeping track of project Issues and Discussions and help pushing inactive conversations. It is a responsibility of the maintainers to close Issues and Discussions that are considered outdated or stale to the current goals of the project.
