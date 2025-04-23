@@ -1,8 +1,3 @@
----
-name: "Template PR: Vote Required"
-about: "Template for PRs involving community or maintainer votes."
----
-
 ## Description
 
 This pull request changes the following:
