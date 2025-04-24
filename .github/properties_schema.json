@@ -1,0 +1,179 @@
+{
+  "properties": [
+    {
+      "property_name": "initial-ci-review-by-team",
+      "value_type": "single_select",
+      "required": false,
+      "description": "initial-ci-review-by-team",
+      "allowed_values": [
+        "lf-staff",
+        "github-maintainers",
+        "release-engineering",
+        "security",
+        "tsc"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "initial-ci-review-date",
+      "value_type": "string",
+      "required": false,
+      "description": "initial-ci-review-date",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "initial-config-review-by-team",
+      "value_type": "single_select",
+      "required": false,
+      "description": "Team that performed the initial config review",
+      "allowed_values": [
+        "lf-staff",
+        "github-maintainers",
+        "release-engineering",
+        "security",
+        "tsc"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "initial-config-review-date",
+      "value_type": "string",
+      "required": false,
+      "description": "Date of initial config review",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "initial-oss-review-by-team",
+      "value_type": "single_select",
+      "required": false,
+      "description": "Team that performed the initial oss review",
+      "allowed_values": [
+        "lf-staff",
+        "github-maintainers",
+        "release-engineering",
+        "security",
+        "tsc"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "initial-oss-review-date",
+      "value_type": "string",
+      "required": false,
+      "description": "Date of initial oss review",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "initial-security-review-by-team",
+      "value_type": "single_select",
+      "required": false,
+      "description": "initial-security-review-by-team",
+      "allowed_values": [
+        "lf-staff",
+        "github-maintainers",
+        "release-engineering",
+        "security",
+        "tsc"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "initial-security-review-date",
+      "value_type": "string",
+      "required": false,
+      "description": "initial-security-review-date",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-ci-review-by-team",
+      "value_type": "single_select",
+      "required": false,
+      "description": "Team that performed the last CI review",
+      "allowed_values": [
+        "lf-staff",
+        "github-maintainers",
+        "release-engineering",
+        "security",
+        "tsc"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-ci-review-date",
+      "value_type": "string",
+      "required": false,
+      "description": "Date of last CI review",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-config-review-by-team",
+      "value_type": "single_select",
+      "required": false,
+      "description": "The team that performed the most recent review",
+      "allowed_values": [
+        "lf-staff",
+        "github-maintainers",
+        "release-engineering",
+        "security",
+        "tsc"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-config-review-date",
+      "value_type": "string",
+      "required": false,
+      "description": "The date of the most recent config review",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-date-modified",
+      "value_type": "string",
+      "required": false,
+      "description": "last-date-modified",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-oss-review-by-team",
+      "value_type": "single_select",
+      "required": false,
+      "description": "The team that performed the most recent OSS review",
+      "allowed_values": [
+        "lf-staff",
+        "github-maintainers",
+        "release-engineering",
+        "security",
+        "tsc"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-oss-review-date",
+      "value_type": "string",
+      "required": false,
+      "description": "The date of the most recent OSS review",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-security-review-by-team",
+      "value_type": "single_select",
+      "required": false,
+      "description": "last-security-review-by-team",
+      "allowed_values": [
+        "lf-staff",
+        "github-maintainers",
+        "release-engineering",
+        "security",
+        "tsc"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-security-review-date",
+      "value_type": "string",
+      "required": false,
+      "description": "last-security-review-date",
+      "values_editable_by": "org_and_repo_actors"
+    }
+  ]
+}
