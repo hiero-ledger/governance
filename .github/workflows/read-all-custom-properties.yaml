@@ -1,0 +1,56 @@
+name: Read All Custom Properties
+
+description: Read all custom properties for all repos in an organization
+
+on:
+  workflow_dispatch:
+    inputs:
+      overwrite-existing-file:
+        description: 'Overwrite existing repo-properties.yaml with read values'
+        default: true
+        type: boolean
+        required: false
+      dry-run-enabled:
+        description: 'Dry run the script'
+        default: false
+        type: boolean
+        required: false
+      commit-author-name:
+        description: 'Author of commit name:'
+        required: true
+        default: "pandas-who-code-sa"
+      commit-author-email:
+        description: 'Author of commit email address:'
+        required: true
+        default: "github-sa@pandaswhocode.com"
+
+permissions:
+  contents: write
+  id-token: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  read-all-properties:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        id: checkout_code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: "0"
+          ref: ${{ github.ref_name }}
+
+      - name: Read All Custom Properties
+        uses: PandasWhoCode/read-all-custom-properties@d0c966da742315464408741ba9247b03689b9034 # v1.0.0
+        with:
+          token: ${{ secrets.GH_CUSTOM_PROPS_TOKEN_WRITABLE }}
+          overwrite-existing-file: ${{ inputs.overwrite-existing-file }}
+          dry-run-enabled: ${{ inputs.dry-run-enabled }}
+          commit-author-name: ${{ inputs.commit-author-name }}
+          commit-author-email: ${{ inputs.commit-author-email }}
+          commit-author-gpg-key-contents: ${{ secrets.GPG_KEY_CONTENTS }}
+          commit-author-gpg-key-passphrase: ${{ secrets.GPG_KEY_PASSPHRASE }}
+

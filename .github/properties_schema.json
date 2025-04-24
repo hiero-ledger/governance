@@ -1,0 +1,93 @@
+{
+  "properties": [
+    {
+      "property_name": "bool_test",
+      "value_type": "true_false",
+      "required": false,
+      "description": "test a bool",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "initial-ci-review-by-team",
+      "value_type": "single_select",
+      "required": false,
+      "description": "initial-ci-review-by-team",
+      "allowed_values": [
+        "lf-staff",
+        "github-maintainers",
+        "release-engineering",
+        "security",
+        "tsc"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "initial-ci-review-date",
+      "value_type": "string",
+      "required": false,
+      "description": "initial-ci-review-date",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "initial-security-review-by-team",
+      "value_type": "single_select",
+      "required": false,
+      "description": "initial-security-review-by-team",
+      "allowed_values": [
+        "lf-staff",
+        "github-maintainers",
+        "release-engineering",
+        "security",
+        "tsc"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "initial-security-review-date",
+      "value_type": "string",
+      "required": false,
+      "description": "initial-security-review-date",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-date-modified",
+      "value_type": "string",
+      "required": false,
+      "description": "last-date-modified",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-security-review-by-team",
+      "value_type": "single_select",
+      "required": false,
+      "description": "last-security-review-by-team",
+      "allowed_values": [
+        "lf-staff",
+        "github-maintainers",
+        "release-engineering",
+        "security",
+        "tsc"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "last-security-review-date",
+      "value_type": "string",
+      "required": false,
+      "description": "last-security-review-date",
+      "values_editable_by": "org_and_repo_actors"
+    },
+    {
+      "property_name": "test_multi",
+      "value_type": "multi_select",
+      "required": false,
+      "description": "multi",
+      "allowed_values": [
+        "opt1",
+        "opt2",
+        "opt3"
+      ],
+      "values_editable_by": "org_and_repo_actors"
+    }
+  ]
+}
