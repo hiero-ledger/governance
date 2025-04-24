@@ -30,7 +30,7 @@ jobs:
 
       - name: Verify setup
         env:
-          GH_TOKEN: ${{ secrets.GH_CUSTOM_PROPS_TOKEN_WRITABLE }}
+          GH_TOKEN: ${{ secrets.CUSTOM_PROPERTIES_TOKEN }}
           FILE_NAME: .github/properties_schema.json
         run: |
           if [[ -z "${GH_TOKEN}" ]]; then
@@ -52,6 +52,6 @@ jobs:
         id: set_custom_properties
         uses: PandasWhoCode/configure-custom-properties@fc45d3c37978ecb027380503d3aa5ac3681cd27e # v1.0.2
         with:
-          token: ${{ secrets.GH_CUSTOM_PROPS_TOKEN_WRITABLE }}
+          token: ${{ secrets.CUSTOM_PROPERTIES_TOKEN }}
           config-file: .github/properties_schema.json
           organization: ${{ github.repository_owner }}
