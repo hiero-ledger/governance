@@ -4,8 +4,8 @@ description: 'Updates the custom properties for all repos in an org to values in
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: '0 8 * * *'  # Runs at 08:00 UTC (2 AM CST, 3 AM CDT)
+schedule:
+   - cron: '0 8 * * *'  # Runs at 08:00 UTC (2 AM CST, 3 AM CDT)
 
 defaults:
   run:
@@ -25,4 +25,4 @@ jobs:
       - name: Update Custom Properties
         uses: PandasWhoCode/update-custom-properties@83530239a26a3d7c760e76797c7bf3758efe5fef # v1.0.1
         with:
-          token: ${{ secrets.GH_CUSTOM_PROPERTIES_TOKEN }}
+          token: ${{ secrets.CUSTOM_PROPERTIES_TOKEN }}
