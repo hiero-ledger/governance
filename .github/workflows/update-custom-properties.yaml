@@ -4,8 +4,8 @@ description: 'Updates the custom properties for all repos in an org to values in
 
 on:
   workflow_dispatch:
-schedule:
-   - cron: '0 8 * * *'  # Runs at 08:00 UTC (2 AM CST, 3 AM CDT)
+  schedule:
+     - cron: '0 8 * * *'  # Runs at 08:00 UTC (2 AM CST, 3 AM CDT)
 
 defaults:
   run:
