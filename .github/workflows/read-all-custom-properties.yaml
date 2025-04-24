@@ -18,11 +18,11 @@ on:
       commit-author-name:
         description: 'Author of commit name:'
         required: true
-        default: "pandas-who-code-sa"
+        default: "swirlds-automation"
       commit-author-email:
         description: 'Author of commit email address:'
         required: true
-        default: "github-sa@pandaswhocode.com"
+        default: "hedera-eng-automation@swirldslabs.com"
 
 permissions:
   contents: write
@@ -46,7 +46,7 @@ jobs:
       - name: Read All Custom Properties
         uses: PandasWhoCode/read-all-custom-properties@d0c966da742315464408741ba9247b03689b9034 # v1.0.0
         with:
-          token: ${{ secrets.GH_CUSTOM_PROPS_TOKEN_WRITABLE }}
+          token: ${{ secrets.CUSTOM_PROPERTIES_TOKEN }}
           overwrite-existing-file: ${{ inputs.overwrite-existing-file }}
           dry-run-enabled: ${{ inputs.dry-run-enabled }}
           commit-author-name: ${{ inputs.commit-author-name }}
