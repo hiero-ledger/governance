@@ -18,7 +18,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-improvement-proposals
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -37,7 +36,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-mirror-node
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -56,7 +54,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-sdk-js
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -75,7 +72,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-sdk-go
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -94,7 +90,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-sdk-swift
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -113,7 +108,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-consensus-node
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -132,7 +126,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-docs
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -151,7 +144,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-local-node
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -170,7 +162,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-sdk-rust
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -189,7 +180,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-json-rpc-relay
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -208,7 +198,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-mirror-node-explorer
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -227,7 +216,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-sdk-tck
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -246,7 +234,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-sdk-cpp
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -265,7 +252,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: solo
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -284,7 +270,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-block-node
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -303,7 +288,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-solo-action
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -322,7 +306,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: governance
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -341,7 +324,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-website
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -360,7 +342,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -379,7 +360,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: tsc
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -398,7 +378,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: awesome-contributions
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -417,7 +396,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: .github
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -436,7 +414,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: tsc-private
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -455,7 +432,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-sdk-python
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -474,7 +450,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-gradle-conventions
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -493,7 +468,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: hiero-did-sdk-python
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -512,7 +486,6 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
   - name: sdk-collaboration-hub
     initial-ci-review-by-team: ""
     initial-ci-review-date: ""
@@ -531,4 +504,3 @@ repositories:
     last-oss-review-date: ""
     last-security-review-by-team: ""
     last-security-review-date: ""
-    name: ""
