@@ -120,9 +120,9 @@ There are general groups in the [`config.yaml`](https://github.com/hiero-ledger/
 - **`github-maintainers`**: This group contains those responsible for maintaining our GitHub environment and infrastructure (including GitHub Action runners, ...).
 - **`tsc`**: This group contains all members of the technical steering committee (TSC) as defined [here](https://github.com/hiero-ledger/tsc).
 - **`lf-staff`**: This group contains all Linux Foundation and LF Decentralized Trust members who require (mostly ADMIN) rights on the organization.
-- **`security-maintainers`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects.
-- **`prod-security`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects.
-- **`sec-ops`**: This group contains members of the security teams who are responsible for monitoring and maintaining security within hiero-ledger projects.
+- **`security-maintainers`**: This group contains members of the security teams who are responsible for monitoring and maintaining security tooling and automated scanners within hiero-ledger projects.
+- **`prod-security`**: This group contains members of the security teams who are responsible for reviewing code for security issues, threat modeling and reducing risk within hiero-ledger projects.
+- **`sec-ops`**: This group contains members of the security teams who are responsible for responding to security incidents within hiero-ledger projects.
 
 ## Definitions of roles
 
