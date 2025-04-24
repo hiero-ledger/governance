@@ -23,6 +23,6 @@ jobs:
           ref: ${{ github.ref_name }}
 
       - name: Update Custom Properties
-        uses: PandasWhoCode/update-custom-properties@3d6c163be54c0713af8ee6eea56caa8b59cdc667 # v1.0.0
+        uses: PandasWhoCode/update-custom-properties@83530239a26a3d7c760e76797c7bf3758efe5fef # v1.0.1
         with:
           token: ${{ secrets.GH_CUSTOM_PROPERTIES_TOKEN }}
