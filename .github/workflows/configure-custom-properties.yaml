@@ -1,0 +1,57 @@
+name: Configure Organization Custom Properties
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *" # Every day at 0800 UTC
+
+defaults:
+  run:
+    shell: bash
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  update-properties:
+    runs-on: hiero-governance-linux-medium
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf # v2.11.1
+        with:
+          egress-policy: audit
+
+      - name: Checkout Code
+        id: checkout_code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: "0"
+          ref: ${{ github.ref_name }}
+
+      - name: Verify setup
+        env:
+          GH_TOKEN: ${{ secrets.CUSTOM_PROPERTIES_TOKEN }}
+          FILE_NAME: .github/properties_schema.json
+        run: |
+          if [[ -z "${GH_TOKEN}" ]]; then
+            echo "Error: GH_TOKEN is not set."
+            exit 1
+          else
+            echo "GH_TOKEN is set."
+            echo "Token length is ${#GH_TOKEN}"
+          fi
+          
+          if [[ ! -f "${FILE_NAME}" ]]; then
+              echo "Error: Custom properties file '${FILE_NAME}' does not exist."
+              exit 1
+          else
+              echo "Custom properties file '${FILE_NAME}' exists."
+          fi
+
+      - name: Set Organization Custom Properties
+        id: set_custom_properties
+        uses: PandasWhoCode/configure-custom-properties@fc45d3c37978ecb027380503d3aa5ac3681cd27e # v1.0.2
+        with:
+          token: ${{ secrets.CUSTOM_PROPERTIES_TOKEN }}
+          config-file: .github/properties_schema.json
+          organization: ${{ github.repository_owner }}
