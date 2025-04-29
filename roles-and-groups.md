@@ -93,13 +93,13 @@ For Maintainers and Committers voting on new candidates:
 - The creator of the PR should notify all maintainers that a vote is now open.
 - Maintainers can vote in favor of the candidate's promotion by approving the PR with a comment indicating approval.
 - Maintainers can vote against the candidate's promotion by posting a comment in the PR along with their explanation.
-- Maintainers can abstain from voting by posting a comment in the PR along with their explanation.
+- All Maintainers are required to participate in a nomination, but may effectively abstain from voting by only posting a comment in the PR.
 - The comment associated with a maintainers vote should be formatted as `[APPROVE|REJECT|ABSTAIN] - <explanation>`.
 - Maintainers are required to vote, if a maintainer does not participate in five consecutive votes they will be considered "inactive" which can be grounds for removal of maintainer status.
 - Once the PR has gathered the majority of the votes, the PR can be merged and the candidate will be officially part of their new Committer or Maintainer teams.
 - If a PR remains inactive for 2 days, it is a responsibility of the PR owner to reach out to the reviewers via Discord, bring it up in Community calls or reach out for help in the [hiero-general Discord channel](https://discord.com/channels/905194001349627914/1289954446712770600).
 - If a PR shows no activity for 2 weeks, it will be considered stale and it will be closed with no promotion.
-- A Maintainer or Committer can also nominate a candidate for removal from the teams if the candidate has not shown any activity for 6 months at least or is not responsive.
+- A Maintainer or Committer can nominate a candidate for removal from the teams if the candidate has not shown any activity for 6 months at least or is not responsive.
 - A candidate can also be nominated for removal from the teams if they break code of conduct or has consistently made contributions that are affecting the team.
 - The voting process for removing a candiate is the same as the process for promoting a candidate (via PR).
 
