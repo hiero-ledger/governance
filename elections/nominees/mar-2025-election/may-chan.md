@@ -1,7 +1,7 @@
 **Nomination**
 
 **Candidate**
-May Chan
+May Chan for End User Seat
 
 **Qualifications**
 May has been a member of the Hedera ecosystem since 2021. She is the CEO and Co-Founder of HashPack, which was founded in May 2020 and launched in the Hedera Ecosystem in October 2020. Since its founding, HashPack has been a leader in the Hedera ecosystem. HashPack built the first signing library on the network (HashConnect), which catalyzed the entire retail defi ecosystem. Since then HashPack has worked closely with Hedera and the community, leading ecosystem initiatives such as smart contract support, native staking and many others. As of May 2025, HashPack's user base represents 95% of the Hedera retail ecosystem
