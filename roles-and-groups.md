@@ -14,7 +14,7 @@ A person can have multiple roles in multiple projects.
 
 Any person who contributes to a project is a Contributor. A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
 
-  - If a pull request has not received an approval within 2 business days or a discussion has no activity for more than 2 business days, the owner must reach out to the maintainers via our [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
+  - If a pull request has not received an approval within 2 business days or a discussion has no activity for more than 2 business days, the owner must reach out to the Maintainers via our [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
   - If a pull request or discussion has gone stale for more than 2 weeks, the repo maintainers may close them due to inactivity.
 
 We honor legitimate contributions to the project, and we want to make sure that all contributions are recognized.
@@ -22,7 +22,7 @@ We honor legitimate contributions to the project, and we want to make sure that 
 A Contributor can be nominated by a Committer or a Maintainer to become a Committer:
 
   - **Start Contributing**: Submit pull requests, report bugs, improve documentation, review code. Show consistency and quality in your contributions.
-  - **Build Trust and Track Record**: Active committers will notice your contributions, your understanding, and responsiveness.
+  - **Build Trust and Track Record**: Active committers will note your contributions, your general understanding of the project, and responsiveness.
   - **Get noticed**: Consistent and valuable contributions will demonstrate more project involvement and reliability.
   - **Review eligibility**: A minimum number of approved PRs and a reasonable time contributing to the project (often 3-6 months) is the general acceptable baseline for eligibility.
 
@@ -33,7 +33,7 @@ A Committer has specific rights for the project.
 As an example, a Committer can assign people to issues, merge PRs, or create branches directly in a repository of the project.
 Any Committer or Maintainer of the given project can nominate a Contributor to become a Committer based on the project's needs and following these steps:
 
-- **Define your project's needs**: A repository should have minimum 3 committers to ensure a project's sustainability and resilience. It will also allow for fairness in the votes. Project owners can choose to have more committers depending on the size of their project.
+- **Define your project's needs**: A repository should have a minimum of 3 Committers to ensure a project's sustainability and resilience. It will also allow for fairness in the votes. Project owners can choose to have more Committers depending on the size of their project.
 - **Evaluate your project's performance**: Committers and Maintainers should monitor their project health and velocity and make decisions about whether the project needs more Committers.
 - **Verify your project's needs**: Committers and Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination. This is based on the size and complexity of the project in question.
 - **Nominate new committers**: To promote a contributor, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by describing the basis reached for nominating the Contributor. The template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md) should be used to creating a nomination.
@@ -44,7 +44,7 @@ and is not violating any of our policies, they will keep their Committer role.
 
 Project maintainers may remove a committer if:
 
-- Breaks Code of Conduct.
+- The Commiter breaks our Code of Conduct.
 - Shown no activity for 6 months and does not respond when contacted by the project maintainers or LFDT staff.
 - Keeps making bad decisions (their approvals and contributions are negatively affecting the project's performance).
 
@@ -57,7 +57,7 @@ The Maintainers of the project are the people that are responsible for the proje
 A Maintainer should drive the project's roadmap/vision and take care of topics like community meetings,
 the general structure of the project (fits our best practices, is secure, ...), and so on.
 
-In addition, the Maintainers should report project updates to the Hiero **Technical Steering Committee** (TSC) meeting.
+In addition, the Maintainers should report project updates to the Hiero **Technical Steering Committee** (TSC).
 A Committer of a project can be nominated to become a Maintainer:
 
 - **Define your project's needs**: A repository should have 1 to 3 maintainers to ensure a project's sustainability and resilience. It is not necesarily a goal for the committer to become a maintainer unless the project's needs require it to have more maintainers.
