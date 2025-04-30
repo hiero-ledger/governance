@@ -14,7 +14,7 @@ A person can have multiple roles in multiple projects.
 
 Any person who contributes to a project is a Contributor. A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
 
-  - If a pull request has not received an approval within 2 business days or a discussion has no activity for more than 2 business days, the owner must reach out to the Maintainers via our [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
+  - If a pull request has not received an approval within 2 business days or a discussion has no activity for more than 2 business days, we suggest to reach out to the Maintainers via our [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
   - If a pull request or discussion has gone stale for more than 2 weeks, the repo maintainers may close them due to inactivity.
 
 We honor legitimate contributions to the project, and we want to make sure that all contributions are recognized.
@@ -24,7 +24,7 @@ A Contributor can be nominated by a Committer or a Maintainer to become a Commit
   - **Start Contributing**: Submit pull requests, report bugs, improve documentation, review code. Show consistency and quality in your contributions.
   - **Build Trust and Track Record**: Active committers will note your contributions, your general understanding of the project, and responsiveness.
   - **Get noticed**: Consistent and valuable contributions will demonstrate more project involvement and reliability.
-  - **Review eligibility**: A minimum number of approved PRs and a reasonable time contributing to the project (often 3-6 months) is the general acceptable baseline for eligibility.
+  - **Review eligibility**: Quality contributions via Pull Request and a reasonable time contributing to the project (often 3-6 months) is the general acceptable baseline for eligibility. It is up to the project maintainers to determine the number of contributions required for promotion eligibility. This threshold may vary depending on factors such as the project's size and pace of development.
 
 ### Committers
 
@@ -33,7 +33,7 @@ A Committer has specific rights for the project.
 As an example, a Committer can assign people to issues, merge PRs, or create branches directly in a repository of the project.
 Any Committer or Maintainer of the given project can nominate a Contributor to become a Committer based on the project's needs and following these steps:
 
-- **Define your project's needs**: A repository should have a minimum of 3 Committers to ensure a project's sustainability and resilience. It will also allow for fairness in the votes. Project owners can choose to have more Committers depending on the size of their project.
+- **Define your project's needs**: A repository should have a minimum of Committers to ensure a project's sustainability and resilience. The exact number should be determined by the project Maintainers based on the size and pace of the project's development, taking into account the overall activity level and ensuring a fair voting process.
 - **Evaluate your project's performance**: Committers and Maintainers should monitor their project health and velocity and make decisions about whether the project needs more Committers.
 - **Verify your project's needs**: Committers and Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination. This is based on the size and complexity of the project in question.
 - **Nominate new committers**: To promote a contributor, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by describing the basis reached for nominating the Contributor. The template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md) should be used to creating a nomination.
@@ -95,7 +95,7 @@ For Maintainers and Committers voting on new candidates:
 - Maintainers can vote against the candidate's promotion by posting a comment in the PR along with their explanation.
 - All Maintainers are required to participate in a nomination, but may effectively abstain from voting by only posting a comment in the PR.
 - The comment associated with a maintainers vote should be formatted as `[APPROVE|REJECT|ABSTAIN] - <explanation>`.
-- Maintainers are required to vote, if a maintainer does not participate in five consecutive votes they will be considered "inactive" which can be grounds for removal of maintainer status.
+- Maintainers are required to vote, if a maintainer does not participate in several consecutive votes they will be considered "inactive" which can be grounds for removal of maintainer status.
 - Once the PR has gathered the majority of the votes, the PR can be merged and the candidate will be officially part of their new Committer or Maintainer teams.
 - If a PR remains inactive for 2 days, it is a responsibility of the PR owner to reach out to the reviewers via Discord, bring it up in Community calls or reach out for help in the [hiero-general Discord channel](https://discord.com/channels/905194001349627914/1289954446712770600).
 - If a PR shows no activity for 2 weeks, it will be considered stale and it will be closed with no promotion.
@@ -114,7 +114,7 @@ For each project we have defined a Committers group and a Maintainers group:
 - **`PROJECT-maintainers`**: For each project we have a group that defines the Maintainers of that project.
 - **`PROJECT-committers`**: For each project we have a group that defines the Committers of that project.
 
-There are general groups in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml) file as well:
+There are global groups in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml) file as well:
 
 - **`hiero-automation`**: This group contains the CI/CD Automation service accounts for hiero-ledger projects.
 - **`github-maintainers`**: This group contains those responsible for maintaining our GitHub environment and infrastructure (including GitHub Action runners, ...).
