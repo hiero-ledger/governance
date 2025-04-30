@@ -16,7 +16,6 @@ This document has the following sections:
 - [Outline](#outline)
 - [What Is a Vulnerability Disclosure Policy?](#what-is-a-vulnerability-disclosure-policy)
 - [Security Team](#security-team)
-- [Discussion Forums](#discussion-forums)
 - [Report Intakes](#report-intakes)
 - [CNA/CVE Reporting](#cnacve-reporting)
 - [Embargo List](#embargo-list)
@@ -41,6 +40,7 @@ The current Hiero security team is:
 | Roger Barker             | <>                     | <>         | Project Maintainer        |
 | Richard Bair             | <>                     | <>         | Project Maintainer        |
 | Nathan Klick             | <>                     | <>         | Security Advisor          |
+| Deepak Rathore           | <>                     | <>         | Security Advisor          |
 
 The security team for Hiero must include at least three project Maintainers that agree to carry out the following duties and responsibilities. Members are added and removed from the team via approved Pull Requests to this repository. For additional background into the role of the security team, see the [People Infrastructure](https://lf-decentralized-trust.github.io/governance/governing-documents/SECURITY-POLICY#people-infrastructure) section of the LF Decentralized Trust Security Policy.
 
@@ -56,16 +56,19 @@ The security team for Hiero must include at least three project Maintainers that
 8. Publish a new (software) release in which the vulnerability is addressed.
 9. Publicly disclose the issue within 48 hours after the release via a GitHub security advisory (see the [(GitHub) Security Advisories](#github-security-advisories) section for details).
 
-## Discussion Forums
-
-Discussions about each reported vulnerability should be carried out in the private GitHub security advisory about the vulnerability. If necessary, a private channel specific to the issue may be created on the LF Decentralized Trust Discord server with invited participants added to the discussion.
-
 ## Report Intakes
+
+Do not publicly disclose vulnerablities.
+
+For LFDT or Community Projects
 
 Hiero has the following ways to submit security vulnerabilities. While the security team members will do their best to respond to bugs disclosed in all possible ways, it is encouraged for bug finders to report through the following approved channels:
 
 Email the LF Decentralized Trust Foundation security list: To report a security issue, please send an email with the name of the project/repository, a description of the issue, the steps you took to create the issue, affected versions, and if known, mitigations. If in triaging the email, the security team determines the issue may be a security vulnerability, a GitHub security vulnerability report will be opened.
+
 Open a GitHub security vulnerability report: Open a draft security advisory on the “Security” tab of this GitHub repository. See GitHub Security Advisories to learn more about the security infrastructure in GitHub.
+
+For Hedera repositories details on the bug bounty program can be found at: [Hedera Bug Bounty Program](https://hedera.com/bounty)
 
 ## CNA/CVE Reporting
 
