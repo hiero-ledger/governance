@@ -684,6 +684,23 @@ teams:
       - Ivo-Yankov
       - instamenta
       - alex-kuzmin-hg
+  - name: tsc-eligibility-check-admins
+    maintainers:
+      - jwagantall
+      - ryjones
+    members: []
+  - name: tsc-eligibility-check-maintainers
+    maintainers:
+      - jwagantall
+      - ryjones
+    members:
+      - hendrikebbers
+  - name: tsc-eligibility-check-committers
+    maintainers:
+      - jwagantall
+      - ryjones
+    members:
+      - hendrikebbers
 repositories:
   - name: governance
     teams:
@@ -972,6 +989,18 @@ repositories:
       solo-admins: admin
       solo-maintainers: maintain
       solo-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: tsc-eligibility-check
+    teams:
+      tsc: maintain
+      hiero-automation: write
+      github-maintainers: maintain
+      tsc-eligibility-check-admins: admin
+      tsc-eligibility-check-maintainers: maintain
+      tsc-eligibility-check-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
