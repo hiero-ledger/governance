@@ -2,7 +2,7 @@
 
 This file contains an overview of our rules for roles and groups.
 
-For repo-based exceptions to any of these rules and how to request an exception, please refer to the following [Tracker](https://github.com/hiero-ledger/governance/blob/main/repo-rules-exceptions.md)
+For project-based exceptions to any of these rules and how to request an exception, please refer to the following [Tracker](https://github.com/hiero-ledger/governance/blob/main/project-rules-exceptions.md)
 
 ## Definition of general roles
 
