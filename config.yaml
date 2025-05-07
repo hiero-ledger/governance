@@ -239,18 +239,71 @@ teams:
     maintainers:
       - Nana-EC
     members:
-      - poulok
-      - netopyr
-      - Neeharika-Sompalli
-      - tinker-michaelj
-      - lpetrovic05
-      - cody-littley
-      - lukelee-sl
-      - Ferparishuertas
       - artemananiev
-      - OlegMazurov
-      - rbarker-dev
+      - bubo
+      - cody-littley
+      - Ferparishuertas
+      - lpetrovic05
+      - lukelee-sl
       - nathanklick
+      - Neeharika-Sompalli
+      - netopyr
+      - OlegMazurov
+      - poulok
+      - rbarker-dev
+      - stoyanov-st
+      - tinker-michaelj
+  - name: hiero-consensus-node-committers
+    maintainers:
+      - Nana-EC
+      - Ferparishuertas
+      - netopyr
+      - poulok
+    members:
+      - abies
+      - anastasiya-kovaliova
+      - anthony-swirldslabs
+      - artemananiev
+      - bubo
+      - david-bakin-sl
+      - derektriley
+      - edward-swirldslabs
+      - Evdokia-Georgieva
+      - ibankov
+      - imalygin
+      - IvanKavaldzhiev
+      - iwsimon
+      - Jeffrey-morgan34
+      - JivkoKelchev
+      - jsync-swirlds
+      - kimbor
+      - litt3
+      - mhess-swl
+      - MiroslavGatsanoga
+      - mustafauzunn
+      - mxtartaglia-sl
+      - Neeharika-Sompalli
+      - petreze
+      - povolev15
+      - stoqnkpL
+      - stoyanov-st
+      - thenswan
+      - thomas-swirlds-labs
+      - timfn-hg
+      - timo0
+      - tinker-michaelj
+      - vtronkov
+  - name: hiero-consensus-node-internal-contributors
+    maintainers:
+      - netopyr
+      - poulok
+      - artemananiev
+    members:
+      - akdev
+      - akugal
+      - elpinkypie
+      - gkozyryatskyy
+      - joshmarinacci
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
@@ -297,32 +350,6 @@ teams:
       - kfbr
       - shezaan-hashgraph
       - allison-hashgraph
-  - name: hiero-consensus-node-execution-maintainers
-    maintainers:
-      - netopyr
-    members:
-      - Neeharika-Sompalli
-      - tinker-michaelj
-  - name: hiero-consensus-node-execution-committers
-    maintainers:
-      - Neeharika-Sompalli
-      - netopyr
-      - tinker-michaelj
-    members:
-      - anastasiya-kovaliova
-      - derektriley
-      - Evdokia-Georgieva
-      - ibankov
-      - iwsimon
-      - JivkoKelchev
-      - kimbor
-      - mhess-swl
-      - MiroslavGatsanoga
-      - petreze
-      - povolev15
-      - thomas-swirlds-labs
-      - vtronkov
-      - jsync-swirlds
   - name: hiero-consensus-node-execution-codeowners
     maintainers:
       - netopyr
@@ -342,33 +369,6 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
-  - name: hiero-consensus-node-execution-internal-contributors
-    maintainers:
-      - netopyr
-    members:
-      - akdev
-      - elpinkypie
-      - joshmarinacci
-      - gkozyryatskyy
-  - name: hiero-consensus-node-consensus-maintainers
-    maintainers:
-      - poulok
-    members:
-      - lpetrovic05
-      - cody-littley
-  - name: hiero-consensus-node-consensus-committers
-    maintainers:
-      - poulok
-    members:
-      - edward-swirldslabs
-      - litt3
-      - mxtartaglia-sl
-      - timo0
-      - timfn-hg
-      - mustafauzunn
-      - IvanKavaldzhiev
-      - abies
-      - netopyr
   - name: hiero-consensus-node-consensus-codeowners
     maintainers:
       - poulok
@@ -384,28 +384,6 @@ teams:
       - IvanKavaldzhiev
       - abies
       - netopyr
-  - name: hiero-consensus-node-consensus-internal-contributors
-    maintainers:
-      - poulok
-    members:
-      - Jeffrey-morgan34
-  - name: hiero-consensus-node-smart-contract-maintainers
-    maintainers:
-      - Nana-EC
-      - Ferparishuertas
-    members:
-      - lukelee-sl
-      - bubo
-      - stoyanov-st
-  - name: hiero-consensus-node-smart-contract-committers
-    maintainers:
-      - Nana-EC
-      - Ferparishuertas
-    members:
-      - david-bakin-sl
-      - bubo
-      - stoqnkpL
-      - stoyanov-st
   - name: hiero-consensus-node-smart-contract-codeowners
     maintainers:
       - Ferparishuertas
@@ -414,19 +392,6 @@ teams:
       - lukelee-sl
       - stoyanov-st
       - bubo
-  - name: hiero-consensus-node-foundation-maintainers
-    maintainers:
-      - artemananiev
-    members:
-      - OlegMazurov
-  - name: hiero-consensus-node-foundation-committers
-    maintainers:
-      - artemananiev
-    members:
-      - imalygin
-      - thenswan
-      - anthony-swirldslabs
-      - Jeffrey-morgan34
   - name: hiero-consensus-node-foundation-codeowners
     maintainers:
       - artemananiev
@@ -436,11 +401,6 @@ teams:
       - thenswan
       - anthony-swirldslabs
       - rsinha
-  - name: hiero-consensus-node-foundation-internal-contributors
-    maintainers:
-      - artemananiev
-    members:
-      - akugal
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
@@ -866,24 +826,15 @@ repositories:
       hiero-automation: write
       github-maintainers: maintain
       hiero-consensus-node-maintainers: maintain
+      hiero-consensus-node-committers: write
+      hiero-consensus-node-internal-contributors: triage
       hiero-consensus-node-release-managers: write
       hiero-consensus-node-release-engineers: write
       hiero-consensus-node-devops-codeowners: write
-      hiero-consensus-node-execution-maintainers: maintain
-      hiero-consensus-node-execution-committers: write
       hiero-consensus-node-execution-codeowners: write
-      hiero-consensus-node-execution-internal-contributors: triage
-      hiero-consensus-node-consensus-maintainers: maintain
-      hiero-consensus-node-consensus-committers: write
       hiero-consensus-node-consensus-codeowners: write
-      hiero-consensus-node-consensus-internal-contributors: triage
-      hiero-consensus-node-smart-contract-maintainers: maintain
-      hiero-consensus-node-smart-contract-committers: write
       hiero-consensus-node-smart-contract-codeowners: write
-      hiero-consensus-node-foundation-maintainers: maintain
-      hiero-consensus-node-foundation-committers: write
       hiero-consensus-node-foundation-codeowners: write
-      hiero-consensus-node-foundation-internal-contributors: triage
       hiero-mirror-node-maintainers: write
       hiero-gradle-conventions-maintainers: write
       hiero-performance-engineers: write
