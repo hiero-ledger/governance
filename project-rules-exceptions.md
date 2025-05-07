@@ -10,6 +10,6 @@ The primary objective of this document is to maintain transparency by tracking a
 
 ## Roles and Groups exceptions.
 
-| Hiero Project                                      | Hiero Repository                                    | Rule Exception                                     |
-| -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
-| Project Name                                        | [Project Repository](https://github.com/hiero-ledger/[REPOSITORY])  | [Project Repository](https://github.com/hiero-ledger/[REPOSITORY]/blob/main/rules_exceptions.md) |
+| Hiero Project                    | Hiero Repository                                                    | Rule Exception                                                                                   |
+| ---------------------------------| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Project Name                     | [Project Repository](https://github.com/hiero-ledger/[REPOSITORY])  | [Project Repository](https://github.com/hiero-ledger/[REPOSITORY]/blob/main/rules_exceptions.md) |
