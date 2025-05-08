@@ -709,6 +709,27 @@ repositories:
       security-maintainers: write
       prod-security: write
       sec-ops: write
+      hiero-block-node-maintainers: triage
+      hiero-consensus-node-maintainers: triage
+      hiero-docs-maintainers: triage
+      hiero-gradle-conventions-maintainers: triage
+      hiero-improvement-proposals-maintainers: triage
+      hiero-json-rpc-relay-maintainers: triage
+      hiero-local-node-maintainers: triage
+      hiero-mirror-node-maintainers: triage
+      hiero-mirror-node-explorer-maintainers: triage
+      hiero-protobufs-maintainers: triage
+      hiero-sdk-cpp-maintainers: triage
+      hiero-sdk-go-maintainers: triage
+      hiero-sdk-java-maintainers: triage
+      hiero-sdk-js-maintainers: triage
+      hiero-sdk-python-maintainers: triage
+      hiero-sdk-rust-maintainers: triage
+      hiero-sdk-swift-maintainers: triage
+      hiero-sdk-tck-maintainers: triage
+      hiero-solo-action-maintainers: triage
+      sdk-collaboration-hub-maintainers: triage
+      solo-maintainers: triage
     visibility: public
   - name: hiero-website
     teams:
