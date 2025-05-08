@@ -12,4 +12,4 @@ The primary objective of this document is to maintain transparency by tracking a
 
 | Hiero Project                    | Hiero Repository                                                    | Rule Exception                                                                                   |
 | ---------------------------------| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| Project Name                     | [Project Repository](https://github.com/hiero-ledger/[REPOSITORY])  | [Project Repository](https://github.com/hiero-ledger/[REPOSITORY]/blob/main/rules_exceptions.md) |
+| Project Name                     | [Project Repository](https://github.com/hiero-ledger/[REPOSITORY])  | [Project Exceptions](https://github.com/hiero-ledger/[REPOSITORY]/blob/main/rules_exceptions.md) |
