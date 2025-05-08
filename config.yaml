@@ -36,6 +36,62 @@ teams:
       - hartm
       - minyu66
       - thelinuxfoundation
+  - name: governance-triage
+    maintainers:
+      - ryjones
+      - jwagantall
+      - hendrikebbers
+      - rbarker-dev
+      - nathanklick
+      - andrewb1269hg
+    members:
+      - 0xivanov
+      - AlfredoG87
+      - AlexanderShenshin
+      - Ferparishuertas
+      - Neeharika-Sompalli
+      - Nana-EC
+      - OlegMazurov
+      - PavelSBorisov
+      - RaphaelMessian
+      - Reccetech
+      - RickyLB
+      - Sheng-Long
+      - SimiHunjan
+      - acuarica
+      - agadzhalov
+      - artemananiev
+      - cody-littley
+      - deshmukhpranali
+      - dmueller2001
+      - ericleponner
+      - georgi-l95
+      - gsstoykov
+      - ivaylogarnev-limechain
+      - ivaylonikolov7
+      - jasperpotts
+      - jeromy-cannon
+      - jjohannes
+      - konstantinabl
+      - leninmehedy
+      - lpetrovic05
+      - lukelee-sl
+      - mattp-swirldslabs
+      - mgarbs
+      - nadineloepfe
+      - natanasow
+      - netopyr
+      - poulok
+      - quiet-node
+      - rbair23
+      - rwalworth
+      - sergmetelin
+      - simzzz
+      - steven-sheehy
+      - svienot
+      - theekrystallee
+      - tinker-michaelj
+      - xin-hedera
   - name: hiero-mirror-node-committers
     maintainers:
       - steven-sheehy
@@ -709,6 +765,7 @@ repositories:
       security-maintainers: write
       prod-security: write
       sec-ops: write
+      governance-triage: triage
     visibility: public
   - name: hiero-website
     teams:
