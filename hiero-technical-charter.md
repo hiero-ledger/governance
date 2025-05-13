@@ -1,6 +1,6 @@
 **Technical Charter (the “Charter”) for Hiero a Series of LF Projects, LLC**
 
-**Adopted September 16, 2024**
+**Adopted September 16, 2024 / Last Amended September 16, 2024**
 
 This Charter sets forth the responsibilities and procedures for technical contribution to, and oversight of, the Hiero open source project, which has been established as Hiero a Series of LF Projects, LLC (the “Project”).  LF Projects, LLC (“LF Projects”) is a Delaware series limited liability company. All contributors (including committers, maintainers, and other technical positions) and other participants in the Project (collectively, “Collaborators”) must comply with the terms of this Charter.
 
