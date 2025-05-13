@@ -379,6 +379,7 @@ teams:
       - thomas-swirlds-labs
       - vtronkov
       - jsync-swirlds
+      - timfn-hg
   - name: hiero-consensus-node-execution-codeowners
     maintainers:
       - netopyr
@@ -398,6 +399,7 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
+      - timfn-hg
   - name: hiero-consensus-node-execution-internal-contributors
     maintainers:
       - netopyr
@@ -420,7 +422,6 @@ teams:
       - litt3
       - mxtartaglia-sl
       - timo0
-      - timfn-hg
       - mustafauzunn
       - IvanKavaldzhiev
       - abies
@@ -435,7 +436,6 @@ teams:
       - litt3
       - mxtartaglia-sl
       - timo0
-      - timfn-hg
       - mustafauzunn
       - IvanKavaldzhiev
       - abies
