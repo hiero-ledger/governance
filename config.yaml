@@ -36,6 +36,62 @@ teams:
       - hartm
       - minyu66
       - thelinuxfoundation
+  - name: governance-triage
+    maintainers:
+      - ryjones
+      - jwagantall
+      - hendrikebbers
+      - rbarker-dev
+      - nathanklick
+      - andrewb1269hg
+    members:
+      - 0xivanov
+      - AlfredoG87
+      - AlexanderShenshin
+      - Ferparishuertas
+      - Neeharika-Sompalli
+      - Nana-EC
+      - OlegMazurov
+      - PavelSBorisov
+      - RaphaelMessian
+      - Reccetech
+      - RickyLB
+      - Sheng-Long
+      - SimiHunjan
+      - acuarica
+      - agadzhalov
+      - artemananiev
+      - cody-littley
+      - deshmukhpranali
+      - dmueller2001
+      - ericleponner
+      - georgi-l95
+      - gsstoykov
+      - ivaylogarnev-limechain
+      - ivaylonikolov7
+      - jasperpotts
+      - jeromy-cannon
+      - jjohannes
+      - konstantinabl
+      - leninmehedy
+      - lpetrovic05
+      - lukelee-sl
+      - mattp-swirldslabs
+      - mgarbs
+      - nadineloepfe
+      - natanasow
+      - netopyr
+      - poulok
+      - quiet-node
+      - rbair23
+      - rwalworth
+      - sergmetelin
+      - simzzz
+      - steven-sheehy
+      - svienot
+      - theekrystallee
+      - tinker-michaelj
+      - xin-hedera
   - name: hiero-mirror-node-committers
     maintainers:
       - steven-sheehy
@@ -369,6 +425,15 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
+      - timfn-hg
+  - name: hiero-consensus-node-execution-internal-contributors
+    maintainers:
+      - netopyr
+    members:
+      - akdev
+      - elpinkypie
+      - joshmarinacci
+      - gkozyryatskyy
   - name: hiero-consensus-node-consensus-codeowners
     maintainers:
       - poulok
@@ -379,7 +444,6 @@ teams:
       - litt3
       - mxtartaglia-sl
       - timo0
-      - timfn-hg
       - mustafauzunn
       - IvanKavaldzhiev
       - abies
@@ -564,7 +628,6 @@ teams:
       - littletarzan
       - se7enarianelabs
       - som-web23
-      - sumapnair-ibm
       - andrewb1269hg
       - cacampbell
       - soharang
@@ -581,6 +644,7 @@ teams:
       - jnels124
       - justynspooner
       - Reccetech
+      - sumanair
   - name: security-maintainers
     maintainers:
       - nathanklick
@@ -669,6 +733,7 @@ repositories:
       security-maintainers: write
       prod-security: write
       sec-ops: write
+      governance-triage: triage
     visibility: public
   - name: hiero-website
     teams:
