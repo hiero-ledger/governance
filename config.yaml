@@ -426,14 +426,6 @@ teams:
       - thomas-swirlds-labs
       - vtronkov
       - timfn-hg
-  - name: hiero-consensus-node-execution-internal-contributors
-    maintainers:
-      - netopyr
-    members:
-      - akdev
-      - elpinkypie
-      - joshmarinacci
-      - gkozyryatskyy
   - name: hiero-consensus-node-consensus-codeowners
     maintainers:
       - poulok
