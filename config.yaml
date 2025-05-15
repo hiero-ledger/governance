@@ -132,6 +132,7 @@ teams:
     maintainers:
       - RickyLB
       - Sheng-Long
+      - rwalworth
     members:
       - SimiHunjan
   - name: hiero-sdk-swift-committers
@@ -139,7 +140,6 @@ teams:
       - RickyLB
     members:
       - izik
-      - rwalworth
   - name: hiero-sdk-python-maintainers
     maintainers:
       - nadineloepfe
