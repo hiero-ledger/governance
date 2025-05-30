@@ -359,6 +359,7 @@ teams:
       - elpinkypie
       - gkozyryatskyy
       - joshmarinacci
+      - lukasz-hashgraph
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
