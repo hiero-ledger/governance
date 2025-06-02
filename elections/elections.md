@@ -1,6 +1,6 @@
 # Elections to the Technical Steering Committee
 
-As set forth in the [Hiero Technical Charter](/Hiero%20Technical%20Charter%20Final%209-16-2024.md) in section 3.9.3.2,
+As set forth in the [Hiero Technical Charter](/hiero-technical-charter.md) in section 3.9.3.2,
 this document sets forth the process and timeline for the nominations, qualification, and election of TSC members.
 
 ## Seats
