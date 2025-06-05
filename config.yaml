@@ -25,6 +25,8 @@ teams:
       - stoqnkpL
       - Perseverance
       - lbaird
+      - MilanWR
+      - kantorcodes
   - name: lf-staff
     maintainers:
       - ryjones
@@ -61,7 +63,6 @@ teams:
       - acuarica
       - agadzhalov
       - artemananiev
-      - cody-littley
       - deshmukhpranali
       - dmueller2001
       - ericleponner
@@ -132,6 +133,7 @@ teams:
     maintainers:
       - RickyLB
       - Sheng-Long
+      - rwalworth
     members:
       - SimiHunjan
   - name: hiero-sdk-swift-committers
@@ -139,7 +141,6 @@ teams:
       - RickyLB
     members:
       - izik
-      - rwalworth
   - name: hiero-sdk-python-maintainers
     maintainers:
       - nadineloepfe
@@ -151,6 +152,7 @@ teams:
       - nadineloepfe
     members:
       - exploreriii
+      - Dosik13
   - name: hiero-did-sdk-python-maintainers
     maintainers:
       - Reccetech
@@ -297,7 +299,6 @@ teams:
     members:
       - artemananiev
       - bubo
-      - cody-littley
       - Ferparishuertas
       - lpetrovic05
       - lukelee-sl
@@ -431,7 +432,6 @@ teams:
       - poulok
     members:
       - lpetrovic05
-      - cody-littley
       - edward-swirldslabs
       - litt3
       - mxtartaglia-sl
