@@ -720,9 +720,9 @@ teams:
   - name: hashgraph-online-standards-sdk-js-maintainers
     maintainers:
       - kantorcodes
+    members:
       - rocketmay
       - hgraphpunks
-    members: []
   - name: hashgraph-online-standards-sdk-js-committers
     maintainers:
       - kantorcodes
