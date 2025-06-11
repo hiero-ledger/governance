@@ -717,6 +717,16 @@ teams:
       - ryjones
     members:
       - hendrikebbers
+  - name: hashgraph-online-standards-sdk-js-maintainers
+    maintainers:
+      - kantorcodes
+      - rocketmay
+      - hgraphpunks
+    members: []
+  - name: hashgraph-online-standards-sdk-js-committers
+    maintainers:
+      - kantorcodes
+    members: []
 repositories:
   - name: governance
     teams:
@@ -1009,6 +1019,16 @@ repositories:
       tsc-eligibility-check-admins: admin
       tsc-eligibility-check-maintainers: maintain
       tsc-eligibility-check-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: hashgraph-online-standards-sdk-js
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hashgraph-online-standards-sdk-js-maintainers: maintain
+      hashgraph-online-standards-sdk-js-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
