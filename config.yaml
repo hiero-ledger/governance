@@ -1023,13 +1023,3 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
-  - name: hashgraph-online-standards-sdk-js
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hashgraph-online-standards-sdk-js-maintainers: maintain
-      hashgraph-online-standards-sdk-js-committers: write
-      security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
-    visibility: public
