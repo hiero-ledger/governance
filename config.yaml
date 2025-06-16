@@ -715,6 +715,16 @@ teams:
       - ryjones
     members:
       - hendrikebbers
+  - name: hashgraph-online-standards-sdk-js-maintainers
+    maintainers:
+      - kantorcodes
+    members:
+      - rocketmay
+      - hgraphpunks
+  - name: hashgraph-online-standards-sdk-js-committers
+    maintainers:
+      - kantorcodes
+    members: []
 repositories:
   - name: governance
     teams:
