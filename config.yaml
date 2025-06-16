@@ -275,6 +275,7 @@ teams:
     members:
       - AlfredoG87
       - jasperpotts
+      - jsync-swirlds
       - mattp-swirldslabs
   - name: hiero-block-node-committers
     maintainers:
