@@ -131,8 +131,6 @@ teams:
       - natanasow
   - name: hiero-sdk-swift-maintainers
     maintainers:
-      - RickyLB
-      - Sheng-Long
       - rwalworth
     members:
       - SimiHunjan
