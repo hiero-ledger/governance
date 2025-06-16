@@ -12,8 +12,6 @@ Maintainers are assigned the following scopes in this repository:
 
 ## Active Maintainers
 
-<!-- Please keep this sorted alphabetically by github -->
-
 | Name                   | GitHub ID     | Scope | LFID | Discord ID | Email | Company Affiliation  |
 |----------------------- | ------------- | ----- | ---- | ---------- | ----- | -------------------- |
 | Lenin Mehedy           | leninmehedy   |       |      |            |       | Hashgraph            |
@@ -30,7 +28,7 @@ Maintainers are assigned the following scopes in this repository:
 | Hendrik Ebbers         | hendrikebbers |       |      |            |       | Hashgraph            |
 | Alex Popowycz          | popowycz      |       |      |            |       | Hashgraph            |
 | Stoyan Panayotov       | stoqnkpL      |       |      |            |       | Hashgraph            |
-| Milan Wiercx Van Rhijn | MilanWR       |       |      |            |       | Honeytrail           |
+| Milan Wiercx Van Rhijn | MilanWR       |       |      |            |       | MilanWR.com (8BEES)  |
 | Michael Kantor         | kantorcodes   |       |      |            |       | Hashgraph Online     |
 
 
