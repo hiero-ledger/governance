@@ -1,7 +1,7 @@
 # Nomination for May Chan
 
 ## Candidate  
-[May Chan](https://github.com/rocketmay)
+[May Chan](https://github.com/may-hashpack)
 
 ## Qualifications
 
