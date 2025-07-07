@@ -432,12 +432,9 @@ teams:
       - poulok
     members:
       - lpetrovic05
-      - edward-swirldslabs
       - litt3
       - mxtartaglia-sl
       - timo0
-      - mustafauzunn
-      - IvanKavaldzhiev
       - abies
       - netopyr
   - name: hiero-consensus-node-smart-contract-codeowners
