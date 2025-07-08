@@ -1,10 +1,9 @@
 # Hiero TSC Nominees for July 2025 Election
 
 In July 2025, the Hiero Technical Steering Committee (TSC) will hold an election to fill the last open seat on the TSC.
-The nomination period for candidates will run from the 24th of June (start of day - UTC) to the 8th of July 2025 (end of day - UTC).
-The election will be held from the 10th (start of day - UTC) to the 14th of July 2025 (end of day - UTC).
-
-<img width="859" alt="updated-timeline" src="https://github.com/user-attachments/assets/5fab401e-99bd-4c5e-8d95-e350d7129126" />
+The nomination period for candidates will run from the 24th of June (start of day in UTC) to the 8th of July 2025 (end of day in UTC).
+The election will be held from the 10th July (start of day in UTC) to the 20th of July 2025 (end of day in UTC).
+The new TSC member will be announced at the TSC meeting on the 22th July 2025.
 
 ## How to Nominate a Candidate
 
@@ -14,12 +13,12 @@ for a template to follow.
 
 A nominee must fullfill the following requirements (as defined in the [TSC Charter](https://github.com/hiero-ledger/governance/blob/main/hiero-technical-charter.md)):
 
-- TSC Members are expected to cover deep technical domains including consensus technologies,
-  technical operations, tokenization, smart contracts, ecosystem applications such as wallets, exchanges, etc. (3.viii. in charter)
-- Nominees for the TSC shall (2.ix.b. in charter):
-  - Commit that they have the available bandwidth to make the time to invest in the TSC,
-  - Demonstrate an advanced level of professional experience as engineers in the scope of the Project, and
-  - Operate neutrally in discussions and put the goals and success of the Project in balance with any particular sub-project governed by the TSC.
+> - TSC Members are expected to cover deep technical domains including consensus technologies,
+>   technical operations, tokenization, smart contracts, ecosystem applications such as wallets, exchanges, etc. (3.viii. in charter)
+> - Nominees for the TSC shall (2.ix.b. in charter):
+>  - Commit that they have the available bandwidth to make the time to invest in the TSC,
+>  - Demonstrate an advanced level of professional experience as engineers in the scope of the Project, and
+>  - Operate neutrally in discussions and put the goals and success of the Project in balance with any particular sub-project governed by the TSC.
 
 A PR that contains a new nomination file must be approved by the nominee before it can be merged.
 The nominee must review the nomination file and ensure that all information is correct, including the github username.
