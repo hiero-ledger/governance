@@ -1,9 +1,10 @@
 # Hiero TSC Nominees for July 2025 Election
 
-In July 2025, the Hiero Technical Steering Committee (TSC) will hold an election to fill the last open seat on the TSC.
-The nomination period for candidates will run from the 24th of June (start of day in UTC) to the 8th of July 2025 (end of day in UTC).
-The election will be held from the 10th July (start of day in UTC) to the 20th of July 2025 (end of day in UTC).
-The new TSC member will be announced at the TSC meeting on the 22th July 2025.
+In July 2025, the Hiero Technical Steering Committee (TSC) will hold an election to fill the last open seat on the TSC. The timeline of the election as defined like this:
+
+- The **nomination** period for candidates will run from **June 24** (start of day UTC) to **July 8**, 2025 (end of day UTC).
+- The **election** will be held from **July 10** (start of day UTC) to **July 20**, 2025 (end of day UTC).
+- The **announcement** of the new TSC member will take place at the TSC meeting on **July 22**, 2025.
 
 ## How to Nominate a Candidate
 
