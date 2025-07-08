@@ -325,6 +325,7 @@ teams:
       - derektriley
       - edward-swirldslabs
       - Evdokia-Georgieva
+      - gkozyryatskyy
       - ibankov
       - imalygin
       - IvanKavaldzhiev
@@ -334,6 +335,7 @@ teams:
       - jsync-swirlds
       - kimbor
       - litt3
+      - lukasz-hashgraph
       - mhess-swl
       - MiroslavGatsanoga
       - mustafauzunn
@@ -358,9 +360,7 @@ teams:
       - akdev
       - akugal
       - elpinkypie
-      - gkozyryatskyy
       - joshmarinacci
-      - lukasz-hashgraph
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
@@ -442,6 +442,8 @@ teams:
       - Ferparishuertas
       - Nana-EC
     members:
+      - gkozyryatskyy
+      - lukasz-hashgraph
       - lukelee-sl
       - stoyanov-st
       - bubo
@@ -540,6 +542,8 @@ teams:
       - quiet-node
       - simzzz
       - victor-yanev
+      - mwb-al
+      - se7enarianelabs
   - name: hiero-improvement-proposals-maintainers
     maintainers:
       - sergmetelin
