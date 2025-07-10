@@ -1,6 +1,7 @@
 # Hiero technical governance
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10697/badge)](https://bestpractices.coreinfrastructure.org/projects/10697)
+[![License](https://img.shields.io/badge/license-apache2-blue.svg)](LICENSE)
 
 This repository contains all governance documents of the Hiero project:
 
