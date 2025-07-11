@@ -219,6 +219,7 @@ teams:
       - venilinvasilev
       - ivaylogarnev-limechain
       - ivaylonikolov7
+      - mariodimitrovv
   - name: hiero-sdk-cpp-maintainers
     maintainers:
       - rwalworth
@@ -245,6 +246,7 @@ teams:
       - agadzhalov
       - ivaylonikolov7
       - gsstoykov
+      - mariodimitrovv
       - RickyLB
   - name: hiero-sdk-go-maintainers
     maintainers:
