@@ -151,6 +151,18 @@ teams:
     members:
       - exploreriii
       - Dosik13
+  - name: hiero-did-sdk-js-maintainers
+    maintainers:
+      - Reccetech
+    members:
+      - AlexanderShenshin
+      - Diegoescalonaro
+      - dmueller2001
+      - drgorb
+  - name: hiero-did-sdk-js-committers
+    maintainers:
+      - Reccetech
+    members: []
   - name: hiero-did-sdk-python-maintainers
     maintainers:
       - Reccetech
@@ -860,6 +872,16 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: hiero-did-sdk-js
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-did-sdk-js-maintainers: maintain
+      hiero-did-sdk-js-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
