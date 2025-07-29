@@ -231,10 +231,11 @@ terms of this Charter.
    
    5. The Project will operate in a transparent, open, collaborative, and ethical manner at all times. The output of all
       Project discussions, proposals, timelines, decisions, and status will be made open and easily visible to all
-      except in matters related to security, where making information public could expose the Project to harmful
-      actions. Any potential violations of this requirement should be reported immediately to the Series Manager.
+      except in matters related to security, which may remain confidential within the TSC and their designees,
+      where making information public could expose the Project to harmful actions. Any potential violations of this
+      requirement should be reported immediately to the Series Manager.
    
-   6. The TSC will abide by any and all required policies and procedures as defined by the LFDT.
+   7. The TSC will abide by any and all required policies and procedures as defined by the LFDT.
    
 6. **Community Assets**
 
