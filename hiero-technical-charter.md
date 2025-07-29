@@ -27,7 +27,7 @@ terms of this Charter.
 
     1. The Project shall strive to align to the following principles:
    
-       1. Fast is better than slow: The Project enables sub-projects to progress at high velocity to support aggressive
+       1. Fast is better than slow: The Project enables sub-projects to progress at high velocity to support rapid
           adoption by users.
        
        2. Open: The Project is open, accessible, and operates independently of specific partisan interests. The Project
@@ -35,7 +35,7 @@ terms of this Charter.
           available to all according to open source values. The technical community and its decisions shall be
           transparent. It shall at all times encourage and accept input from the community at large.
        
-       3. Fair: The Project seeks to avoid undue influence and bad behavior by members and contributors.
+       3. Fair: The Project seeks to avoid undue influence and abide by the Project’s Code of Conduct by members and contributors.
        
        4. Strong technical identity: The Project will achieve and maintain a high degree of its own technical identity
           that is shared across the projects and the public stakeholder ecosystem.
@@ -44,15 +44,14 @@ terms of this Charter.
           Project are, to allow sub-projects to effectively co-exist, and to help the ecosystem understand where to
           focus for new innovation.
        
-       6. Ecosystem Enhancing: The Project exists to strengthen the ecosystem using this Project’s software
+       6. Ecosystem Enhancing: The Project shall strive to strengthen the ecosystem using this Project’s software.
 
 3. **Technical Steering Committee**
 
     1. The Technical Steering Committee (the “TSC”) is responsible for all technical oversight of the open source
        Project.
    
-    2. All meetings of the TSC are intended to be open to the public, and can be conducted electronically, via
-       teleconference, or in person.
+    2. All meetings of the TSC shall be open to the public, and can be conducted electronically, via teleconference, or in person.
    
     3. The TSC members of the Project will be as set forth within the “TSC_MEMBERS.md” file within the Project’s code
        repository.
@@ -114,10 +113,10 @@ terms of this Charter.
           an organization primarily consuming the Project software, rather than producing it. An initial End User
           representative may be included in the initial set of TSC Members.
        
-       6. The TSC Members defined in **3.viii.a to 3.viii.e** shall together elect two (2) additional TSC Members
+       6. The TSC Members defined in **3.h.i** to **3.h.v** shall together elect two (2) additional TSC Members
           during the Startup Period and three (3) additional TSC Members following the Startup Period.
        
-       7. Each group identified in **3.viii.a to 3.viii.e** (i.e., Dr. Leemon Baird, Hedera Hashgraph, LLC, Maintainers
+       7. Each group identified in **3.h.i** to **3.h.vi** (_i.e_., Dr. Leemon Baird, Hedera Hashgraph, LLC, Maintainers
           of Graduated projects, and the TSC itself) is defined as a Selecting Group.
        
           1. If more than two (2) TSC Members would be from the same group of Related Parties (see Section 9), either at
@@ -128,7 +127,7 @@ terms of this Charter.
           2. Each TSC Member may delegate their representation on the TSC to an alternate of their choosing, without
              respect to Related Parties, on a temporary, time limited, basis, not to exceed fourteen (14) days. Such
              delegation is limited to no more than six (6) times in any given calendar year As with all TSC Members, the
-             alternate must meet the requirements in **3.ix.b.**
+             alternate must meet the requirements in **3.i.ii.**
           
     9. Operating Model
    
@@ -162,7 +161,7 @@ terms of this Charter.
        
             1. TSC Members shall serve two-year terms. Dr. Leemon Baird has a permanent seat (the "Baird Seat").
             
-            2. With the exception of TSC members appointed through subsections **3.viii.a to 3.viii.e**, TSC members
+            2. With the exception of TSC members appointed through subsections **3.h.i to 3.h.ii**, TSC members
                may be removed by a two-thirds vote of the other TSC members, with the impacted individual ineligible to
                participate in the vote.
             
@@ -185,7 +184,7 @@ terms of this Charter.
         
         6. approving and implementing policies and processes for contributing (to be published in the CONTRIBUTING file)
            and coordinating with the Series Manager of the Project (as provided for in the Series Agreement, the “Series
-           Manager”) to resolve matters or concerns that may arise as set forth in Sections **5.v and 8** of this
+           Manager”) to resolve matters or concerns that may arise as set forth in Sections **5.e and 8** of this
            Charter;
         
         7. discussions, seeking consensus, and where necessary, voting on technical matters relating to the code base
@@ -202,7 +201,7 @@ terms of this Charter.
    2. Quorum for TSC meetings requires at least two thirds of all members of the TSC to be present. The
       TSC may continue to meet if quorum is not met but will be prevented from making any decisions at the meeting.
    
-   3. Except as provided in Section **8.iii. and 10.i**, decisions by vote at a meeting require a majority vote of
+   3. Except as provided in Section **8.c. and 10.a**, decisions by vote at a meeting require a majority vote of
       those in attendance, provided quorum is met. Decisions made by electronic vote without a meeting require a
       majority vote of the TSC.
    
@@ -267,7 +266,7 @@ terms of this Charter.
       independent works of authorship and that no contributor or copyright holder will be required to assign copyrights
       to the Project.
    
-   2. Except as described in Section **8.iii** below, all contributions to the Project are subject to the following:
+   2. Except as described in Section **8.c** below, all contributions to the Project are subject to the following:
    
       1. All new inbound code contributions to the Project must be made using Apache License, Version 2.0 available at
          http://www.apache.org/licenses/LICENSE-2.0  (the “Project License”).
