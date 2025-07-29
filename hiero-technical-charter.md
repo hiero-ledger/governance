@@ -93,7 +93,7 @@ terms of this Charter.
    
     8. TSC Members are expected to cover deep technical domains including consensus technologies, technical operations,
        tokenization, smart contracts, ecosystem applications such as wallets, exchanges, etc. The TSC shall consist of a
-       total of nine (9) members (the “TSC Members”). Each TSC Member must meet the criteria set forth in **3.ix.b**.
+       total of nine (9) members (the “TSC Members”). Each TSC Member must meet the criteria set forth in **3.i.ii**.
        The TSC Members shall otherwise be selected as follows:
    
        1. Dr. Leemon Baird, inventor of the hashgraph algorithm, has a permanent seat on the TSC representing himself
@@ -116,7 +116,7 @@ terms of this Charter.
        6. The TSC Members defined in **3.h.i** to **3.h.v** shall together elect two (2) additional TSC Members
           during the Startup Period and three (3) additional TSC Members following the Startup Period.
        
-       7. Each group identified in **3.h.i** to **3.h.vi** (_i.e_., Dr. Leemon Baird, Hedera Hashgraph, LLC, Maintainers
+       7. Each group identified in **3.h.i** to **3.h.vi** (i.e., Dr. Leemon Baird, Hedera Hashgraph, LLC, Maintainers
           of Graduated projects, and the TSC itself) is defined as a Selecting Group.
        
           1. If more than two (2) TSC Members would be from the same group of Related Parties (see Section 9), either at
@@ -127,7 +127,7 @@ terms of this Charter.
           2. Each TSC Member may delegate their representation on the TSC to an alternate of their choosing, without
              respect to Related Parties, on a temporary, time limited, basis, not to exceed fourteen (14) days. Such
              delegation is limited to no more than six (6) times in any given calendar year As with all TSC Members, the
-             alternate must meet the requirements in **3.i.ii.**
+             alternate must meet the requirements in 3.i.ii.
           
     9. Operating Model
    
@@ -161,12 +161,12 @@ terms of this Charter.
        
             1. TSC Members shall serve two-year terms. Dr. Leemon Baird has a permanent seat (the "Baird Seat").
             
-            2. With the exception of TSC members appointed through subsections **3.h.i to 3.h.ii**, TSC members
+            2. With the exception of TSC members appointed through subsections 3.h.i to 3.h.ii, TSC members
                may be removed by a two-thirds vote of the other TSC members, with the impacted individual ineligible to
                participate in the vote.
             
-            3. Permanent members may be removed for violation of the Project’s Code of Conduct pursuant to a review by
-               the Series Manager.
+            3. Permanent members may be removed for violation of the Project’s Code of Conduct pursuant to a vote to
+               do so by the TSC followed by a review by the Series Manager.
             
     10. Responsibilities: The TSC will be responsible for all aspects of oversight relating to the Project, in
         coordination with any staff provided by the LFDT for the technical direction of the Project;
@@ -201,7 +201,7 @@ terms of this Charter.
    2. Quorum for TSC meetings requires at least two thirds of all members of the TSC to be present. The
       TSC may continue to meet if quorum is not met but will be prevented from making any decisions at the meeting.
    
-   3. Except as provided in Section **8.c. and 10.a**, decisions by vote at a meeting require a majority vote of
+   3. Except as provided in Section 8.c. and 10.a, decisions by vote at a meeting require a majority vote of
       those in attendance, provided quorum is met. Decisions made by electronic vote without a meeting require a
       majority vote of the TSC.
    
