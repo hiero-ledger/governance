@@ -640,6 +640,16 @@ teams:
       - justynspooner
       - Reccetech
       - sumanair
+  - name: hiero-website-maintainers
+    maintainers:
+      - hendrikebbers
+    members:
+      - exploreriii
+  - name: hiero-website-committers
+    maintainers:
+      - hendrikebbers
+    members:
+      - exploreriii
   - name: security-maintainers
     maintainers:
       - nathanklick
@@ -744,6 +754,8 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
+      hiero-website-maintainers: maintain
+      hiero-website-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
