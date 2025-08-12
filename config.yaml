@@ -144,13 +144,13 @@ teams:
     maintainers:
       - nadineloepfe
     members:
-      - hendrikebbers
       - rbair23
+      - exploreriii
   - name: hiero-sdk-python-committers
     maintainers:
       - nadineloepfe
     members:
-      - exploreriii
+      - hendrikebbers
       - Dosik13
   - name: hiero-did-sdk-js-maintainers
     maintainers:
