@@ -139,6 +139,22 @@ All roles are based on the [GitHub role defintions](https://docs.github.com/en/o
 
 The GitHub roles are assigned in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml).
 
+### Additional Roles for supporting onboarding, contribution and project management
+
+Two additional roles can be defined per project next to committer and maintainer roles to support onboarding and contribution to the Hiero project:
+
+- **`PROJECT-triage-contributor`**: grants triage access (e.g., ability to assign tickets) but not write access to project boards.
+  This will allow to assign issues to contributors and help with the triage of issues without granting full write access to the project.
+  We believe that this role is essential for onboarding new contributors that will work in fulltime on the project.
+  Next to that the role allows managers of companies that are members of the Hiero project to help with the triage of issues without granting full write access to the project.
+- **`PROJECT-board-contributor`**: grants write access to project boards (e.g., changing board status and sprint planning).
+  Companies that are members of the Hiero project might have project managers working on the project.
+  This role allows them to manage the project boards without granting full write access to the project.
+
+These roles can be granted based on community sponsorship or through a maintainer vote, depending on the governance process adopted.
+As defined today the roles can only be granted to people based on a sponsorship from a company that is a [member of the LF Decentralized Trust](https://www.lfdecentralizedtrust.org/members).
+The TSC will review the requests for these roles and approve them based on the previous criteria.
+
 ## Usage of GitHub CODEOWNERS in combination with our roles, groups, and rights
 
 A project can decide to use GitHub [`CODEOWNERS`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
