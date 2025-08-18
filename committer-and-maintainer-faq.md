@@ -74,7 +74,7 @@ As a general rule, a committer should be considered for removal from the committ
     
 - The committer requests to be removed from the group.
 - The committer is inactive for 6 months and does not respond when contacted (see [Hiero guidelines](roles-and-groups.md#maintainers)).
-- The committer makes enough decisions which negatively affect the projectproject's performance (see [Hiero guidelines](roles-and-groups.md#maintainers)).
+- The committer makes enough decisions which negatively affect the project's performance (see [Hiero guidelines](roles-and-groups.md#maintainers)).
 - The committer breaks the [Code of Conduct](https://github.com/hiero-ledger/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## What is the escalation path when in doubt?
