@@ -145,7 +145,7 @@ Two additional roles can be defined per project next to committer and maintainer
 
 - **`PROJECT-triage-contributor`**: grants triage access (e.g., ability to assign tickets) but not write access to project boards.
   This will allow to assign issues to contributors and help with the triage of issues without granting full write access to the project.
-  We believe that this role is essential for onboarding new contributors that will work in fulltime on the project.
+  We believe that this role is essential for onboarding new contributors that will work full time on the project.
   Next to that the role allows managers of companies that are members of the Hiero project to help with the triage of issues without granting full write access to the project.
 - **`PROJECT-board-contributor`**: grants write access to project boards (e.g., changing board status and sprint planning).
   Companies that are members of the Hiero project might have project managers working on the project.
