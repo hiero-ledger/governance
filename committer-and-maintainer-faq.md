@@ -83,7 +83,7 @@ Options:
     
 - Post your issue to the [hiero-general](https://discord.com/channels/905194001349627914/1289954446712770600) discord channel.
   This is the best first step of escalation.
-- Put your issue on the community meeting agenda and attend the next community meeting
+- Put your issue on the community meeting agenda and attend the next [community meeting](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week&occurrence=1755788400).
 
 ## I have a question not answered in this FAQ. Where can I find the answer?
     
