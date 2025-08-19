@@ -1095,6 +1095,18 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
+  - name: homebrew-solo
+    teams:
+      tsc: maintain
+      hiero-automation: write
+      github-maintainers: maintain
+      solo-admins: admin
+      solo-maintainers: maintain
+      solo-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
   - name: tsc-eligibility-check
     teams:
       tsc: maintain
