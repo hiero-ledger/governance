@@ -1,6 +1,6 @@
 # Hiero Project Proposal
 
-This document contains a template for project proposals. A project proposal is the defineds way to request for adding a new project to Hiero.
+This document contains a template for project proposals. A project proposal is the defined way to request adding a new project to Hiero.
 
 A proposal can be used to transfer an existing project to Hiero or create a new project from scratch.
 
