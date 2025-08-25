@@ -39,7 +39,7 @@ teams:
       - hartm
       - minyu66
       - thelinuxfoundation
-  - name: governance-triage
+  - name: governance-write
     maintainers:
       - ryjones
       - jwagantall
@@ -766,7 +766,7 @@ repositories:
       security-maintainers: write
       prod-security: write
       sec-ops: write
-      governance-triage: triage
+      governance-write: write
     visibility: public
   - name: hiero-website
     teams:
