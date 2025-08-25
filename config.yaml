@@ -219,6 +219,12 @@ teams:
       - venilinvasilev
       - ivaylogarnev-limechain
       - ivaylonikolov7
+  - name: hiero-sdk-js-internal-contributors
+    maintainers:
+      - SimiHunjan
+      - rwalworth
+    members:
+      - a-saksena
   - name: hiero-sdk-cpp-maintainers
     maintainers:
       - rwalworth
@@ -246,6 +252,12 @@ teams:
       - ivaylonikolov7
       - gsstoykov
       - RickyLB
+  - name: hiero-sdk-tck-internal-contributors
+    maintainers:
+      - SimiHunjan
+      - rwalworth
+    members:
+      - a-saksena
   - name: hiero-sdk-go-maintainers
     maintainers:
       - SimiHunjan
