@@ -835,6 +835,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-tck-maintainers: maintain
       hiero-sdk-tck-committers: write
+      hiero-sdk-tck-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -886,6 +887,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
+      hiero-sdk-js-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
