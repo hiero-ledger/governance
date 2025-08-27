@@ -303,22 +303,22 @@ teams:
       - AlfredoG87
       - jasperpotts
       - jsync-swirlds
-      - mattp-swirldslabs
   - name: hiero-block-node-committers
     maintainers:
       - AlfredoG87
       - Nana-EC
     members:
-      - rbarker-dev
-      - georgi-l95
       - ata-nas
-      - jasperpotts
-      - jsync-swirlds
-      - san-est
-      - rbair23
       - a-saksena
       - CMiville42
+      - georgi-l95
+      - jasperpotts
+      - jsync-swirlds
       - mattp-swirldslabs
+      - mustafauzunn
+      - rbair23
+      - rbarker-dev
+      - san-est
   - name: hiero-consensus-node-maintainers
     maintainers:
       - Nana-EC
