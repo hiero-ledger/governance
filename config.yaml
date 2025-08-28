@@ -574,6 +574,11 @@ teams:
       - victor-yanev
       - mwb-al
       - se7enarianelabs
+  - name: hiero-hederium-maintainers
+    maintainers:
+      - georgi-l95
+    members:
+      - Dosik13
   - name: hiero-improvement-proposals-maintainers
     maintainers:
       - sergmetelin
@@ -1027,6 +1032,15 @@ repositories:
       github-maintainers: maintain
       hiero-json-rpc-relay-maintainers: maintain
       hiero-json-rpc-relay-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: hiero-hederium
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-hederium-maintainers: maintain
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
