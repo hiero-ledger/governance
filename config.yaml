@@ -390,8 +390,10 @@ teams:
       - akdev
       - akugal
       - a-saksena
-      - elpinkypie
       - joshmarinacci
+      - AlexKehayov
+      - renbtg
+      - aderevets
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
