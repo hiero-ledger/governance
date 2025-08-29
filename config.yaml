@@ -387,11 +387,13 @@ teams:
       - poulok
       - artemananiev
     members:
+      - aderevets
       - akdev
       - akugal
+      - AlexKehayov
       - a-saksena
-      - elpinkypie
       - joshmarinacci
+      - renbtg
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
