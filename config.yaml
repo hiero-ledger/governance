@@ -394,7 +394,6 @@ teams:
       - a-saksena
       - joshmarinacci
       - renbtg
-
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
