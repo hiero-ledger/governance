@@ -33,6 +33,7 @@ teams:
       - ryjones
     members:
       - SeanBohan
+      - christinaharter
       - daniela-barbosa
       - davidwboswell
       - jwagantall
@@ -144,13 +145,13 @@ teams:
     maintainers:
       - nadineloepfe
     members:
-      - hendrikebbers
       - rbair23
+      - exploreriii
   - name: hiero-sdk-python-committers
     maintainers:
       - nadineloepfe
     members:
-      - exploreriii
+      - hendrikebbers
       - Dosik13
   - name: hiero-did-sdk-js-maintainers
     maintainers:
@@ -303,22 +304,22 @@ teams:
       - AlfredoG87
       - jasperpotts
       - jsync-swirlds
-      - mattp-swirldslabs
   - name: hiero-block-node-committers
     maintainers:
       - AlfredoG87
       - Nana-EC
     members:
-      - rbarker-dev
-      - georgi-l95
       - ata-nas
-      - jasperpotts
-      - jsync-swirlds
-      - san-est
-      - rbair23
       - a-saksena
       - CMiville42
+      - georgi-l95
+      - jasperpotts
+      - jsync-swirlds
       - mattp-swirldslabs
+      - mustafauzunn
+      - rbair23
+      - rbarker-dev
+      - san-est
   - name: hiero-consensus-node-maintainers
     maintainers:
       - Nana-EC
@@ -386,11 +387,13 @@ teams:
       - poulok
       - artemananiev
     members:
+      - aderevets
       - akdev
       - akugal
+      - AlexKehayov
       - a-saksena
-      - elpinkypie
       - joshmarinacci
+      - renbtg
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
@@ -574,6 +577,11 @@ teams:
       - victor-yanev
       - mwb-al
       - se7enarianelabs
+  - name: hiero-hederium-maintainers
+    maintainers:
+      - georgi-l95
+    members:
+      - Dosik13
   - name: hiero-improvement-proposals-maintainers
     maintainers:
       - sergmetelin
@@ -835,6 +843,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-tck-maintainers: maintain
       hiero-sdk-tck-committers: write
+      hiero-sdk-tck-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -886,6 +895,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
+      hiero-sdk-js-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -1025,6 +1035,15 @@ repositories:
       github-maintainers: maintain
       hiero-json-rpc-relay-maintainers: maintain
       hiero-json-rpc-relay-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: hiero-hederium
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-hederium-maintainers: maintain
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
