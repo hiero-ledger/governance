@@ -153,7 +153,7 @@ Two additional roles can be defined per project next to committer and maintainer
 
 These roles can be granted based on community sponsorship or through a maintainer vote, depending on the governance process adopted.
 As defined today the roles can only be granted to people based on a sponsorship from a company that is a [member of the LF Decentralized Trust](https://www.lfdecentralizedtrust.org/members).
-The TSC will review the requests for these roles and approve them based on the previous criteria.
+The TSC will review requests in the form of a PR against the https://github.com/hiero-ledger/governance repository for these roles and approve the PR based on the previous criteria.
 
 ## Usage of GitHub CODEOWNERS in combination with our roles, groups, and rights
 
