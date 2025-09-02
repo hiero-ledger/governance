@@ -149,7 +149,7 @@ Two additional roles can be defined per project next to committer and maintainer
   Next to that the role allows managers of companies that are members of the Hiero project to help with the triage of issues without granting full write access to the project.
 - **`PROJECT-board-contributor`**: grants write access to project boards (e.g., changing board status and sprint planning).
   Companies that are members of the Hiero project might have project managers working on the project.
-  This role allows them to manage the project boards without granting full write access to the project.
+  This role allows them to update the project boards without granting full write access to the project.
 
 These roles can be granted based on community sponsorship or through a maintainer vote, depending on the governance process adopted.
 As defined today the roles can only be granted to people based on a sponsorship from a company that is a [member of the LF Decentralized Trust](https://www.lfdecentralizedtrust.org/members).
