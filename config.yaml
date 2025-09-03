@@ -516,6 +516,15 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
+  - name: hiero-cli-maintainers
+    maintainers:
+      - michielmulders
+    members:
+      - neurone
+  - name: hiero-cli-committers
+    maintainers:
+      - michielmulders
+    members: []
   - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
