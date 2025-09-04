@@ -522,7 +522,11 @@ teams:
   - name: hiero-cli-committers
     maintainers:
       - michielmulders
-    members: []
+    members:
+      - misiekpe
+      - michalrozekariane
+      - mateuszm-arianelabs
+      - se7enarianelabs
   - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
