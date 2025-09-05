@@ -70,7 +70,7 @@ Before initiating a vote, you need to select the appropriate voting profile base
 | Security matters                               | `security-maintainers-vote`             | `@hiero-ledger/security-maintainers`                                        |
 
 **Still unsure?** Check the [GitVote Configuration](#gitvote-configuration) section below or ask the maintainers in
-the [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
+the [hiero-general Discord channel](https://discord.com/channels/905194001349627914/1289954446712770600).
 
 ## How to initiate a vote
 
@@ -90,7 +90,7 @@ the [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
    Refer to the [Choosing the Right Voting Profile](#choosing-the-right-voting-profile) table for specific team
    notification examples.
 
-5. Optionally assign the team as reviewers for additional visibility
+5. Post a link to the PR in the [Hiero maintainers channel](https://discord.com/channels/905194001349627914/1283487103006543952) for additional visibility.
 
 GitVote will automatically:
 
