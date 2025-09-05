@@ -74,7 +74,7 @@ the [hiero-general Discord channel](https://discord.com/channels/905194001349627
 
 ## How to initiate a vote
 
-1. Open a PR with the changes you wish to propose
+1. Open a PR with the changes you wish to propose (optional templates are available [here]([vote_pr_template.md](.github/PULL_REQUEST_TEMPLATE/))).
 2. Add the `maintainer-vote` label to the PR
 3. Use the GitVote command to start voting with the appropriate team profile:
    ```

@@ -2,7 +2,7 @@
 
 This file contains an overview of our rules for roles and groups.
 
-For project-based exceptions to any of these rules and how to request an exception, please refer to the following [Tracker](https://github.com/hiero-ledger/governance/blob/main/project-rules-exceptions.md)
+For project-based exceptions to any of these rules and how to request an exception, please refer to the following [Tracker](project-rules-exceptions.md)
 
 ## Definition of general roles
 
@@ -38,8 +38,8 @@ Any Committer or Maintainer of the given project can nominate a Contributor to b
 - **Define your project's needs**: A repository should have a minimum of Committers to ensure a project's sustainability and resilience. The exact number should be determined by the project Maintainers based on the size and pace of the project's development, taking into account the overall activity level and ensuring a fair voting process.
 - **Evaluate your project's performance**: Committers and Maintainers should monitor their project health and velocity and make decisions about whether the project needs more Committers.
 - **Verify your project's needs**: Committers and Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination. This is based on the size and complexity of the project in question.
-- **Nominate new committers**: To promote a contributor, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by describing the basis reached for nominating the Contributor. The template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md) should be used to creating a nomination.
-- **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. The voting procedure is explained in the same template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md).
+- **Nominate new committers**: To promote a contributor, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by describing the basis reached for nominating the Contributor. Use the GitVote automated voting system as described in [voting-procedures.md](voting-procedures.md).
+- **Approve the nomination**: Project maintainers vote following the process outlined in [voting-procedures.md](voting-procedures.md).
 - **Make adjustments**: Maintainers are responsible for removing inactive committers. A committer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
 As long as a Committer follows our Code of Conduct, makes reasonable contributions to the project,
 and is not violating any of our policies, they will keep their Committer role.
@@ -63,8 +63,8 @@ In addition, the Maintainers should report project updates to the Hiero **Techni
 A Committer of a project can be nominated to become a Maintainer:
 
 - **Define your project's needs**: A repository should have 1 to 3 maintainers to ensure a project's sustainability and resilience. It is not necesarily a goal for the committer to become a maintainer unless the project's needs require it to have more maintainers.
-- **Nominate a maintainer**: To promote a candidate, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by making mention of the basis reached for nominating the Maintainer. The template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md) should be used to creating a nomination.
-- **Approve the nomination**: All maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. The voting procedure is explained in the same template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md).
+- **Nominate a maintainer**: To promote a candidate, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by making mention of the basis reached for nominating the Maintainer. Use the GitVote automated voting system as described in [voting-procedures.md](voting-procedures.md).
+- **Approve the nomination**: Project maintainers vote following the process outlined in [voting-procedures.md](voting-procedures.md).
 - **Make adjustments**: A maintainer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
 
 Maintainers are responsible for keeping track of project Issues and Discussions and help pushing inactive conversations. It is a responsibility of the maintainers to close Issues and Discussions that are considered outdated or stale to the current goals of the project.
@@ -79,8 +79,6 @@ More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf
 
 ### Role Changes
 
-Changes in role require a maintainer vote. Voting procedures can be found [here](https://github.com/hiero-ledger/governance/blob/main/voting-procedures.md). When it comes to electing and voting for new committers or new maintainers, the project should consider the following:
-
 For candidates seeking promotion to Committers or Maintainers:
 - The candidate needs to show participation in the project by contributing with code, issues, discussions, reviews, etc.
 - These contributions need to show proper understanding of the project and quality of the work.
@@ -89,12 +87,20 @@ For candidates seeking promotion to Committers or Maintainers:
 - A Committer can maintain their project status independently from their employment.
 
 For Maintainers and Committers voting on new candidates:
-- When a candidate is selected for becoming a Committer or a Maintainer, this proposal needs to be made via PR request against the config.yaml in the governance repo in accordance with the [voting procedures](https://github.com/hiero-ledger/governance/blob/main/voting-procedures.md).
-- An example of a promotion can be found in the following [PR](https://github.com/hiero-ledger/governance/pull/176).
+- Changes in role require a maintainer vote and are handled via PR against `config.yaml` following procedures outlined in [voting-procedures.md](voting-procedures.md).
 - If a PR remains inactive for 2 days, it is a responsibility of the PR owner to reach out to the reviewers via Discord, bring it up in Community calls or reach out for help in the [hiero-general Discord channel](https://discord.com/channels/905194001349627914/1289954446712770600).
 - A Maintainer or Committer can nominate a candidate for removal from the teams if the candidate has not shown any activity for 6 months at least or is not responsive.
 - A candidate can also be nominated for removal from the teams if they break code of conduct or has consistently made contributions that are affecting the team.
-- The voting process for removing a candiate is the same as the process for promoting a candidate (via PR).
+- The voting process for removing a candidate is the same as the process for promoting a candidate.
+
+### Voting Rights
+
+**Maintainers** have voting rights in governance decisions. This includes:
+- Adding or removing Committers and Maintainers
+- Changes to project permissions and structure
+- Governance policy modifications
+
+**Committers** do not have voting rights but can nominate candidates for promotion and participate in discussions. All voting is conducted using the automated GitVote system as described in [voting-procedures.md](voting-procedures.md).
 
 ## Definition of groups
 
