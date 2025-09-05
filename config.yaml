@@ -131,8 +131,6 @@ teams:
       - natanasow
   - name: hiero-sdk-swift-maintainers
     maintainers:
-      - RickyLB
-      - Sheng-Long
       - rwalworth
     members:
       - SimiHunjan
@@ -277,6 +275,7 @@ teams:
     members:
       - AlfredoG87
       - jasperpotts
+      - jsync-swirlds
       - mattp-swirldslabs
   - name: hiero-block-node-committers
     maintainers:
@@ -361,6 +360,7 @@ teams:
       - elpinkypie
       - gkozyryatskyy
       - joshmarinacci
+      - lukasz-hashgraph
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
@@ -716,6 +716,16 @@ teams:
       - ryjones
     members:
       - hendrikebbers
+  - name: hashgraph-online-standards-sdk-js-maintainers
+    maintainers:
+      - kantorcodes
+    members:
+      - rocketmay
+      - hgraphpunks
+  - name: hashgraph-online-standards-sdk-js-committers
+    maintainers:
+      - kantorcodes
+    members: []
 repositories:
   - name: governance
     teams:
