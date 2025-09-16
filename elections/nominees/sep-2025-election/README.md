@@ -27,3 +27,16 @@ The nominee must review the nomination file and ensure that all information is c
 Once the nominee has reviewed the file, they should comment on the PR with "I approve this nomination" to indicate their approval.
 
 Any PR that fullfills the requirements before the end of the 9th September 2025 (UTC) will be considered for the election.
+
+## Who is allowed to vote
+
+Every [maintainer](https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md#maintainers) of the Hiero project is allowed to vote.
+You can find an overview on all our maintainer groups and the individual maintainers [here](https://github.com/orgs/hiero-ledger/teams?query=maintainer).
+At Hiero we have already over 60 maintainers today.
+
+## How can I vote
+
+As mentioned the election is open for voting until **September 21**, 2025 (end of day UTC).
+If you are a maintainer you should have received an invite to the voting as a GitHub notification.
+Even if you missed that notification you can vote [here](https://vote.heliosvoting.org/helios/e/hiero-tsc-election-september-2025/vote).
+If you have questions about that tool or the voting process the [video we recorded for a previous election](https://www.youtube.com/watch?v=aF-eLgFQQwg) might be helpfull.
