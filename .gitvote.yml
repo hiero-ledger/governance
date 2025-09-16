@@ -1,0 +1,263 @@
+# GitVote Configuration for Hiero Governance Repository
+# This configuration allows voting within specific maintainer groups
+# Usage: /vote profile=<team-name>-maintainers-vote
+
+automation:
+  enabled: false
+
+profiles:
+  # Default governance vote for general governance matters
+  default:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["lf-staff", "tsc", "github-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+    announcements:
+      discussions:
+        category: governance
+
+  # Governance and Administrative Teams
+  hiero-project-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["tsc", "github-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  github-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["github-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Security Teams
+  security-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["security-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Mirror Node Teams
+  hiero-mirror-node-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-mirror-node-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  hiero-mirror-node-explorer-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-mirror-node-explorer-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Local Node Teams
+  hiero-local-node-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-local-node-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Block Node Teams
+  hiero-block-node-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-block-node-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Consensus Node Teams
+  hiero-consensus-node-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-consensus-node-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # SDK Teams - Swift
+  hiero-sdk-swift-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-sdk-swift-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # SDK Teams - Python
+  hiero-sdk-python-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-sdk-python-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # DID SDK Python Teams
+  hiero-did-sdk-python-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-did-sdk-python-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # SDK Teams - Rust
+  hiero-sdk-rust-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-sdk-rust-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # SDK Teams - Java
+  hiero-sdk-java-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-sdk-java-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # SDK Teams - JavaScript
+  hiero-sdk-js-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-sdk-js-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # SDK Teams - C++
+  hiero-sdk-cpp-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-sdk-cpp-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # SDK Teams - Go
+  hiero-sdk-go-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-sdk-go-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # SDK TCK Teams
+  hiero-sdk-tck-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-sdk-tck-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Gradle Conventions Teams
+  hiero-gradle-conventions-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-gradle-conventions-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Solo Action Teams
+  hiero-solo-action-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-solo-action-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Protobufs Teams
+  hiero-protobufs-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-protobufs-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Documentation Teams
+  hiero-docs-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-docs-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # JSON RPC Relay Teams
+  hiero-json-rpc-relay-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-json-rpc-relay-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # HIPs Teams
+  hiero-improvement-proposals-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hiero-improvement-proposals-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Performance Teams
+  # SDK Collaboration Hub Teams
+  sdk-collaboration-hub-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["sdk-collaboration-hub-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Solo Teams
+  solo-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["solo-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # TSC Eligibility Check Teams
+  tsc-eligibility-check-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["tsc-eligibility-check-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Hashgraph Online Standards Teams
+  hashgraph-online-standards-sdk-js-maintainers-vote:
+    duration: 2w
+    pass_threshold: 51
+    allowed_voters:
+      teams: ["hashgraph-online-standards-sdk-js-maintainers"]
+    close_on_passing: false
+    exclude_team_maintainers: false
+
+  # Automation Teams  
