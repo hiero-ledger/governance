@@ -600,13 +600,13 @@ teams:
       - sergmetelin
       - mgarbs
       - RaphaelMessian
+      - Reccetech
     members: []
   - name: hiero-improvement-proposals-committers
     maintainers:
       - sergmetelin
       - mgarbs
       - RaphaelMessian
-      - Reccetech
     members:
       - swirlds-automation
       - kenthejr
