@@ -339,6 +339,7 @@ teams:
       - rbarker-dev
       - stoyanov-st
       - tinker-michaelj
+      - joshmarinacci
   - name: hiero-consensus-node-committers
     maintainers:
       - Nana-EC
