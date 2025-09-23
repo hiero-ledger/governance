@@ -699,6 +699,21 @@ teams:
       - hendrikebbers
     members:
       - exploreriii
+  - name: homebrew-tools-maintainers
+    maintainers:
+      - rbarker-dev
+      - andrewb1269hg
+      - nathanklick
+    members:
+      - jeromy-cannon
+  - name: homebrew-tools-committers
+    maintainers:
+      - rbarker-dev
+      - andrewb1269hg
+      - nathanklick
+    members:
+      - hendrikebbers
+      - michielmulders
   - name: security-maintainers
     maintainers:
       - nathanklick
@@ -1068,6 +1083,16 @@ repositories:
       github-maintainers: maintain
       hiero-improvement-proposals-maintainers: maintain
       hiero-improvement-proposals-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: homebrew-tools
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      homebrew-tools-maintainers: maintain
+      homebrew-tools-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
