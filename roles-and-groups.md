@@ -77,6 +77,38 @@ Project maintainers or the TSC may remove a maintainer who:
 
 More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
 
+### Creating a PR to nominate a person as Committer or Maintainer
+
+When a person is nominated to become a Committer or a Maintainer, a PR should be created against the [`config.yaml`](config.yaml) file.
+The file is a configuration for https://clowarden.io that is used as tool to manage all Hiero repos.
+The file contains all maintainer and committer groups and their members.
+Based on the syntax clowarden each group is defined as follows:
+
+```yaml
+teams:
+  - name: PROJECT-maintainers
+    maintainers:
+      - user1
+    members:
+      - user2
+      - user3
+  - name: PROJECT-committers
+    maintainers:
+      - user4
+    members:
+      - user5
+      - user6
+```
+
+As you can see there are two groups defined for a project: `PROJECT-maintainers` and `PROJECT-committers`.
+In each group there are two sections that can be a little misleading: `maintainers` and `members`.
+The `maintainers` section defines **not the project maintainers**.
+For clowarden the `maintainers` section is needed and must contain at least one person that is already a member of the hiero-ledger GitHub organization.
+That is must to create a valid group.
+It is best practice to have only one person in the `maintainers` section.
+The `members` section contains all the members of the group.
+When a person is nominated to become a Committer or a Maintainer, the PR should add the person to the `members` section of the respective group.
+
 ### Voting
 
 When it comes to electing and voting for new committers or new maintainers, the project should consider the following:
