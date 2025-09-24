@@ -64,9 +64,9 @@ A more detailed general documentation of the GitHub PR workflow can be found [he
 - [ ] **Create a feature branch** for the issue. We do not have a hard naming definition for branches but it is best practice to prefix the branch name with the issue id.
 - [ ] **Solve the issue** in your branch.
 - [ ] **Commit your changes:** Here, it is needed to add `sign-off` information to the commit to accept the "Developer Certificate of Origin" (https://developercertificate.org).
-  Next to that every commit mussed be [verified](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
+  Next to that every commit must be [verified](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
   We do not have a hard definition for commit messages but it is best practice to use the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
-  More details can be found in our [CONTRIBUTING.md](https://github.com/hashgraph/.github/blob/main/CONTRIBUTING.md)
+  More details can be found in our [CONTRIBUTING.md](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md)
 - [ ] **Start a Pull Request (PR)**: When creating a pull request the name of the PR must follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
   A GitHub Action will automatically check that the PR name is following the specification and will block the merge if that is not the case.
   Next to that, the `sign-off` information and the verification of all commits will be checked automatically.
