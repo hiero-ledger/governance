@@ -128,7 +128,7 @@ To nominate `alice123` as a new maintainer for the PROJECT, update the `config.y
           - user5
           - user6
 
-## Example: Adding a New Committer
+#### Example: Adding a New Committer
 
 To nominate `bob456` as a new committer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-committers` group:
 
