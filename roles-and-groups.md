@@ -108,7 +108,45 @@ That is must to create a valid group.
 It is best practice to have only one person in the `maintainers` section.
 The `members` section contains all the members of the group.
 When a person is nominated to become a Committer or a Maintainer, the PR should add the person to the `members` section of the respective group.
+## Example: Adding a New Maintainer
 
+To nominate `alice123` as a new maintainer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-maintainers` group:
+
+    teams:
+      - name: PROJECT-maintainers
+        maintainers:
+          - user1
+        members:
+          - user2
+          - user3
+          - alice123  # New maintainer being added
+      - name: PROJECT-committers
+        maintainers:
+          - user4
+        members:
+          - user5
+          - user6
+
+## Example: Adding a New Committer
+
+To nominate `bob456` as a new committer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-committers` group:
+
+    teams:
+      - name: PROJECT-maintainers
+        maintainers:
+          - user1
+        members:
+          - user2
+          - user3
+      - name: PROJECT-committers
+        maintainers:
+          - user4
+        members:
+          - user5
+          - user6
+          - bob456  # New committer being added
+
+**Note:** Remember that the person in the `maintainers` field (e.g., `user1` or `user4`) must already be a member of the hiero-ledger GitHub organization for the configuration to be valid. This person is not necessarily a project maintainer but serves as the clowarden group maintainer.
 ### Voting
 
 When it comes to electing and voting for new committers or new maintainers, the project should consider the following:
