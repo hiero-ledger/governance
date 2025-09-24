@@ -82,7 +82,7 @@ More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf
 When a person is nominated to become a Committer or a Maintainer, a PR should be created against the [`config.yaml`](config.yaml) file.
 The file is a configuration for https://clowarden.io that is used as tool to manage all Hiero repos.
 The file contains all maintainer and committer groups and their members.
-Based on the syntax clowarden each group is defined as follows:
+The file follows the defined syntax of clowarden that looks like this:
 
 ```yaml
 teams:
