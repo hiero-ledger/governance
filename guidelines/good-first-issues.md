@@ -93,4 +93,13 @@ Please do not add the `good first issue` label directly, as we want to review al
 
 ## Reviewing Good First Issues Candidates
 
-Todo: Describe the review process for good first issues candidates.
+The review process for good first issues candidates is as follows:
+
+1. **Verify Issue Completeness:** Ensure the issue contains a clear description, expected outcome, relevant links, and any necessary context or prerequisites.
+2. **Check Scope and Complexity:** Confirm that the issue is well-defined, manageable, educational, non-critical, and documented, as outlined above.
+3. **Assess Suitability for Newcomers:** Make sure the issue does not require deep project knowledge or access to sensitive resources.
+4. **Provide Feedback:** If the issue is missing information or does not meet the criteria, leave a comment with suggestions for improvement.
+5. **Label Appropriately:** Once the issue meets all requirements, remove the `good first issue candidate` label and add the `good first issue` label.
+6. **Encourage Discussion:** Invite the original author and other contributors to ask questions or clarify details as needed.
+
+By following these steps, maintainers help ensure that good first issues are welcoming and accessible to new contributors.
