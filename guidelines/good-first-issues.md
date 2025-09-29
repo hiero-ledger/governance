@@ -59,32 +59,19 @@ A more detailed general documentation of the GitHub PR workflow can be found [he
 
 - [ ] **Claim this issue:** Comment below that you are interested in working on the issue
 - [ ] **Wait for assignment:** A community member with the given rights will add you as an assignee of the issue
-- [ ] **Fork the repository:** You can do that in GitHub (by simply clicking the 'fork' button).
-- [ ] **Check out the forked repository**
-- [ ] **Create a feature branch** for the issue. We do not have a hard naming definition for branches but it is best practice to prefix the branch name with the issue id.
-- [ ] **Solve the issue** in your branch.
-- [ ] **Commit your changes:** Here, it is needed to add `sign-off` information to the commit to accept the "Developer Certificate of Origin" (https://developercertificate.org).
-  Next to that every commit must be [verified](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
-  We do not have a hard definition for commit messages but it is best practice to use the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
-  More details can be found in our [CONTRIBUTING.md](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md)
-- [ ] **Start a Pull Request (PR)**: When creating a pull request the name of the PR must follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
-  A GitHub Action will automatically check that the PR name is following the specification and will block the merge if that is not the case.
-  Next to that, the `sign-off` information and the verification of all commits will be checked automatically.
-- [ ] **Check GitHub Actions:** Several GitHub Actions will be triggered automatically for each PR.
-  If a GitHub Action fails and you do not understand the cause of that error do not hesitate to add a comment to the PR and ask the Hiero developer community for support.
-- [ ] **Wait for reviews:** Members of the Hiero developer community will review your PR.
-  If a reviewer finds any missing pieces or a problem, he or she will start a discussion with you and describe the next steps for solving the problem.
-- [ ] **You did it 🎉:** We will merge the fix in the develop branch. Thanks for being part of the Hiero community as an open-source contributor ❤️
+- [ ] **Work on the issue:** Follow the detailed description in our [CONTRIBUTING.md](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md) file.
+- [ ] **You did it 🎉:** We will merge the fix in the main branch. Thanks for being part of the Hiero community as an open-source contributor ❤️
 
 ## 🎉 Contribute to Hacktoberfest
 
 At the time of the [Hacktoberfest](https://hacktoberfest.digitalocean.com) event we try to mark all PRs that solve any good first issue with the `hacktoberfest-accepted` label.
-If you want to solve this issue as part of Hacktoberfest, and we missed to add the label, just add a comment to the issue or PR, and we will add it.
+If you want to resolve this issue as part of Hacktoberfest and we missed adding the label, simply add a comment to the issue or PR, and we will add it.
 
 ## 🤔 Additional Information
 
-If you have any questions about the topic of this issue, just ask us directly in this issue by adding a comment.
-Next to that we want to invite you to join our community at our [Discord](https://discord.gg/kEnnmB9A) server or join our [public community calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week).
+If you have any questions about the topic of this issue, please ask us directly by adding a comment below.
+Additionally, we invite you to join our community on our [Discord](https://discord.gg/kEnnmB9A) server or attend our [public community calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week).
+
 A general manual about open-source contributions can be found [here](https://github.com/firstcontributions/first-contributions/blob/master/README.md).
 ```
 
