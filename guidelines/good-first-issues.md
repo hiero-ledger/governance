@@ -93,6 +93,8 @@ Please do not add the `good first issue` label directly, as we want to review al
 
 ## Reviewing Good First Issues Candidates
 
+All candidates for good first issues can be found [here](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20org%3Ahiero-ledger%20archived%3Afalse%20label%3A%22good%20first%20issue%20candidate%22).
+
 The review process for good first issues candidates is as follows:
 
 1. **Verify Issue Completeness:** Ensure the issue contains a clear description, expected outcome, relevant links, and any necessary context or prerequisites.
