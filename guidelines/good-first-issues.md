@@ -92,3 +92,30 @@ The review process for good first issues candidates is as follows:
 6. **Encourage Discussion:** Invite the original author and other contributors to ask questions or clarify details as needed.
 
 By following these steps, maintainers help ensure that good first issues are welcoming and accessible to new contributors.
+
+## Reviewing Pull Requests based on Good First Issues
+
+Please follow those tips when reviewing a PR that is based on a Good First Issues:
+
+- **Be welcoming and constructive** – remember many contributors are making their very first PR. Encourage, don’t discourage.
+- **Check for clarity** – if something is missing in the PR (tests, docs, formatting), explain why it matters and guide the contributor.
+- **Keep scope small** – if the PR goes beyond the intended “good first issue,” help contributors refocus rather than rejecting outright.
+- **Celebrate success** – acknowledge even small improvements; positive feedback keeps new contributors engaged.
+
+If the Pull Request is created as part of Hacktoberfest (https://hacktoberfest.com) the "hacktoberfest-accepted" label should be added to the PR when it is merged.
+This ensures the contribution is counted toward the contributor’s Hacktoberfest progress. 
+A good progress may even help them earn some cool rewards for their efforts.
+
+## Definition of Good First Issue related GitHub labels
+
+The following issues should be part of every repository since they are used in the "Good First Issue" process.
+
+| Label Name | Description | Color |
+| :--- | :--- | :--- |
+| good first issue candidate | Issues that can become a “good first issue” but need more description/context. | #d6d651 |
+| good first issue | Issues which are ideal for a first time or new project contributor. | #097023 |
+| non-code | Issues that can be solved without coding like documentation. | #0ca4a5 |
+| spam | Irrelevant, low-quality, or malicious, created solely for self-promotion, credit, or deception. | #a50104 |
+| hacktoberfest-accepted | Pull Requests counted for Hacktoberfest (https://hacktoberfest.com/) | #d97811 |
+| hacktoberfest | Issues highlighted by lists for Hacktoberfest (https://hacktoberfest.com/) | #d97811 |
+
