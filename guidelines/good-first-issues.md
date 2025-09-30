@@ -95,7 +95,7 @@ By following these steps, maintainers help ensure that good first issues are wel
 
 ## Reviewing Pull Requests based on Good First Issues
 
-Please follow those tips when reviewing a PR that is based on a Good First Issues:
+Please follow these tips when reviewing a PR based on a Good First Issues label:
 
 - **Be welcoming and constructive** – remember many contributors are making their very first PR. Encourage, don’t discourage.
 - **Check for clarity** – if something is missing in the PR (tests, docs, formatting), explain why it matters and guide the contributor.
@@ -104,7 +104,7 @@ Please follow those tips when reviewing a PR that is based on a Good First Issue
 
 If the Pull Request is created as part of Hacktoberfest (https://hacktoberfest.com) the "hacktoberfest-accepted" label should be added to the PR when it is merged.
 This ensures the contribution is counted toward the contributor’s Hacktoberfest progress. 
-A good progress may even help them earn some cool rewards for their efforts.
+Progress may help them earn some cool rewards for their efforts.
 
 ## Definition of Good First Issue related GitHub labels
 
