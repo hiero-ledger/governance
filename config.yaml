@@ -855,6 +855,15 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
+  - name: hiero-cli
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-cli-maintainers: maintain
+      hiero-cli-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
   - name: hiero-sdk-cpp
     teams:
       tsc: maintain
