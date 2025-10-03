@@ -108,7 +108,8 @@ Progress may help them earn some cool rewards for their efforts.
 
 ## Hacktoberfest
 
-[Hacktoberfest](https://hacktoberfest.com) is an annual online event every October that encourages developers worldwide to contribute to open source projects. The idea is to motivate people to make their **first-ever open source contribution**, and to inspire experienced developers to contribute to projects they haven’t worked on before.
+[Hacktoberfest](https://hacktoberfest.com) is an annual online event every October that encourages developers worldwide to contribute to open source projects.
+The idea is to motivate people to make their **first-ever open source contribution**, and to inspire experienced developers to contribute to projects they haven’t worked on before.
 
 For us, Hacktoberfest means we can expect a noticeable increase in activity:
 
@@ -116,7 +117,9 @@ For us, Hacktoberfest means we can expect a noticeable increase in activity:
 - **More contributor questions** – as many participants are new to open source
 - **Some low-quality or spam PRs** – unfortunately this is a recurring challenge
 
-During October we ask maintainers & committers to be extra welcoming and supportive toward new contributors. For many, this is their very first contribution. Try to give constructive feedback where possible, even for small mistakes, so contributors can learn and stay engaged.
+During October we ask maintainers & committers to be extra welcoming and supportive toward new contributors.
+For many, this is their very first contribution.
+Try to give constructive feedback where possible, even for small mistakes, so contributors can learn and stay engaged.
 
 Some important rules to make Hacktoberfest a success for the contributors and for us:
 
@@ -132,7 +135,8 @@ Some important rules to make Hacktoberfest a success for the contributors and fo
 
 More information about the specific rules and workflows of Hacktoberfest can be found [here](https://hacktoberfest.com/participation/).
 
-Hacktoberfest has been a great way for us to attract new contributors and grow our community. With your help, we can make sure this year’s experience is both positive and rewarding for everyone involved.
+Hacktoberfest has been a great way for us to attract new contributors and grow our community.
+With your help, we can make sure this year’s experience is both positive and rewarding for everyone involved.
 
 ## Definition of Good First Issue related GitHub labels
 
