@@ -127,8 +127,10 @@ Some important rules to make Hacktoberfest a success for the contributors and fo
 - If a PR is valid and merged, don’t forget to add the “hacktoberfest-accepted” label so it counts for the contributor.
 - If a PR is spammy or irrelevant, it can simply be closed — please don’t feel pressured to merge it.
   If you assume that the PR is real spam (maybe created by an AI) we can label the PR with the "spam" label.
-  If a person creates multiple PRs that are labeled by spam that person will be excluded from Hacktobverfest automatically.
+  If a person creates multiple PRs that are labeled by spam that person will be excluded from Hacktoberfest automatically.
 - It often makes sense to link to our [CONTRIBUTING.md](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md) file since that contains a good overview of our rules and workflows.
+
+More information about the specific rules and workflows of Hacktoberfest can be found [here](https://hacktoberfest.com/participation/).
 
 Hacktoberfest has been a great way for us to attract new contributors and grow our community. With your help, we can make sure this year’s experience is both positive and rewarding for everyone involved.
 
