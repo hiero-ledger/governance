@@ -106,6 +106,32 @@ If the Pull Request is created as part of Hacktoberfest (https://hacktoberfest.c
 This ensures the contribution is counted toward the contributor’s Hacktoberfest progress. 
 Progress may help them earn some cool rewards for their efforts.
 
+## Hacktoberfest
+
+[Hacktoberfest](https://hacktoberfest.com) is an annual online event every October that encourages developers worldwide to contribute to open source projects. The idea is to motivate people to make their **first-ever open source contribution**, and to inspire experienced developers to contribute to projects they haven’t worked on before.
+
+For us, Hacktoberfest means we can expect a noticeable increase in activity:
+
+- **More pull requests** – especially on issues labeled good first issue
+- **More contributor questions** – as many participants are new to open source
+- **Some low-quality or spam PRs** – unfortunately this is a recurring challenge
+
+During October we ask maintainers & committers to be extra welcoming and supportive toward new contributors. For many, this is their very first contribution. Try to give constructive feedback where possible, even for small mistakes, so contributors can learn and stay engaged.
+
+Some important rules to make Hacktoberfest a success for the contributors and for us:
+
+- If a PR is done from a person that is not assigned to the corresponding issue please assign the contributor first and make clear that it is best pratice to be assigned to an issue before start coding.
+  If another person is already assigned to the PR you should ask that person if he is activly working on the issues.
+  In that case we should keep the PR open and see if the assigned person does a PR.
+  That PR should be handled with priority against the other one.
+- If a PR is valid and merged, don’t forget to add the “hacktoberfest-accepted” label so it counts for the contributor.
+- If a PR is spammy or irrelevant, it can simply be closed — please don’t feel pressured to merge it.
+  If you assume that the PR is real spam (maybe created by an AI) we can label the PR with the "spam" label.
+  If a person creates multiple PRs that are labeled by spam that person will be excluded from Hacktobverfest automatically.
+- It often makes sense to link to our [CONTRIBUTING.md](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md) file since that contains a good overview of our rules and workflows.
+
+Hacktoberfest has been a great way for us to attract new contributors and grow our community. With your help, we can make sure this year’s experience is both positive and rewarding for everyone involved.
+
 ## Definition of Good First Issue related GitHub labels
 
 The following issues should be part of every repository since they are used in the "Good First Issue" process.
