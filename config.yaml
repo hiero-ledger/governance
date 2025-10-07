@@ -716,6 +716,7 @@ teams:
       - nathanklick
     members:
       - hendrikebbers
+      - JeffreyDallas
       - michielmulders
   - name: security-maintainers
     maintainers:
