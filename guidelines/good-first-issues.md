@@ -144,10 +144,10 @@ The following issues should be part of every repository since they are used in t
 
 | Label Name | Description | Color |
 | :--- | :--- | :--- |
-| good first issue candidate | Issues that can become a “good first issue” but need more description/context. | #d6d651 |
-| good first issue | Issues which are ideal for a first time or new project contributor. | #097023 |
-| non-code | Issues that can be solved without coding like documentation. | #0ca4a5 |
-| spam | Irrelevant, low-quality, or malicious, created solely for self-promotion, credit, or deception. | #a50104 |
+| Good First Issue Candidate | Issues that can become a “good first issue” but need more description/context. | #d6d651 |
+| Good First Issue | Issues which are ideal for a first time or new project contributor. | #097023 |
+| Non-Code | Issues that can be solved without coding like documentation. | #0ca4a5 |
+| Spam | Irrelevant, low-quality, or malicious, created solely for self-promotion, credit, or deception. | #a50104 |
 | hacktoberfest-accepted | Pull Requests counted for Hacktoberfest (https://hacktoberfest.com/) | #d97811 |
 | hacktoberfest | Issues highlighted by lists for Hacktoberfest (https://hacktoberfest.com/) | #d97811 |
 
