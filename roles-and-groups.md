@@ -77,6 +77,78 @@ Project maintainers or the TSC may remove a maintainer who:
 
 More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
 
+### Creating a PR to nominate a person as Committer or Maintainer
+
+When a person is nominated to become a Committer or a Maintainer, a PR should be created against the [`config.yaml`](config.yaml) file.
+The file is a configuration for https://clowarden.io that is used as tool to manage all Hiero repos.
+The file contains all maintainer and committer groups and their members.
+The file follows the defined syntax of clowarden that looks like this:
+
+```yaml
+teams:
+  - name: PROJECT-maintainers
+    maintainers:
+      - user1
+    members:
+      - user2
+      - user3
+  - name: PROJECT-committers
+    maintainers:
+      - user4
+    members:
+      - user5
+      - user6
+```
+
+As you can see there are two groups defined for a project: `PROJECT-maintainers` and `PROJECT-committers`.
+In each group there are two sections that can be a little misleading: `maintainers` and `members`.
+The `maintainers` section defines **not the project maintainers**.
+For clowarden the `maintainers` section is needed and must contain at least one person that is already a member of the hiero-ledger GitHub organization.
+That is must to create a valid group.
+It is best practice to have only one person in the `maintainers` section.
+The `members` section contains all the members of the group.
+When a person is nominated to become a Committer or a Maintainer, the PR should add the person to the `members` section of the respective group.
+
+#### Example: Adding a New Maintainer
+
+To nominate `alice123` as a new maintainer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-maintainers` group:
+
+    teams:
+      - name: PROJECT-maintainers
+        maintainers:
+          - user1
+        members:
+          - user2
+          - user3
+          - alice123  # New maintainer being added
+      - name: PROJECT-committers
+        maintainers:
+          - user4
+        members:
+          - user5
+          - user6
+
+#### Example: Adding a New Committer
+
+To nominate `bob456` as a new committer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-committers` group:
+
+    teams:
+      - name: PROJECT-maintainers
+        maintainers:
+          - user1
+        members:
+          - user2
+          - user3
+      - name: PROJECT-committers
+        maintainers:
+          - user4
+        members:
+          - user5
+          - user6
+          - bob456  # New committer being added
+
+**Note:** Remember that the person in the `maintainers` field (e.g., `user1` or `user4`) must already be a member of the hiero-ledger GitHub organization for the configuration to be valid. This person is not necessarily a project maintainer but serves as the clowarden group maintainer.
+
 ### Voting
 
 When it comes to electing and voting for new committers or new maintainers, the project should consider the following:
@@ -138,6 +210,22 @@ All roles are based on the [GitHub role defintions](https://docs.github.com/en/o
 - **`PROJECT-committers`**: `WRITE`
 
 The GitHub roles are assigned in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml).
+
+### Additional Roles for supporting onboarding, contribution and project management
+
+Two additional roles can be defined per project next to committer and maintainer roles to support onboarding and contribution to the Hiero project:
+
+- **`PROJECT-triage-contributor`**: grants triage access (e.g., ability to assign tickets) but not write access to project boards.
+  This will allow to assign issues to contributors and help with the triage of issues without granting full write access to the project.
+  We believe that this role is essential for onboarding new contributors that will work full time on the project.
+  Next to that the role allows managers of companies that are members of the Hiero project to help with the triage of issues without granting full write access to the project.
+- **`PROJECT-board-contributor`**: grants write access to project boards (e.g., changing board status and sprint planning).
+  Companies that are members of the Hiero project might have project managers working on the project.
+  This role allows them to update the project boards without granting full write access to the project.
+
+These roles can be granted based on community sponsorship or through a maintainer vote, depending on the governance process adopted.
+As defined today the roles can only be granted to people based on a sponsorship from a company that is a [member of the LF Decentralized Trust](https://www.lfdecentralizedtrust.org/members).
+The TSC will review requests in the form of a PR against the https://github.com/hiero-ledger/governance repository for these roles and approve the PR based on the previous criteria.
 
 ## Usage of GitHub CODEOWNERS in combination with our roles, groups, and rights
 
