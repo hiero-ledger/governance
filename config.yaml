@@ -415,6 +415,7 @@ teams:
       - Mark-Swirlds
       - ty-swirldslabs
       - Reccetech
+      - akdev
   - name: hiero-consensus-node-release-engineers
     maintainers:
       - rbarker-dev
