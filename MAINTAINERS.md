@@ -26,19 +26,19 @@ Maintainers are assigned the following scopes in this repository:
 | Jessica Gonzalez       | jwagantall    |       |      |            |       | The Linux Foundation |
 | Richard Bair           | rbair23       |       |      |            |       | Hashgraph            |
 | Leemon Baird           | lbaird        |       |      |            |       | Hashgraph            |
-| George Spasov          | Perseverance  |       |      |            |       | Hashgraph            |
 | Hendrik Ebbers         | hendrikebbers |       |      |            |       | Hashgraph            |
 | Alex Popowycz          | popowycz      |       |      |            |       | Hashgraph            |
 | Stoyan Panayotov       | stoqnkpL      |       |      |            |       | Hashgraph            |
 | Milan Wiercx Van Rhijn | MilanWR       |       |      |            |       | MilanWR.com (8BEES)  |
 | Michael Kantor         | kantorcodes   |       |      |            |       | Hashgraph Online     |
-
+| Brandon Davenport      | itsbrandondev |       |      |            |       | Hashgraph            |
+| Georgi Lazarov         | georgi-l95    |       |      |            |       | Limechain            |
 
 ## Emeritus Maintainers
 
-| Name | GitHub ID | Scope | LFID | Discord ID | Email | Company Affiliation |
-|----- | --------- | ----- | ---- | ---------- | ----- | ------------------- |
-|      |           |       |      |            |       |                     |
+| Name             | GitHub ID     | Scope               | LFID | Discord ID | Email | Company Affiliation  |
+|----------------- | ------------- | ------------------- | ---- | ---------- | ----- | -------------------- |
+| George Spasov    | Perseverance  | project-maintainers |      |            |       | Limechain            |
 
 ## The Duties of a Maintainer
 
