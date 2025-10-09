@@ -220,6 +220,7 @@ teams:
       - venilinvasilev
       - ivaylogarnev-limechain
       - ivaylonikolov7
+      - mariodimitrovv
   - name: hiero-sdk-js-internal-contributors
     maintainers:
       - SimiHunjan
@@ -252,6 +253,7 @@ teams:
       - agadzhalov
       - ivaylonikolov7
       - gsstoykov
+      - mariodimitrovv
       - RickyLB
   - name: hiero-sdk-tck-internal-contributors
     maintainers:
