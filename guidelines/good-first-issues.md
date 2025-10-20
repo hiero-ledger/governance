@@ -2,7 +2,7 @@
 
 This guide explains what qualifies as a “Good First Issue” and how to create one for new contributors.
 All our good first issues are labeled with the `good first issue` label.
-An overview of all open good first issues can be found [here](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Ahiero-ledger+archived%3Afalse+label%3A%22good+first+issue%22+).
+An overview of all open good first issues can be found [here](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20org%3Ahiero-ledger%20archived%3Afalse%20label%3A%22good%20first%20issue%22%20sort%3Aupdated-desc).
 
 ## What is a Good First Issue?
 
@@ -80,7 +80,7 @@ Please do not add the `good first issue` label directly, as we want to review al
 
 ## Reviewing Good First Issues Candidates
 
-All candidates for good first issues can be found [here](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20org%3Ahiero-ledger%20archived%3Afalse%20label%3A%22good%20first%20issue%20candidate%22).
+All candidates for good first issues can be found [here](https://github.com/issues?q=is%3Aopen%20is%3Aissue%20org%3Ahiero-ledger%20archived%3Afalse%20label%3A%22good%20first%20issue%20candidate%22%20sort%3Aupdated-desc).
 
 The review process for good first issues candidates is as follows:
 
@@ -137,6 +137,8 @@ More information about the specific rules and workflows of Hacktoberfest can be 
 
 Hacktoberfest has been a great way for us to attract new contributors and grow our community.
 With your help, we can make sure this year’s experience is both positive and rewarding for everyone involved.
+
+All PRs that are labeled by 'hacktoberfest-accepted' cab be found [here](https://github.com/issues?q=is%3Apr%20org%3Ahiero-ledger%20label%3A%22hacktoberfest-accepted%22%20sort%3Aupdated-desc).
 
 ## Definition of Good First Issue related GitHub labels
 
