@@ -3,10 +3,10 @@
 Installing GitHub Apps allows automation and integration, but they can potentially be a security risk since each app can access parts of your repositories and organization data.
 Follow these steps to ensure you install apps securely and intentionally.
 
-## Reaserch Your App's Legitimacy
+## Research Your App's Legitimacy
 
 - Make sure the app belongs to a trusted publisher.
-- Read reviews in GitHub Marketplace if available or do a short reaserch.
+- Read reviews in GitHub Marketplace if available or do a short research.
 - Inspect the permissions required as well as potential costs.
 - Review if there is any other similar app already installed in your organization and available for your repos.
 
@@ -20,8 +20,8 @@ Follow these steps to ensure you install apps securely and intentionally.
 
 - Scope and limit the repos in your organization that need the app.
 - Ensure that the permissions required for the app to function align with your organization's guidelines.
-- If the app requires the need or a bot account, make sure to consult first with the LFDT/staff team.
-- If this is a short term need, make sure to assign a point of contact responsible of requesting it's deletion.
+- If the app requires a bot account, make sure to consult first with the LFDT/staff team.
+- If this is a short term need, make sure to assign a point of contact responsible of requesting its deletion.
 
 ## Submit Your Request for Installation
 
