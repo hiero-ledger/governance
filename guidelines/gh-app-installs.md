@@ -14,7 +14,7 @@ Follow these steps to ensure you install apps securely and intentionally.
 
 - Ensure that the app works as intended (in your test fork).
 - Avoid requesting apps that could potentially cause conflict with already existing apps.
-- After installation (and if approved) make sure to monitor and report any strange behaviour.
+- After installation (and if approved) make sure to monitor and report any strange behavior.
 
 ## Scope the App's needs
 
