@@ -28,5 +28,5 @@ Follow these steps to ensure you install apps securely and intentionally.
 - Start a new discussion in your organization using the "App Requests" template or using [this link](https://github.com/orgs/hiero-ledger/discussions/new?category=app-requests).
   1. Provide the exact/full name of the app.
   2. Specify the repos in which the app is needed. (Preferably scope it to the minimum possible).
-  3. Provide a justification, motive or need that the app will solve.
+  3. Provide a justification, motive or need that the app will solve. Make sure to mention any potential costs, permissions questions, unresolved concerns and if the app is needed for a limited time.
   4. Optionally, include any teams that need to review this request. 
