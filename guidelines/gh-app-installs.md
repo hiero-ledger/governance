@@ -6,20 +6,20 @@ Follow these steps to ensure you install apps securely and intentionally.
 ## Research Your App's Legitimacy
 
 - Make sure the app belongs to a trusted publisher.
-- Read reviews in GitHub Marketplace if available or do a short research.
+- Read reviews in GitHub Marketplace if available and review other sources of feedback.
 - Inspect the permissions required as well as potential costs.
 - Review if there is any other similar app already installed in your organization and available for your repos.
 
 ## Validate Functionality
 
-- Ensure that the app works as intended (in your test fork).
-- Avoid requesting apps that could potentially cause conflict with already existing apps.
-- After installation (and if approved) make sure to monitor and report any strange behavior.
+- Consider creating a fork for testing purposes to verify app functionality.
+- Avoid requesting apps that may conflict with existing apps.
+- After approval and installation, continue to review app behavior and report any unexpected behavior.
 
 ## Scope the App's needs
 
 - Scope and limit the repos in your organization that need the app.
-- Ensure that the permissions required for the app to function align with your organization's guidelines.
+- Ensure the permissions required for the app to function align with your organization's guidelines.
 - If the app requires a bot account, make sure to consult first with the LFDT/staff team.
 - If this is a short term need, make sure to assign a point of contact responsible of requesting its deletion.
 
@@ -28,5 +28,5 @@ Follow these steps to ensure you install apps securely and intentionally.
 - Start a new discussion in your organization using the "App Requests" template or using [this link](https://github.com/orgs/hiero-ledger/discussions/new?category=app-requests).
   1. Provide the exact/full name of the app.
   2. Specify the repos in which the app is needed. (Preferably scope it to the minimum possible).
-  3. Provide a justification, motive or need that the app will solve. Make sure to mention any potential costs, permissions questions, unresolved concerns and if the app is needed for a limited time.
+  3. Provide a justification, motive, or need that the app will solve. Identify any potential costs, permissions questions, unresolved concerns. Be sure to include the duration this app is needed (long-term or a short-term install).
   4. Optionally, include any teams that need to review this request. 
