@@ -7,8 +7,9 @@ Follow these steps to ensure you install apps securely and intentionally.
 
 - Make sure the app belongs to a trusted publisher.
 - Read reviews in GitHub Marketplace if available and review other sources of feedback.
-- Inspect the permissions required as well as potential costs.
-- Review if there is any other similar app already installed in your organization and available for your repos.
+- Verify permissions requested by the app are required.
+- Identify potential costs.
+- Review if there exists an app in your organization that can be used in your repo, rather than installing a new app.
 
 ## Validate Functionality
 
