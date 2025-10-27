@@ -23,22 +23,24 @@ teams:
       - popowycz
       - rbair23
       - stoqnkpL
-      - Perseverance
+      - georgi-l95
       - lbaird
       - MilanWR
       - kantorcodes
+      - itsbrandondev
   - name: lf-staff
     maintainers:
       - ryjones
     members:
       - SeanBohan
+      - christinaharter
       - daniela-barbosa
       - davidwboswell
       - jwagantall
       - hartm
       - minyu66
       - thelinuxfoundation
-  - name: governance-triage
+  - name: governance-write
     maintainers:
       - ryjones
       - jwagantall
@@ -143,14 +145,28 @@ teams:
     maintainers:
       - nadineloepfe
     members:
-      - hendrikebbers
       - rbair23
+      - exploreriii
   - name: hiero-sdk-python-committers
     maintainers:
       - nadineloepfe
     members:
-      - exploreriii
+      - hendrikebbers
       - Dosik13
+  - name: hiero-did-sdk-js-maintainers
+    maintainers:
+      - AlexanderShenshin
+      - Reccetech
+    members:
+      - Diegoescalonaro
+      - KononovAndrey
+      - dmueller2001
+      - drgorb
+  - name: hiero-did-sdk-js-committers
+    maintainers:
+      - Reccetech
+    members:
+      - KononovAndrey
   - name: hiero-did-sdk-python-maintainers
     maintainers:
       - Reccetech
@@ -204,6 +220,12 @@ teams:
       - venilinvasilev
       - ivaylogarnev-limechain
       - ivaylonikolov7
+  - name: hiero-sdk-js-internal-contributors
+    maintainers:
+      - SimiHunjan
+      - rwalworth
+    members:
+      - a-saksena
   - name: hiero-sdk-cpp-maintainers
     maintainers:
       - rwalworth
@@ -231,6 +253,12 @@ teams:
       - ivaylonikolov7
       - gsstoykov
       - RickyLB
+  - name: hiero-sdk-tck-internal-contributors
+    maintainers:
+      - SimiHunjan
+      - rwalworth
+    members:
+      - a-saksena
   - name: hiero-sdk-go-maintainers
     maintainers:
       - SimiHunjan
@@ -276,22 +304,22 @@ teams:
       - AlfredoG87
       - jasperpotts
       - jsync-swirlds
-      - mattp-swirldslabs
   - name: hiero-block-node-committers
     maintainers:
       - AlfredoG87
       - Nana-EC
     members:
-      - rbarker-dev
-      - georgi-l95
       - ata-nas
-      - jasperpotts
-      - jsync-swirlds
-      - san-est
-      - rbair23
       - a-saksena
       - CMiville42
+      - georgi-l95
+      - jasperpotts
+      - jsync-swirlds
       - mattp-swirldslabs
+      - mustafauzunn
+      - rbair23
+      - rbarker-dev
+      - san-est
   - name: hiero-consensus-node-maintainers
     maintainers:
       - Nana-EC
@@ -299,6 +327,7 @@ teams:
       - artemananiev
       - bubo
       - Ferparishuertas
+      - jasperpotts
       - lpetrovic05
       - lukelee-sl
       - nathanklick
@@ -306,6 +335,7 @@ teams:
       - netopyr
       - OlegMazurov
       - poulok
+      - rbair23
       - rbarker-dev
       - stoyanov-st
       - tinker-michaelj
@@ -317,6 +347,7 @@ teams:
       - poulok
     members:
       - abies
+      - akdev
       - anastasiya-kovaliova
       - anthony-swirldslabs
       - artemananiev
@@ -325,15 +356,18 @@ teams:
       - derektriley
       - edward-swirldslabs
       - Evdokia-Georgieva
+      - gkozyryatskyy
       - ibankov
       - imalygin
       - IvanKavaldzhiev
       - iwsimon
       - Jeffrey-morgan34
       - JivkoKelchev
+      - joshmarinacci
       - jsync-swirlds
       - kimbor
       - litt3
+      - lukasz-hashgraph
       - mhess-swl
       - MiroslavGatsanoga
       - mustafauzunn
@@ -355,12 +389,12 @@ teams:
       - poulok
       - artemananiev
     members:
+      - aderevets
       - akdev
       - akugal
-      - elpinkypie
-      - gkozyryatskyy
+      - AlexKehayov
+      - a-saksena
       - joshmarinacci
-      - lukasz-hashgraph
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
@@ -381,6 +415,7 @@ teams:
       - Mark-Swirlds
       - ty-swirldslabs
       - Reccetech
+      - akdev
   - name: hiero-consensus-node-release-engineers
     maintainers:
       - rbarker-dev
@@ -419,6 +454,7 @@ teams:
       - ibankov
       - iwsimon
       - JivkoKelchev
+      - joshmarinacci
       - kimbor
       - mhess-swl
       - MiroslavGatsanoga
@@ -442,6 +478,8 @@ teams:
       - Ferparishuertas
       - Nana-EC
     members:
+      - gkozyryatskyy
+      - lukasz-hashgraph
       - lukelee-sl
       - stoyanov-st
       - bubo
@@ -479,6 +517,20 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
+  - name: hiero-cli-maintainers
+    maintainers:
+      - michielmulders
+    members:
+      - Neurone
+  - name: hiero-cli-committers
+    maintainers:
+      - michielmulders
+    members:
+      - devmab
+      - misiekp
+      - michalrozekariane
+      - mateuszm-arianelabs
+      - se7enarianelabs
   - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
@@ -540,11 +592,19 @@ teams:
       - quiet-node
       - simzzz
       - victor-yanev
+      - mwb-al
+      - se7enarianelabs
+  - name: hiero-hederium-maintainers
+    maintainers:
+      - georgi-l95
+    members:
+      - Dosik13
   - name: hiero-improvement-proposals-maintainers
     maintainers:
       - sergmetelin
       - mgarbs
       - RaphaelMessian
+      - Reccetech
     members: []
   - name: hiero-improvement-proposals-committers
     maintainers:
@@ -632,8 +692,33 @@ teams:
       - jascks
       - jnels124
       - justynspooner
-      - Reccetech
       - sumanair
+  - name: hiero-website-maintainers
+    maintainers:
+      - hendrikebbers
+    members:
+      - exploreriii
+  - name: hiero-website-committers
+    maintainers:
+      - hendrikebbers
+    members:
+      - exploreriii
+  - name: homebrew-tools-maintainers
+    maintainers:
+      - rbarker-dev
+      - andrewb1269hg
+      - nathanklick
+    members:
+      - jeromy-cannon
+  - name: homebrew-tools-committers
+    maintainers:
+      - rbarker-dev
+      - andrewb1269hg
+      - nathanklick
+    members:
+      - hendrikebbers
+      - JeffreyDallas
+      - michielmulders
   - name: security-maintainers
     maintainers:
       - nathanklick
@@ -718,7 +803,7 @@ teams:
       - kantorcodes
     members:
       - rocketmay
-      - hgraphpunks
+      - HGraphPunks
   - name: hashgraph-online-standards-sdk-js-committers
     maintainers:
       - kantorcodes
@@ -732,12 +817,14 @@ repositories:
       security-maintainers: write
       prod-security: write
       sec-ops: write
-      governance-triage: triage
+      governance-write: write
     visibility: public
   - name: hiero-website
     teams:
       tsc: maintain
       github-maintainers: maintain
+      hiero-website-maintainers: maintain
+      hiero-website-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -773,6 +860,15 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
+  - name: hiero-cli
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-cli-maintainers: maintain
+      hiero-cli-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
   - name: hiero-sdk-cpp
     teams:
       tsc: maintain
@@ -789,6 +885,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-tck-maintainers: maintain
       hiero-sdk-tck-committers: write
+      hiero-sdk-tck-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -840,6 +937,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
+      hiero-sdk-js-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -860,6 +958,16 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: hiero-did-sdk-js
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-did-sdk-js-maintainers: maintain
+      hiero-did-sdk-js-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -973,6 +1081,15 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
+  - name: hiero-hederium
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-hederium-maintainers: maintain
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
   - name: hiero-improvement-proposals
     teams:
       tsc: maintain
@@ -980,6 +1097,16 @@ repositories:
       github-maintainers: maintain
       hiero-improvement-proposals-maintainers: maintain
       hiero-improvement-proposals-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: homebrew-tools
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      homebrew-tools-maintainers: maintain
+      homebrew-tools-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
