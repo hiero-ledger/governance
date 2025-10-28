@@ -153,6 +153,55 @@ teams:
     members:
       - hendrikebbers
       - Dosik13
+  - name: hiero-sdk-python-contributors
+    maintainers:
+      - nadineloepfe
+      - exploreriii
+    members:
+      - manishdait
+      - Pranay22077
+      - piyush588
+      - rbarker-dev
+      - Ndacyayisenga-droid
+      - Mounil2005
+      - AlexanderShenshin
+      - 0xivanov
+      - LukeBair
+      - anirudhsengar
+      - BhuvanB404
+      - Raja-89
+      - Adityarya11
+      - gg21-prog
+      - ambicuity
+      - Om7035
+      - DinethShakya23
+      - harshadsutar
+      - ivaylonikolov7
+      - ricardoiarced
+      - Zaki-Mohd
+      - 0xJohnZW
+      - RaghavGanesh7
+      - Pratyush2240
+      - sankhya007
+      - OnatadeTobi
+      - riyadey27
+      - msaadsbr
+      - Rishabh1925
+      - Ananya44444
+      - bhaskargurram-ai
+      - mollymont
+      - Akshat8510
+      - joepaulvilsan
+      - amritamishra01
+      - tharun634
+      - Shashank0701-byte
+      - prajeeta15
+      - NayandG07
+      - arnav-terex
+      - Akshat1931
+      - AubreyDDD
+      - drtoxic69
+      - kphero
   - name: hiero-did-sdk-js-maintainers
     maintainers:
       - AlexanderShenshin
@@ -960,6 +1009,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
+      hiero-sdk-python-contributors: read
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
