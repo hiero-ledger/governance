@@ -322,6 +322,13 @@ teams:
       - rbair23
       - rbarker-dev
       - san-est
+  - name: hiero-block-node-internal-contributors
+    maintainers:
+      - AlfredoG87
+      - jsync-swirlds
+      - Nana-EC
+    members:
+      - rockysingh
   - name: hiero-consensus-node-maintainers
     maintainers:
       - Nana-EC
@@ -1035,6 +1042,7 @@ repositories:
       hiero-automation: write
       github-maintainers: maintain
       hiero-block-node-committers: write
+      hiero-block-node-internal-contributors: triage
       hiero-block-node-maintainers: maintain
       hiero-gradle-conventions-maintainers: write
       security-maintainers: triage
