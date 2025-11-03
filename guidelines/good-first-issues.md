@@ -29,7 +29,7 @@ When creating a Good First Issue, the best is to follow our template:
 ```markdown
 ## 🆕🐥 First Timers Only
 
-This issue is reserved for people who have never contributed to [Hiero](https://hiero.org) or any open source project in general.
+This issue is reserved for people who have never contributed or have made minimal contributions to [Hiero](https://hiero.org) or any open source project in general.
 We know that creating a pull request (PR) is a major barrier for new contributors.
 The goal of this issue and all other issues labeled by [**'good first issue'**](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Ahiero-ledger+archived%3Afalse+label%3A%22good+first+issue%22+) is to help you make your first contribution to Hiero.
 
@@ -59,8 +59,12 @@ A more detailed general documentation of the GitHub PR workflow can be found [he
 
 - [ ] **Claim this issue:** Comment below that you are interested in working on the issue
 - [ ] **Wait for assignment:** A community member with the given rights will add you as an assignee of the issue
+- [ ] **Meanwhile, review:** How [DCO works](https://github.com/cncf/dco2) and how to create signed commits 
 - [ ] **Work on the issue:** Follow the detailed description in our [CONTRIBUTING.md](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md) file.
-- [ ] **You did it 🎉:** We will merge the fix in the main branch. Thanks for being part of the Hiero community as an open-source contributor ❤️
+- [ ] **Track:** Test failues, comments and reviews. Make sure to rebase your change to the main branch and resolve any conflicts.
+- [ ] **You did it 🎉:** If approved, we will merge the fix in the main branch. Thanks for being part of the Hiero community as an open-source contributor ❤️
+
+***IMPORTANT*** Your pull request CANNOT BE MERGED until you add a changelog entry AND sign your commits each with `git commit -S -s -m "chore: your commit message"` and a GPG key***
 
 ## 🎉 Contribute to Hacktoberfest
 
