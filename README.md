@@ -1,4 +1,4 @@
-# Hiero technical governance
+# Hiero Technical Governance
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10697/badge)](https://bestpractices.coreinfrastructure.org/projects/10697)
 [![License](https://img.shields.io/badge/license-apache2-blue.svg)](LICENSE)
