@@ -64,7 +64,7 @@ A more detailed general documentation of the GitHub PR workflow can be found [he
 - [ ] **Track:** Test failues, comments and reviews. Make sure to rebase your change to the main branch and resolve any conflicts.
 - [ ] **You did it 🎉:** If approved, we will merge the fix in the main branch. Thanks for being part of the Hiero community as an open-source contributor ❤️
 
-***IMPORTANT*** Your pull request CANNOT BE MERGED until you add a changelog entry AND sign your commits each with "git commit -S -s -m "chore: your commit message"" and a GPG key***
+***IMPORTANT*** Your pull request CANNOT BE MERGED until you add a changelog entry AND sign your commits each with `git commit -S -s -m "chore: your commit message"` and a GPG key***
 
 ## 🎉 Contribute to Hacktoberfest
 
