@@ -153,6 +153,7 @@ teams:
     members:
       - hendrikebbers
       - Dosik13
+      - manishdait
   - name: hiero-did-sdk-js-maintainers
     maintainers:
       - AlexanderShenshin
