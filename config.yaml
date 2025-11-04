@@ -613,15 +613,15 @@ teams:
     maintainers:
       - Reccetech
       - dmueller2001
+    members:
       - Harasz
       - ChangoBuitrago
-    members: []
   - name: hiero-identity-standards-committers
     maintainers:
       - Reccetech
       - AlexanderShenshin
+    members:
       - ChangoBuitrago
-    members: []
   - name: hiero-improvement-proposals-maintainers
     maintainers:
       - sergmetelin
