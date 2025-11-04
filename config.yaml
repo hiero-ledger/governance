@@ -611,14 +611,14 @@ teams:
       - Dosik13
   - name: hiero-identity-standards-maintainers
     maintainers:
-      - keith-kowal
-      - dianemueller
+      - Reccetech
+      - dmueller2001
       - Harasz
       - ChangoBuitrago
     members: []
   - name: hiero-identity-standards-committers
     maintainers:
-      - keith-kowal
+      - Reccetech
       - AlexanderShenshin
       - ChangoBuitrago
     members: []
