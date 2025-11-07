@@ -609,6 +609,19 @@ teams:
       - georgi-l95
     members:
       - Dosik13
+  - name: hiero-identity-standards-maintainers
+    maintainers:
+      - Reccetech
+      - dmueller2001
+    members:
+      - Harasz
+      - ChangoBuitrago
+  - name: hiero-identity-standards-committers
+    maintainers:
+      - Reccetech
+      - AlexanderShenshin
+    members:
+      - ChangoBuitrago
   - name: hiero-improvement-proposals-maintainers
     maintainers:
       - sergmetelin
@@ -1097,6 +1110,16 @@ repositories:
       tsc: maintain
       github-maintainers: maintain
       hiero-hederium-maintainers: maintain
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: hiero-identity-standards
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-identity-standards-maintainers: maintain
+      hiero-identity-standards-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
