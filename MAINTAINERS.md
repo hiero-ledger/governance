@@ -21,7 +21,7 @@ Maintainers are assigned the following scopes in this repository:
 | Nathan Klick           | nathanklick   |       |      |            |       | Hashgraph            |
 | Pavel Borisov          | PavelSBorisov |       |      |            |       | LimeChain            |
 | Roger Barker           | rbarker-dev   |       |      |            |       | Hashgraph            |
-| Andrew Brandt          | andrewb1269hg |       |      |            |       | Hashgraph            |
+| Andrew Brandt          | andrewb1269 |       |      |            |       | Hashgraph            |
 | Ry Jones               | ryjones       |       |      |            |       | The Linux Foundation |
 | Jessica Gonzalez       | jwagantall    |       |      |            |       | The Linux Foundation |
 | Richard Bair           | rbair23       |       |      |            |       | Hashgraph            |

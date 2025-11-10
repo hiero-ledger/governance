@@ -13,7 +13,7 @@ teams:
       - nathanklick
     members:
       - jeromy-cannon
-      - andrewb1269hg
+      - andrewb1269
       - leninmehedy
       - PavelSBorisov
   - name: tsc
@@ -47,7 +47,7 @@ teams:
       - hendrikebbers
       - rbarker-dev
       - nathanklick
-      - andrewb1269hg
+      - andrewb1269
     members:
       - 0xivanov
       - AlfredoG87
@@ -290,14 +290,14 @@ teams:
   - name: hiero-gradle-conventions-maintainers
     maintainers:
       - rbarker-dev
-      - andrewb1269hg
+      - andrewb1269
     members:
       - nathanklick
       - jjohannes
   - name: hiero-gradle-conventions-committers
     maintainers:
       - rbarker-dev
-      - andrewb1269hg
+      - andrewb1269
     members:
       - san-est
   - name: hiero-block-node-maintainers
@@ -700,7 +700,7 @@ teams:
       - littletarzan
       - se7enarianelabs
       - som-web23
-      - andrewb1269hg
+      - andrewb1269
       - cacampbell
       - soharang
       - chung-chao
@@ -729,14 +729,14 @@ teams:
   - name: homebrew-tools-maintainers
     maintainers:
       - rbarker-dev
-      - andrewb1269hg
+      - andrewb1269
       - nathanklick
     members:
       - jeromy-cannon
   - name: homebrew-tools-committers
     maintainers:
       - rbarker-dev
-      - andrewb1269hg
+      - andrewb1269
       - nathanklick
     members:
       - hendrikebbers
