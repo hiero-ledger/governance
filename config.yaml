@@ -826,6 +826,34 @@ teams:
       - ryjones
     members:
       - hendrikebbers
+  - name: hiero-ethereum-execution-spec-tests-maintainers
+    maintainers:
+    - Ferparishuertas
+    members:
+    - bubo
+    - gkozyryatskyy
+    - stoyanov-st
+    - Nana-EC
+    - lukelee-sl
+    - lukasz-hashgraph
+    - acuarica
+    - natanasow
+    - simzzz
+    - konstantinabl
+    - quiet-node
+  - name: hiero-ethereum-execution-spec-tests-committers
+    maintainers:
+    - Ferparishuertas
+    members:
+    - ebadiere
+    - Ivo-Yankov
+    - georgi-l95
+    - arianejasuwienas
+    - se7enarianelabs
+    - isavov
+    - AlfredoG87
+    - mwb-al
+    - victor-yanev
   - name: hashgraph-online-standards-sdk-js-maintainers
     maintainers:
       - kantorcodes
@@ -953,6 +981,17 @@ repositories:
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
+  - name: hiero-ethereum-execution-spec-tests
+    teams:
+      tsc: maintain
+      hiero-automation: write
+      github-maintainers: maintain
+      hiero-ethereum-execution-spec-tests-maintainers: maintain
+      hiero-ethereum-execution-spec-tests-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
   - name: hiero-sdk-cpp
     teams:
       tsc: maintain
