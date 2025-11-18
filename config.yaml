@@ -536,11 +536,12 @@ teams:
     maintainers:
       - michielmulders
     members:
+      - devmab
       - piotrswierzy
-      - michalprzybyla
-      - michalrozek90
-      - mateusz-marcin
-      - se7enarianelabs
+      - misiek-blocky
+      - matevszm
+      - rozekmichal
+      - mmyslblocky
   - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
