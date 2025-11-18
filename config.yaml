@@ -536,10 +536,10 @@ teams:
     maintainers:
       - michielmulders
     members:
-      - devmab
-      - misiekp
-      - michalrozekariane
-      - mateuszm-arianelabs
+      - piotrswierzy
+      - michalprzybyla
+      - michalrozek90
+      - mateusz-marcin
       - se7enarianelabs
   - name: hiero-docs-maintainers
     maintainers:
