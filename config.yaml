@@ -178,7 +178,7 @@ teams:
     maintainers:
       - Reccetech
     members:
-      - paulo-caldas-code
+      - paulo-caldas
   - name: hiero-sdk-rust-maintainers
     maintainers:
       - RickyLB
