@@ -537,10 +537,11 @@ teams:
       - michielmulders
     members:
       - devmab
-      - misiekp
-      - michalrozekariane
-      - mateuszm-arianelabs
-      - se7enarianelabs
+      - piotrswierzy
+      - misiek-blocky
+      - matevszm
+      - rozekmichal
+      - mmyslblocky
   - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
