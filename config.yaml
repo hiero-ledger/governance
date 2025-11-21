@@ -805,6 +805,17 @@ teams:
       - Ivo-Yankov
       - instamenta
       - alex-kuzmin-hg
+  - name: solo-internal-contributors
+    maintainers:
+      - nathanklick
+      - jeromy-cannon
+      - leninmehedy
+    members:
+      - olsentorfinn
+      - JeffreyDallas
+      - Ivo-Yankov
+      - instamenta
+      - alex-kuzmin-hg
   - name: tsc-eligibility-check-admins
     maintainers:
       - jwagantall
@@ -1165,6 +1176,7 @@ repositories:
       solo-admins: admin
       solo-maintainers: maintain
       solo-committers: write
+      solo-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
