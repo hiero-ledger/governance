@@ -7,6 +7,10 @@ teams:
     maintainers:
       - hedera-github-bot
     members: []
+  - name: hiero-local-node-automation
+    maintainers:
+      - hedera-local-node-bot
+    members: []
   - name: github-maintainers
     maintainers:
       - rbarker-dev
@@ -940,6 +944,7 @@ repositories:
       github-maintainers: maintain
       hiero-local-node-maintainers: maintain
       hiero-local-node-committers: write
+      hiero-local-node-automation: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
