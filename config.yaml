@@ -7,6 +7,10 @@ teams:
     maintainers:
       - hedera-github-bot
     members: []
+  - name: hiero-local-node-automation
+    maintainers:
+      - hedera-local-node-bot
+    members: []
   - name: github-maintainers
     maintainers:
       - rbarker-dev
@@ -537,10 +541,11 @@ teams:
       - michielmulders
     members:
       - devmab
-      - misiekp
-      - michalrozekariane
-      - mateuszm-arianelabs
-      - se7enarianelabs
+      - piotrswierzy
+      - misiek-blocky
+      - matevszm
+      - rozekmichal
+      - mmyslblocky
   - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
@@ -591,7 +596,7 @@ teams:
     members:
       - acuarica
       - AlfredoG87
-      - arianejasuwienas
+      - jasuwienas
       - ebadiere
       - georgi-l95
       - isavov
@@ -949,6 +954,7 @@ repositories:
       github-maintainers: maintain
       hiero-local-node-maintainers: maintain
       hiero-local-node-committers: write
+      hiero-local-node-automation: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
