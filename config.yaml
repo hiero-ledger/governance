@@ -836,6 +836,52 @@ teams:
     maintainers:
       - kantorcodes
     members: []
+  - name: hiero-contracts-maintainers
+    maintainers:
+    - Ferparishuertas
+    members:
+    - bubo
+    - gkozyryatskyy
+    - stoyanov-st
+    - Nana-EC
+    - lukelee-sl
+    - lukasz-hashgraph
+    - acuarica
+    - natanasow
+    - simzzz
+    - konstantinabl
+    - quiet-node
+  - name: hiero-contracts-committers
+    maintainers:
+    - Ferparishuertas
+    members:
+    - ebadiere
+    - Ivo-Yankov
+    - arianejasuwienas
+    - georgi-l95
+    - se7enarianelabs
+    - isavov
+    - AlfredoG87
+    - mwb-al
+    - victor-yanev
+    - joshmarinacci
+    - kimbor
+    - netopyr
+    - derektriley
+    - MiroslavGatsanoga
+    - povolev15
+    - ibankov
+    - JivkoKelchev
+    - petreze
+    - tinker-michaelj
+    - Neeharika-Sompalli
+    - vtronkov
+    - mhess-swl
+    - iwsimon
+    - anastasiya-kovaliova
+    - Evdokia-Georgieva
+    - thomas-swirlds-labs
+    - timfn-hg
   - name: hiero-enterprise-java-maintainers
     maintainers:
       - hendrikebbers
@@ -1202,6 +1248,16 @@ repositories:
       tsc-eligibility-check-admins: admin
       tsc-eligibility-check-maintainers: maintain
       tsc-eligibility-check-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: hiero-contracts
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-contracts-maintainers: maintain
+      hiero-contracts-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
