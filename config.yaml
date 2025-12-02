@@ -614,14 +614,14 @@ teams:
       - georgi-l95
     members:
       - Dosik13
-  - name: hiero-identity-standards-maintainers
+  - name: identity-collaboration-hub-maintainers
     maintainers:
       - Reccetech
       - dmueller2001
     members:
       - Harasz
       - ChangoBuitrago
-  - name: hiero-identity-standards-committers
+  - name: identity-collaboration-hub-committers
     maintainers:
       - Reccetech
       - AlexanderShenshin
@@ -1130,12 +1130,12 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
-  - name: hiero-identity-standards
+  - name: identity-collaboration-hub
     teams:
       tsc: maintain
       github-maintainers: maintain
-      hiero-identity-standards-maintainers: maintain
-      hiero-identity-standards-committers: write
+      identity-collaboration-hub-maintainers: maintain
+      identity-collaboration-hub-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
