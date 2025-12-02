@@ -7,6 +7,10 @@ teams:
     maintainers:
       - hedera-github-bot
     members: []
+  - name: hiero-local-node-automation
+    maintainers:
+      - hedera-local-node-bot
+    members: []
   - name: github-maintainers
     maintainers:
       - rbarker-dev
@@ -178,7 +182,7 @@ teams:
     maintainers:
       - Reccetech
     members:
-      - paulo-caldas-code
+      - paulo-caldas
   - name: hiero-sdk-rust-maintainers
     maintainers:
       - RickyLB
@@ -537,10 +541,11 @@ teams:
       - michielmulders
     members:
       - devmab
-      - misiekp
-      - michalrozekariane
-      - mateuszm-arianelabs
-      - se7enarianelabs
+      - piotrswierzy
+      - misiek-blocky
+      - matevszm
+      - rozekmichal
+      - mmyslblocky
   - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
@@ -591,7 +596,7 @@ teams:
     members:
       - acuarica
       - AlfredoG87
-      - arianejasuwienas
+      - jasuwienas
       - ebadiere
       - georgi-l95
       - isavov
@@ -609,14 +614,14 @@ teams:
       - georgi-l95
     members:
       - Dosik13
-  - name: hiero-identity-standards-maintainers
+  - name: identity-collaboration-hub-maintainers
     maintainers:
       - Reccetech
       - dmueller2001
     members:
       - Harasz
       - ChangoBuitrago
-  - name: hiero-identity-standards-committers
+  - name: identity-collaboration-hub-committers
     maintainers:
       - Reccetech
       - AlexanderShenshin
@@ -877,6 +882,16 @@ teams:
     - Evdokia-Georgieva
     - thomas-swirlds-labs
     - timfn-hg
+  - name: hiero-enterprise-java-maintainers
+    maintainers:
+      - hendrikebbers
+    members: []
+  - name: hiero-enterprise-java-committers
+    maintainers:
+      - Ndacyayisenga-droid
+    members:
+      - manishdait
+      - sebtiem
 repositories:
   - name: governance
     teams:
@@ -985,6 +1000,7 @@ repositories:
       github-maintainers: maintain
       hiero-local-node-maintainers: maintain
       hiero-local-node-committers: write
+      hiero-local-node-automation: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -1160,12 +1176,12 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
-  - name: hiero-identity-standards
+  - name: identity-collaboration-hub
     teams:
       tsc: maintain
       github-maintainers: maintain
-      hiero-identity-standards-maintainers: maintain
-      hiero-identity-standards-committers: write
+      identity-collaboration-hub-maintainers: maintain
+      identity-collaboration-hub-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -1187,6 +1203,16 @@ repositories:
       github-maintainers: maintain
       homebrew-tools-maintainers: maintain
       homebrew-tools-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: hiero-enterprise-java
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-enterprise-java-maintainers: maintain
+      hiero-enterprise-java-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
