@@ -536,6 +536,8 @@ teams:
       - michielmulders
     members:
       - Neurone
+      - piotrswierzy
+      - devmab
   - name: hiero-cli-committers
     maintainers:
       - michielmulders
