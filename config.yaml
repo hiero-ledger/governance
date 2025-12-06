@@ -158,6 +158,14 @@ teams:
       - hendrikebbers
       - Dosik13
       - manishdait
+  - name: hiero-sdk-python-triage
+    maintainers:
+      - nadineloepfe
+      - exploreriii
+    members:
+      - tech0priyanshu
+      - MonaaEid
+      - AntonioCeppellini
   - name: hiero-did-sdk-js-maintainers
     maintainers:
       - AlexanderShenshin
@@ -1082,6 +1090,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
+      hiero-sdk-python-triage: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
