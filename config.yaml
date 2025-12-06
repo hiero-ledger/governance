@@ -161,9 +161,11 @@ teams:
   - name: hiero-sdk-python-triage
     maintainers:
       - nadineloepfe
-    members:
       - exploreriii
-      - manishdait
+    members:
+      - tech0priyanshu
+      - MonaaEid
+      - AntonioCeppellini
   - name: hiero-did-sdk-js-maintainers
     maintainers:
       - AlexanderShenshin
