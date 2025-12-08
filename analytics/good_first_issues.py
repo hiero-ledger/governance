@@ -25,6 +25,7 @@ import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 
 load_dotenv()
+HTTP_TIMEOUT = 10   # Request timeout in seconds
 
 # -----------------------------
 # SETTINGS
@@ -55,7 +56,7 @@ print("🔐 Using authenticated GitHub API" if TOKEN else "⚠️ No GITHUB_TOKE
 # -----------------------------
 def safe_get(url: str) -> Any:
     """Perform GitHub GET request with basic rate limit handling."""
-    response = requests.get(url, headers=HEADERS)
+    response = requests.get(url, headers=HEADERS, timeout=HTTP_TIMEOUT)
     remaining = int(response.headers.get("X-RateLimit-Remaining", "1"))
     reset_ts = int(response.headers.get("X-RateLimit-Reset", "0"))
 
@@ -63,7 +64,7 @@ def safe_get(url: str) -> Any:
         wait = max(0, reset_ts - int(time.time()))
         print(f"⏳ Rate limit reached — waiting {wait} seconds…")
         time.sleep(wait)
-        response = requests.get(url, headers=HEADERS)
+        response = requests.get(url, headers=HEADERS, timeout=HTTP_TIMEOUT)
 
     time.sleep(REQUEST_DELAY)
     return response.json()
