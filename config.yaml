@@ -818,6 +818,7 @@ teams:
       - Ivo-Yankov
       - instamenta
       - alex-kuzmin-hg
+      - deshmukhpranali
   - name: solo-internal-contributors
     maintainers:
       - nathanklick
@@ -829,6 +830,7 @@ teams:
       - Ivo-Yankov
       - instamenta
       - alex-kuzmin-hg
+      - deshmukhpranali
   - name: tsc-eligibility-check-admins
     maintainers:
       - jwagantall
