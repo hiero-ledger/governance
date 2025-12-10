@@ -212,12 +212,14 @@ teams:
     members:
       - SimiHunjan
       - agadzhalov
+      - emiliyank
   - name: hiero-sdk-java-committers
     maintainers:
       - 0xivanov
     members:
       - naydenovn
       - agadzhalov
+      - emiliyank
   - name: hiero-sdk-js-maintainers
     maintainers:
       - SimiHunjan
