@@ -528,14 +528,20 @@ teams:
       - rsinha
   - name: hiero-consensus-specifications-maintainers
     maintainers:
-      - 
+      - kantorcodes
+      - itsbrandondev
     members:
-      - 
+      - rocketmay 
+      - hgraphpunks
+      - chelleswf
   - name: hiero-consensus-specifications-committers
     maintainers:
-      - 
+      - kantorcodes
+      - itsbrandondev
     members:
-      - 
+      - rocketmay
+      - hgraphpunks
+      - chelleswf
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
