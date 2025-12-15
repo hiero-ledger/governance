@@ -99,7 +99,7 @@ teams:
       - theekrystallee
       - tinker-michaelj
       - xin-hedera
-  - name: hiero-sdk-good-first-issue-committee
+  - name: hiero-sdk-python-good-first-issue-committee
     maintainers:
       - hendrikebbers
     members:
