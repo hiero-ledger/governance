@@ -99,6 +99,12 @@ teams:
       - theekrystallee
       - tinker-michaelj
       - xin-hedera
+  - name: hiero-sdk-python-good-first-issue-committee
+    maintainers:
+      - hendrikebbers
+    members:
+      - exploreriii
+      - aceppaluni
   - name: hiero-mirror-node-committers
     maintainers:
       - steven-sheehy
@@ -1112,6 +1118,7 @@ repositories:
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
       hiero-sdk-python-triage: triage
+      hiero-sdk-python-good-first-issue-committee: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
