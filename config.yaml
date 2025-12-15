@@ -173,6 +173,9 @@ teams:
       - MonaaEid
       - AntonioCeppellini
       - Adityarya11
+      - aceppaluni
+      - emiliyank
+      - Akshat8510
   - name: hiero-did-sdk-js-maintainers
     maintainers:
       - AlexanderShenshin
@@ -828,6 +831,7 @@ teams:
       - Ivo-Yankov
       - instamenta
       - alex-kuzmin-hg
+      - deshmukhpranali
   - name: solo-internal-contributors
     maintainers:
       - nathanklick
@@ -839,6 +843,7 @@ teams:
       - Ivo-Yankov
       - instamenta
       - alex-kuzmin-hg
+      - deshmukhpranali
   - name: tsc-eligibility-check-admins
     maintainers:
       - jwagantall
