@@ -531,7 +531,7 @@ teams:
       - kantorcodes
       - itsbrandondev
     members:
-      - rocketmay 
+      - rocketmay
       - hgraphpunks
       - chelleswf
   - name: hiero-consensus-specifications-committers
@@ -1194,7 +1194,7 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
-  - name: hiero-consensus-specification
+  - name: hiero-consensus-specifications
     teams:
       tsc: maintain
       github-maintainers: maintain
