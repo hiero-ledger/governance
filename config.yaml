@@ -542,6 +542,7 @@ teams:
       - rocketmay
       - hgraphpunks
       - chelleswf
+      - sentx-dev
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
