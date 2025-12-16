@@ -526,6 +526,23 @@ teams:
       - thenswan
       - anthony-swirldslabs
       - rsinha
+  - name: hiero-consensus-specifications-maintainers
+    maintainers:
+      - kantorcodes
+      - itsbrandondev
+    members:
+      - rocketmay
+      - hgraphpunks
+      - chelleswf
+  - name: hiero-consensus-specifications-committers
+    maintainers:
+      - kantorcodes
+      - itsbrandondev
+    members:
+      - rocketmay
+      - hgraphpunks
+      - chelleswf
+      - sentx-dev
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
@@ -1173,6 +1190,16 @@ repositories:
       hiero-mirror-node-maintainers: write
       hiero-gradle-conventions-maintainers: write
       hiero-performance-engineers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: hiero-consensus-specifications
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-consensus-specifications-maintainers: admin
+      hiero-consensus-specifications-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
