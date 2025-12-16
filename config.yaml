@@ -553,6 +553,7 @@ teams:
       - piotrswierzy
       - devmab
       - mmyslblocky
+      - michalprzybyla
   - name: hiero-cli-committers
     maintainers:
       - michielmulders
