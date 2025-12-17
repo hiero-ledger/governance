@@ -99,7 +99,7 @@ teams:
       - theekrystallee
       - tinker-michaelj
       - xin-hedera
-  - name: hiero-sdk-python-good-first-issue-support
+  - name: hiero-sdk-good-first-issue-support
     maintainers:
       - hendrikebbers
     members:
@@ -1051,6 +1051,7 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
+      hiero-sdk-good-first-issue-support: triage
       hiero-sdk-cpp-maintainers: maintain
       hiero-sdk-cpp-committers: write
       security-maintainers: triage
@@ -1135,10 +1136,10 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
+      hiero-sdk-good-first-issue-support: triage
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
       hiero-sdk-python-triage: triage
-      hiero-sdk-python-good-first-issue-support: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
