@@ -543,6 +543,7 @@ teams:
       - hgraphpunks
       - chelleswf
       - sentx-dev
+      - teacoat
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
