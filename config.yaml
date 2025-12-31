@@ -992,6 +992,7 @@ repositories:
       github-maintainers: maintain
       hiero-website-maintainers: maintain
       hiero-website-committers: write
+      hiero-sdk-good-first-issue-support: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
