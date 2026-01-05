@@ -757,7 +757,8 @@ teams:
       - EvelynLWong
       - fessmm
       - gerbert-vandenberghe
-      - cmdhema
+      # Comment user cmdhema until 2FA is configured
+      # - cmdhema
       - Ivo-Yankov
       - jascks
       - jnels124
