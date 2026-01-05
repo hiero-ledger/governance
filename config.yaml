@@ -532,7 +532,7 @@ teams:
       - itsbrandondev
     members:
       - rocketmay
-      - hgraphpunks
+      - HGraphPunks
       - chelleswf
   - name: hiero-consensus-specifications-committers
     maintainers:
@@ -540,7 +540,7 @@ teams:
       - itsbrandondev
     members:
       - rocketmay
-      - hgraphpunks
+      - HGraphPunks
       - chelleswf
       - sentx-dev
       - teacoat
