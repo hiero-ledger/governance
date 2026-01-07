@@ -579,6 +579,8 @@ teams:
       - Neurone
       - piotrswierzy
       - devmab
+      - mmyslblocky
+      - misiek-blocky
   - name: hiero-cli-committers
     maintainers:
       - michielmulders
