@@ -18,6 +18,8 @@ The supported profiles to cast a vote using **"/vote-[profileName]"** via commen
 
 Depending on the profile called, GitVote will post a comment on the issue or pull request where it was invoked to the team/teams invited to participate in the vote. Votes from users outside those teams won't count towards the total of the vote.
 
+It is up to project maintainers to decide when to run an asynchronous vote using GitVote vs calling for a vote on a project meeting. Similarly, the TSC can decide to run an asynchronous voting in cases where a meeting does not have enough quorum for example. The important aspect, is to keep all votes recorded and registered for later reference.
+
 # Recommendations
 
 It is strongly recommended that anyone invoking GitVote in an issue or pull request proactively notify participants, such as by announcing it during public meetings or posting a heads up in relevant Discord channels, to ensure adequate awareness and participation.
