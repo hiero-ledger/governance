@@ -23,3 +23,7 @@ It is up to project maintainers to decide when to run an asynchronous vote using
 # Recommendations
 
 It is strongly recommended that anyone invoking GitVote in an issue or pull request proactively notify participants, such as by announcing it during public meetings or posting a heads up in relevant Discord channels, to ensure adequate awareness and participation.
+
+# GitVote Usage Example
+
+https://github.com/hiero-ledger/governance/pull/475
