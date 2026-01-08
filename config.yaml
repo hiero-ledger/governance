@@ -806,7 +806,7 @@ teams:
       - dr20240304
       - reachtobhavesh
       - mody-hashgraph
-      - dpswirld
+      - diogper
   - name: sec-ops
     maintainers:
       - nathanklick
