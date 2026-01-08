@@ -1,7 +1,7 @@
 # Asynchronous Voting Using GitVote
 
 [GitVote](https://github.com/cncf/gitvote) is a GitHub application that allows holding a vote on issues and pull requests.
-More background information and how GitVote can be configured, can be found in the original GitVote documentation site. 
+More background information and how GitVote can be configured can be found in the original GitVote documentation site. 
 
 # How to Configure GitVote?
 
@@ -22,7 +22,7 @@ It is up to project maintainers to decide when to run an asynchronous vote using
 
 # Recommendations
 
-It is strongly recommended that anyone invoking GitVote in an issue or pull request proactively notify participants, such as by announcing it during public meetings or posting a heads up in relevant Discord channels, to ensure adequate awareness and participation.
+It is strongly recommended that anyone invoking GitVote in an issue or pull request proactively notify participants, such as by announcing it during public meetings or posting an advance notice in relevant Discord channels, to ensure adequate awareness and participation.
 
 # GitVote Usage Example
 
