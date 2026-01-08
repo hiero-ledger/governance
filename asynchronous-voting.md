@@ -5,7 +5,7 @@ More background information and how GitVote can be configured, can be found in t
 
 # How to Configure GitVote?
 
-GitVote allows for a great flexibility of options to perform a vote. As described in the original GitVote page documentation, GitVote uses a configuration file [.gitvote.yml](https://github.com/hiero-ledger/.github/blob/main/.gitvote.yml) at a root level in our .github repo which contains an arrange of options for maintainer teams to vote on issues and pull requests.
+GitVote allows for a great flexibility of options to perform a vote. As described in the original GitVote page documentation, GitVote uses a configuration file [.gitvote.yml](https://github.com/hiero-ledger/.github/blob/main/.gitvote.yml) at a root level in our .github repo which contains an array of options for maintainer teams to vote on issues and pull requests.
 Each repo in GitHub's hiero-ledger organization inherits this configuration file if there is no local .gitvote.yml file at the root of said repo.
 
 Project maintainers can either create a local .gitvote.yml file in the root of their repo with the desired configuration that allows them to conform to their voting process or they can request changes to the main [.gitvote.yml](https://github.com/hiero-ledger/.github/blob/main/.gitvote.yml) file by opening a pull request against this file. 
