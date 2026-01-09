@@ -106,6 +106,7 @@ teams:
       - exploreriii
       - aceppaluni
       - rwalworth
+      - MonaaEid
   - name: hiero-mirror-node-committers
     maintainers:
       - steven-sheehy
