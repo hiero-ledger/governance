@@ -165,6 +165,8 @@ teams:
       - hendrikebbers
       - Dosik13
       - manishdait
+      - Adityarya11
+      - MonaaEid
   - name: hiero-sdk-python-triage
     maintainers:
       - nadineloepfe
@@ -177,6 +179,8 @@ teams:
       - aceppaluni
       - emiliyank
       - Akshat8510
+      - Mounil2005
+      - undefinedIsMyLife
   - name: hiero-did-sdk-js-maintainers
     maintainers:
       - AlexanderShenshin
