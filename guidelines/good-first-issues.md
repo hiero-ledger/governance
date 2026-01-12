@@ -13,6 +13,7 @@ A Good First Issue is a task that is suitable for newcomers to the project. It s
 - **Educational**: The issue should help the newcomer learn about the project and its codebase.
 - **Non-critical**: The issue should not involve critical functionality or complex dependencies.
 - **Documented**: The issue should include all necessary information, such as links to relevant documentation, code examples, and any prerequisites.
+- **Welcoming:** The issue should be phrased in a friendly and encouraging way, explicitly inviting newcomers to contribute and making it clear that questions and guidance are welcome.
 
 Examples of Good First Issues:
 
