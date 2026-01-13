@@ -1038,6 +1038,7 @@ repositories:
   - name: hiero-cli
     teams:
       tsc: maintain
+      hiero-automation: write
       github-maintainers: maintain
       hiero-cli-maintainers: maintain
       hiero-cli-committers: write
