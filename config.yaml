@@ -345,8 +345,9 @@ teams:
     maintainers:
       - rbarker-dev
       - andrewb1269
+      - jjohannes
     members:
-      - san-est
+      - PavelSBorisov
   - name: hiero-block-node-maintainers
     maintainers:
       - Nana-EC
@@ -1109,6 +1110,15 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
+  - name: hiero-java-project-template
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-gradle-conventions-maintainers: maintain
+      hiero-gradle-conventions-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
   - name: hiero-sdk-go
     teams:
       tsc: maintain
