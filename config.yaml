@@ -180,6 +180,7 @@ teams:
     members:
       - rbair23
       - exploreriii
+      - manishdait
   - name: hiero-sdk-python-committers
     maintainers:
       - nadineloepfe
