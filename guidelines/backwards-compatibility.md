@@ -147,7 +147,7 @@ over to Hiero.
 #### Emergency/Security issues
 
 If a defect is found on the network that puts either the network or the users' security at risk, then in that unlikely
-scenario, Hedera will upgrade the network with the fix as soon as practical.
+scenario, Hiero will upgrade the network with the fix as soon as practical.
 These scenarios are expected to be very rare.
 
 #### Other
