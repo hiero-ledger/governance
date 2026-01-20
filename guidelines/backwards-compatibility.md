@@ -47,7 +47,7 @@ immediately apply to every Hiero project, but will apply to the following projec
 * Most Hiero SDKs (Go, JavaScript, Rust, Java, CPP, Swift)
 
 Other Hiero projects may choose how to handle backwards compatibility as their maturity increases.
-Here the best practice is to provide information about backwards compatibility at least when the project has a semantic 
+The best practice here is to provide information about backwards compatibility at least when the project has a semantic
 version number of 1.X or bigger.
 
 ### Ensuring Backwards Compatibility
