@@ -95,7 +95,7 @@ Open source maintainer stakeholders and technical leads must review, provide fee
 * The deprecation timeline should provide users with adequate time to migrate.
 * Clear documentation, including migration guides and upgrade instructions, must be published.
 * Communication should include:
-    * Deprecation or Breaking Changes announced at in `README.md` at the root of each project.
+    * Deprecation or Breaking Changes announced in `README.md` at the root of each project.
     * Updates in release notes.
     * Announcements in official Hiero community channels.
     * Notifications in relevant technical documentation.
