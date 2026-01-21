@@ -96,6 +96,8 @@ Open source maintainer stakeholders and technical leads must review, provide fee
 * Clear documentation, including migration guides and upgrade instructions, must be published.
 * Communication should include:
     * Deprecation or Breaking Changes announced in `README.md` at the root of each project.
+    * Deprecated API should be annotated / tagged / labeled in code if the programming language allows to do so.
+    * Deprecated API should contain code documentation with a clear alternative / favored public API
     * Updates in release notes.
     * Announcements in official Hiero community channels.
     * Notifications in relevant technical documentation.
