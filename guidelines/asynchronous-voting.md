@@ -1,5 +1,6 @@
-# Asynchronous Voting Using GitVote
+# Asynchronous Voting Guideline
 
+In Hiero async votes are done with the help of the GitVote tool.
 [GitVote](https://github.com/cncf/gitvote) is a GitHub application that allows holding a vote on issues and pull requests.
 More background information and how GitVote can be configured can be found in the original GitVote documentation site. 
 
