@@ -199,6 +199,12 @@ teams:
       - aceppaluni
       - emiliyank
       - Akshat8510
+      - Mounil2005
+      - parvninama
+      - drtoxic69
+      - prajeeta15
+      - undefinedIsMyLife
+      - cheese-cakee
   - name: hiero-did-sdk-js-maintainers
     maintainers:
       - AlexanderShenshin
@@ -208,22 +214,26 @@ teams:
       - KononovAndrey
       - dmueller2001
       - drgorb
+      - Toktar
   - name: hiero-did-sdk-js-committers
     maintainers:
       - Reccetech
     members:
       - KononovAndrey
+      - tajang97
   - name: hiero-did-sdk-python-maintainers
     maintainers:
       - Reccetech
     members:
       - AlexanderShenshin
       - dmueller2001
+      - Toktar
   - name: hiero-did-sdk-python-committers
     maintainers:
       - Reccetech
     members:
       - paulo-caldas
+      - tajang97
   - name: hiero-sdk-rust-maintainers
     maintainers:
       - RickyLB
@@ -689,13 +699,14 @@ teams:
       - Harasz
       - ChangoBuitrago
       - AlexanderShenshin
+      - Toktar
   - name: identity-collaboration-hub-committers
     maintainers:
       - Reccetech
       - AlexanderShenshin
     members:
       - ChangoBuitrago
-      - Toktar
+      - tajang97
   - name: hiero-improvement-proposals-maintainers
     maintainers:
       - sergmetelin
@@ -1145,6 +1156,7 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
+      hiero-sdk-good-first-issue-support: triage
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
       hiero-sdk-js-internal-contributors: triage
