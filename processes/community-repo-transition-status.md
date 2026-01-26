@@ -1,7 +1,7 @@
 # Transition of projects to Hiero
 
 This document contains an overview of the state of the project transition to Hiero.
-For all projects that are transferred from Hedera to Hiero we have an [extra page](transition.md).
+For all projects that are transferred from Hedera to Hiero we have an [extra page](hedera-repo-transition-status.md).
 
 The general process for transferring a project to Hiero can be found [here](howto-transfer.md).
 
