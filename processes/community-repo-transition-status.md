@@ -3,7 +3,7 @@
 This document contains an overview of the state of the project transition to Hiero.
 For all projects that are transferred from Hedera to Hiero we have an [extra page](hedera-repo-transition-status.md).
 
-The general process for transferring a project to Hiero can be found [here](transfer-process).
+The general process for transferring a project to Hiero can be found [here](transfer-process.md).
 
 ## Initial steps
 
@@ -33,12 +33,12 @@ The following table contains an overview of the initial steps that need to be do
 
 **Hiero Repo** - Name and maybe link to new Hiero repo
 
-**Proposal created** - A proposal for the project must created. More information can be found [here](transfer-process).
+**Proposal created** - A proposal for the project must created. More information can be found [here](transfer-process.md).
 
 **DCO check & remediation** - We need to ensure that all commits on the main branch are DCO signed. This can be accomplished by retroactively signing commits through an empty signed commit on the repository.
 
 **License check & remediation** - Check if the repo license and the licenses of all transitive dependencies are compatible with the [LFDT guidelines](https://lf-decentralized-trust.github.io/governance/governing-documents/allowed-third-party-licenses.html).
 
-**user rights** - Users, groups and rights are managed by the `config.yaml` file in the https://github.com/LFDT-Hiero/governance repo. We will create custom groups for each repo. That groups must be created and added to the specific repos in the `config.yaml`.
+**user rights** - Users, groups and rights are managed by the `config.yaml` file in the [governance](https://github.com/LFDT-Hiero/governance) repo. We will create custom groups for each repo. That groups must be created and added to the specific repos in the `config.yaml`.
 
 **TSC presentation & voting** - The TSC need to vote for adding the project to Hiero
