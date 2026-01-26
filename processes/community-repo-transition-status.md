@@ -3,7 +3,7 @@
 This document contains an overview of the state of the project transition to Hiero.
 For all projects that are transferred from Hedera to Hiero we have an [extra page](hedera-repo-transition-status.md).
 
-The general process for transferring a project to Hiero can be found [here](howto-transfer.md).
+The general process for transferring a project to Hiero can be found [here](transfer-process).
 
 ## Initial steps
 
@@ -33,7 +33,7 @@ The following table contains an overview of the initial steps that need to be do
 
 **Hiero Repo** - Name and maybe link to new Hiero repo
 
-**Proposal created** - A proposal for the project must created. More information can be found [here](howto-transfer.md).
+**Proposal created** - A proposal for the project must created. More information can be found [here](transfer-process).
 
 **DCO check & remediation** - We need to ensure that all commits on the main branch are DCO signed. This can be accomplished by retroactively signing commits through an empty signed commit on the repository.
 
