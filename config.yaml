@@ -1004,13 +1004,13 @@ teams:
     - Evdokia-Georgieva
     - thomas-swirlds-labs
     - timfn-hg
-  - name: hiero-roadmap-maintainers
+  - name: roadmap-maintainers
     maintainers:
       - steven-sheehy
     members:
       - a-saksena
       - rbair23
-  - name: hiero-roadmap-committers
+  - name: roadmap-committers
     maintainers:
       - steven-sheehy
     members: []
@@ -1422,12 +1422,12 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
-  - name: hiero-roadmap
+  - name: roadmap
     teams:
       tsc: maintain
       github-maintainers: maintain
-      hiero-roadmap-maintainers: maintain
-      hiero-roadmap-committers: write
+      roadmap-maintainers: maintain
+      roadmap-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
