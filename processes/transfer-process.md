@@ -59,14 +59,14 @@ This allows the project to mature and align with industry standards before it is
 
 ## Defining maintainers and committers for the project
 
-Once the TSC approved a project the initial maintainers and committers must be defined.
+Once the TSC approved a project the initial maintainers and committers must be defined in GitHub.
 This happens by doing a PR against the governance repo as described [here](../roles/roles-and-groups.md#creating-a-pr-to-nominate-a-person-as-committer-or-maintainer).
 That PR should be done by the person / group that initiated the project proposal.
-If you have any questions about creating that PR or need help please contact [Jessica](https://github.com/jwagantall), [Ry](https://github.com/ryjones), or [Hendrik](https://github.com/Hendrikebbers).
+If you have any questions about creating that PR or need help please contact a member of [LF Staff](https://github.com/orgs/hiero-ledger/teams/lf-staff).
 
 ## Moving your project to Hiero
 
 If you want to start with an empty repository for your project the merge of the PR in the governance repo will automatically create it and you can start working on the repo.
 If you want to transfer an already esxisting repository to Hiero some additonal steps are needed.
-Please attend an upcoming [Hiero Community Project Creation and Transfer Biweekly](https://zoom-lfx.platform.linuxfoundation.org/meeting/98135911678?password=6fde028b-f44c-475f-9676-74c38d93ebd4) call or contact [Jessica](https://github.com/jwagantall) for that topic.
+Please attend an upcoming [Hiero Community Project Creation and Transfer Biweekly](https://zoom-lfx.platform.linuxfoundation.org/meeting/98135911678?password=6fde028b-f44c-475f-9676-74c38d93ebd4) call or contact a member of [LF Staff](https://github.com/orgs/hiero-ledger/teams/lf-staff) for that topic.
 
