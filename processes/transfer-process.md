@@ -46,7 +46,7 @@ Details about that can be found above.
 
 A project proposal must be created as an issue in the [tsc repository](https://github.com/hiero-ledger/tsc).
 The issue must be labeled by the ['project proposal' label](https://github.com/hiero-ledger/tsc/labels/project%20proposal).
-We are currently working on a good template for a project proposal.
+A template for such issue including information about the expected content and information can be found [here](../templates/project-proposal.md).
 
 ## TSC will vote on the issue
 
