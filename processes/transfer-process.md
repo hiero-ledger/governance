@@ -59,7 +59,7 @@ This allows the project to mature and align with industry standards before it is
 
 ## Defining maintainers and committers for the project
 
-Once the TSC approved a project the initial maintainers and committers must be defined in GitHub.
+The project needs to define in their project proposal the initial list of maintainers and committers that will be collaborating in the project.
 This happens by doing a PR against the governance repo as described [here](../roles/roles-and-groups.md#creating-a-pr-to-nominate-a-person-as-committer-or-maintainer).
 That PR should be done by the person / group that initiated the project proposal.
 If you have any questions about creating that PR or need help please contact a member of [LF Staff](https://github.com/orgs/hiero-ledger/teams/lf-staff).
