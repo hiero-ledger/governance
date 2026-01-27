@@ -1004,6 +1004,16 @@ teams:
     - Evdokia-Georgieva
     - thomas-swirlds-labs
     - timfn-hg
+  - name: hiero-roadmap-maintainers
+    maintainers:
+      - steven-sheehy
+    members:
+      - a-saksena
+      - rbair23
+  - name: hiero-roadmap-committers
+    maintainers:
+      - steven-sheehy
+    members: []
   - name: hiero-enterprise-java-maintainers
     maintainers:
       - hendrikebbers
@@ -1412,3 +1422,13 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
+  - name: hiero-roadmap
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-roadmap-maintainers: maintain
+      hiero-roadmap-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: private
