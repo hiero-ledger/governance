@@ -387,6 +387,8 @@ teams:
       - Nana-EC
     members:
       - rockysingh
+      - ivannov
+      - berryware
   - name: hiero-consensus-node-maintainers
     maintainers:
       - Nana-EC
