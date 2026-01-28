@@ -26,10 +26,12 @@
 
 ## 3. Project or Repo approval process
 
+- **All project proposals need to be presented to the TSC prior to requesting a vote.**
 - 50% TSC approval vote is required for both project proposals and new repo additions (as defined in chapter 4 of the [technical charter](https://github.com/hiero-ledger/governance/blob/main/hiero-technical-charter.md).
 - This can be done in 2 ways:
   - Add your GitHub Issue to the agenda in the next TSC meeting.
-  - Use [GitVote](https://github.com/cncf/gitvote) to collect votes from the TSC members:
+  - After presenting your project, a vote can happen during the TSC meeting itself which is a recorded meeting.
+  - Optionally, an asyn vote can happen using [GitVote](https://github.com/cncf/gitvote) to collect votes from the TSC members outside the meeting and after having presented the proposal:
     - Create your GitHub Issue
     - Make sure the **tsc** team is tagged in the reviewers
     - Comment **/vote-tscprojectproposal** to start the vote
