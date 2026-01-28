@@ -1,14 +1,5 @@
 # Steps for creating new repos in [hiero-ledger](https://github.com/hiero-ledger)
 
-## Role Definitions
-
-- **Repository Creation Agent (Community Architect) (CA)** 
-  - The person responsible for transferring the repository
-  - Must have ability to create a repository in the organization.
-- **Repository Creation Approval Agent - Technical Steering Committee (TSC)**
-  - The party responsible for approving PRs throughout the transfer process
-  - Must have approval authority on the [Hiero-Ledger/governance][governance] repository and on the target repository
-
 ## 1. Before Creating a New Repo
 
 - Review our [Project Criteria guidelines](https://github.com/hiero-ledger/hiero/blob/main/project-criteria.md).
@@ -40,7 +31,7 @@
    
 ## 4. After Project Approval
 
-Reach out to the CA to help create the repo CLA
+Reach out to the Project's Community Architect to help create the repo CLA
 
 - Create a PR to add the new repo in the [governance config file](https://github.com/hiero-ledger/governance/blob/main/config.yaml) [Example](https://github.com/hiero-ledger/governance/pull/346)
 - Follow the PR comments for any corrections needed to be done in your change.
