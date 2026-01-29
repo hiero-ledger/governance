@@ -1,0 +1,211 @@
+name: Hiero Project Proposal
+description: Propose a new sub-project or transfer an existing project into hiero-ledger
+title: "[Project Proposal]: <PROJECT_NAME>"
+labels:
+  - project-proposal
+  - governance
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Hiero Project Proposal
+
+        This issue is used to propose a **new sub-project** or the **transfer of an existing project** into Hiero.
+
+        Please complete **all sections** below as thoroughly as possible. Incomplete proposals may be sent back for clarification.
+
+  - type: input
+    id: project_name
+    attributes:
+      label: Project Name
+      description: Name of the proposed Hiero sub-project
+      placeholder: e.g. Hiero Foo Node
+    validations:
+      required: true
+
+  - type: dropdown
+    id: project_type
+    attributes:
+      label: Project Type
+      description: Is this a new project or an existing one being transferred to Hiero?
+      options:
+        - New project (starts from scratch at Hiero)
+        - Existing project (transfer into Hiero)
+    validations:
+      required: true
+
+  - type: input
+    id: project_url
+    attributes:
+      label: Existing Project URL (if applicable)
+      description: Link to the current repository or homepage (leave blank if new)
+      placeholder: https://github.com/example/project
+    validations:
+      required: false
+
+  - type: textarea
+    id: project_description
+    attributes:
+      label: Project Description
+      description: High-level description of the project, its purpose, and benefits
+      placeholder: Describe what this project does and why it matters
+    validations:
+      required: true
+
+  - type: textarea
+    id: project_scope
+    attributes:
+      label: Project Scope
+      description: Define the features, functionality, and how this project fits into the Hiero ecosystem
+      placeholder: Describe scope, boundaries, and integrations
+    validations:
+      required: true
+
+  - type: textarea
+    id: real_world_use_cases
+    attributes:
+      label: Real World Use Cases
+      description: If the project already exists, list known production or real-world usage
+      placeholder: Describe known adopters, deployments, or usage scenarios
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Metadata
+
+        List all repositories required for this project.
+
+  - type: textarea
+    id: repositories
+    attributes:
+      label: Repositories
+      description: |
+        Provide a table with repository details.
+
+        Example:
+        | Repository name | Description | License | Current location |
+        |-----------------|-------------|---------|------------------|
+        | foo-repo | Core logic | Apache-2.0 | https://github.com/... |
+      placeholder: Paste the completed table here
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Maintainers & Committers
+
+        We suggest **2–3 maintainers** with a **diverse background and affiliations**.
+
+  - type: textarea
+    id: maintainers
+    attributes:
+      label: Maintainers and Committers
+      description: |
+        Provide a table of maintainers and committers.
+
+        Example:
+        | Real Name | Role | GitHub ID | Discord ID | Affiliation |
+        |----------|------|-----------|------------|-------------|
+      placeholder: Paste the completed table here
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Project Supporters
+
+        We suggest **3–5 supporters** from **different organizations**.
+
+  - type: textarea
+    id: supporters
+    attributes:
+      label: Project Supporters
+      description: |
+        Provide a table of supporters.
+
+        Example:
+        | Real Name | GitHub ID | Affiliation |
+        |----------|-----------|-------------|
+      placeholder: Paste the completed table here
+    validations:
+      required: true
+
+  - type: textarea
+    id: architecture
+    attributes:
+      label: Project Architecture
+      description: |
+        Please address the following:
+        - How does this project fit into the Hiero architecture?
+        - What Hiero or external projects does it depend on?
+        - How does it align with standards or specifications?
+        - Include architecture diagrams if possible
+      placeholder: Describe architecture and include links/images
+    validations:
+      required: true
+
+  - type: textarea
+    id: artifacts_and_deliverables
+    attributes:
+      label: Artifacts and Deliverables
+      description: |
+        Describe the tangible outputs produced by this project and where they will be published.
+
+        Examples of artifacts may include (but are not limited to):
+        - Source code repositories
+        - Libraries, SDKs, or packages (Maven, npm, PyPI, etc.)
+        - CLI tools or binaries
+        - Docker images
+        - Specifications or standards documents
+        - Reference implementations
+        - Documentation websites
+
+        Please also specify:
+        - Artifact names
+        - Publication locations (e.g., GitHub, Maven Central, npm, Docker Hub, website URLs)
+        - Expected release cadence (if known)
+      placeholder: |
+        Example:
+        - Java SDK published to Maven Central under org.hiero.*
+        - CLI binaries published via GitHub Releases
+        - Docker images published to ghcr.io/hiero-ledger
+        - Specifications published under hiero-ledger/specifications
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Key Figures
+
+        Fill out what applies. Use **N/A** if not applicable.
+
+  - type: textarea
+    id: key_figures
+    attributes:
+      label: Key Figures
+      description: |
+        Example:
+        | Key Figure | Description | Additional Resources |
+        |-----------|-------------|----------------------|
+        | Contributors | 25 contributors, 3 maintainers | LFX Insights link |
+        | Releases | Quarterly releases | GitHub releases |
+        | OpenSSF Scorecard | Score: 7.5 | Link to scorecard |
+      placeholder: Paste the completed table here
+    validations:
+      required: true
+
+  - type: textarea
+    id: vision
+    attributes:
+      label: Vision of the Project
+      description: Describe the long-term vision, roadmap, and future direction of the project within Hiero
+      placeholder: Describe roadmap, goals, and evolution
+    validations:
+      required: true
