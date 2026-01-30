@@ -38,8 +38,8 @@ Any Committer or Maintainer of the given project can nominate a Contributor to b
 - **Define your project's needs**: A repository should have a minimum of Committers to ensure a project's sustainability and resilience. The exact number should be determined by the project Maintainers based on the size and pace of the project's development, taking into account the overall activity level and ensuring a fair voting process.
 - **Evaluate your project's performance**: Committers and Maintainers should monitor their project health and velocity and make decisions about whether the project needs more Committers.
 - **Verify your project's needs**: Committers and Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination. This is based on the size and complexity of the project in question.
-- **Nominate new committers**: To promote a contributor, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by describing the basis reached for nominating the Contributor. The template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md) should be used to creating a nomination.
-- **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. The voting procedure is explained in the same template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md).
+- **Nominate new committers**: To promote a contributor, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by describing the basis reached for nominating the Contributor.
+- **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. We use the tool [GitVote](https://github.com/cncf/gitvote) for all async votings in Hiero. You can find information about the usage in our [guideline](../rules-and-guidelines/asynchronous-voting.md).
 - **Make adjustments**: Maintainers are responsible for removing inactive committers. A committer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
 As long as a Committer follows our Code of Conduct, makes reasonable contributions to the project,
 and is not violating any of our policies, they will keep their Committer role.
@@ -63,8 +63,8 @@ In addition, the Maintainers should report project updates to the Hiero **Techni
 A Committer of a project can be nominated to become a Maintainer:
 
 - **Define your project's needs**: A repository should have 1 to 3 maintainers to ensure a project's sustainability and resilience. It is not necesarily a goal for the committer to become a maintainer unless the project's needs require it to have more maintainers.
-- **Nominate a maintainer**: To promote a candidate, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by making mention of the basis reached for nominating the Maintainer. The template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md) should be used to creating a nomination.
-- **Approve the nomination**: All maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. The voting procedure is explained in the same template [vote_pr_template.md](https://github.com/hiero-ledger/governance/blob/main/.github/PULL_REQUEST_TEMPLATE/vote_pr_template.md).
+- **Nominate a maintainer**: To promote a candidate, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by making mention of the basis reached for nominating the Maintainer.
+- **Approve the nomination**: All maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. We use the tool [GitVote](https://github.com/cncf/gitvote) for all async votings in Hiero. You can find information about the usage in our [guideline](../rules-and-guidelines/asynchronous-voting.md).
 - **Make adjustments**: A maintainer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
 
 Maintainers are responsible for keeping track of project Issues and Discussions and help pushing inactive conversations. It is a responsibility of the maintainers to close Issues and Discussions that are considered outdated or stale to the current goals of the project.
@@ -162,13 +162,11 @@ For candidates seeking promotion to Committers or Maintainers:
 
 For Maintainers and Committers voting on new candidates:
 - When a candidate is selected for becoming a Committer or a Maintainer, this proposal needs to be made via PR request against the config.yaml in the governance repo.
-- An example of a promotion can be found in the following [PR](https://github.com/hiero-ledger/governance/pull/176).
-- Once the PR is created, all the maintainers of the repo in question need to be added as reviewers and their vote should be provided.
+- An example of a promotion can be found in the following [PR](https://github.com/hiero-ledger/governance/pull/509).
+-  We use the tool [GitVote](https://github.com/cncf/gitvote) for all async votings in Hiero. You can find information about the usage in our [guideline](../rules-and-guidelines/asynchronous-voting.md). We have ready-to-use profiles for all maintainer groups that can be found [in this config file](https://github.com/hiero-ledger/.github/blob/main/.gitvote.yml#L46). The vote starts by adding a comment to the PR. A concrete example for adding a new maintainer to the Rust SDK can be found [here](https://github.com/hiero-ledger/governance/pull/509#issuecomment-3824234728).
 - The creator of the PR should notify all maintainers that a vote is now open.
-- Maintainers can vote in favor of the candidate's promotion by approving the PR with a comment indicating approval.
-- Maintainers can vote against the candidate's promotion by posting a comment in the PR along with their explanation.
+- Maintainers that vote against the candidate's promotion should post a comment in the PR containing the reason.
 - All Maintainers are required to participate in a nomination, but may effectively abstain from voting by only posting a comment in the PR.
-- The comment associated with a maintainers vote should be formatted as `[APPROVE|REJECT|ABSTAIN] - <explanation>`.
 - Maintainers are required to vote, if a maintainer does not participate in several consecutive votes they will be considered "inactive" which can be grounds for removal of maintainer status.
 - Once the PR has gathered the majority of the votes, the PR can be merged and the candidate will be officially part of their new Committer or Maintainer teams.
 - If a PR remains inactive for 2 days, it is a responsibility of the PR owner to reach out to the reviewers via Discord, bring it up in Community calls or reach out for help in the [hiero-general Discord channel](https://discord.com/channels/905194001349627914/1289954446712770600).
