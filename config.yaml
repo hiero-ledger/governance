@@ -454,6 +454,7 @@ teams:
       - timo0
       - tinker-michaelj
       - vtronkov
+      - cliffclick
   - name: hiero-consensus-node-internal-contributors
     maintainers:
       - netopyr
