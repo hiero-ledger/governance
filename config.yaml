@@ -178,14 +178,12 @@ teams:
     maintainers:
       - nadineloepfe
     members:
-      - rbair23
       - exploreriii
       - manishdait
   - name: hiero-sdk-python-committers
     maintainers:
       - nadineloepfe
     members:
-      - hendrikebbers
       - Dosik13
       - manishdait
       - Adityarya11
@@ -198,10 +196,6 @@ teams:
       - exploreriii
     members:
       - tech0priyanshu
-      - MonaaEid
-      - AntonioCeppellini
-      - Adityarya11
-      - aceppaluni
       - emiliyank
       - Akshat8510
       - Mounil2005
