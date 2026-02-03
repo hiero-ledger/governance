@@ -1368,6 +1368,7 @@ repositories:
   - name: homebrew-tools
     teams:
       tsc: maintain
+      hiero-automation: write
       github-maintainers: maintain
       homebrew-tools-maintainers: maintain
       homebrew-tools-committers: write
