@@ -814,6 +814,7 @@ teams:
       - hendrikebbers
     members:
       - exploreriii
+      - aceppaluni
   - name: homebrew-tools-maintainers
     maintainers:
       - rbarker-dev
