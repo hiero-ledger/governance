@@ -6,7 +6,7 @@ In the [hiero-ledger organization](https://github.com/hiero-ledger), maintainers
 ## Clowarden configuration
 
 The `config.yaml` file is used to configure all GitHub repositories of the organization.
-https://clowarden.io is used as tool to manage the GitHub resources and the change list for all Hiero repos can be found [here](https://clowarden.io/audit/?organization=LFDT-Hiero).
+https://clowarden.io is used to manage the GitHub repositories and permission list for all Hiero repos. The Clowarden tool log can be found [here](https://clowarden.io/audit/?organization=LFDT-Hiero).
 
 ### Add a user to Clowarden configuration
 
