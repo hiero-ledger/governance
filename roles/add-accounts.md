@@ -42,4 +42,4 @@ When an individual is nominated to become a Committer or a Maintainer, the PR sh
 
 After a pull request is created, the maintainer(s) responsible for the team the individual is being added to are required to vote on the request.
 We suggest using GitVote to conduct the vote.
-A documentation of the voting process [can be found here](../rules-and-guidelines/asynchronous-voting.md).
+Documentation of the voting process [can be found here](../rules-and-guidelines/asynchronous-voting.md).
