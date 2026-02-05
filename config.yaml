@@ -1024,6 +1024,7 @@ teams:
     members:
       - KononovAndrey
       - paulo-caldas 
+      - tajang97
   - name: roadmap-maintainers
     maintainers:
       - steven-sheehy
