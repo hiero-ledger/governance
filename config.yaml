@@ -1145,7 +1145,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      hiero-sdk-good-first-issue-support: triage
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
       hiero-sdk-js-internal-contributors: triage
