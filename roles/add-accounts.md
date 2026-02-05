@@ -36,7 +36,7 @@ For clowarden the `maintainers` section is needed and must contain at least one 
 That is must to create a valid group.
 It is best practice to have only one person in the `maintainers` section.
 The `members` section contains all the members of the group.
-When a person is nominated to become a Committer or a Maintainer, the PR should add the person to the `members` section of the respective group.
+When an individual is nominated to become a Committer or a Maintainer, the PR should add the individual's GitHub username to the `members` section of the respective group. Note the username is case sensitive.
 
 When you want to add a new member to an existing group, you only need to add the GitHub account name of that member to the file.
 
