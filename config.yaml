@@ -1013,6 +1013,17 @@ teams:
     - Evdokia-Georgieva
     - thomas-swirlds-labs
     - timfn-hg
+  - name: heka-identity-plaform-maintainers
+    maintainers:
+      - AlexanderShenshin
+    members:
+      - Toktar
+  - name: heka-identity-plaform-committers
+    maintainers:
+      - AlexanderShenshin
+    members:
+      - KononovAndrey
+      - paulo-caldas 
   - name: roadmap-maintainers
     maintainers:
       - steven-sheehy
@@ -1429,6 +1440,16 @@ repositories:
       github-maintainers: maintain
       hiero-contracts-maintainers: maintain
       hiero-contracts-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: heka-identity-plaform
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      heka-identity-plaform-maintainers: maintain
+      heka-identity-plaform-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
