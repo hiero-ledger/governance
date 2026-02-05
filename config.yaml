@@ -694,6 +694,12 @@ teams:
       - victor-yanev
       - mwb-al
       - se7enarianelabs
+  - name: hiero-json-rpc-relay-internal-contributors
+    maintainers:
+      - Ferparishuertas
+      - Nana-EC
+    members:
+      - BartoszSolkaBD
   - name: hiero-hederium-maintainers
     maintainers:
       - georgi-l95
@@ -957,6 +963,11 @@ teams:
     - AlfredoG87
     - mwb-al
     - victor-yanev
+  - name: hiero-ethereum-execution-spec-tests-internal-contributors
+    maintainers:
+    - Ferparishuertas
+    members:
+    - BartoszSolkaBD
   - name: hashgraph-online-standards-sdk-js-maintainers
     maintainers:
       - kantorcodes
@@ -1013,6 +1024,11 @@ teams:
     - Evdokia-Georgieva
     - thomas-swirlds-labs
     - timfn-hg
+  - name: hiero-contracts-internal-contributors
+    maintainers:
+    - Ferparishuertas
+    members:
+    - BartoszSolkaBD    
   - name: roadmap-maintainers
     maintainers:
       - steven-sheehy
@@ -1103,6 +1119,7 @@ repositories:
       github-maintainers: maintain
       hiero-ethereum-execution-spec-tests-maintainers: maintain
       hiero-ethereum-execution-spec-tests-committers: write
+      hiero-ethereum-execution-spec-tests-internal-contibutors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -1331,6 +1348,7 @@ repositories:
       github-maintainers: maintain
       hiero-json-rpc-relay-maintainers: maintain
       hiero-json-rpc-relay-committers: write
+      hiero-json-rpc-relay-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -1428,6 +1446,7 @@ repositories:
       github-maintainers: maintain
       hiero-contracts-maintainers: maintain
       hiero-contracts-committers: write
+      hiero-contracts-internal-contirbutors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
