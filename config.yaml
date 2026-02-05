@@ -1119,7 +1119,7 @@ repositories:
       github-maintainers: maintain
       hiero-ethereum-execution-spec-tests-maintainers: maintain
       hiero-ethereum-execution-spec-tests-committers: write
-      hiero-ethereum-execution-spec-tests-internal-contibutors: triage
+      hiero-ethereum-execution-spec-tests-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -1446,7 +1446,7 @@ repositories:
       github-maintainers: maintain
       hiero-contracts-maintainers: maintain
       hiero-contracts-committers: write
-      hiero-contracts-internal-contirbutors: triage
+      hiero-contracts-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
