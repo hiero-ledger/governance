@@ -38,8 +38,6 @@ It is best practice to have only one person in the `maintainers` section.
 The `members` section contains all the members of the group.
 When an individual is nominated to become a Committer or a Maintainer, the PR should add the individual's GitHub username to the `members` section of the respective group. Note the username is case sensitive.
 
-When you want to add a new member to an existing group, you only need to add the GitHub account name of that member to the file.
-
 ## Approving the new member
 
 After a pull request is created, the maintainers responsible for the group the user selected are required to vote on the request.
