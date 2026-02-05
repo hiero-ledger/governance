@@ -1187,6 +1187,7 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
+      hiero-sdk-good-first-issue-support: triage
       hiero-sdk-swift-maintainers: maintain
       hiero-sdk-swift-committers: write
       security-maintainers: triage
