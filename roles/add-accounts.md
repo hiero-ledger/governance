@@ -35,7 +35,7 @@ The `maintainers` section defines **not the project maintainers**.
 For CLOWarden, the `maintainers` section is needed and must contain at least one person that is already a member of the `hiero-ledger` GitHub organization.
 That is must to create a valid group.
 It is best practice to limit the size of the `maintainers` section to 1-3 members.
-The `members` section contains all the members of the group.
+The `members` section contains all the members of the team.
 When an individual is nominated to become a Committer or a Maintainer, the PR should add the individual's GitHub username to the `members` section of the respective group. Note the username is case sensitive.
 
 ## Approving the new member
