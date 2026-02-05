@@ -32,7 +32,7 @@ teams:
 There are multiple teams for each repository. These teams take the format `RepoName-maintainers` and `RepoName-committers`. There may be additional teams added at the discretion of the repository maintainers.
 In each team, there are two sections that can be a little misleading: `maintainers` and `members`.
 The `maintainers` section defines **not the project maintainers**.
-For clowarden the `maintainers` section is needed and must contain at least one person that is already a member of the hiero-ledger GitHub organization.
+For CLOWarden, the `maintainers` section is needed and must contain at least one person that is already a member of the `hiero-ledger` GitHub organization.
 That is must to create a valid group.
 It is best practice to have only one person in the `maintainers` section.
 The `members` section contains all the members of the group.
