@@ -888,17 +888,18 @@ teams:
     members:
       - jeromy-cannon
       - leninmehedy
+      - jan-milenkov
   - name: solo-committers
     maintainers:
       - nathanklick
       - jeromy-cannon
       - leninmehedy
+      - jan-milenkov
     members:
       - matteriben
       - olsentorfinn
       - JeffreyDallas
       - Ivo-Yankov
-      - instamenta
       - alex-kuzmin-hg
       - deshmukhpranali
   - name: solo-internal-contributors
@@ -906,10 +907,10 @@ teams:
       - nathanklick
       - jeromy-cannon
       - leninmehedy
+      - jan-milenkov
     members:
       - JeffreyDallas
       - Ivo-Yankov
-      - instamenta
       - alex-kuzmin-hg
       - deshmukhpranali
   - name: tsc-eligibility-check-admins
