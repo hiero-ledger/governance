@@ -1081,8 +1081,6 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
-      hiero-maintainers: maintain
-      hiero-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
