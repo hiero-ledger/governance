@@ -1013,12 +1013,12 @@ teams:
     - Evdokia-Georgieva
     - thomas-swirlds-labs
     - timfn-hg
-  - name: heka-identity-plaform-maintainers
+  - name: heka-identity-platform-maintainers
     maintainers:
       - AlexanderShenshin
     members:
       - Toktar
-  - name: heka-identity-plaform-committers
+  - name: heka-identity-platform-committers
     maintainers:
       - AlexanderShenshin
     members:
@@ -1445,12 +1445,12 @@ repositories:
       prod-security: triage
       sec-ops: triage
     visibility: public
-  - name: heka-identity-plaform
+  - name: heka-identity-platform
     teams:
       tsc: maintain
       github-maintainers: maintain
-      heka-identity-plaform-maintainers: maintain
-      heka-identity-plaform-committers: write
+      heka-identity-platform-maintainers: maintain
+      heka-identity-platform-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
