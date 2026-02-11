@@ -995,6 +995,7 @@ teams:
       - konstantinabl
       - quiet-node
   - name: hiero-contracts-committers
+    maintainers:
       - Ferparishuertas
     members:
       - ebadiere
