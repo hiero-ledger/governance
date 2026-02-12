@@ -2,7 +2,7 @@
 
 This document provides information about the handling of backward compatibility within projects at Hiero.
 
-The content of this document is based on an independent third party researched how other leading blockchain networks
+The content of this document is based on research by an independent third party into how other leading blockchain networks
 manage breaking changes and backwards compatibility.
 The independent 3rd party concluded the following:
 
