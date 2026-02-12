@@ -1211,6 +1211,7 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
+      hiero-automation: write
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
