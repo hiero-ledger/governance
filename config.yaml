@@ -888,17 +888,18 @@ teams:
     members:
       - jeromy-cannon
       - leninmehedy
+      - jan-milenkov
   - name: solo-committers
     maintainers:
       - nathanklick
       - jeromy-cannon
       - leninmehedy
+      - jan-milenkov
     members:
       - matteriben
       - olsentorfinn
       - JeffreyDallas
       - Ivo-Yankov
-      - instamenta
       - alex-kuzmin-hg
       - deshmukhpranali
   - name: solo-internal-contributors
@@ -906,10 +907,10 @@ teams:
       - nathanklick
       - jeromy-cannon
       - leninmehedy
+      - jan-milenkov
     members:
       - JeffreyDallas
       - Ivo-Yankov
-      - instamenta
       - alex-kuzmin-hg
       - deshmukhpranali
   - name: tsc-eligibility-check-admins
@@ -1013,6 +1014,18 @@ teams:
     - Evdokia-Georgieva
     - thomas-swirlds-labs
     - timfn-hg
+  - name: heka-identity-platform-maintainers
+    maintainers:
+      - AlexanderShenshin
+    members:
+      - Toktar
+  - name: heka-identity-platform-committers
+    maintainers:
+      - AlexanderShenshin
+    members:
+      - KononovAndrey
+      - paulo-caldas 
+      - tajang97
   - name: roadmap-maintainers
     maintainers:
       - steven-sheehy
@@ -1187,6 +1200,7 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
+      hiero-sdk-good-first-issue-support: triage
       hiero-sdk-swift-maintainers: maintain
       hiero-sdk-swift-committers: write
       security-maintainers: triage
@@ -1368,6 +1382,7 @@ repositories:
   - name: homebrew-tools
     teams:
       tsc: maintain
+      hiero-automation: write
       github-maintainers: maintain
       homebrew-tools-maintainers: maintain
       homebrew-tools-committers: write
@@ -1427,6 +1442,16 @@ repositories:
       github-maintainers: maintain
       hiero-contracts-maintainers: maintain
       hiero-contracts-committers: write
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: heka-identity-platform
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      heka-identity-platform-maintainers: maintain
+      heka-identity-platform-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
