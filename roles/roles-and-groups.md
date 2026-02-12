@@ -4,7 +4,7 @@ This file contains an overview of our rules for roles and groups.
 
 For project-based exceptions to any of these rules and how to request an exception, please refer to the following [Tracker](https://github.com/hiero-ledger/governance/blob/main/project-rules-exceptions.md)
 
-## Definition of general roles
+## Definition of project roles
 
 The Hiero project (and the LFDT) defines 4 different types of **roles**: **Contributors**, **Junior Committers**, **Committers**, and **Maintainers**.
 Each person who contributes to Hiero must follow our [**Code of Conduct**](https://github.com/hiero-ledger/.github/blob/main/CODE_OF_CONDUCT.md).
@@ -14,14 +14,11 @@ A person can have multiple roles in multiple projects.
 
 ### Contributors
 
-Any person who contributes to a project is a Contributor. A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
-
-  - If a pull request has not received an approval within 2 business days or a discussion has no activity for more than 2 business days, we suggest to reach out to the Maintainers via our [hiero-general Discord channel](https://discord.lfdecentralizedtrust.org/).
-  - If a pull request or discussion has gone stale for more than 2 weeks, the repo maintainers may close them due to inactivity.
-
+Any person who contributes to a project is a Contributor.
+A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
 We honor legitimate contributions to the project, and we want to make sure that all contributions are recognized.
-
-A Contributor can be nominated by a Committer or a Maintainer to become a Committer:
+A Contributor can be nominated by a Committer or a Maintainer to become a Junior Committers or Committers based on the project's needs and the quality of their contributions.
+The following are some guidelines to help Contributors become active contributors to the project:
 
   - **Start Contributing**: Submit pull requests, report bugs, improve documentation, review code. Show consistency and quality in your contributions.
   - **Build Trust and Track Record**: Active committers will note your contributions, your general understanding of the project, and responsiveness.
@@ -40,13 +37,17 @@ A Junior Committer is granted GitHub **Triage** rights on the repositories of th
 - Close and reopen issues
 
 A Junior Committer will **not** have write access to the repository and their reviews will **not** count toward the required approvals on a pull request.
-
 The Junior Committer role is designed to be **lightweight to obtain** and serves as a stepping stone toward becoming a Committer.
-A Contributor can be nominated by any Committer or Maintainer of the project to become a Junior Committer:
+Junior Committers are encouraged to continue contributing and growing their involvement in the project with the goal of eventually being nominated as a Committer.
 
-- **Eligibility**: A Contributor who has shown regular activity on the project over a period of several weeks (e.g., opening issues, submitting pull requests, participating in discussions or reviews) can be nominated.
-- **Nominate a Junior Committer**: To promote a Contributor, a vote should be held in a GitHub PR (by proposing a change to the `config.yaml` file). Given the lightweight nature of this role, the barrier for approval should be kept low.
-- **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. We use the tool [GitVote](https://github.com/cncf/gitvote) for all async votings in Hiero. You can find information about the usage in our [guideline](../rules-and-guidelines/asynchronous-voting.md).
+#### Adding a Junior Committer
+
+A Contributor or Junior Committers can be nominated by any Committer or Maintainer of the project to become a Junior Committer:
+
+- **Eligibility**: A Contributor who has shown regular activity on the project over a period of several weeks (e.g., opening issues, submitting pull requests, participating in discussions or reviews) can be nominated. Given the lightweight nature of this role, the barrier for approval should be kept low.
+- **Nomination and voting**: The nomination follows the [Creating a PR](#creating-a-pr-to-add-or-remove-a-person-for-a-specific-role) and [Voting](#voting) processes described below.
+
+#### Removing a Junior Committer
 
 Project maintainers may remove a Junior Committer if:
 
@@ -54,26 +55,28 @@ Project maintainers may remove a Junior Committer if:
 - The Junior Committer has shown no activity for 1 to 2 months. Maintainers are encouraged to remove inactive Junior Committers promptly to keep the group current and active.
 - The Junior Committer is not responsive when contacted by the project maintainers.
 
-The addition or removal of Junior Committers must be decided by a project maintainer vote.
+The removal of Junior Committers must be decided by a project maintainer vote.
 The voting must be held via a GitHub PR (by proposing a change to the `config.yaml` file).
-
-Junior Committers are encouraged to continue contributing and growing their involvement in the project with the goal of eventually being nominated as a Committer.
 
 ### Committers
 
 A Committer has specific rights for the project.
-
 As an example, a Committer can assign people to issues, merge PRs, or create branches directly in a repository of the project.
+
+#### Adding a Committer
+
 Any Committer or Maintainer of the given project can nominate a Contributor to become a Committer based on the project's needs and following these steps:
 
-- **Define your project's needs**: A repository should have a minimum of Committers to ensure a project's sustainability and resilience. The exact number should be determined by the project Maintainers based on the size and pace of the project's development, taking into account the overall activity level and ensuring a fair voting process.
+- **Define your project's needs**: A repository should have a minimum of Committers to ensure a project's sustainability and resilience.
+  The exact number should be determined by the project Maintainers based on the size and pace of the project's development, taking into account the overall activity level and ensuring a fair voting process.
 - **Evaluate your project's performance**: Committers and Maintainers should monitor their project health and velocity and make decisions about whether the project needs more Committers.
-- **Verify your project's needs**: Committers and Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination. This is based on the size and complexity of the project in question.
-- **Nominate new committers**: To promote a contributor, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by describing the basis reached for nominating the Contributor.
-- **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. We use the tool [GitVote](https://github.com/cncf/gitvote) for all async votings in Hiero. You can find information about the usage in our [guideline](../rules-and-guidelines/asynchronous-voting.md).
-- **Make adjustments**: Maintainers are responsible for removing inactive committers. A committer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
-As long as a Committer follows our Code of Conduct, makes reasonable contributions to the project,
-and is not violating any of our policies, they will keep their Committer role.
+- **Verify your project's needs**: Committers and Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination.
+  This is based on the size and complexity of the project in question.
+- **Nomination and voting**: The nomination follows the [Creating a PR](#creating-a-pr-to-add-or-remove-a-person-for-a-specific-role) and [Voting](#voting) processes described below. The PR should describe the basis reached for nominating the Contributor.
+
+As long as a Committer follows our Code of Conduct, makes reasonable contributions to the project, and is not violating any of our policies, they will keep their Committer role.
+
+#### Removing a Committer
 
 Project maintainers may remove a committer if:
 
@@ -81,24 +84,27 @@ Project maintainers may remove a committer if:
 - Shown no activity for 6 months and does not respond when contacted by the project maintainers or LFDT staff.
 - Keeps making bad decisions (their approvals and contributions are negatively affecting the project's performance).
 
-The addition or removal of committers must be decided by a project maintainer vote. The voting must be held via a GitHub PR (by proposing a change to the `config.yaml` file).
+Maintainers are responsible for removing inactive committers.
+A committer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
+The removal of committers must be decided by a project maintainer vote. The voting must be held via a GitHub PR (by proposing a change to the `config.yaml` file).
 
 ### Maintainers
 
 The Maintainers of the project are the people that are responsible for the project.
-
 A Maintainer should drive the project's roadmap/vision and take care of topics like community meetings,
 the general structure of the project (fits our best practices, is secure, ...), and so on.
-
 In addition, the Maintainers should report project updates to the Hiero **Technical Steering Committee** (TSC).
+Maintainers are responsible for keeping track of project Issues and Discussions and help pushing inactive conversations.
+It is a responsibility of the maintainers to close Issues and Discussions that are considered outdated or stale to the current goals of the project.
+
+#### Adding a Maintainer
+
 A Committer of a project can be nominated to become a Maintainer:
 
 - **Define your project's needs**: A repository should have 1 to 3 maintainers to ensure a project's sustainability and resilience. It is not necesarily a goal for the committer to become a maintainer unless the project's needs require it to have more maintainers.
-- **Nominate a maintainer**: To promote a candidate, a vote should be held in a GitHub PR (by proposing a change to the config.yaml file) and by making mention of the basis reached for nominating the Maintainer.
-- **Approve the nomination**: All maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. We use the tool [GitVote](https://github.com/cncf/gitvote) for all async votings in Hiero. You can find information about the usage in our [guideline](../rules-and-guidelines/asynchronous-voting.md).
-- **Make adjustments**: A maintainer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
+- **Nomination and voting**: The nomination follows the [Creating a PR](#creating-a-pr-to-add-or-remove-a-person-for-a-specific-role) and [Voting](#voting) processes described below. The PR should describe the basis reached for nominating the Maintainer.
 
-Maintainers are responsible for keeping track of project Issues and Discussions and help pushing inactive conversations. It is a responsibility of the maintainers to close Issues and Discussions that are considered outdated or stale to the current goals of the project.
+#### Removing a Maintainer
 
 Project maintainers or the TSC may remove a maintainer who:
 
@@ -106,9 +112,10 @@ Project maintainers or the TSC may remove a maintainer who:
 - Is inactive for 6 months and does not respond when contacted.
 - Keeps making bad decisions (their contributions are negatively affecting the project's performance).
 
-More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
+A maintainer is considered inactive if there has been no activity for six months and there has been no response when trying to contact them.
+The removal of maintainers must be decided by a project maintainer vote. The voting must be held via a GitHub PR (by proposing a change to the `config.yaml` file).
 
-### Creating a PR to nominate a person for a specific role
+### Creating a PR to add or remove a person for a specific role
 
 When a person is nominated to become a Junior Committer, Committer, or Maintainer, a PR should be created against the [`config.yaml`](config.yaml) file.
 The file is a configuration for https://clowarden.io that is used as tool to manage all Hiero repos.
@@ -209,12 +216,11 @@ To nominate `carol789` as a new junior committer for the PROJECT, update the `co
           - user9
           - carol789  # New junior committer being added
 
-
 ### Voting
 
-When it comes to electing and voting for new committers or new maintainers, the project should consider the following:
+When it comes to electing and voting for new junior committers, committers, or maintainers, the project should consider the following:
 
-For candidates seeking promotion to Committers or Maintainers:
+For candidates seeking promotion to Junior Committers, Committers, or Maintainers:
 - The candidate needs to show participation in the project by contributing with code, issues, discussions, reviews, etc.
 - These contributions need to show proper understanding of the project and quality of the work.
 - 3 to 6 months worth of contributions is considered a good minimum for candidates to be selected for a role promotion.
@@ -222,14 +228,15 @@ For candidates seeking promotion to Committers or Maintainers:
 - A Committer can maintain their project status independently from their employment.
 
 For Maintainers and Committers voting on new candidates:
-- When a candidate is selected for becoming a Committer or a Maintainer, this proposal needs to be made via PR request against the config.yaml in the governance repo.
+- When a candidate is selected for becoming a Junior Committer, Committer, or Maintainer, this proposal needs to be made via PR request against the config.yaml in the governance repo.
 - An example of a promotion can be found in the following [PR](https://github.com/hiero-ledger/governance/pull/509).
 -  We use the tool [GitVote](https://github.com/cncf/gitvote) for all async votings in Hiero. You can find information about the usage in our [guideline](../rules-and-guidelines/asynchronous-voting.md). We have ready-to-use profiles for all maintainer groups that can be found [in this config file](https://github.com/hiero-ledger/.github/blob/main/.gitvote.yml#L46). The vote starts by adding a comment to the PR. A concrete example for adding a new maintainer to the Rust SDK can be found [here](https://github.com/hiero-ledger/governance/pull/509#issuecomment-3824234728).
 - The creator of the PR should notify all maintainers that a vote is now open.
 - Maintainers that vote against the candidate's promotion should post a comment in the PR containing the reason.
 - All Maintainers are required to participate in a nomination, but may effectively abstain from voting by only posting a comment in the PR.
 - Maintainers are required to vote, if a maintainer does not participate in several consecutive votes they will be considered "inactive" which can be grounds for removal of maintainer status.
-- Once the PR has gathered the majority of the votes, the PR can be merged and the candidate will be officially part of their new Committer or Maintainer teams.
+- A vote passes when more maintainers have voted in favor (+1 / thumbs up in GitVote) than against (-1 / thumbs down in GitVote). Maintainers who abstain or do not vote are not counted. For example, 2 votes in favor and 0 against with 10 abstentions is a passing vote. Once the vote has passed, the PR can be merged and the candidate will be officially part of their new team.
+- A vote can be closed early when the outcome can no longer change based on the remaining votes. For example, if a majority of all maintainers have already voted in favor, the vote passes regardless of how the remaining maintainers vote. Conversely, if enough maintainers have voted against that it is impossible for the remaining votes to produce more +1 than -1, the vote fails early.
 - If a PR remains inactive for 2 days, it is a responsibility of the PR owner to reach out to the reviewers via Discord, bring it up in Community calls or reach out for help in the [hiero-general Discord channel](https://discord.com/channels/905194001349627914/1289954446712770600).
 - If a PR shows no activity for 2 weeks, it will be considered stale and it will be closed with no promotion.
 - A Maintainer or Committer can nominate a candidate for removal from the teams if the candidate has not shown any activity for 6 months at least or is not responsive.
@@ -258,7 +265,7 @@ There are global groups in the [`config.yaml`](https://github.com/hiero-ledger/g
 - **`prod-security`**: This group contains members of the security teams who are responsible for reviewing code for security issues, threat modeling and reducing risk within hiero-ledger projects.
 - **`sec-ops`**: This group contains members of the security teams who are responsible for responding to security incidents within hiero-ledger projects.
 
-## Definitions of roles
+## Definitions of GitHub roles
 
 For each project the following GitHub roles should be defined for the groups that work on the project.
 The GitHub roles define the privileges afforded the groups on the GitHub repositories of the project.
