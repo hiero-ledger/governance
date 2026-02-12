@@ -17,13 +17,12 @@ A person can have multiple roles in multiple projects.
 Any person who contributes to a project is a Contributor.
 A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
 We honor legitimate contributions to the project, and we want to make sure that all contributions are recognized.
-A Contributor can be nominated by a Committer or a Maintainer to become a Junior Committers or Committers based on the project's needs and the quality of their contributions.
+A Contributor can be nominated by a Committer or a Maintainer to become a Junior Committer or Committer based on the project's needs and the quality of their contributions.
 The following are some guidelines to help Contributors become active contributors to the project:
 
   - **Start Contributing**: Submit pull requests, report bugs, improve documentation, review code. Show consistency and quality in your contributions.
   - **Build Trust and Track Record**: Active committers will note your contributions, your general understanding of the project, and responsiveness.
   - **Get noticed**: Consistent and valuable contributions will demonstrate more project involvement and reliability.
-  - **Review eligibility**: Quality contributions via Pull Request and a reasonable time contributing to the project (often 3-6 months) is the general acceptable baseline for eligibility. It is up to the project maintainers to determine the number of contributions required for promotion eligibility. This threshold may vary depending on factors such as the project's size and pace of development.
 
 ### Junior Committers
 
@@ -42,7 +41,7 @@ Junior Committers are encouraged to continue contributing and growing their invo
 
 #### Adding a Junior Committer
 
-A Contributor or Junior Committers can be nominated by any Committer or Maintainer of the project to become a Junior Committer:
+A Contributor can be nominated by any Committer or Maintainer of the project to become a Junior Committer:
 
 - **Eligibility**: A Contributor who has shown regular activity on the project over a period of several weeks (e.g., opening issues, submitting pull requests, participating in discussions or reviews) can be nominated. Given the lightweight nature of this role, the barrier for approval should be kept low.
 - **Nomination and voting**: The nomination follows the [Creating a PR](#creating-a-pr-to-add-or-remove-a-person-for-a-specific-role) and [Voting](#voting) processes described below.
@@ -65,10 +64,13 @@ As an example, a Committer can assign people to issues, merge PRs, or create bra
 
 #### Adding a Committer
 
-Any Committer or Maintainer of the given project can nominate a Contributor to become a Committer based on the project's needs and following these steps:
+Any Committer or Maintainer of the given project can nominate a Contributor or Junior Committer to become a Committer based on the project's needs and following these steps:
 
 - **Define your project's needs**: A repository should have a minimum of Committers to ensure a project's sustainability and resilience.
   The exact number should be determined by the project Maintainers based on the size and pace of the project's development, taking into account the overall activity level and ensuring a fair voting process.
+- **Review eligibility**: Quality contributions and a reasonable time contributing to the project (often 3-6 months) is the general acceptable baseline for eligibility to become a Committer.
+  It is up to the project maintainers to determine the number of contributions required for promotion eligibility.
+  This threshold may vary depending on factors such as the project's size and pace of development.
 - **Evaluate your project's performance**: Committers and Maintainers should monitor their project health and velocity and make decisions about whether the project needs more Committers.
 - **Verify your project's needs**: Committers and Maintainers should define the number of good contributions that a Contributor must reach to consider a nomination.
   This is based on the size and complexity of the project in question.
@@ -80,7 +82,7 @@ As long as a Committer follows our Code of Conduct, makes reasonable contributio
 
 Project maintainers may remove a committer if:
 
-- The Commiter breaks our Code of Conduct.
+- The Committer breaks our Code of Conduct.
 - Shown no activity for 6 months and does not respond when contacted by the project maintainers or LFDT staff.
 - Keeps making bad decisions (their approvals and contributions are negatively affecting the project's performance).
 
@@ -101,8 +103,10 @@ It is a responsibility of the maintainers to close Issues and Discussions that a
 
 A Committer of a project can be nominated to become a Maintainer:
 
-- **Define your project's needs**: A repository should have 1 to 3 maintainers to ensure a project's sustainability and resilience. It is not necesarily a goal for the committer to become a maintainer unless the project's needs require it to have more maintainers.
-- **Nomination and voting**: The nomination follows the [Creating a PR](#creating-a-pr-to-add-or-remove-a-person-for-a-specific-role) and [Voting](#voting) processes described below. The PR should describe the basis reached for nominating the Maintainer.
+- **Define your project's needs**: A repository should have 1 to 3 maintainers to ensure a project's sustainability and resilience.
+  It is not necessarily a goal for the committer to become a maintainer unless the project's needs require it to have more maintainers.
+- **Nomination and voting**: The nomination follows the [Creating a PR](#creating-a-pr-to-add-or-remove-a-person-for-a-specific-role) and [Voting](#voting) processes described below.
+  The PR should describe the basis reached for nominating the Maintainer.
 
 #### Removing a Maintainer
 
@@ -148,7 +152,7 @@ As you can see there are three groups defined for a project: `PROJECT-maintainer
 In each group there are two sections that can be a little misleading: `maintainers` and `members`.
 The `maintainers` section defines **not the project maintainers**.
 For clowarden the `maintainers` section is needed and must contain at least one person that is already a member of the hiero-ledger GitHub organization.
-That is must to create a valid group.
+That is a must to create a valid group.
 It is best practice to have only one person in the `maintainers` section.
 The `members` section contains all the members of the group.
 When a person is nominated to become a Junior Committer, Committer, or Maintainer, the PR should add the person to the `members` section of the respective group.
@@ -223,25 +227,30 @@ When it comes to electing and voting for new junior committers, committers, or m
 For candidates seeking promotion to Junior Committers, Committers, or Maintainers:
 - The candidate needs to show participation in the project by contributing with code, issues, discussions, reviews, etc.
 - These contributions need to show proper understanding of the project and quality of the work.
-- 3 to 6 months worth of contributions is considered a good minimum for candidates to be selected for a role promotion.
-- A Committer or Maintainer will be considered inactive if they shown no activity for 6 months at least, in such case, they could be selected for removal.
 - A Committer can maintain their project status independently from their employment.
 
 For Maintainers and Committers voting on new candidates:
-- When a candidate is selected for becoming a Junior Committer, Committer, or Maintainer, this proposal needs to be made via PR request against the config.yaml in the governance repo.
+- When a candidate is selected for becoming a Junior Committer, Committer, or Maintainer, this proposal needs to be made via PR request against the `config.yaml` in the governance repo.
 - An example of a promotion can be found in the following [PR](https://github.com/hiero-ledger/governance/pull/509).
--  We use the tool [GitVote](https://github.com/cncf/gitvote) for all async votings in Hiero. You can find information about the usage in our [guideline](../rules-and-guidelines/asynchronous-voting.md). We have ready-to-use profiles for all maintainer groups that can be found [in this config file](https://github.com/hiero-ledger/.github/blob/main/.gitvote.yml#L46). The vote starts by adding a comment to the PR. A concrete example for adding a new maintainer to the Rust SDK can be found [here](https://github.com/hiero-ledger/governance/pull/509#issuecomment-3824234728).
+- We use the tool [GitVote](https://github.com/cncf/gitvote) for all async votings in Hiero.
+  You can find information about the usage in our [guideline](../rules-and-guidelines/asynchronous-voting.md).
+  We have ready-to-use profiles for all maintainer groups that can be found [in this config file](https://github.com/hiero-ledger/.github/blob/main/.gitvote.yml#L46).
+  The vote starts by adding a comment to the PR.
+  A concrete example for adding a new maintainer to the Rust SDK can be found [here](https://github.com/hiero-ledger/governance/pull/509#issuecomment-3824234728).
 - The creator of the PR should notify all maintainers that a vote is now open.
 - Maintainers that vote against the candidate's promotion should post a comment in the PR containing the reason.
 - All Maintainers are required to participate in a nomination, but may effectively abstain from voting by only posting a comment in the PR.
 - Maintainers are required to vote, if a maintainer does not participate in several consecutive votes they will be considered "inactive" which can be grounds for removal of maintainer status.
-- A vote passes when more maintainers have voted in favor (+1 / thumbs up in GitVote) than against (-1 / thumbs down in GitVote). Maintainers who abstain or do not vote are not counted. For example, 2 votes in favor and 0 against with 10 abstentions is a passing vote. Once the vote has passed, the PR can be merged and the candidate will be officially part of their new team.
-- A vote can be closed early when the outcome can no longer change based on the remaining votes. For example, if a majority of all maintainers have already voted in favor, the vote passes regardless of how the remaining maintainers vote. Conversely, if enough maintainers have voted against that it is impossible for the remaining votes to produce more +1 than -1, the vote fails early.
+- A vote passes when more maintainers have voted in favor (+1 / thumbs up in GitVote) than against (-1 / thumbs down in GitVote). Maintainers who abstain or do not vote are not counted.
+  For example, 2 votes in favor and 0 against with 10 abstentions is a passing vote.
+  Once the vote has passed, the PR can be merged and the candidate will be officially part of their new team.
+- A vote can be closed early when the outcome can no longer change based on the remaining votes.
+  For example, if a majority of all maintainers have already voted in favor, the vote passes regardless of how the remaining maintainers vote. Conversely, if enough maintainers have voted against that it is impossible for the remaining votes to produce more +1 than -1, the vote fails early.
 - If a PR remains inactive for 2 days, it is a responsibility of the PR owner to reach out to the reviewers via Discord, bring it up in Community calls or reach out for help in the [hiero-general Discord channel](https://discord.com/channels/905194001349627914/1289954446712770600).
 - If a PR shows no activity for 2 weeks, it will be considered stale and it will be closed with no promotion.
 - A Maintainer or Committer can nominate a candidate for removal from the teams if the candidate has not shown any activity for 6 months at least or is not responsive.
 - A candidate can also be nominated for removal from the teams if they break code of conduct or has consistently made contributions that are affecting the team.
-- The voting process for removing a candiate is the same as the process for promoting a candidate (via PR).
+- The voting process for removing a candidate is the same as the process for promoting a candidate (via PR).
 
 ## Definition of groups
 
@@ -307,5 +316,6 @@ The following definitions help to describe the current effects:
 - The `CODEOWNERS` file defines some specific groups that are **codeowner** of particular files (or folders) of the repository.
 - A PR that contains changes on those files needs to be approved by one of those codeowners.
 - A `CODEOWNERS` file will not affect the definition of Contributors, Committers, and Maintainers.
-- The minimum permission a **codeowner** must have is `write` on a given repository. As such a **codeowner** must be a Committer or Maintainer on the project.
-    - See [**`PROJECT-maintainers`**](#rights) and [**`PROJECT-committers`**](#rights) or one of our specific groups (for example, [**`lf-staff`**](#rights)) for added detail.
+- The minimum permission a **codeowner** must have is `write` on a given repository.
+  As such a **codeowner** must be a Committer or Maintainer on the project.
+  Contributors and Junior Committers cannot be codeowners since they do not have write access.
