@@ -59,11 +59,11 @@ version number of 1.X or bigger.
   be implemented in a way that does not break existing functionality.
   For example and not limited to:
     * Adding new methods when a return type must be changed
-    * Adding parameters to methods with default values is acceptable if behaviour isn’t changed when parameters aren’t
+    * Adding parameters to methods with default values is acceptable if behavior remains unchanged when parameters aren’t
     supplied
 * APIs and data structures should follow versioning best practices to avoid disruption, for example:
     * Changes to return data structures should be additive, not subtractive
-    * New API parameters should be defaulted without changes to behaviour if not provided
+    * New API parameters should be defaulted without changes to behavior if not provided
 * Changes to response codes (in remote connections) are considered breaking changes
 
 ## Breaking Changes Process
