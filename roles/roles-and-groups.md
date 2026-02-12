@@ -254,7 +254,7 @@ To nominate `bob456` as a new committer for the PROJECT, update the `config.yaml
           - user6
           - bob456  # New committer being added
 
-#### Example: Adding a New Junior Committer
+### Example: Adding a New Junior Committer
 
 To nominate `carol789` as a new junior committer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-junior-committers` team:
 
