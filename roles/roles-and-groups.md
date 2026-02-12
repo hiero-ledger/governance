@@ -1,6 +1,6 @@
 # Roles and Groups
 
-This file contains an overview of our rules for roles and groups.
+This file contains an overview of our rules for roles and teams.
 
 For project-based exceptions to any of these rules and how to request an exception, please refer to the following [Tracker](https://github.com/hiero-ledger/governance/blob/main/project-rules-exceptions.md)
 
@@ -51,7 +51,7 @@ A Contributor can be nominated by any Committer or Maintainer of the project to 
 Project maintainers may remove a Junior Committer if:
 
 - The Junior Committer breaks our Code of Conduct.
-- The Junior Committer has shown no activity for 1 to 2 months. Maintainers are encouraged to remove inactive Junior Committers promptly to keep the group current and active.
+- The Junior Committer has shown no activity for 1 to 2 months. Maintainers are encouraged to remove inactive Junior Committers promptly to keep the team current and active.
 - The Junior Committer is not responsive when contacted by the project maintainers.
 
 The removal of Junior Committers must be decided by a project maintainer vote.
@@ -123,7 +123,7 @@ The removal of maintainers must be decided by a project maintainer vote. The vot
 
 When a person is nominated to become a Junior Committer, Committer, or Maintainer, a PR should be created against the [`config.yaml`](config.yaml) file.
 The file is a configuration for https://clowarden.io that is used as tool to manage all Hiero repos.
-The file contains all maintainer, committer, and junior committer groups and their members.
+The file contains all maintainer, committer, and junior committer teams and their members.
 The file follows the defined syntax of clowarden that looks like this:
 
 ```yaml
@@ -148,18 +148,18 @@ teams:
       - user9
 ```
 
-As you can see there are three groups defined for a project: `PROJECT-maintainers`, `PROJECT-committers`, and `PROJECT-junior-committers`.
-In each group there are two sections that can be a little misleading: `maintainers` and `members`.
+As you can see there are three teams defined for a project: `PROJECT-maintainers`, `PROJECT-committers`, and `PROJECT-junior-committers`.
+In each team there are two sections that can be a little misleading: `maintainers` and `members`.
 The `maintainers` section defines **not the project maintainers**.
 For clowarden the `maintainers` section is needed and must contain at least one person that is already a member of the hiero-ledger GitHub organization.
-That is a must to create a valid group.
+That is a must to create a valid team.
 It is best practice to have only one person in the `maintainers` section.
-The `members` section contains all the members of the group.
-When a person is nominated to become a Junior Committer, Committer, or Maintainer, the PR should add the person to the `members` section of the respective group.
+The `members` section contains all the members of the team.
+When a person is nominated to become a Junior Committer, Committer, or Maintainer, the PR should add the person to the `members` section of the respective team.
 
 #### Example: Adding a New Maintainer
 
-To nominate `alice123` as a new maintainer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-maintainers` group:
+To nominate `alice123` as a new maintainer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-maintainers` team:
 
     teams:
       - name: PROJECT-maintainers
@@ -178,7 +178,7 @@ To nominate `alice123` as a new maintainer for the PROJECT, update the `config.y
 
 #### Example: Adding a New Committer
 
-To nominate `bob456` as a new committer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-committers` group:
+To nominate `bob456` as a new committer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-committers` team:
 
     teams:
       - name: PROJECT-maintainers
@@ -197,7 +197,7 @@ To nominate `bob456` as a new committer for the PROJECT, update the `config.yaml
 
 #### Example: Adding a New Junior Committer
 
-To nominate `carol789` as a new junior committer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-junior-committers` group:
+To nominate `carol789` as a new junior committer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-junior-committers` team:
 
     teams:
       - name: PROJECT-maintainers
@@ -234,7 +234,7 @@ For Maintainers and Committers voting on new candidates:
 - An example of a promotion can be found in the following [PR](https://github.com/hiero-ledger/governance/pull/509).
 - We use the tool [GitVote](https://github.com/cncf/gitvote) for all async votings in Hiero.
   You can find information about the usage in our [guideline](../rules-and-guidelines/asynchronous-voting.md).
-  We have ready-to-use profiles for all maintainer groups that can be found [in this config file](https://github.com/hiero-ledger/.github/blob/main/.gitvote.yml#L46).
+  We have ready-to-use profiles for all maintainer teams that can be found [in this config file](https://github.com/hiero-ledger/.github/blob/main/.gitvote.yml#L46).
   The vote starts by adding a comment to the PR.
   A concrete example for adding a new maintainer to the Rust SDK can be found [here](https://github.com/hiero-ledger/governance/pull/509#issuecomment-3824234728).
 - The creator of the PR should notify all maintainers that a vote is now open.
@@ -252,33 +252,33 @@ For Maintainers and Committers voting on new candidates:
 - A candidate can also be nominated for removal from the teams if they break code of conduct or has consistently made contributions that are affecting the team.
 - The voting process for removing a candidate is the same as the process for promoting a candidate (via PR).
 
-## Definition of groups
+## Definition of teams
 
-Since Hiero contains multiple projects, we define GitHub **groups** that are used to manage the access to the GitHub repositories.
-The groups are defined in the `config.yaml` file and are used to manage the access to the GitHub repositories that belong to a project.
-Contributors do not have any specific rights, and therefore we do not need to define any groups for them.
-Junior Committers, Committers, and Maintainers are defined in groups that are used to manage the access to the GitHub repositories.
-For each project we have defined a Junior Committers group, a Committers group, and a Maintainers group:
+Since Hiero contains multiple projects, we define GitHub **teams** that are used to manage the access to the GitHub repositories.
+The teams are defined in the `config.yaml` file and are used to manage the access to the GitHub repositories that belong to a project.
+Contributors do not have any specific rights, and therefore we do not need to define any teams for them.
+Junior Committers, Committers, and Maintainers are defined in teams that are used to manage the access to the GitHub repositories.
+For each project we have defined a Junior Committers team, a Committers team, and a Maintainers team:
 
-- **`PROJECT-maintainers`**: For each project we have a group that defines the Maintainers of that project.
-- **`PROJECT-committers`**: For each project we have a group that defines the Committers of that project.
-- **`PROJECT-junior-committers`**: For each project we have a group that defines the Junior Committers of that project.
+- **`PROJECT-maintainers`**: For each project we have a team that defines the Maintainers of that project.
+- **`PROJECT-committers`**: For each project we have a team that defines the Committers of that project.
+- **`PROJECT-junior-committers`**: For each project we have a team that defines the Junior Committers of that project.
 
-There are global groups in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml) file as well:
+There are global teams in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml) file as well:
 
-- **`hiero-automation`**: This group contains the CI/CD Automation service accounts for hiero-ledger projects.
-- **`github-maintainers`**: This group contains those responsible for maintaining our GitHub environment and infrastructure (including GitHub Action runners, ...).
-- **`tsc`**: This group contains all members of the technical steering committee (TSC) as defined [here](https://github.com/hiero-ledger/tsc).
-- **`lf-staff`**: This group contains all Linux Foundation and LF Decentralized Trust members who require (mostly ADMIN) rights on the organization.
-- **`security-maintainers`**: This group contains members of the security teams who are responsible for monitoring and maintaining security tooling and automated scanners within hiero-ledger projects.
-- **`prod-security`**: This group contains members of the security teams who are responsible for reviewing code for security issues, threat modeling and reducing risk within hiero-ledger projects.
-- **`sec-ops`**: This group contains members of the security teams who are responsible for responding to security incidents within hiero-ledger projects.
+- **`hiero-automation`**: This team contains the CI/CD Automation service accounts for hiero-ledger projects.
+- **`github-maintainers`**: This team contains those responsible for maintaining our GitHub environment and infrastructure (including GitHub Action runners, ...).
+- **`tsc`**: This team contains all members of the technical steering committee (TSC) as defined [here](https://github.com/hiero-ledger/tsc).
+- **`lf-staff`**: This team contains all Linux Foundation and LF Decentralized Trust members who require (mostly ADMIN) rights on the organization.
+- **`security-maintainers`**: This team contains members of the security teams who are responsible for monitoring and maintaining security tooling and automated scanners within hiero-ledger projects.
+- **`prod-security`**: This team contains members of the security teams who are responsible for reviewing code for security issues, threat modeling and reducing risk within hiero-ledger projects.
+- **`sec-ops`**: This team contains members of the security teams who are responsible for responding to security incidents within hiero-ledger projects.
 
 ## Definitions of GitHub roles
 
-For each project the following GitHub roles should be defined for the groups that work on the project.
-The GitHub roles define the privileges afforded the groups on the GitHub repositories of the project.
-All roles are based on the [GitHub role defintions](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization).
+For each project the following GitHub roles should be defined for the teams that work on the project.
+The GitHub roles define the privileges afforded the teams on the GitHub repositories of the project.
+All roles are based on the [GitHub role definitions](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization).
 
 - **`github-maintainers`**: `MAINTAIN`
 - **`tsc`**: `MAINTAIN`
@@ -304,7 +304,7 @@ These roles can be granted based on community sponsorship or through a maintaine
 As defined today the roles can only be granted to people based on a sponsorship from a company that is a [member of the LF Decentralized Trust](https://www.lfdecentralizedtrust.org/members).
 The TSC will review requests in the form of a PR against the https://github.com/hiero-ledger/governance repository for these roles and approve the PR based on the previous criteria.
 
-## Usage of GitHub CODEOWNERS in combination with our roles, groups, and rights
+## Usage of GitHub CODEOWNERS in combination with our roles, teams, and rights
 
 A project can decide to use GitHub [`CODEOWNERS`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 Using `CODEOWNERS` is a best practice.
@@ -313,9 +313,41 @@ This helps maintainers ensure that the codebase is getting reviewed by the exper
 Combining the Contributors, Committers, and Maintainers roles with GitHub `CODEOWNERS` may require extra care and consideration.
 The following definitions help to describe the current effects:
 
-- The `CODEOWNERS` file defines some specific groups that are **codeowner** of particular files (or folders) of the repository.
+- The `CODEOWNERS` file defines some specific teams that are **codeowner** of particular files (or folders) of the repository.
 - A PR that contains changes on those files needs to be approved by one of those codeowners.
 - A `CODEOWNERS` file will not affect the definition of Contributors, Committers, and Maintainers.
 - The minimum permission a **codeowner** must have is `write` on a given repository.
   As such a **codeowner** must be a Committer or Maintainer on the project.
   Contributors and Junior Committers cannot be codeowners since they do not have write access.
+
+## Open Topics
+
+The following topics have been identified as gaps between the current documentation and the actual `config.yaml` configuration. They need to be discussed, documented, or resolved.
+
+### Undocumented team patterns in `config.yaml`
+
+Several team patterns exist in `config.yaml` that are not covered by this document:
+
+- **`PROJECT-internal-contributors`**: Five teams follow this pattern (`hiero-sdk-js-internal-contributors`, `hiero-sdk-tck-internal-contributors`, `hiero-block-node-internal-contributors`, `hiero-consensus-node-internal-contributors`, `solo-internal-contributors`). These are granted `triage` access. The purpose and governance process for these teams is not documented.
+
+- **`PROJECT-codeowners`**: Five teams exist for the consensus node project (`hiero-consensus-node-devops-codeowners`, `hiero-consensus-node-execution-codeowners`, `hiero-consensus-node-consensus-codeowners`, `hiero-consensus-node-smart-contract-codeowners`, `hiero-consensus-node-foundation-codeowners`). The CODEOWNERS section discusses the file mechanism but does not document these dedicated teams or their governance.
+
+- **`PROJECT-release-managers`** and **`PROJECT-release-engineers`**: Two teams exist for the consensus node project (`hiero-consensus-node-release-managers`, `hiero-consensus-node-release-engineers`). Both are granted `write` access. Their purpose and governance process is not documented.
+
+- **`PROJECT-admins`**: Two teams follow this pattern (`solo-admins`, `tsc-eligibility-check-admins`). These are granted `admin` access, which is the highest permission level. Their purpose and governance process is not documented.
+
+- **`hiero-performance-engineers`**: This team is granted `write` access on the consensus node repository. It is not documented.
+
+- **`governance-write`**: This team is granted `write` access to the governance repository. It is not documented.
+
+- **`hiero-sdk-good-first-issue-support`**: This team is granted `triage` access on several SDK repositories and the website. It is not documented.
+
+- **Project-specific automation accounts**: `hiero-mirror-node-automation` (granted `admin` on the mirror node repository) and `hiero-local-node-automation` (granted `write` on the local node repository). The global `hiero-automation` team is documented, but these project-specific automation accounts are not.
+
+### Naming inconsistency: `PROJECT-triage-contributor` vs. actual team names
+
+The "Additional Roles" section documents a `PROJECT-triage-contributor` pattern, but the only triage team that exists in practice is `hiero-sdk-python-triage`, which does not follow the documented naming convention.
+
+### Overlap between `PROJECT-triage-contributor` and `PROJECT-junior-committers`
+
+Both `PROJECT-triage-contributor` (documented in the "Additional Roles" section) and `PROJECT-junior-committers` grant triage access for onboarding purposes. The key difference is the governance path: `junior-committers` is earned through community contributions and a maintainer vote, while `triage-contributor` is granted through company sponsorship. This overlap should be clarified, and it should be decided whether both patterns are still needed or whether they should be consolidated.
