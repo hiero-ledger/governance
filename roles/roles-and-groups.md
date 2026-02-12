@@ -6,7 +6,7 @@ For project-based exceptions to any of these rules and how to request an excepti
 
 ## Definition of general roles
 
-The Hiero project (and the LFDT) defines 3 different types of **roles**: **Contributors**, **Committers**, and **Maintainers**.
+The Hiero project (and the LFDT) defines 4 different types of **roles**: **Contributors**, **Junior Committers**, **Committers**, and **Maintainers**.
 Each person who contributes to Hiero must follow our [**Code of Conduct**](https://github.com/hiero-ledger/.github/blob/main/CODE_OF_CONDUCT.md).
 Those roles are not assigned globally for the Hiero project but per **project**.
 In most cases a project is a single GitHub repository, but it can also be a group of repositories that are related to each other.
@@ -27,6 +27,37 @@ A Contributor can be nominated by a Committer or a Maintainer to become a Commit
   - **Build Trust and Track Record**: Active committers will note your contributions, your general understanding of the project, and responsiveness.
   - **Get noticed**: Consistent and valuable contributions will demonstrate more project involvement and reliability.
   - **Review eligibility**: Quality contributions via Pull Request and a reasonable time contributing to the project (often 3-6 months) is the general acceptable baseline for eligibility. It is up to the project maintainers to determine the number of contributions required for promotion eligibility. This threshold may vary depending on factors such as the project's size and pace of development.
+
+### Junior Committers
+
+A Junior Committer is a community member who works on a regular basis on a project.
+Since the Contributor role provides very limited rights on a project, the Junior Committer role bridges the gap between Contributors and Committers.
+A Junior Committer is granted GitHub **Triage** rights on the repositories of the project, which allows them to:
+
+- Assign themselves or others to issues
+- Add and remove labels on issues
+- Mark issues as duplicates
+- Close and reopen issues
+
+A Junior Committer will **not** have write access to the repository and their reviews will **not** count toward the required approvals on a pull request.
+
+The Junior Committer role is designed to be **lightweight to obtain** and serves as a stepping stone toward becoming a Committer.
+A Contributor can be nominated by any Committer or Maintainer of the project to become a Junior Committer:
+
+- **Eligibility**: A Contributor who has shown regular activity on the project over a period of several weeks (e.g., opening issues, submitting pull requests, participating in discussions or reviews) can be nominated.
+- **Nominate a Junior Committer**: To promote a Contributor, a vote should be held in a GitHub PR (by proposing a change to the `config.yaml` file). Given the lightweight nature of this role, the barrier for approval should be kept low.
+- **Approve the nomination**: All Maintainers should vote on that nomination and the vote passes when a majority of maintainers vote to proceed. We use the tool [GitVote](https://github.com/cncf/gitvote) for all async votings in Hiero. You can find information about the usage in our [guideline](../rules-and-guidelines/asynchronous-voting.md).
+
+Project maintainers may remove a Junior Committer if:
+
+- The Junior Committer breaks our Code of Conduct.
+- The Junior Committer has shown no activity for 1 to 2 months. Maintainers are encouraged to remove inactive Junior Committers promptly to keep the group current and active.
+- The Junior Committer is not responsive when contacted by the project maintainers.
+
+The addition or removal of Junior Committers must be decided by a project maintainer vote.
+The voting must be held via a GitHub PR (by proposing a change to the `config.yaml` file).
+
+Junior Committers are encouraged to continue contributing and growing their involvement in the project with the goal of eventually being nominated as a Committer.
 
 ### Committers
 
@@ -77,11 +108,11 @@ Project maintainers or the TSC may remove a maintainer who:
 
 More on maintainer guidelines can be found on the [**LFDT TAC site**](https://lf-decentralized-trust.github.io/governance/governing-documents/MAINTAINERS-file.html).
 
-### Creating a PR to nominate a person as Committer or Maintainer
+### Creating a PR to nominate a person for a specific role
 
-When a person is nominated to become a Committer or a Maintainer, a PR should be created against the [`config.yaml`](config.yaml) file.
+When a person is nominated to become a Junior Committer, Committer, or Maintainer, a PR should be created against the [`config.yaml`](config.yaml) file.
 The file is a configuration for https://clowarden.io that is used as tool to manage all Hiero repos.
-The file contains all maintainer and committer groups and their members.
+The file contains all maintainer, committer, and junior committer groups and their members.
 The file follows the defined syntax of clowarden that looks like this:
 
 ```yaml
@@ -94,20 +125,26 @@ teams:
       - user3
   - name: PROJECT-committers
     maintainers:
-      - user4
+      - user1
     members:
       - user5
       - user6
+  - name: PROJECT-junior-committers
+    maintainers:
+      - user1
+    members:
+      - user8
+      - user9
 ```
 
-As you can see there are two groups defined for a project: `PROJECT-maintainers` and `PROJECT-committers`.
+As you can see there are three groups defined for a project: `PROJECT-maintainers`, `PROJECT-committers`, and `PROJECT-junior-committers`.
 In each group there are two sections that can be a little misleading: `maintainers` and `members`.
 The `maintainers` section defines **not the project maintainers**.
 For clowarden the `maintainers` section is needed and must contain at least one person that is already a member of the hiero-ledger GitHub organization.
 That is must to create a valid group.
 It is best practice to have only one person in the `maintainers` section.
 The `members` section contains all the members of the group.
-When a person is nominated to become a Committer or a Maintainer, the PR should add the person to the `members` section of the respective group.
+When a person is nominated to become a Junior Committer, Committer, or Maintainer, the PR should add the person to the `members` section of the respective group.
 
 #### Example: Adding a New Maintainer
 
@@ -123,7 +160,7 @@ To nominate `alice123` as a new maintainer for the PROJECT, update the `config.y
           - alice123  # New maintainer being added
       - name: PROJECT-committers
         maintainers:
-          - user4
+          - user1
         members:
           - user5
           - user6
@@ -141,13 +178,37 @@ To nominate `bob456` as a new committer for the PROJECT, update the `config.yaml
           - user3
       - name: PROJECT-committers
         maintainers:
-          - user4
+          - user1
         members:
           - user5
           - user6
           - bob456  # New committer being added
 
-**Note:** Remember that the person in the `maintainers` field (e.g., `user1` or `user4`) must already be a member of the hiero-ledger GitHub organization for the configuration to be valid. This person is not necessarily a project maintainer but serves as the clowarden group maintainer.
+#### Example: Adding a New Junior Committer
+
+To nominate `carol789` as a new junior committer for the PROJECT, update the `config.yaml` file by adding their GitHub username to the `members` section of the `PROJECT-junior-committers` group:
+
+    teams:
+      - name: PROJECT-maintainers
+        maintainers:
+          - user1
+        members:
+          - user2
+          - user3
+      - name: PROJECT-committers
+        maintainers:
+          - user1
+        members:
+          - user5
+          - user6
+      - name: PROJECT-junior-committers
+        maintainers:
+          - user1
+        members:
+          - user8
+          - user9
+          - carol789  # New junior committer being added
+
 
 ### Voting
 
@@ -180,11 +241,12 @@ For Maintainers and Committers voting on new candidates:
 Since Hiero contains multiple projects, we define GitHub **groups** that are used to manage the access to the GitHub repositories.
 The groups are defined in the `config.yaml` file and are used to manage the access to the GitHub repositories that belong to a project.
 Contributors do not have any specific rights, and therefore we do not need to define any groups for them.
-Committers and Maintainers are defined in groups that are used to manage the access to the GitHub repositories.
-For each project we have defined a Committers group and a Maintainers group:
+Junior Committers, Committers, and Maintainers are defined in groups that are used to manage the access to the GitHub repositories.
+For each project we have defined a Junior Committers group, a Committers group, and a Maintainers group:
 
 - **`PROJECT-maintainers`**: For each project we have a group that defines the Maintainers of that project.
 - **`PROJECT-committers`**: For each project we have a group that defines the Committers of that project.
+- **`PROJECT-junior-committers`**: For each project we have a group that defines the Junior Committers of that project.
 
 There are global groups in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml) file as well:
 
@@ -206,6 +268,7 @@ All roles are based on the [GitHub role defintions](https://docs.github.com/en/o
 - **`tsc`**: `MAINTAIN`
 - **`PROJECT-maintainers`**: `MAINTAIN`
 - **`PROJECT-committers`**: `WRITE`
+- **`PROJECT-junior-committers`**: `TRIAGE`
 
 The GitHub roles are assigned in the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml).
 
