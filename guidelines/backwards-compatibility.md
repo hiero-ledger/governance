@@ -28,8 +28,8 @@ Hiero intends to follow the same principles as described in more detail in this 
 
 The development of software involves ongoing agility and the need to adapt to changing technologies and evolving user
 demands.
-The adoption of new features and improved capabilities often leads to critical decisions including how to maximize the
-opportunities offered by these changes against potential user impact.
+The adoption of new features and improved capabilities often leads to critical decisions about how to balance the
+opportunities offered by these changes with their potential impact on users.
 
 As much as is possible, Hiero projects are committed to maintaining backwards compatibility to ensure a reliable
 experience for users and developers.
