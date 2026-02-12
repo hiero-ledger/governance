@@ -114,7 +114,7 @@ Open source maintainer stakeholders and technical leads must review, provide fee
 Hiero SDKs will adhere to Semantic Versioning ([https://semver.org](https://semver.org/)) whereby an SDK version is 
 identified as `MAJOR.MINOR.PATCH`.
 
-* `MAJOR` version when an incompatible API change is made, subject to deprecation timelines.
+* `MAJOR` version is incremented when an incompatible API change is made, subject to deprecation timelines.
 * `MINOR` version functionality is added in a backward compatible manner.
 * `PATCH` version for backward compatible bug fixes.
 
