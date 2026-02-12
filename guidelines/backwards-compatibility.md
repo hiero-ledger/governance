@@ -115,7 +115,7 @@ Hiero SDKs will adhere to Semantic Versioning ([https://semver.org](https://semv
 identified as `MAJOR.MINOR.PATCH`.
 
 * `MAJOR` version is incremented when an incompatible API change is made, subject to deprecation timelines.
-* `MINOR` version functionality is added in a backward compatible manner.
+* `MINOR` version is incremented when functionality is added in a backward compatible manner.
 * `PATCH` version is incremented for backward compatible bug fixes.
 
 Additional labels for pre-release and build metadata are available as extensions to the `MAJOR.MINOR.PATCH` format.
