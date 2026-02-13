@@ -6,10 +6,10 @@
 This repository contains all governance documents of the Hiero project:
 
 - The [elections](elections) folder contains information and rules about the elections of the Hiero **Technical Steering Committee** (TSC).
-- The [guidelines](guidelines) folder contains several guidelines for working in the Hiero project.
+- The [rules-and-guidelines](rules-and-guidelines) folder contains several guidelines for working in the Hiero project.
 - The `config.yaml` file that is used to configure all GitHub repositories of the organisation.
   https://clowarden.io is used as tool to manage the GitHub resources and the change list for all Hiero repos can be found [here](https://clowarden.io/audit/?organization=LFDT-Hiero).
-- The [roles-and-groups.md](roles-and-groups.md) file contains the rules for the roles and groups of the Hiero project.
+- The [roles](roles) folder contains the rules for the roles and groups of the Hiero project.
 
 ## Creating PRs in the Governance Repository
 
@@ -33,7 +33,7 @@ There are five templates available for creating PRs. The best way to choose betw
 
 ## About Users and Maintainers
 
-- Users and Maintainers guidelies are located in **[Hiero-Ledger's roles and groups guidelines](https://github.com/hiero-ledger/governance/blob/main/roles-and-groups.md#maintainers).**
+- Users and Maintainers guidelines are located in **[Hiero-Ledger's CONTRIBUTING.md file](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md#about-users-and-maintainers)** under the "About-Users-and-Maintainers" section.
 
 ## License
 
