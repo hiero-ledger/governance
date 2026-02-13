@@ -425,6 +425,7 @@ teams:
       - aderevets
       - AlexKehayov
       - akdev
+      - akugal
       - anastasiya-kovaliova
       - anthony-swirldslabs
       - artemananiev
@@ -569,6 +570,7 @@ teams:
       - thenswan
       - anthony-swirldslabs
       - rsinha
+      - akugal
   - name: hiero-consensus-specifications-maintainers
     maintainers:
       - kantorcodes
