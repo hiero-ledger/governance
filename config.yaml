@@ -694,6 +694,12 @@ teams:
       - victor-yanev
       - mwb-al
       - se7enarianelabs
+  - name: hiero-json-rpc-relay-internal-contributors
+    maintainers:
+      - Ferparishuertas
+      - Nana-EC
+    members:
+      - BartoszSolkaBD
   - name: hiero-hederium-maintainers
     maintainers:
       - georgi-l95
@@ -932,32 +938,37 @@ teams:
       - hendrikebbers
   - name: hiero-ethereum-execution-spec-tests-maintainers
     maintainers:
-    - Ferparishuertas
+      - Ferparishuertas
     members:
-    - bubo
-    - gkozyryatskyy
-    - stoyanov-st
-    - Nana-EC
-    - lukelee-sl
-    - lukasz-hashgraph
-    - acuarica
-    - natanasow
-    - simzzz
-    - konstantinabl
-    - quiet-node
+      - bubo
+      - gkozyryatskyy
+      - stoyanov-st
+      - Nana-EC
+      - lukelee-sl
+      - lukasz-hashgraph
+      - acuarica
+      - natanasow
+      - simzzz
+      - konstantinabl
+      - quiet-node
   - name: hiero-ethereum-execution-spec-tests-committers
     maintainers:
-    - Ferparishuertas
+      - Ferparishuertas
     members:
-    - ebadiere
-    - Ivo-Yankov
-    - georgi-l95
-    - jasuwienas
-    - se7enarianelabs
-    - isavov
-    - AlfredoG87
-    - mwb-al
-    - victor-yanev
+      - ebadiere
+      - Ivo-Yankov
+      - georgi-l95
+      - jasuwienas
+      - se7enarianelabs
+      - isavov
+      - AlfredoG87
+      - mwb-al
+      - victor-yanev
+  - name: hiero-ethereum-execution-spec-tests-internal-contributors
+    maintainers:
+      - Ferparishuertas
+    members:
+      - BartoszSolkaBD
   - name: hashgraph-online-standards-sdk-js-maintainers
     maintainers:
       - kantorcodes
@@ -970,50 +981,55 @@ teams:
     members: []
   - name: hiero-contracts-maintainers
     maintainers:
-    - Ferparishuertas
+      - Ferparishuertas
     members:
-    - bubo
-    - gkozyryatskyy
-    - stoyanov-st
-    - Nana-EC
-    - lukelee-sl
-    - lukasz-hashgraph
-    - acuarica
-    - natanasow
-    - simzzz
-    - konstantinabl
-    - quiet-node
+      - bubo
+      - gkozyryatskyy
+      - stoyanov-st
+      - Nana-EC
+      - lukelee-sl
+      - lukasz-hashgraph
+      - acuarica
+      - natanasow
+      - simzzz
+      - konstantinabl
+      - quiet-node
   - name: hiero-contracts-committers
     maintainers:
-    - Ferparishuertas
+      - Ferparishuertas
     members:
-    - ebadiere
-    - Ivo-Yankov
-    - jasuwienas
-    - georgi-l95
-    - se7enarianelabs
-    - isavov
-    - AlfredoG87
-    - mwb-al
-    - victor-yanev
-    - joshmarinacci
-    - kimbor
-    - netopyr
-    - derektriley
-    - MiroslavGatsanoga
-    - povolev15
-    - ibankov
-    - JivkoKelchev
-    - petreze
-    - tinker-michaelj
-    - Neeharika-Sompalli
-    - vtronkov
-    - mhess-swl
-    - iwsimon
-    - anastasiya-kovaliova
-    - Evdokia-Georgieva
-    - thomas-swirlds-labs
-    - timfn-hg
+      - ebadiere
+      - Ivo-Yankov
+      - jasuwienas
+      - georgi-l95
+      - se7enarianelabs
+      - isavov
+      - AlfredoG87
+      - mwb-al
+      - victor-yanev
+      - joshmarinacci
+      - kimbor
+      - netopyr
+      - derektriley
+      - MiroslavGatsanoga
+      - povolev15
+      - ibankov
+      - JivkoKelchev
+      - petreze
+      - tinker-michaelj
+      - Neeharika-Sompalli
+      - vtronkov
+      - mhess-swl
+      - iwsimon
+      - anastasiya-kovaliova
+      - Evdokia-Georgieva
+      - thomas-swirlds-labs
+      - timfn-hg
+  - name: hiero-contracts-internal-contributors
+    maintainers:
+      - Ferparishuertas
+    members:
+      - BartoszSolkaBD    
   - name: heka-identity-platform-maintainers
     maintainers:
       - AlexanderShenshin
@@ -1116,6 +1132,7 @@ repositories:
       github-maintainers: maintain
       hiero-ethereum-execution-spec-tests-maintainers: maintain
       hiero-ethereum-execution-spec-tests-committers: write
+      hiero-ethereum-execution-spec-tests-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -1346,6 +1363,7 @@ repositories:
       github-maintainers: maintain
       hiero-json-rpc-relay-maintainers: maintain
       hiero-json-rpc-relay-committers: write
+      hiero-json-rpc-relay-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -1443,6 +1461,7 @@ repositories:
       github-maintainers: maintain
       hiero-contracts-maintainers: maintain
       hiero-contracts-committers: write
+      hiero-contracts-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
