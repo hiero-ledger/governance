@@ -827,6 +827,12 @@ teams:
     members:
       - exploreriii
       - aceppaluni
+  - name: hiero-website-triage
+    maintainers:
+      - hendrikebbers
+    members:
+      - Shivam-Batham
+      - Abhijeet2409
   - name: homebrew-tools-maintainers
     maintainers:
       - rbarker-dev
@@ -1079,6 +1085,7 @@ repositories:
       github-maintainers: maintain
       hiero-website-maintainers: maintain
       hiero-website-committers: write
+      hiero-website-triage: triage
       hiero-sdk-good-first-issue-support: triage
       security-maintainers: triage
       prod-security: triage
