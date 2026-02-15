@@ -460,13 +460,13 @@ teams:
       - poulok
       - artemananiev
     members:
+      - 0x-ds
+      - a-saksena
       - aderevets
-      - akdev
       - akugal
       - AlexKehayov
-      - a-saksena
-      - joshmarinacci
-      - 0x-ds
+      - Chinnmay
+      - Grigorov-Georgi
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
