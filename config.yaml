@@ -1051,7 +1051,19 @@ teams:
   - name: roadmap-committers
     maintainers:
       - steven-sheehy
-    members: []
+    members:
+      - akdev
+      - atul-hedera
+      - dalvizu
+      - Ferparishuertas
+      - Jeffrey-morgan34
+      - Mark-Swirlds
+      - Nana-EC
+      - nathanklick
+      - olsentorfinn
+      - Reccetech
+      - SimiHunjan
+      - ty-swirldslabs
   - name: hiero-enterprise-java-maintainers
     maintainers:
       - hendrikebbers
