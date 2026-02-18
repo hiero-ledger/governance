@@ -466,6 +466,7 @@ teams:
       - AlexKehayov
       - a-saksena
       - joshmarinacci
+      - 0x-ds
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
