@@ -467,6 +467,7 @@ teams:
       - AlexKehayov
       - Chinnmay
       - Grigorov-Georgi
+      - viniciusjssouza
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
