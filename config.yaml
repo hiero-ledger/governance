@@ -829,8 +829,8 @@ teams:
   - name: hiero-committers
     maintainers:
       - hendrikebbers
-    members:
       - exploreriii
+    members: []
   - name: homebrew-tools-maintainers
     maintainers:
       - rbarker-dev
