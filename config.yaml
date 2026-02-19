@@ -189,6 +189,7 @@ teams:
       - MonaaEid
       - aceppaluni
       - AntonioCeppellini
+      - Akshat8510
   - name: hiero-sdk-python-triage
     maintainers:
       - nadineloepfe
@@ -196,7 +197,6 @@ teams:
     members:
       - tech0priyanshu
       - emiliyank
-      - Akshat8510
       - Mounil2005
       - parvninama
       - drtoxic69
