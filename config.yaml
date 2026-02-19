@@ -178,32 +178,25 @@ teams:
     maintainers:
       - nadineloepfe
     members:
-      - rbair23
       - exploreriii
       - manishdait
   - name: hiero-sdk-python-committers
     maintainers:
       - nadineloepfe
     members:
-      - hendrikebbers
       - Dosik13
-      - manishdait
       - Adityarya11
       - MonaaEid
       - aceppaluni
       - AntonioCeppellini
+      - Akshat8510
   - name: hiero-sdk-python-triage
     maintainers:
       - nadineloepfe
       - exploreriii
     members:
       - tech0priyanshu
-      - MonaaEid
-      - AntonioCeppellini
-      - Adityarya11
-      - aceppaluni
       - emiliyank
-      - Akshat8510
       - Mounil2005
       - parvninama
       - drtoxic69
@@ -460,6 +453,7 @@ teams:
       - timo0
       - tinker-michaelj
       - vtronkov
+      - cliffclick
   - name: hiero-consensus-node-internal-contributors
     maintainers:
       - netopyr
@@ -472,6 +466,7 @@ teams:
       - AlexKehayov
       - a-saksena
       - joshmarinacci
+      - 0x-ds
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
@@ -694,6 +689,12 @@ teams:
       - victor-yanev
       - mwb-al
       - se7enarianelabs
+  - name: hiero-json-rpc-relay-internal-contributors
+    maintainers:
+      - Ferparishuertas
+      - Nana-EC
+    members:
+      - BartoszSolkaBD
   - name: hiero-hederium-maintainers
     maintainers:
       - georgi-l95
@@ -831,6 +832,12 @@ teams:
       - hendrikebbers
       - exploreriii
     members: []
+  - name: hiero-website-triage
+    maintainers:
+      - hendrikebbers
+    members:
+      - Shivam-Batham
+      - Abhijeet2409
   - name: homebrew-tools-maintainers
     maintainers:
       - rbarker-dev
@@ -898,17 +905,18 @@ teams:
     members:
       - jeromy-cannon
       - leninmehedy
+      - jan-milenkov
   - name: solo-committers
     maintainers:
       - nathanklick
       - jeromy-cannon
       - leninmehedy
+      - jan-milenkov
     members:
       - matteriben
       - olsentorfinn
       - JeffreyDallas
       - Ivo-Yankov
-      - instamenta
       - alex-kuzmin-hg
       - deshmukhpranali
   - name: solo-internal-contributors
@@ -916,10 +924,10 @@ teams:
       - nathanklick
       - jeromy-cannon
       - leninmehedy
+      - jan-milenkov
     members:
       - JeffreyDallas
       - Ivo-Yankov
-      - instamenta
       - alex-kuzmin-hg
       - deshmukhpranali
   - name: tsc-eligibility-check-admins
@@ -941,32 +949,37 @@ teams:
       - hendrikebbers
   - name: hiero-ethereum-execution-spec-tests-maintainers
     maintainers:
-    - Ferparishuertas
+      - Ferparishuertas
     members:
-    - bubo
-    - gkozyryatskyy
-    - stoyanov-st
-    - Nana-EC
-    - lukelee-sl
-    - lukasz-hashgraph
-    - acuarica
-    - natanasow
-    - simzzz
-    - konstantinabl
-    - quiet-node
+      - bubo
+      - gkozyryatskyy
+      - stoyanov-st
+      - Nana-EC
+      - lukelee-sl
+      - lukasz-hashgraph
+      - acuarica
+      - natanasow
+      - simzzz
+      - konstantinabl
+      - quiet-node
   - name: hiero-ethereum-execution-spec-tests-committers
     maintainers:
-    - Ferparishuertas
+      - Ferparishuertas
     members:
-    - ebadiere
-    - Ivo-Yankov
-    - georgi-l95
-    - jasuwienas
-    - se7enarianelabs
-    - isavov
-    - AlfredoG87
-    - mwb-al
-    - victor-yanev
+      - ebadiere
+      - Ivo-Yankov
+      - georgi-l95
+      - jasuwienas
+      - se7enarianelabs
+      - isavov
+      - AlfredoG87
+      - mwb-al
+      - victor-yanev
+  - name: hiero-ethereum-execution-spec-tests-internal-contributors
+    maintainers:
+      - Ferparishuertas
+    members:
+      - BartoszSolkaBD
   - name: hashgraph-online-standards-sdk-js-maintainers
     maintainers:
       - kantorcodes
@@ -979,56 +992,61 @@ teams:
     members: []
   - name: hiero-contracts-maintainers
     maintainers:
-    - Ferparishuertas
+      - Ferparishuertas
     members:
-    - bubo
-    - gkozyryatskyy
-    - stoyanov-st
-    - Nana-EC
-    - lukelee-sl
-    - lukasz-hashgraph
-    - acuarica
-    - natanasow
-    - simzzz
-    - konstantinabl
-    - quiet-node
+      - bubo
+      - gkozyryatskyy
+      - stoyanov-st
+      - Nana-EC
+      - lukelee-sl
+      - lukasz-hashgraph
+      - acuarica
+      - natanasow
+      - simzzz
+      - konstantinabl
+      - quiet-node
   - name: hiero-contracts-committers
     maintainers:
-    - Ferparishuertas
+      - Ferparishuertas
     members:
-    - ebadiere
-    - Ivo-Yankov
-    - jasuwienas
-    - georgi-l95
-    - se7enarianelabs
-    - isavov
-    - AlfredoG87
-    - mwb-al
-    - victor-yanev
-    - joshmarinacci
-    - kimbor
-    - netopyr
-    - derektriley
-    - MiroslavGatsanoga
-    - povolev15
-    - ibankov
-    - JivkoKelchev
-    - petreze
-    - tinker-michaelj
-    - Neeharika-Sompalli
-    - vtronkov
-    - mhess-swl
-    - iwsimon
-    - anastasiya-kovaliova
-    - Evdokia-Georgieva
-    - thomas-swirlds-labs
-    - timfn-hg
-  - name: heka-identity-plaform-maintainers
+      - ebadiere
+      - Ivo-Yankov
+      - jasuwienas
+      - georgi-l95
+      - se7enarianelabs
+      - isavov
+      - AlfredoG87
+      - mwb-al
+      - victor-yanev
+      - joshmarinacci
+      - kimbor
+      - netopyr
+      - derektriley
+      - MiroslavGatsanoga
+      - povolev15
+      - ibankov
+      - JivkoKelchev
+      - petreze
+      - tinker-michaelj
+      - Neeharika-Sompalli
+      - vtronkov
+      - mhess-swl
+      - iwsimon
+      - anastasiya-kovaliova
+      - Evdokia-Georgieva
+      - thomas-swirlds-labs
+      - timfn-hg
+  - name: hiero-contracts-internal-contributors
+    maintainers:
+      - Ferparishuertas
+    members:
+      - BartoszSolkaBD    
+  - name: heka-identity-platform-maintainers
     maintainers:
       - AlexanderShenshin
     members:
       - Toktar
-  - name: heka-identity-plaform-committers
+  - name: heka-identity-platform-committers
     maintainers:
       - AlexanderShenshin
     members:
@@ -1044,7 +1062,19 @@ teams:
   - name: roadmap-committers
     maintainers:
       - steven-sheehy
-    members: []
+    members:
+      - akdev
+      - atul-hedera
+      - dalvizu
+      - Ferparishuertas
+      - Jeffrey-morgan34
+      - Mark-Swirlds
+      - Nana-EC
+      - nathanklick
+      - olsentorfinn
+      - Reccetech
+      - SimiHunjan
+      - ty-swirldslabs
   - name: hiero-enterprise-java-maintainers
     maintainers:
       - hendrikebbers
@@ -1072,6 +1102,7 @@ repositories:
       github-maintainers: maintain
       hiero-website-maintainers: maintain
       hiero-website-committers: write
+      hiero-website-triage: triage
       hiero-sdk-good-first-issue-support: triage
       security-maintainers: triage
       prod-security: triage
@@ -1127,6 +1158,7 @@ repositories:
       github-maintainers: maintain
       hiero-ethereum-execution-spec-tests-maintainers: maintain
       hiero-ethereum-execution-spec-tests-committers: write
+      hiero-ethereum-execution-spec-tests-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -1222,6 +1254,7 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
+      hiero-automation: write
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
@@ -1356,6 +1389,7 @@ repositories:
       github-maintainers: maintain
       hiero-json-rpc-relay-maintainers: maintain
       hiero-json-rpc-relay-committers: write
+      hiero-json-rpc-relay-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
@@ -1453,16 +1487,17 @@ repositories:
       github-maintainers: maintain
       hiero-contracts-maintainers: maintain
       hiero-contracts-committers: write
+      hiero-contracts-internal-contributors: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
     visibility: public
-  - name: heka-identity-plaform
+  - name: heka-identity-platform
     teams:
       tsc: maintain
       github-maintainers: maintain
-      heka-identity-plaform-maintainers: maintain
-      heka-identity-plaform-committers: write
+      heka-identity-platform-maintainers: maintain
+      heka-identity-platform-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
