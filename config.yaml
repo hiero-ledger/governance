@@ -920,6 +920,22 @@ teams:
       - Ivo-Yankov
       - alex-kuzmin-hg
       - deshmukhpranali
+  - name: solo-docs-maintainers
+    maintainers:
+      - deshmukhpranali
+      - jeromy-cannon
+      - nathanklick
+      - olsentorfinn
+      - Reccetech
+    members: []
+  - name: solo-docs-committers
+    maintainers:
+      - deshmukhpranali
+      - jeromy-cannon
+      - nathanklick
+      - olsentorfinn
+      - Reccetech
+    members: []
   - name: tsc-eligibility-check-admins
     maintainers:
       - jwagantall
@@ -1453,6 +1469,17 @@ repositories:
       solo-maintainers: maintain
       solo-committers: write
       solo-internal-contributors: triage
+      security-maintainers: triage
+      prod-security: triage
+      sec-ops: triage
+    visibility: public
+  - name: solo-docs
+    teams:
+      tsc: maintain
+      hiero-automation: write
+      github-maintainers: maintain
+      solo-docs-maintainers: maintain
+      solo-docs-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
