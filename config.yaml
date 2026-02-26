@@ -863,7 +863,6 @@ teams:
     maintainers:
       - nathanklick
     members:
-      - mbacke-swirlds
       - NMiller-swirlds
       - afaling0725
   - name: sdk-collaboration-hub-maintainers
