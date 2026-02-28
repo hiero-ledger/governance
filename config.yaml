@@ -823,6 +823,16 @@ teams:
     members:
       - exploreriii
       - aceppaluni
+  - name: hiero-maintainers
+    maintainers:
+      - hendrikebbers
+    members:
+      - exploreriii
+  - name: hiero-committers
+    maintainers:
+      - hendrikebbers
+      - exploreriii
+    members: []
   - name: hiero-website-triage
     maintainers:
       - hendrikebbers
@@ -1118,6 +1128,8 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
+      hiero-maintainers: maintain
+      hiero-committers: write
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
