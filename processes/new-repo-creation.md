@@ -2,7 +2,7 @@
 
 ## 1. Before Creating a New Repo
 
-- Review our [Project Criteria guidelines](https://github.com/hiero-ledger/hiero/blob/main/project-criteria.md).
+- Review our [Project Criteria guidelines](https://github.com/hiero-ledger/governance/blob/main/rules-and-guidelines/project-criteria.md).
   These guidelines will ensure that the project:
   - Is able to adapt to [Hiero's mission](https://github.com/hiero-ledger/hiero/blob/main/project-criteria.md#hieros-mission-and-technical-charter).
   - Participants understand the basis of Open Source collaboration.
@@ -39,6 +39,6 @@ Reach out to the Project's Community Architect to help create the repo CLA
 
 ## 5. After Project Creation
 
-- Committers and Maintainers are responsible for the content of the repository and compliance with the [Project Criteria guidelines](https://github.com/hiero-ledger/hiero/blob/main/project-criteria.md).
+- Committers and Maintainers are responsible for the content of the repository and compliance with the [Project Criteria guidelines](https://github.com/hiero-ledger/governance/blob/main/rules-and-guidelines/project-criteria.md).
 - Committers and Maintainers are responsible for updating any documentation in [hiero-docs](https://github.com/hiero-ledger/hiero-docs) and [hiero-website](https://github.com/hiero-ledger/hiero-website)
 - Committers and Maintainers are responsible for promoting collaboration and diversity in their new repo.
