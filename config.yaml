@@ -114,7 +114,6 @@ teams:
       - jsync-swirlds
       - kantorcodes
       - lbaird
-      - michielmulders
       - stoqnkpL
       - stoyanov-st
       - venilinvasilev
@@ -611,16 +610,15 @@ teams:
       - vtronkov
   - name: hiero-cli-maintainers
     maintainers:
-      - michielmulders
-    members:
       - Neurone
+    members:
       - piotrswierzy
       - devmab
       - mmyslblocky
       - misiek-blocky
   - name: hiero-cli-committers
     maintainers:
-      - michielmulders
+      - Neurone
     members:
       - devmab
       - piotrswierzy
@@ -743,7 +741,6 @@ teams:
       - stoqnkpL
       - publu
       - netopyr
-      - michielmulders
       - rbarker-dev
       - tinker-michaelj
       - lukelee-sl
@@ -845,7 +842,6 @@ teams:
     members:
       - hendrikebbers
       - JeffreyDallas
-      - michielmulders
   - name: security-maintainers
     maintainers:
       - nathanklick
