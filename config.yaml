@@ -379,6 +379,7 @@ teams:
       - mustafauzunn
       - rbair23
       - rbarker-dev
+      - rockysingh
       - san-est
   - name: hiero-block-node-internal-contributors
     maintainers:
@@ -386,7 +387,6 @@ teams:
       - jsync-swirlds
       - Nana-EC
     members:
-      - rockysingh
       - ivannov
       - berryware
   - name: hiero-consensus-node-maintainers
