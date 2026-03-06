@@ -297,6 +297,12 @@ teams:
     members:
       - gsstoykov
       - agadzhalov
+  - name: hiero-sdk-cpp-triage
+    maintainers:
+      - rwalworth
+      - gsstoykov
+    members:
+      - Adityarya11
   - name: hiero-sdk-tck-maintainers
     maintainers:
       - rwalworth
@@ -1186,6 +1192,7 @@ repositories:
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-cpp-maintainers: maintain
       hiero-sdk-cpp-committers: write
+      hiero-sdk-cpp-triage: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
