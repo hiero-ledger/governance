@@ -917,6 +917,7 @@ teams:
       - Ivo-Yankov
       - alex-kuzmin-hg
       - deshmukhpranali
+      - SimiHunjan
   - name: solo-docs-maintainers
     maintainers:
       - deshmukhpranali
@@ -1043,7 +1044,7 @@ teams:
     maintainers:
       - Ferparishuertas
     members:
-      - BartoszSolkaBD    
+      - BartoszSolkaBD
   - name: heka-identity-platform-maintainers
     maintainers:
       - AlexanderShenshin
