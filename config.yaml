@@ -1089,6 +1089,11 @@ teams:
       - quiet-node
       - timfn-hg
       - timo0
+      - Ivo-Yankov
+      - jan-milenkov
+      - JeffreyDallas
+      - jeromy-cannon
+      - Jnels124
   - name: hiero-enterprise-java-maintainers
     maintainers:
       - hendrikebbers
