@@ -912,6 +912,7 @@ teams:
       - instamenta
       - alex-kuzmin-hg
       - deshmukhpranali
+      - SimiHunjan
   - name: tsc-eligibility-check-admins
     maintainers:
       - jwagantall
