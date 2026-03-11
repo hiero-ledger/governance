@@ -296,6 +296,12 @@ teams:
     members:
       - gsstoykov
       - agadzhalov
+  - name: hiero-sdk-cpp-triage
+    maintainers:
+      - rwalworth
+      - gsstoykov
+    members:
+      - Adityarya11
   - name: hiero-sdk-tck-maintainers
     maintainers:
       - rwalworth
@@ -917,6 +923,7 @@ teams:
       - Ivo-Yankov
       - alex-kuzmin-hg
       - deshmukhpranali
+      - SimiHunjan
   - name: solo-docs-maintainers
     maintainers:
       - deshmukhpranali
@@ -1043,7 +1050,7 @@ teams:
     maintainers:
       - Ferparishuertas
     members:
-      - BartoszSolkaBD    
+      - BartoszSolkaBD
   - name: heka-identity-platform-maintainers
     maintainers:
       - AlexanderShenshin
@@ -1182,6 +1189,7 @@ repositories:
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-cpp-maintainers: maintain
       hiero-sdk-cpp-committers: write
+      hiero-sdk-cpp-triage: triage
       security-maintainers: triage
       prod-security: triage
       sec-ops: triage
