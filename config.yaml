@@ -703,6 +703,7 @@ teams:
       - Nana-EC
     members:
       - BartoszSolkaBD
+      - bootcodes
   - name: hiero-hederium-maintainers
     maintainers:
       - georgi-l95
@@ -992,6 +993,7 @@ teams:
       - Ferparishuertas
     members:
       - BartoszSolkaBD
+      - bootcodes
   - name: hashgraph-online-standards-sdk-js-maintainers
     maintainers:
       - kantorcodes
@@ -1053,6 +1055,7 @@ teams:
       - Ferparishuertas
     members:
       - BartoszSolkaBD
+      - bootcodes
   - name: heka-identity-platform-maintainers
     maintainers:
       - AlexanderShenshin
