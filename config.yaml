@@ -396,6 +396,7 @@ teams:
     members:
       - ivannov
       - berryware
+      - SimiHunjan
   - name: hiero-consensus-node-maintainers
     maintainers:
       - Nana-EC
@@ -468,6 +469,7 @@ teams:
       - netopyr
       - poulok
       - artemananiev
+      - SimiHunjan
     members:
       - 0x-ds
       - a-saksena
@@ -705,6 +707,7 @@ teams:
       - Nana-EC
     members:
       - BartoszSolkaBD
+      - SimiHunjan
   - name: hiero-hederium-maintainers
     maintainers:
       - georgi-l95
@@ -1055,6 +1058,7 @@ teams:
       - Ferparishuertas
     members:
       - BartoszSolkaBD
+      - SimiHunjan
   - name: heka-identity-platform-maintainers
     maintainers:
       - AlexanderShenshin
