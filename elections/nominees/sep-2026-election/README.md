@@ -28,7 +28,7 @@ A PR that contains a new nomination file must be approved by the nominee before 
 The nominee must review the nomination file and ensure that all information is correct, including the github username.
 Once the nominee has reviewed the file, they should comment on the PR with "I approve this nomination" to indicate their approval.
 
-Any PR that fullfills the requirements before the end of the 9th September 2025 (UTC) will be considered for the election.
+Any PR that fullfills the requirements before the end of the 9th September 2026 (UTC) will be considered for the election.
 
 ## Who is allowed to vote
 
