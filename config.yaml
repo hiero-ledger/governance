@@ -469,7 +469,6 @@ teams:
       - netopyr
       - poulok
       - artemananiev
-      - SimiHunjan
     members:
       - 0x-ds
       - a-saksena
@@ -479,6 +478,7 @@ teams:
       - Chinnmay
       - Grigorov-Georgi
       - viniciusjssouza
+      - SimiHunjan
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
