@@ -932,6 +932,12 @@ teams:
       - alex-kuzmin-hg
       - deshmukhpranali
       - SimiHunjan
+  - name: solo-docs-admins
+    maintainers:
+      - nathanklick
+    members:
+      - jeromy-cannon
+      - leninmehedy
   - name: solo-docs-maintainers
     maintainers:
       - deshmukhpranali
@@ -1510,6 +1516,7 @@ repositories:
       tsc: maintain
       hiero-automation: write
       github-maintainers: maintain
+      solo-docs-admins: admin
       solo-docs-maintainers: maintain
       solo-docs-committers: write
       security-maintainers: triage
