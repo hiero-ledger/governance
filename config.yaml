@@ -396,6 +396,7 @@ teams:
     members:
       - ivannov
       - berryware
+      - SimiHunjan
   - name: hiero-consensus-node-maintainers
     maintainers:
       - Nana-EC
@@ -477,6 +478,7 @@ teams:
       - Chinnmay
       - Grigorov-Georgi
       - viniciusjssouza
+      - SimiHunjan
   - name: hiero-consensus-node-release-managers
     maintainers:
       - rbarker-dev
@@ -706,6 +708,7 @@ teams:
     members:
       - BartoszSolkaBD
       - bootcodes
+      - SimiHunjan
   - name: hiero-hederium-maintainers
     maintainers:
       - georgi-l95
@@ -1058,6 +1061,7 @@ teams:
     members:
       - BartoszSolkaBD
       - bootcodes
+      - SimiHunjan
   - name: heka-identity-platform-maintainers
     maintainers:
       - AlexanderShenshin
