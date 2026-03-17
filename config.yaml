@@ -927,6 +927,7 @@ teams:
       - alex-kuzmin-hg
       - deshmukhpranali
       - SimiHunjan
+      - boris-bonin
   - name: solo-docs-admins
     maintainers:
       - nathanklick
