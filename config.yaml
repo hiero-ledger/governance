@@ -932,6 +932,12 @@ teams:
       - alex-kuzmin-hg
       - deshmukhpranali
       - SimiHunjan
+  - name: solo-docs-admins
+    maintainers:
+      - nathanklick
+    members:
+      - jeromy-cannon
+      - leninmehedy
   - name: solo-docs-maintainers
     maintainers:
       - deshmukhpranali
