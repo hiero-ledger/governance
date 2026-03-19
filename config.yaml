@@ -515,7 +515,7 @@ teams:
     maintainers:
       - dalvizu
     members:
-      - cweagans
+      - ans
       - beeradb
       - tannerjfco
       - ElijahLynn
@@ -1098,6 +1098,8 @@ teams:
       - SimiHunjan
       - ty-swirldslabs
       - cweagans
+      - mahmoudian1
+      - kfbr
   - name: roadmap-viewers
     maintainers:
       - a-saksena
