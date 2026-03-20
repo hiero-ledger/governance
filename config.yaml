@@ -927,6 +927,7 @@ teams:
       - alex-kuzmin-hg
       - deshmukhpranali
       - SimiHunjan
+      - boris-bonin
   - name: solo-docs-admins
     maintainers:
       - nathanklick
@@ -1125,6 +1126,7 @@ teams:
       - artemananiev
       - thenswan
       - rsinha
+      - boris-bonin
   - name: hiero-enterprise-java-maintainers
     maintainers:
       - hendrikebbers
