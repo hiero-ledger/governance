@@ -859,18 +859,10 @@ teams:
     members:
       - CMiville42
       - VMN00B
-  - name: prod-security
-    maintainers:
-      - nathanklick
-    members:
       - dr20240304
       - reachtobhavesh
       - mody-hashgraph
       - diogper
-  - name: sec-ops
-    maintainers:
-      - nathanklick
-    members:
       - NMiller-swirlds
       - afaling0725
   - name: sdk-collaboration-hub-maintainers
@@ -1146,8 +1138,6 @@ repositories:
       tsc: maintain
       github-maintainers: maintain
       security-maintainers: write
-      prod-security: write
-      sec-ops: write
       governance-write: write
     visibility: public
   - name: hiero-website
@@ -1159,39 +1149,29 @@ repositories:
       hiero-website-triage: triage
       hiero-sdk-good-first-issue-support: triage
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero
     teams:
       tsc: maintain
       github-maintainers: maintain
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: tsc
     teams:
       tsc: maintain
       github-maintainers: maintain
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: awesome-contributions
     teams:
       github-maintainers: maintain
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: .github
     teams:
       tsc: maintain
       github-maintainers: maintain
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-cli
     teams:
@@ -1201,8 +1181,6 @@ repositories:
       hiero-cli-maintainers: maintain
       hiero-cli-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
   - name: hiero-ethereum-execution-spec-tests
     teams:
       tsc: maintain
@@ -1212,8 +1190,6 @@ repositories:
       hiero-ethereum-execution-spec-tests-committers: write
       hiero-ethereum-execution-spec-tests-internal-contributors: triage
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-sdk-cpp
     teams:
@@ -1224,8 +1200,6 @@ repositories:
       hiero-sdk-cpp-committers: write
       hiero-sdk-cpp-triage: triage
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-sdk-tck
     teams:
@@ -1235,8 +1209,6 @@ repositories:
       hiero-sdk-tck-committers: write
       hiero-sdk-tck-internal-contributors: triage
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-gradle-conventions
     teams:
@@ -1245,8 +1217,6 @@ repositories:
       hiero-gradle-conventions-maintainers: maintain
       hiero-gradle-conventions-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-sdk-go
     teams:
@@ -1255,8 +1225,6 @@ repositories:
       hiero-sdk-go-maintainers: maintain
       hiero-sdk-go-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-local-node
     teams:
@@ -1266,8 +1234,6 @@ repositories:
       hiero-local-node-committers: write
       hiero-local-node-automation: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-sdk-java
     teams:
@@ -1277,8 +1243,6 @@ repositories:
       hiero-sdk-java-committers: write
       hiero-gradle-conventions-maintainers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-sdk-js
     teams:
@@ -1289,8 +1253,6 @@ repositories:
       hiero-sdk-js-committers: write
       hiero-sdk-js-internal-contributors: triage
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-sdk-swift
     teams:
@@ -1300,8 +1262,6 @@ repositories:
       hiero-sdk-swift-maintainers: maintain
       hiero-sdk-swift-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-sdk-python
     teams:
@@ -1313,8 +1273,6 @@ repositories:
       hiero-sdk-python-committers: write
       hiero-sdk-python-triage: triage
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-did-sdk-js
     teams:
@@ -1323,8 +1281,6 @@ repositories:
       hiero-did-sdk-js-maintainers: maintain
       hiero-did-sdk-js-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-did-sdk-python
     teams:
@@ -1333,8 +1289,6 @@ repositories:
       hiero-did-sdk-python-maintainers: maintain
       hiero-did-sdk-python-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-docs
     teams:
@@ -1343,8 +1297,6 @@ repositories:
       hiero-docs-maintainers: admin
       hiero-docs-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-consensus-node
     teams:
@@ -1365,8 +1317,6 @@ repositories:
       hiero-gradle-conventions-maintainers: write
       hiero-performance-engineers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-consensus-specifications
     teams:
@@ -1375,8 +1325,6 @@ repositories:
       hiero-consensus-specifications-maintainers: admin
       hiero-consensus-specifications-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-mirror-node
     teams:
@@ -1388,8 +1336,6 @@ repositories:
       hiero-mirror-node-maintainers: admin
       hiero-gradle-conventions-maintainers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-block-node
     teams:
@@ -1401,8 +1347,6 @@ repositories:
       hiero-block-node-maintainers: maintain
       hiero-gradle-conventions-maintainers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-sdk-rust
     teams:
@@ -1411,8 +1355,6 @@ repositories:
       hiero-sdk-rust-maintainers: maintain
       hiero-sdk-rust-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-solo-action
     teams:
@@ -1421,8 +1363,6 @@ repositories:
       hiero-solo-action-maintainers: maintain
       hiero-solo-action-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-mirror-node-explorer
     teams:
@@ -1432,8 +1372,6 @@ repositories:
       hiero-mirror-node-explorer-maintainers: maintain
       hiero-mirror-node-explorer-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-json-rpc-relay
     teams:
@@ -1444,8 +1382,6 @@ repositories:
       hiero-json-rpc-relay-committers: write
       hiero-json-rpc-relay-internal-contributors: triage
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-hederium
     teams:
@@ -1453,8 +1389,6 @@ repositories:
       github-maintainers: maintain
       hiero-hederium-maintainers: maintain
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: identity-collaboration-hub
     teams:
@@ -1463,8 +1397,6 @@ repositories:
       identity-collaboration-hub-maintainers: maintain
       identity-collaboration-hub-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-improvement-proposals
     teams:
@@ -1474,8 +1406,6 @@ repositories:
       hiero-improvement-proposals-maintainers: maintain
       hiero-improvement-proposals-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: homebrew-tools
     teams:
@@ -1485,8 +1415,6 @@ repositories:
       homebrew-tools-maintainers: maintain
       homebrew-tools-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-enterprise-java
     teams:
@@ -1495,8 +1423,6 @@ repositories:
       hiero-enterprise-java-maintainers: maintain
       hiero-enterprise-java-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: sdk-collaboration-hub
     teams:
@@ -1506,8 +1432,6 @@ repositories:
       sdk-collaboration-hub-maintainers: maintain
       sdk-collaboration-hub-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: solo
     teams:
@@ -1519,8 +1443,6 @@ repositories:
       solo-committers: write
       solo-internal-contributors: triage
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: solo-docs
     teams:
@@ -1531,8 +1453,6 @@ repositories:
       solo-docs-maintainers: maintain
       solo-docs-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: tsc-eligibility-check
     teams:
@@ -1543,8 +1463,6 @@ repositories:
       tsc-eligibility-check-maintainers: maintain
       tsc-eligibility-check-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: hiero-contracts
     teams:
@@ -1554,8 +1472,6 @@ repositories:
       hiero-contracts-committers: write
       hiero-contracts-internal-contributors: triage
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: heka-identity-platform
     teams:
@@ -1564,8 +1480,6 @@ repositories:
       heka-identity-platform-maintainers: maintain
       heka-identity-platform-committers: write
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: public
   - name: roadmap
     teams:
@@ -1575,6 +1489,4 @@ repositories:
       roadmap-committers: write
       roadmap-viewers: read
       security-maintainers: triage
-      prod-security: triage
-      sec-ops: triage
     visibility: private
