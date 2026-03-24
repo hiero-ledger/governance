@@ -164,6 +164,7 @@ teams:
     members:
       - georgi-l95
       - natanasow
+      - Ivo-Yankov
   - name: hiero-sdk-swift-maintainers
     maintainers:
       - rwalworth
