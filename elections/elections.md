@@ -41,7 +41,7 @@ maintainer or member as defined in the [Governance config.yaml](/config.yaml) fi
 ### End User Seat
 
 To become eligible to vote in this election, electors shall create a PR modifying
-the [adopters.md](ADOPTERS.md) file. The PR shall be reviewed and
+the [adopters.md](/ADOPTERS.md) file. The PR shall be reviewed and
 approved by at least 2 members of the TSC or authorized reviewers selected by the TSC. If a dispute arises regarding the
 legitimacy of any elector, any TSC member may call for a vote by the full TSC on the validity of any elector of the End
 User Seat.
@@ -64,6 +64,15 @@ The initial term for Cohort A shall be measured from September 1st, 2023, and sh
 1st, 2025 and every two years thereafter. The initial term for Cohort B shall be measured from September 1st, 2024, and
 shall therefore be re-elected on September 1st, 2026 and every two years thereafter.
 
+### Upcoming Elections
+
+**2026**
+In 2026, Cohort B seats will be up for election, including 2 Maintainer seats, 1 End User seat, and 1 TSC seat.
+Refer to the Nomination and Voting Procedure sections for more information. 
+
+### Past Elections
+
+**2025**
 As of January 2025, not all seats on Hiero were filled during the initial setup of the project. A special election shall
 be opened on May 7th, 2025 until May 31st, 2025 to fill the remaining seats. Nominations shall be open from March
 17th, 2025 until April 30th, 2025. 
@@ -72,7 +81,7 @@ be opened on May 7th, 2025 until May 31st, 2025 to fill the remaining seats. Nom
 
 All candidates must be nominated. They may be nominated by themselves or another party, but must agree to the
 nomination. Each nomination shall be submitted as a PR to the appropriate election folder beneath /elections/nominees.
-Each nominee must submit a markdown file formatted as [sample-nomination.md](/elections/nominees/mar-2025-election/sample-nomination.md).
+Each nominee must submit a markdown file formatted as [sample-nomination.md](/elections/nominees/sep-2026-election/sample-nomination.md).
 
 ## Voting Procedure
 
