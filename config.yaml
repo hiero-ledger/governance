@@ -893,8 +893,8 @@ teams:
       - SimiHunjan
       - hendrikebbers
       - rwalworth
+    members:
       - ddeskov-limechain
-    members: []
   - name: sdk-collaboration-hub-committers
     maintainers:
       - nadineloepfe
