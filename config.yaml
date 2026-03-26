@@ -935,6 +935,8 @@ teams:
       - nathanklick
       - olsentorfinn
       - Reccetech
+      - jan-milenkov
+      - Ivo-Yankov
     members: []
   - name: solo-docs-committers
     maintainers:
