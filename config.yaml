@@ -1057,6 +1057,24 @@ teams:
       - BartoszSolkaBD
       - bootcodes
       - SimiHunjan
+  - name: hiero-triage
+    maintainers:
+      - a-saksena
+      - nathanklick
+      - rbair23
+    members:
+      - akdev
+      - atul-hedera
+      - cweagans
+      - dalvizu
+      - Ferparishuertas
+      - Jeffrey-morgan34
+      - Mark-Swirlds
+      - Nana-EC
+      - Reccetech
+      - SimiHunjan
+      - steven-sheehy
+      - ty-swirldslabs
   - name: heka-identity-platform-maintainers
     maintainers:
       - AlexanderShenshin
@@ -1080,21 +1098,8 @@ teams:
       - a-saksena
       - steven-sheehy
     members:
-      - akdev
-      - atul-hedera
-      - dalvizu
-      - Ferparishuertas
-      - Jeffrey-morgan34
-      - Mark-Swirlds
-      - Nana-EC
-      - nathanklick
-      - olsentorfinn
-      - Reccetech
-      - SimiHunjan
-      - ty-swirldslabs
-      - cweagans
-      - mahmoudian1
       - kfbr
+      - mahmoudian1
       - poulok
   - name: roadmap-viewers
     maintainers:
@@ -1204,6 +1209,7 @@ repositories:
       hiero-sdk-cpp-maintainers: maintain
       hiero-sdk-cpp-committers: write
       hiero-sdk-cpp-triage: triage
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-sdk-tck
@@ -1229,6 +1235,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-go-maintainers: maintain
       hiero-sdk-go-committers: write
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-local-node
@@ -1238,6 +1245,7 @@ repositories:
       hiero-local-node-maintainers: maintain
       hiero-local-node-committers: write
       hiero-local-node-automation: write
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-sdk-java
@@ -1247,6 +1255,7 @@ repositories:
       hiero-sdk-java-maintainers: maintain
       hiero-sdk-java-committers: write
       hiero-gradle-conventions-maintainers: write
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-sdk-js
@@ -1257,6 +1266,7 @@ repositories:
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
       hiero-sdk-js-internal-contributors: triage
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-sdk-swift
@@ -1266,6 +1276,7 @@ repositories:
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-swift-maintainers: maintain
       hiero-sdk-swift-committers: write
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-sdk-python
@@ -1301,6 +1312,7 @@ repositories:
       github-maintainers: maintain
       hiero-docs-maintainers: admin
       hiero-docs-committers: write
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-consensus-node
@@ -1321,6 +1333,7 @@ repositories:
       hiero-mirror-node-maintainers: write
       hiero-gradle-conventions-maintainers: write
       hiero-performance-engineers: write
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-consensus-specifications
@@ -1340,6 +1353,7 @@ repositories:
       hiero-mirror-node-committers: write
       hiero-mirror-node-maintainers: admin
       hiero-gradle-conventions-maintainers: write
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-block-node
@@ -1351,6 +1365,7 @@ repositories:
       hiero-block-node-internal-contributors: triage
       hiero-block-node-maintainers: maintain
       hiero-gradle-conventions-maintainers: write
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-sdk-rust
@@ -1359,6 +1374,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-rust-maintainers: maintain
       hiero-sdk-rust-committers: write
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-solo-action
@@ -1373,6 +1389,7 @@ repositories:
     teams:
       tsc: maintain
       hiero-automation: write
+      hiero-triage: triage
       github-maintainers: maintain
       hiero-mirror-node-explorer-maintainers: maintain
       hiero-mirror-node-explorer-committers: write
@@ -1382,6 +1399,7 @@ repositories:
     teams:
       tsc: maintain
       hiero-automation: write
+      hiero-triage: triage
       github-maintainers: maintain
       hiero-json-rpc-relay-maintainers: maintain
       hiero-json-rpc-relay-committers: write
@@ -1442,6 +1460,7 @@ repositories:
     teams:
       tsc: maintain
       hiero-automation: write
+      hiero-triage: triage
       github-maintainers: maintain
       solo-admins: admin
       solo-maintainers: maintain
@@ -1476,6 +1495,7 @@ repositories:
       hiero-contracts-maintainers: maintain
       hiero-contracts-committers: write
       hiero-contracts-internal-contributors: triage
+      hiero-triage: triage
       security-maintainers: triage
     visibility: public
   - name: heka-identity-platform
@@ -1490,6 +1510,7 @@ repositories:
     teams:
       tsc: maintain
       github-maintainers: maintain
+      hiero-triage: write
       roadmap-maintainers: maintain
       roadmap-committers: write
       roadmap-viewers: read
