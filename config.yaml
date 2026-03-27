@@ -161,9 +161,11 @@ teams:
   - name: hiero-local-node-maintainers
     maintainers:
       - Nana-EC
+      - natanasow
+      - Ivo-Yankov
     members:
       - georgi-l95
-      - natanasow
+
   - name: hiero-sdk-swift-maintainers
     maintainers:
       - rwalworth
