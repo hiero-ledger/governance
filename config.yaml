@@ -1296,7 +1296,6 @@ repositories:
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
-      hiero-sdk-js-internal-contributors: triage
       hiero-sdk-js-triage: triage
       hiero-triage: triage
       security-maintainers: triage
