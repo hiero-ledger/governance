@@ -161,14 +161,17 @@ teams:
   - name: hiero-local-node-maintainers
     maintainers:
       - Nana-EC
+      - natanasow
+      - Ivo-Yankov
     members:
       - georgi-l95
-      - natanasow
+
   - name: hiero-sdk-swift-maintainers
     maintainers:
       - rwalworth
     members:
       - SimiHunjan
+      - ddeskov-limechain
   - name: hiero-sdk-swift-committers
     maintainers:
       - RickyLB
@@ -246,6 +249,11 @@ teams:
       - agadzhalov
       - ivaylogarnev-limechain
       - ivaylonikolov7
+  - name: hiero-sdk-rust-triage
+    maintainers:
+      - gsstoykov
+    members:
+      - ddeskov-limechain
   - name: hiero-sdk-java-maintainers
     maintainers:
       - 0xivanov
@@ -261,6 +269,12 @@ teams:
       - naydenovn
       - agadzhalov
       - emiliyank
+  - name: hiero-sdk-java-triage
+    maintainers:
+      - 0xivanov
+      - mustafauzunn
+    members:
+      - ddeskov-limechain
   - name: hiero-sdk-js-maintainers
     maintainers:
       - SimiHunjan
@@ -279,12 +293,15 @@ teams:
       - ivaylogarnev-limechain
       - ivaylonikolov7
       - mariodimitrovv
-  - name: hiero-sdk-js-internal-contributors
+  - name: hiero-sdk-js-triage
     maintainers:
+      - venilinvasilev
+      - ivaylonikolov7
+    members:
+      - ddeskov-limechain
+      - a-saksena
       - SimiHunjan
       - rwalworth
-    members:
-      - a-saksena
   - name: hiero-sdk-cpp-maintainers
     maintainers:
       - rwalworth
@@ -303,6 +320,7 @@ teams:
       - gsstoykov
     members:
       - Adityarya11
+      - ddeskov-limechain
   - name: hiero-sdk-tck-maintainers
     maintainers:
       - rwalworth
@@ -319,12 +337,13 @@ teams:
       - gsstoykov
       - RickyLB
       - mariodimitrovv
-  - name: hiero-sdk-tck-internal-contributors
+  - name: hiero-sdk-tck-triage
     maintainers:
       - SimiHunjan
       - rwalworth
     members:
       - a-saksena
+      - ddeskov-limechain
   - name: hiero-sdk-go-maintainers
     maintainers:
       - SimiHunjan
@@ -341,6 +360,12 @@ teams:
       - 0xivanov
       - agadzhalov
       - gsstoykov
+  - name: hiero-sdk-go-triage
+    maintainers:
+      - 0xivanov
+      - gsstoykov
+    members:
+      - ddeskov-limechain
   - name: hiero-solo-action-maintainers
     maintainers:
       - hendrikebbers
@@ -870,7 +895,8 @@ teams:
       - SimiHunjan
       - hendrikebbers
       - rwalworth
-    members: []
+    members:
+      - ddeskov-limechain
   - name: sdk-collaboration-hub-committers
     maintainers:
       - nadineloepfe
@@ -935,6 +961,8 @@ teams:
       - nathanklick
       - olsentorfinn
       - Reccetech
+      - jan-milenkov
+      - Ivo-Yankov
     members: []
   - name: solo-docs-committers
     maintainers:
@@ -1131,6 +1159,7 @@ teams:
       - arturre
       - djsplice
       - nlindellalderman
+      - tomzhenghedera
   - name: hiero-enterprise-java-maintainers
     maintainers:
       - hendrikebbers
@@ -1218,7 +1247,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-tck-maintainers: maintain
       hiero-sdk-tck-committers: write
-      hiero-sdk-tck-internal-contributors: triage
+      hiero-sdk-tck-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-gradle-conventions
@@ -1235,6 +1264,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-go-maintainers: maintain
       hiero-sdk-go-committers: write
+      hiero-sdk-go-triage: triage
       hiero-triage: triage
       security-maintainers: triage
     visibility: public
@@ -1254,6 +1284,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-java-maintainers: maintain
       hiero-sdk-java-committers: write
+      hiero-sdk-java-triage: triage
       hiero-gradle-conventions-maintainers: write
       hiero-triage: triage
       security-maintainers: triage
@@ -1266,6 +1297,7 @@ repositories:
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
       hiero-sdk-js-internal-contributors: triage
+      hiero-sdk-js-triage: triage
       hiero-triage: triage
       security-maintainers: triage
     visibility: public
