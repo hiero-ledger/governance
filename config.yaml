@@ -972,8 +972,8 @@ teams:
       - nathanklick
       - olsentorfinn
       - Reccetech
+    members:
       - boris-bonin
-    members: []
   - name: tsc-eligibility-check-admins
     maintainers:
       - jwagantall
