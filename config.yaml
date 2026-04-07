@@ -935,6 +935,7 @@ teams:
       - Ivo-Yankov
       - alex-kuzmin-hg
       - deshmukhpranali
+      - boris-bonin
   - name: solo-internal-contributors
     maintainers:
       - nathanklick
@@ -971,6 +972,7 @@ teams:
       - nathanklick
       - olsentorfinn
       - Reccetech
+      - boris-bonin
     members: []
   - name: tsc-eligibility-check-admins
     maintainers:
