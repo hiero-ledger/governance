@@ -1164,6 +1164,7 @@ teams:
       - djsplice
       - nlindellalderman
       - tomzhenghedera
+      - cweagans
   - name: hiero-enterprise-java-maintainers
     maintainers:
       - hendrikebbers
