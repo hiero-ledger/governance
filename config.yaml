@@ -911,6 +911,13 @@ teams:
       - venilinvasilev
       - naydenovn
     members: []
+  - name: sdk-collaboration-hub-triage
+    maintainers:
+      - SimiHunjan
+      - hendrikebbers
+      - rwalworth
+    members:
+      - aceppaluni
   - name: solo-admins
     maintainers:
       - nathanklick
@@ -1490,6 +1497,7 @@ repositories:
       github-maintainers: maintain
       sdk-collaboration-hub-maintainers: maintain
       sdk-collaboration-hub-committers: write
+      sdk-collaboration-hub-triage: triage
       security-maintainers: triage
     visibility: public
   - name: solo
