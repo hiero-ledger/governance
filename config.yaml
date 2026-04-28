@@ -266,6 +266,9 @@ teams:
       - ddeskov-limechain
       - aceppaluni
       - exploreriii
+      - dian.deskov-limechain
+      - Dosik13
+      - mariodimitrovv
   - name: hiero-sdk-java-maintainers
     maintainers:
       - 0xivanov
