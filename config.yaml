@@ -1429,7 +1429,7 @@ repositories:
       github-maintainers: maintain
       hiero-hederium-maintainers: maintain
       security-maintainers: triage
-    visibility: publicsdk-collaboration-hub-triage
+    visibility: public
   - name: identity-collaboration-hub
     teams:
       tsc: maintain
