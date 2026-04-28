@@ -8,7 +8,6 @@ Functionalities in Hiero:
 
 - **CI/CD pipelines:** Monitors all network calls, file writes, and process executions during every workflow run.
 - **Code repositories:** Blocks compromised npm packages and enforces security best practices via pull requests.
-- **Developer machines:** Inventories AI agents, IDE extensions, and local packages to catch threats early.
 
 ## How Harden-Runner works
 
