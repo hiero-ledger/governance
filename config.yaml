@@ -266,7 +266,6 @@ teams:
       - ddeskov-limechain
       - aceppaluni
       - exploreriii
-      - dian.deskov-limechain
       - Dosik13
       - mariodimitrovv
   - name: hiero-sdk-java-maintainers
@@ -1519,6 +1518,7 @@ repositories:
       hiero-contracts-internal-contributors: triage
       hiero-triage: triage
       security-maintainers: triage
+      hiero-automation: write
     visibility: public
   - name: heka-identity-platform
     teams:
