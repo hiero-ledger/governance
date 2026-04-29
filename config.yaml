@@ -1519,6 +1519,7 @@ repositories:
       hiero-contracts-internal-contributors: triage
       hiero-triage: triage
       security-maintainers: triage
+      hiero-automation: write
     visibility: public
   - name: heka-identity-platform
     teams:
