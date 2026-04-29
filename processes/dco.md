@@ -6,7 +6,7 @@ DCO (Developer Certificate of Origin) is a lightweight way for contributors to c
 
 Developer Certificate of Origin (DCO) is important because it establishes a clear paper trail for every contribution to a project. It serves as a lightweight alternative to a formal Contributor License Agreement (CLA) while providing critical protections for both maintainers and users. 
 
-Available soon: LFDT Architect team is working on an offical DCO documentation with the legal team.
+For more information, please refer to the offical [LF DCO Policy and Best Practices](https://bestpractices.linuxfoundation.org/ip/contribution-mechanisms-dco.html).
 
 ## How DCO GitHub Action Works and What is DCO-2
 
