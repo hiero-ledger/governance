@@ -216,6 +216,8 @@ teams:
       - dmueller2001
       - drgorb
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: hiero-did-sdk-js-committers
     maintainers:
       - Reccetech
@@ -229,6 +231,8 @@ teams:
       - AlexanderShenshin
       - dmueller2001
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: hiero-did-sdk-python-committers
     maintainers:
       - Reccetech
@@ -724,6 +728,8 @@ teams:
       - ChangoBuitrago
       - AlexanderShenshin
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: identity-collaboration-hub-committers
     maintainers:
       - Reccetech
@@ -1093,6 +1099,8 @@ teams:
       - AlexanderShenshin
     members:
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: heka-identity-platform-committers
     maintainers:
       - AlexanderShenshin
