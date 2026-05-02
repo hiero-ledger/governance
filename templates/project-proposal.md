@@ -31,6 +31,17 @@ The project needs the following repositories at Hiero:
 | ------------------ | ----------- | ------- | ---------------- |
 | *Foo Project* | *Short description of the repo content and scope* | *Licence(s) used in the repo, like Apache V2* | *Link to current repositories, if already exists or N/A if it is a new repo* |
 
+The project needs the following publishing namespaces and artifact names:
+
+| Publishing site | Namespace / package / artifact name | Owning repository | Notes |
+| ---------------- | ----------------------------------- | ----------------- | ----- |
+| *npm, Maven Central, Gradle Plugin Portal, GHCR, crates.io, PyPI, Go modules, SwiftPM, Apple App Store, etc.* | *Requested namespace, package name, image name, module path, plugin id, or app id* | *Repository that will publish it* | *New, transferred, reserved, or N/A* |
+
+*Publishing namespace requests should follow the [Artifact Namespace Guidelines](../rules-and-guidelines/namespaces.md).*
+
+The following people should be defined as maintainers and committers for the project:
+
+
 The following people should be defined as maintainers and committers for the project:
 
 | Real Name    | Role                     | GitHub ID   | Discord ID | Affiliation     |
