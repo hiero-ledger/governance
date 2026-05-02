@@ -77,6 +77,7 @@ In those cases, the namespace is enforced by naming convention only (i.e., all a
 | `pkg:npm/%40hiero-did-sdk` | JavaScript / npm | Namespace for DID-related npm packages (`@hiero-did-sdk` scope) |
 | `pkg:golang/github.com/hiero-ledger` | Go | Primary namespace for all Go modules |
 | `pkg:swift/github.com/hiero-ledger` | Swift / SwiftPM | Primary namespace for all Swift packages |
+| `pkg:docker/ghcr.io/hiero-ledger` | Containers / GHCR | Primary namespace for GitHub Container Registry images |
 
 Ecosystems without native namespace support:
 
