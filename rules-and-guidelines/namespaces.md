@@ -13,6 +13,56 @@ A purl follows the format `pkg:type/namespace/name@version` and allows us to ref
 - Projects may create sub-namespaces (e.g., `org.hiero.did` for DID-related artifacts), but the top-level namespace must always be a reserved Hiero namespace.
 - No two projects should publish artifacts to the same namespace. If a namespace conflict arises, coordinate with the TSC to resolve it.
 
+- Projects must document each namespace and package name they intend to publish before publishing artifacts under a Hiero-owned namespace.
+
+## Requesting a Publishing Namespace
+
+Projects request publishing namespaces as part of their project proposal or by opening a pull request against this document.
+The request should include:
+
+- The repository that will publish the artifact.
+- The publishing site or registry, such as Maven Central, Gradle Plugin Portal, npm, GitHub Container Registry, crates.io, PyPI, Go modules, Swift Package Manager, or an application store.
+- The requested namespace, package name, image name, module path, plugin id, or application id.
+- The maintainer group responsible for releases and registry access.
+- Whether the request is for a new artifact, a transferred artifact, or an additional artifact for an existing project.
+
+The TSC should be informed about new or changed publishing namespaces.
+A TSC vote is not required for routine requests that follow these guidelines and do not conflict with an existing namespace.
+If a request creates a naming conflict, reserves a broad namespace, or delegates publishing rights to a new group, the TSC should resolve the request before artifacts are published.
+
+## Registry Access and Curation
+
+Publishing access should be limited to the maintainers or release automation responsible for the repository that owns the artifact.
+Repository maintainers are responsible for keeping release automation, signing keys, tokens, and registry permissions aligned with Hiero security and release practices.
+
+The [Published Artifacts](#published-artifacts) section is the curated list of package names currently published or reserved by Hiero projects.
+When a project adds, removes, renames, transfers, or reserves an artifact, this document should be updated in the same pull request or in a related governance pull request.
+
+## Naming Conflicts
+
+If two projects request the same namespace or artifact name, the projects should first try to agree on a name that is clear, specific, and aligned with the repository ownership.
+If the conflict cannot be resolved by the affected maintainers, the TSC should decide which project may use the namespace or whether a different namespace is required.
+
+Projects should not publish under disputed names until the conflict is resolved.
+
+## Supported Publishing Sites
+
+The following publishing sites and namespace forms should be covered when projects request publication rights.
+Some ecosystems use registry-level namespaces, while others rely on naming conventions or repository paths.
+
+| Publishing site | Namespace or name form | Notes |
+| :--- | :--- | :--- |
+| Maven Central | `org.hiero` or an approved sub-namespace | Used for Java libraries and related JVM artifacts |
+| Gradle Plugin Portal | Plugin ids under `org.hiero` | Plugin ids should match the owning project and avoid generic names |
+| npm | `@hiero-ledger` or another approved Hiero scope | Scope access must be limited to authorized release maintainers or automation |
+| GitHub Container Registry | `ghcr.io/hiero-ledger/<image>` | Container image names should match the owning repository or component |
+| crates.io | `hiero-*` crate names | crates.io does not support organization namespaces, so the prefix is required |
+| PyPI | `hiero-*` package names | PyPI does not support organization namespaces, so the prefix is required |
+| Go modules | `github.com/hiero-ledger/<repo>` | Module paths should remain under the Hiero GitHub organization |
+| Swift Package Manager | `github.com/hiero-ledger/<repo>` | Package identity is based on the repository URL |
+| Apple App Store | Hiero-owned app name or bundle identifier | App identifiers must be documented before publication |
+
+
 ## Reserved Namespaces
 
 The following table lists all namespaces reserved by Hiero, expressed as [purl](https://github.com/package-url/purl-spec) strings.
