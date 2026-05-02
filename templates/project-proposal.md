@@ -42,7 +42,6 @@ The project needs the following publishing namespaces and artifact names:
 The following people should be defined as maintainers and committers for the project:
 
 
-The following people should be defined as maintainers and committers for the project:
 
 | Real Name    | Role                     | GitHub ID   | Discord ID | Affiliation     |
 | ------------ | ------------------------ | ----------- | ---------- | --------------- |
