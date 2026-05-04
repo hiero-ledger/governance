@@ -392,14 +392,14 @@ teams:
       - rbarker-dev
       - rockysingh
       - san-est
+      - ivannov
+      - berryware
   - name: hiero-block-node-internal-contributors
     maintainers:
       - AlfredoG87
       - jsync-swirlds
       - Nana-EC
     members:
-      - ivannov
-      - berryware
       - SimiHunjan
   - name: hiero-consensus-node-maintainers
     maintainers:
