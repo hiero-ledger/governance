@@ -178,6 +178,18 @@ In addition, there is a cross-project team for onboarding support:
 - **`hiero-sdk-good-first-issue-support`**: This team is granted `triage` access on multiple SDK repositories and the Hiero website.
   Its purpose is to help create and curate good first issues across projects, making it easier for new contributors to find suitable entry points into the Hiero ecosystem.
 
+### Internal Contributors
+
+An **Internal Contributor** is anyone actively interested in contributing to the Hiero project — this can include users, organizational members, or anyone curious about the project. No formal relationship is required.
+
+Project maintainers can grant Internal Contributors `triage` access by adding them to the `PROJECT-internal-contributors` team. This allows them to:
+
+- Assign themselves or others to issues
+- Add and remove labels on issues
+- Close and reopen issues
+
+Internal Contributors are added via a PR to the `config.yaml` file and must receive the approvals required for changes to that file under the repository governance and CODEOWNERS rules, including TSC/codeowner approval as applicable. Project maintainers grant these permissions to Internal Contributors.
+
 ## Creating a PR to add or remove a person for a specific role
 
 When a person is nominated to become a Junior Committer, Committer, or Maintainer, a PR should be created against the [`config.yaml`](config.yaml) file.
@@ -336,7 +348,6 @@ The following topics have been identified as gaps between the current documentat
 
 Several team patterns exist in `config.yaml` that are not covered by this document:
 
-- **`PROJECT-internal-contributors`**: Five teams follow this pattern (`hiero-sdk-js-internal-contributors`, `hiero-sdk-tck-internal-contributors`, `hiero-block-node-internal-contributors`, `hiero-consensus-node-internal-contributors`, `solo-internal-contributors`). These are granted `triage` access. The purpose and governance process for these teams is not documented.
 
 - **`PROJECT-release-managers`** and **`PROJECT-release-engineers`**: Two teams exist for the consensus node project (`hiero-consensus-node-release-managers`, `hiero-consensus-node-release-engineers`). Both are granted `write` access. Their purpose and governance process is not documented.
 
