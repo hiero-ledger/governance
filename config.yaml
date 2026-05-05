@@ -629,6 +629,7 @@ teams:
       - devmab
       - mmyslblocky
       - misiek-blocky
+      - jaycoolh
   - name: hiero-cli-committers
     maintainers:
       - Neurone
@@ -639,6 +640,7 @@ teams:
       - matevszm
       - rozekmichal
       - mmyslblocky
+      - jaycoolh
   - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
