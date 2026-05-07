@@ -367,6 +367,7 @@ teams:
       - rbarker-dev
       - andrewb1269
     members:
+      - PavelSBorisov
       - san-est
   - name: hiero-block-node-maintainers
     maintainers:
