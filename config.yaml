@@ -630,6 +630,7 @@ teams:
       - devmab
       - mmyslblocky
       - misiek-blocky
+      - jaycoolh
   - name: hiero-cli-committers
     maintainers:
       - Neurone
