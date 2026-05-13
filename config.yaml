@@ -273,18 +273,18 @@ teams:
       - Dosik13
       - mariodimitrovv
   - name: hiero-sdk-java-maintainers
-    maintainers: []
+    maintainers:
+      - SimiHunjan
     members:
       - 0xivanov
-      - SimiHunjan
       - agadzhalov
       - emiliyank
       - mustafauzunn
   - name: hiero-sdk-java-committers
-    maintainers: []
+    maintainers:
+      - naydenovn
     members:
       - 0xivanov
-      - naydenovn
       - agadzhalov
       - emiliyank
   - name: hiero-sdk-js-maintainers
