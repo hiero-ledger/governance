@@ -1395,6 +1395,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-rust-maintainers: maintain
       hiero-sdk-rust-committers: write
+      hiero-sdk-triage: triage
       hiero-triage: triage
       security-maintainers: triage
     visibility: public
