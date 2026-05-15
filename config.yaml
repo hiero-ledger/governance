@@ -216,6 +216,8 @@ teams:
       - dmueller2001
       - drgorb
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: hiero-did-sdk-js-committers
     maintainers:
       - Reccetech
@@ -229,6 +231,8 @@ teams:
       - AlexanderShenshin
       - dmueller2001
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: hiero-did-sdk-python-committers
     maintainers:
       - Reccetech
@@ -270,17 +274,17 @@ teams:
       - mariodimitrovv
   - name: hiero-sdk-java-maintainers
     maintainers:
-      - 0xivanov
-    members:
       - SimiHunjan
+    members:
+      - 0xivanov
       - agadzhalov
       - emiliyank
       - mustafauzunn
   - name: hiero-sdk-java-committers
     maintainers:
-      - 0xivanov
-    members:
       - naydenovn
+    members:
+      - 0xivanov
       - agadzhalov
       - emiliyank
   - name: hiero-sdk-js-maintainers
@@ -726,6 +730,8 @@ teams:
       - ChangoBuitrago
       - AlexanderShenshin
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: identity-collaboration-hub-committers
     maintainers:
       - Reccetech
@@ -886,13 +892,13 @@ teams:
       - nadineloepfe
       - exploreriii
       - RickyLB
-      - 0xivanov
       - ivaylogarnev-limechain
       - ivaylonikolov7
       - gsstoykov
       - venilinvasilev
       - naydenovn
-    members: []
+    members:
+      - 0xivanov
   - name: solo-admins
     maintainers:
       - nathanklick
@@ -1095,6 +1101,8 @@ teams:
       - AlexanderShenshin
     members:
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: heka-identity-platform-committers
     maintainers:
       - AlexanderShenshin
