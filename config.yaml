@@ -645,6 +645,60 @@ teams:
       - matevszm
       - rozekmichal
       - mmyslblocky
+  - name: hiero-cryptography-maintainers
+    maintainers:
+      - anthony-swirldslabs
+      - rsinha
+    members:
+      - timo0
+      - lpetrovic05
+      - edward-swirldslabs
+      - mxtartaglia-sl
+  - name: hiero-cryptography-committers
+    maintainers:
+      - anthony-swirldslabs
+      - hendrikebbers
+      - rsinha
+    members:
+      - ElijahLynn
+      - Ivo-Yankov
+      - Jeffrey-morgan34
+      - JeffreyDallas
+      - Neeharika-Sompalli
+      - OlegMazurov
+      - akdev
+      - allison-hashgraph
+      - artemananiev
+      - boris-bonin
+      - brunodam
+      - cweagans
+      - dalvizu
+      - derektriley
+      - edward-swirldslabs
+      - imalygin
+      - jan-milenkov
+      - jasperpotts
+      - jjohannes
+      - jsync-swirlds
+      - kfbr
+      - ldintr
+      - lpetrovic05
+      - mahmoudian1
+      - mbonica90
+      - mhess-swl
+      - mxtartaglia-sl
+      - netopyr
+      - nirbosl
+      - petreze
+      - poulok
+      - pratyay85
+      - shezaan-hashgraph
+      - swirlds-automation
+      - thenswan
+      - timfn-hg
+      - timo0
+      - tinker-michaelj
+      - tomzhenghedera
   - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
@@ -1549,3 +1603,11 @@ repositories:
       roadmap-viewers: read
       security-maintainers: triage
     visibility: private
+  - name: hiero-cryptography
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-cryptography-maintainers: maintain
+      hiero-cryptography-committers: write
+      security-maintainers: triage
+    visibility: public
