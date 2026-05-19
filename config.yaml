@@ -650,55 +650,18 @@ teams:
       - anthony-swirldslabs
       - rsinha
     members:
-      - timo0
-      - lpetrovic05
-      - edward-swirldslabs
-      - mxtartaglia-sl
+      - pratyay85
+      - Jeffrey-morgan34
   - name: hiero-cryptography-committers
     maintainers:
       - anthony-swirldslabs
-      - hendrikebbers
       - rsinha
     members:
-      - ElijahLynn
-      - Ivo-Yankov
-      - Jeffrey-morgan34
-      - JeffreyDallas
-      - Neeharika-Sompalli
-      - OlegMazurov
-      - akdev
-      - allison-hashgraph
-      - artemananiev
-      - boris-bonin
-      - brunodam
-      - cweagans
-      - dalvizu
-      - derektriley
-      - edward-swirldslabs
+      - akugal
       - imalygin
-      - jan-milenkov
-      - jasperpotts
-      - jjohannes
-      - jsync-swirlds
-      - kfbr
-      - ldintr
-      - lpetrovic05
-      - mahmoudian1
-      - mbonica90
-      - mhess-swl
-      - mxtartaglia-sl
-      - netopyr
-      - nirbosl
-      - petreze
-      - poulok
-      - pratyay85
-      - shezaan-hashgraph
-      - swirlds-automation
       - thenswan
-      - timfn-hg
+      - mxtartaglia-sl
       - timo0
-      - tinker-michaelj
-      - tomzhenghedera
   - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
