@@ -653,7 +653,6 @@ teams:
       - timo0
       - lpetrovic05
       - edward-swirldslabs
-      - anthony-swirldslabs
       - mxtartaglia-sl
   - name: hiero-cryptography-committers
     maintainers:
@@ -669,7 +668,6 @@ teams:
       - OlegMazurov
       - akdev
       - allison-hashgraph
-      - anthony-swirldslabs
       - artemananiev
       - boris-bonin
       - brunodam
