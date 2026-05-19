@@ -647,6 +647,7 @@ teams:
       - mmyslblocky
   - name: hiero-cryptography-maintainers
     maintainers:
+      - anthony-swirldslabs
       - rsinha
     members:
       - timo0
@@ -656,8 +657,9 @@ teams:
       - mxtartaglia-sl
   - name: hiero-cryptography-committers
     maintainers:
-      - rsinha
+      - anthony-swirldslabs
       - hendrikebbers
+      - rsinha
     members:
       - ElijahLynn
       - Ivo-Yankov
