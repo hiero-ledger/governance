@@ -1186,7 +1186,7 @@ teams:
       - sebtiem
   - name: hiero-enterprise-java-triage
     maintainers:
-      - hendrikebbers
+      - Ndacyayisenga-droid
     members:
       - aceppaluni
 repositories:
