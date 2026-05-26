@@ -1184,6 +1184,11 @@ teams:
     members:
       - manishdait
       - sebtiem
+  - name: hiero-enterprise-java-triage
+    maintainers:
+      - Ndacyayisenga-droid
+    members:
+      - aceppaluni
 repositories:
   - name: governance
     teams:
@@ -1493,6 +1498,7 @@ repositories:
       github-maintainers: maintain
       hiero-enterprise-java-maintainers: maintain
       hiero-enterprise-java-committers: write
+      hiero-enterprise-java-triage: triage
       hiero-sdk-triage: triage
       security-maintainers: triage
     visibility: public
