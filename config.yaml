@@ -166,7 +166,6 @@ teams:
       - Ivo-Yankov
     members:
       - georgi-l95
-
   - name: hiero-sdk-swift-maintainers
     maintainers:
       - rwalworth
@@ -194,16 +193,16 @@ teams:
       - aceppaluni
       - AntonioCeppellini
       - Akshat8510
+      - parvninama
   - name: hiero-sdk-python-triage
     maintainers:
       - nadineloepfe
       - exploreriii
     members:
       - tech0priyanshu
-      - emiliyank
       - Mounil2005
-      - parvninama
       - drtoxic69
+      - danielmarv
       - prajeeta15
       - undefinedIsMyLife
       - cheese-cakee
@@ -217,6 +216,8 @@ teams:
       - dmueller2001
       - drgorb
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: hiero-did-sdk-js-committers
     maintainers:
       - Reccetech
@@ -230,6 +231,8 @@ teams:
       - AlexanderShenshin
       - dmueller2001
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: hiero-did-sdk-python-committers
     maintainers:
       - Reccetech
@@ -250,32 +253,40 @@ teams:
       - agadzhalov
       - ivaylogarnev-limechain
       - ivaylonikolov7
-  - name: hiero-sdk-rust-triage
+  - name: hiero-sdk-triage
     maintainers:
-      - gsstoykov
+      - hendrikebbers
     members:
+      - gsstoykov
       - ddeskov-limechain
+      - 0xivanov
+      - mustafauzunn
+      - venilinvasilev
+      - ivaylonikolov7
+      - ddeskov-limechain
+      - a-saksena
+      - rwalworth
+      - Adityarya11
+      - ddeskov-limechain
+      - aceppaluni
+      - exploreriii
+      - Dosik13
+      - mariodimitrovv
   - name: hiero-sdk-java-maintainers
     maintainers:
-      - 0xivanov
-    members:
       - SimiHunjan
+    members:
+      - 0xivanov
       - agadzhalov
       - emiliyank
       - mustafauzunn
   - name: hiero-sdk-java-committers
     maintainers:
-      - 0xivanov
-    members:
       - naydenovn
+    members:
+      - 0xivanov
       - agadzhalov
       - emiliyank
-  - name: hiero-sdk-java-triage
-    maintainers:
-      - 0xivanov
-      - mustafauzunn
-    members:
-      - ddeskov-limechain
   - name: hiero-sdk-js-maintainers
     maintainers:
       - SimiHunjan
@@ -294,15 +305,6 @@ teams:
       - ivaylogarnev-limechain
       - ivaylonikolov7
       - mariodimitrovv
-  - name: hiero-sdk-js-triage
-    maintainers:
-      - venilinvasilev
-      - ivaylonikolov7
-    members:
-      - ddeskov-limechain
-      - a-saksena
-      - SimiHunjan
-      - rwalworth
   - name: hiero-sdk-cpp-maintainers
     maintainers:
       - rwalworth
@@ -315,13 +317,6 @@ teams:
     members:
       - gsstoykov
       - agadzhalov
-  - name: hiero-sdk-cpp-triage
-    maintainers:
-      - rwalworth
-      - gsstoykov
-    members:
-      - Adityarya11
-      - ddeskov-limechain
   - name: hiero-sdk-tck-maintainers
     maintainers:
       - rwalworth
@@ -338,13 +333,6 @@ teams:
       - gsstoykov
       - RickyLB
       - mariodimitrovv
-  - name: hiero-sdk-tck-triage
-    maintainers:
-      - SimiHunjan
-      - rwalworth
-    members:
-      - a-saksena
-      - ddeskov-limechain
   - name: hiero-sdk-go-maintainers
     maintainers:
       - SimiHunjan
@@ -361,12 +349,6 @@ teams:
       - 0xivanov
       - agadzhalov
       - gsstoykov
-  - name: hiero-sdk-go-triage
-    maintainers:
-      - 0xivanov
-      - gsstoykov
-    members:
-      - ddeskov-limechain
   - name: hiero-solo-action-maintainers
     maintainers:
       - hendrikebbers
@@ -414,14 +396,15 @@ teams:
       - rbarker-dev
       - rockysingh
       - san-est
+      - ivannov
+      - berryware
   - name: hiero-block-node-internal-contributors
     maintainers:
       - AlfredoG87
       - jsync-swirlds
       - Nana-EC
+      - deshmukhpranali
     members:
-      - ivannov
-      - berryware
       - SimiHunjan
   - name: hiero-consensus-node-maintainers
     maintainers:
@@ -651,6 +634,7 @@ teams:
       - devmab
       - mmyslblocky
       - misiek-blocky
+      - jaycoolh
   - name: hiero-cli-committers
     maintainers:
       - Neurone
@@ -661,6 +645,23 @@ teams:
       - matevszm
       - rozekmichal
       - mmyslblocky
+  - name: hiero-cryptography-maintainers
+    maintainers:
+      - anthony-swirldslabs
+      - rsinha
+    members:
+      - pratyay85
+      - Jeffrey-morgan34
+  - name: hiero-cryptography-committers
+    maintainers:
+      - anthony-swirldslabs
+      - rsinha
+    members:
+      - akugal
+      - imalygin
+      - thenswan
+      - mxtartaglia-sl
+      - timo0
   - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
@@ -746,6 +747,8 @@ teams:
       - ChangoBuitrago
       - AlexanderShenshin
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: identity-collaboration-hub-committers
     maintainers:
       - Reccetech
@@ -906,20 +909,13 @@ teams:
       - nadineloepfe
       - exploreriii
       - RickyLB
-      - 0xivanov
       - ivaylogarnev-limechain
       - ivaylonikolov7
       - gsstoykov
       - venilinvasilev
       - naydenovn
-    members: []
-  - name: sdk-collaboration-hub-triage
-    maintainers:
-      - SimiHunjan
-      - hendrikebbers
-      - rwalworth
     members:
-      - aceppaluni
+      - 0xivanov
   - name: solo-admins
     maintainers:
       - nathanklick
@@ -1122,6 +1118,8 @@ teams:
       - AlexanderShenshin
     members:
       - Toktar
+      - ashcherbakov
+      - Artemkaaas
   - name: heka-identity-platform-committers
     maintainers:
       - AlexanderShenshin
@@ -1143,6 +1141,7 @@ teams:
       - kfbr
       - mahmoudian1
       - poulok
+      - theekrystallee
   - name: roadmap-viewers
     maintainers:
       - a-saksena
@@ -1252,7 +1251,7 @@ repositories:
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-cpp-maintainers: maintain
       hiero-sdk-cpp-committers: write
-      hiero-sdk-cpp-triage: triage
+      hiero-sdk-triage: triage
       hiero-triage: triage
       security-maintainers: triage
     visibility: public
@@ -1262,7 +1261,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-tck-maintainers: maintain
       hiero-sdk-tck-committers: write
-      hiero-sdk-tck-triage: triage
+      hiero-sdk-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-gradle-conventions
@@ -1279,7 +1278,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-go-maintainers: maintain
       hiero-sdk-go-committers: write
-      hiero-sdk-go-triage: triage
+      hiero-sdk-triage: triage
       hiero-triage: triage
       security-maintainers: triage
     visibility: public
@@ -1299,7 +1298,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-java-maintainers: maintain
       hiero-sdk-java-committers: write
-      hiero-sdk-java-triage: triage
+      hiero-sdk-triage: triage
       hiero-gradle-conventions-maintainers: write
       hiero-triage: triage
       security-maintainers: triage
@@ -1311,7 +1310,7 @@ repositories:
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-js-committers: write
-      hiero-sdk-js-triage: triage
+      hiero-sdk-triage: triage
       hiero-triage: triage
       security-maintainers: triage
     visibility: public
@@ -1322,6 +1321,7 @@ repositories:
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-swift-maintainers: maintain
       hiero-sdk-swift-committers: write
+      hiero-sdk-triage: triage
       hiero-triage: triage
       security-maintainers: triage
     visibility: public
@@ -1334,6 +1334,7 @@ repositories:
       hiero-sdk-python-maintainers: maintain
       hiero-sdk-python-committers: write
       hiero-sdk-python-triage: triage
+      hiero-sdk-triage: triage
       security-maintainers: triage
     visibility: public
   - name: hiero-did-sdk-js
@@ -1420,6 +1421,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-rust-maintainers: maintain
       hiero-sdk-rust-committers: write
+      hiero-sdk-triage: triage
       hiero-triage: triage
       security-maintainers: triage
     visibility: public
@@ -1491,6 +1493,7 @@ repositories:
       github-maintainers: maintain
       hiero-enterprise-java-maintainers: maintain
       hiero-enterprise-java-committers: write
+      hiero-sdk-triage: triage
       security-maintainers: triage
     visibility: public
   - name: sdk-collaboration-hub
@@ -1500,7 +1503,7 @@ repositories:
       github-maintainers: maintain
       sdk-collaboration-hub-maintainers: maintain
       sdk-collaboration-hub-committers: write
-      sdk-collaboration-hub-triage: triage
+      hiero-sdk-triage: triage
       security-maintainers: triage
     visibility: public
   - name: solo
@@ -1544,6 +1547,7 @@ repositories:
       hiero-contracts-internal-contributors: triage
       hiero-triage: triage
       security-maintainers: triage
+      hiero-automation: write
     visibility: public
   - name: heka-identity-platform
     teams:
@@ -1563,3 +1567,11 @@ repositories:
       roadmap-viewers: read
       security-maintainers: triage
     visibility: private
+  - name: hiero-cryptography
+    teams:
+      tsc: maintain
+      github-maintainers: maintain
+      hiero-cryptography-maintainers: maintain
+      hiero-cryptography-committers: write
+      security-maintainers: triage
+    visibility: public
