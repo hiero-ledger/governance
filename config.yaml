@@ -19,7 +19,6 @@ teams:
       - jeromy-cannon
       - andrewb1269
       - leninmehedy
-      - PavelSBorisov
   - name: tsc
     maintainers:
       - hendrikebbers
@@ -60,7 +59,6 @@ teams:
       - Neeharika-Sompalli
       - Nana-EC
       - OlegMazurov
-      - PavelSBorisov
       - RaphaelMessian
       - Reccetech
       - RickyLB
