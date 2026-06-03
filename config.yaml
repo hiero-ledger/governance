@@ -954,6 +954,7 @@ teams:
       - deshmukhpranali
       - SimiHunjan
       - boris-bonin
+      - ddeskov-limechain
   - name: solo-docs-admins
     maintainers:
       - nathanklick
@@ -979,6 +980,7 @@ teams:
       - Reccetech
     members:
       - boris-bonin
+      - ddeskov-limechain
   - name: tsc-eligibility-check-admins
     maintainers:
       - jwagantall
