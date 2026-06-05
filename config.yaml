@@ -660,13 +660,13 @@ teams:
       - thenswan
       - mxtartaglia-sl
       - timo0
-  - name: hiero--maintainers
+  - name: hiero-docs-maintainers
     maintainers:
       - SimiHunjan
       - theekrystallee
     members:
       - deshmukhpranali
-  - name: hiero--committers
+  - name: hiero-docs-committers
     maintainers:
       - SimiHunjan
       - theekrystallee
@@ -955,7 +955,7 @@ teams:
       - SimiHunjan
       - boris-bonin
       - ddeskov-limechain
-  - name: solo--admins
+  - name: solo-docs-admins
     maintainers:
       - nathanklick
     members:
