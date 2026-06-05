@@ -170,6 +170,10 @@ teams:
     members:
       - SimiHunjan
       - ddeskov-limechain
+      - mustafauzunn
+      - Dosik13
+      - Fantomasa
+      - radkomih
   - name: hiero-sdk-swift-committers
     maintainers:
       - RickyLB
@@ -244,6 +248,11 @@ teams:
       - gsstoykov
     members:
       - SimiHunjan
+      - mustafauzunn
+      - Dosik13
+      - Fantomasa
+      - radkomih
+      - ddeskov-limechain
   - name: hiero-sdk-rust-committers
     maintainers:
       - RickyLB
@@ -278,6 +287,10 @@ teams:
       - agadzhalov
       - emiliyank
       - mustafauzunn
+      - Dosik13
+      - Fantomasa
+      - radkomih
+      - ddeskov-limechain
   - name: hiero-sdk-java-committers
     maintainers:
       - naydenovn
@@ -293,6 +306,11 @@ teams:
       - ivaylonikolov7
       - agadzhalov
       - ivaylogarnev-limechain
+      - mustafauzunn
+      - Dosik13
+      - Fantomasa
+      - radkomih
+      - ddeskov-limechain
   - name: hiero-sdk-js-committers
     maintainers:
       - SimiHunjan
@@ -309,6 +327,11 @@ teams:
     members:
       - SimiHunjan
       - gsstoykov
+      - mustafauzunn
+      - Dosik13
+      - Fantomasa
+      - radkomih
+      - ddeskov-limechain
   - name: hiero-sdk-cpp-committers
     maintainers:
       - rwalworth
@@ -320,6 +343,11 @@ teams:
       - rwalworth
     members:
       - SimiHunjan
+      - mustafauzunn
+      - Dosik13
+      - Fantomasa
+      - radkomih
+      - ddeskov-limechain
   - name: hiero-sdk-tck-committers
     maintainers:
       - rwalworth
@@ -339,6 +367,10 @@ teams:
       - agadzhalov
       - gsstoykov
       - Dosik13
+      - mustafauzunn
+      - Fantomasa
+      - radkomih
+      - ddeskov-limechain
   - name: hiero-sdk-go-committers
     maintainers:
       - SimiHunjan
@@ -902,6 +934,10 @@ teams:
       - rwalworth
     members:
       - ddeskov-limechain
+      - mustafauzunn
+      - Dosik13
+      - Fantomasa
+      - radkomih
   - name: sdk-collaboration-hub-committers
     maintainers:
       - nadineloepfe
