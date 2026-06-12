@@ -1177,13 +1177,13 @@ teams:
   - name: hiero-enterprise-java-maintainers
     maintainers:
       - hendrikebbers
-    members: []
+    members:
+       - manishdait
+       - Ndacyayisenga-droid
   - name: hiero-enterprise-java-committers
     maintainers:
-      - Ndacyayisenga-droid
-    members:
-      - manishdait
       - sebtiem
+    members: []
   - name: hiero-enterprise-java-triage
     maintainers:
       - Ndacyayisenga-droid
