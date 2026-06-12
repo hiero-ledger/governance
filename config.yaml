@@ -1580,4 +1580,5 @@ repositories:
       hiero-cryptography-maintainers: maintain
       hiero-cryptography-committers: write
       security-maintainers: triage
+      hiero-automation: write
     visibility: public
