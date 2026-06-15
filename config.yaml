@@ -1,391 +1,123 @@
 teams:
-  - name: hiero-automation
-    maintainers:
-      - swirlds-automation
-    members: []
-  - name: hiero-mirror-node-automation
-    maintainers:
-      - hedera-github-bot
-    members: []
-  - name: hiero-local-node-automation
-    maintainers:
-      - hedera-local-node-bot
-    members: []
   - name: github-maintainers
     maintainers:
-      - rbarker-dev
       - nathanklick
+      - rbarker-dev
     members:
-      - jeromy-cannon
       - andrewb1269
+      - jeromy-cannon
       - leninmehedy
-  - name: tsc
-    maintainers:
-      - hendrikebbers
-    members:
-      - popowycz
-      - rbair23
-      - stoqnkpL
-      - georgi-l95
-      - lbaird
-      - MilanWR
-      - kantorcodes
-      - itsbrandondev
-  - name: lf-staff
-    maintainers:
-      - ryjones
-    members:
-      - SeanBohan
-      - christinaharter
-      - daniela-barbosa
-      - davidwboswell
-      - jwagantall
-      - hartm
-      - minyu66
-      - thelinuxfoundation
   - name: governance-write
     maintainers:
-      - ryjones
-      - jwagantall
-      - hendrikebbers
-      - rbarker-dev
-      - nathanklick
       - andrewb1269
+      - hendrikebbers
+      - jwagantall
+      - nathanklick
+      - rbarker-dev
+      - ryjones
     members:
       - 0xivanov
-      - AlfredoG87
-      - AlexanderShenshin
-      - Ferparishuertas
-      - Neeharika-Sompalli
-      - Nana-EC
-      - OlegMazurov
-      - RaphaelMessian
-      - Reccetech
-      - RickyLB
-      - Sheng-Long
-      - SimiHunjan
       - acuarica
       - agadzhalov
+      - AlexanderShenshin
+      - AlfredoG87
       - artemananiev
+      - bubo
+      - ChangoBuitrago
       - deshmukhpranali
+      - Diegoescalonaro
       - dmueller2001
+      - Dosik13
+      - drgorb
       - ericleponner
+      - exploreriii
+      - Ferparishuertas
       - georgi-l95
       - gsstoykov
+      - Harasz
+      - itsbrandondev
       - ivaylogarnev-limechain
       - ivaylonikolov7
       - jasperpotts
       - jeromy-cannon
       - jjohannes
+      - jsync-swirlds
+      - kantorcodes
+      - KononovAndrey
       - konstantinabl
+      - lbaird
       - leninmehedy
       - lpetrovic05
       - lukelee-sl
       - mattp-swirldslabs
       - mgarbs
+      - MilanWR
       - nadineloepfe
+      - Nana-EC
       - natanasow
+      - Neeharika-Sompalli
       - netopyr
+      - Neurone
+      - OlegMazurov
+      - Perseverance
       - poulok
       - quiet-node
+      - RaphaelMessian
       - rbair23
+      - Reccetech
+      - RickyLB
       - rwalworth
       - sergmetelin
+      - Sheng-Long
+      - SimiHunjan
       - simzzz
       - steven-sheehy
+      - stoqnkpL
+      - stoyanov-st
       - svienot
       - theekrystallee
       - tinker-michaelj
-      - xin-hedera
-      - ChangoBuitrago
-      - Diegoescalonaro
-      - Dosik13
-      - Harasz
-      - KononovAndrey
-      - MilanWR
-      - Neurone
-      - Perseverance
-      - bubo
-      - drgorb
-      - exploreriii
-      - itsbrandondev
-      - jsync-swirlds
-      - kantorcodes
-      - lbaird
-      - stoqnkpL
-      - stoyanov-st
       - venilinvasilev
-  - name: hiero-sdk-good-first-issue-support
-    maintainers:
-      - hendrikebbers
-    members:
-      - exploreriii
-      - aceppaluni
-      - rwalworth
-      - MonaaEid
-      - tech0priyanshu
-      - Akshat8510
-  - name: hiero-mirror-node-committers
-    maintainers:
-      - steven-sheehy
       - xin-hedera
-    members:
-      - ashumahajan
-      - bilyana-gospodinova
-      - IvanKavaldzhiev
-      - jnels124
-      - kselveliev
-      - martingeorgiev1
-      - nickeynikolovv
-      - sdimitrov9
-      - filev94
-      - nirbosl
-  - name: hiero-mirror-node-maintainers
+  - name: hashgraph-online-standards-sdk-js-committers
     maintainers:
-      - steven-sheehy
-    members:
-      - xin-hedera
-  - name: hiero-local-node-committers
+      - kantorcodes
+    members: []
+  - name: hashgraph-online-standards-sdk-js-maintainers
     maintainers:
-      - georgi-l95
-      - Nana-EC
-      - natanasow
+      - kantorcodes
     members:
-      - beeradb
-      - Neeharika-Sompalli
-      - Ivo-Yankov
-      - konstantinabl
-      - nathanklick
-      - victor-yanev
-  - name: hiero-local-node-maintainers
-    maintainers:
-      - Nana-EC
-      - natanasow
-      - Ivo-Yankov
-    members:
-      - georgi-l95
-  - name: hiero-sdk-swift-maintainers
-    maintainers:
-      - rwalworth
-    members:
-      - SimiHunjan
-      - ddeskov-limechain
-  - name: hiero-sdk-swift-committers
-    maintainers:
-      - RickyLB
-    members:
-      - izik
-  - name: hiero-sdk-python-maintainers
-    maintainers:
-      - nadineloepfe
-    members:
-      - exploreriii
-      - manishdait
-  - name: hiero-sdk-python-committers
-    maintainers:
-      - nadineloepfe
-    members:
-      - Dosik13
-      - Adityarya11
-      - MonaaEid
-      - aceppaluni
-      - AntonioCeppellini
-      - Akshat8510
-      - parvninama
-  - name: hiero-sdk-python-triage
-    maintainers:
-      - nadineloepfe
-      - exploreriii
-    members:
-      - tech0priyanshu
-      - Mounil2005
-      - drtoxic69
-      - danielmarv
-      - prajeeta15
-      - undefinedIsMyLife
-      - cheese-cakee
-  - name: hiero-did-sdk-js-maintainers
+      - HGraphPunks
+      - rocketmay
+  - name: heka-identity-platform-committers
     maintainers:
       - AlexanderShenshin
-      - Reccetech
-    members:
-      - Diegoescalonaro
-      - KononovAndrey
-      - dmueller2001
-      - drgorb
-      - Toktar
-      - ashcherbakov
-      - Artemkaaas
-  - name: hiero-did-sdk-js-committers
-    maintainers:
-      - Reccetech
     members:
       - KononovAndrey
-      - tajang97
-  - name: hiero-did-sdk-python-maintainers
-    maintainers:
-      - Reccetech
-    members:
-      - AlexanderShenshin
-      - dmueller2001
-      - Toktar
-      - ashcherbakov
-      - Artemkaaas
-  - name: hiero-did-sdk-python-committers
-    maintainers:
-      - Reccetech
-    members:
       - paulo-caldas
       - tajang97
-  - name: hiero-sdk-rust-maintainers
+  - name: heka-identity-platform-maintainers
     maintainers:
-      - RickyLB
-      - Sheng-Long
-      - gsstoykov
+      - AlexanderShenshin
     members:
-      - SimiHunjan
-  - name: hiero-sdk-rust-committers
+      - Artemkaaas
+      - ashcherbakov
+      - Toktar
+  - name: hiero-automation
     maintainers:
-      - RickyLB
-    members:
-      - agadzhalov
-      - ivaylogarnev-limechain
-      - ivaylonikolov7
-  - name: hiero-sdk-triage
-    maintainers:
-      - hendrikebbers
-    members:
-      - gsstoykov
-      - ddeskov-limechain
-      - 0xivanov
-      - mustafauzunn
-      - venilinvasilev
-      - ivaylonikolov7
-      - ddeskov-limechain
-      - a-saksena
-      - rwalworth
-      - Adityarya11
-      - ddeskov-limechain
-      - aceppaluni
-      - exploreriii
-      - Dosik13
-      - mariodimitrovv
-  - name: hiero-sdk-java-maintainers
-    maintainers:
-      - SimiHunjan
-    members:
-      - 0xivanov
-      - agadzhalov
-      - emiliyank
-      - mustafauzunn
-  - name: hiero-sdk-java-committers
-    maintainers:
-      - naydenovn
-    members:
-      - 0xivanov
-      - agadzhalov
-      - emiliyank
-  - name: hiero-sdk-js-maintainers
-    maintainers:
-      - SimiHunjan
-    members:
-      - venilinvasilev
-      - ivaylonikolov7
-      - agadzhalov
-      - ivaylogarnev-limechain
-  - name: hiero-sdk-js-committers
-    maintainers:
-      - SimiHunjan
-    members:
-      - agadzhalov
-      - 0xivanov
-      - venilinvasilev
-      - ivaylogarnev-limechain
-      - ivaylonikolov7
-      - mariodimitrovv
-  - name: hiero-sdk-cpp-maintainers
-    maintainers:
-      - rwalworth
-    members:
-      - SimiHunjan
-      - gsstoykov
-  - name: hiero-sdk-cpp-committers
-    maintainers:
-      - rwalworth
-    members:
-      - gsstoykov
-      - agadzhalov
-  - name: hiero-sdk-tck-maintainers
-    maintainers:
-      - rwalworth
-    members:
-      - SimiHunjan
-  - name: hiero-sdk-tck-committers
-    maintainers:
-      - rwalworth
-    members:
-      - ivaylogarnev-limechain
-      - 0xivanov
-      - agadzhalov
-      - ivaylonikolov7
-      - gsstoykov
-      - RickyLB
-      - mariodimitrovv
-  - name: hiero-sdk-go-maintainers
-    maintainers:
-      - SimiHunjan
-    members:
-      - 0xivanov
-      - agadzhalov
-      - gsstoykov
-      - Dosik13
-  - name: hiero-sdk-go-committers
-    maintainers:
-      - SimiHunjan
-    members:
-      - ivaylogarnev-limechain
-      - 0xivanov
-      - agadzhalov
-      - gsstoykov
-  - name: hiero-solo-action-maintainers
-    maintainers:
-      - hendrikebbers
-    members:
-      - gsstoykov
-  - name: hiero-solo-action-committers
-    maintainers:
-      - hendrikebbers
-    members:
-      - Ndacyayisenga-droid
-  - name: hiero-gradle-conventions-maintainers
-    maintainers:
-      - rbarker-dev
-      - andrewb1269
-    members:
-      - nathanklick
-      - jjohannes
-  - name: hiero-gradle-conventions-committers
-    maintainers:
-      - rbarker-dev
-      - andrewb1269
-    members:
-      - san-est
-  - name: hiero-block-node-maintainers
-    maintainers:
-      - Nana-EC
-    members:
-      - AlfredoG87
-      - jasperpotts
-      - jsync-swirlds
+      - swirlds-automation
+    members: []
   - name: hiero-block-node-committers
     maintainers:
       - AlfredoG87
       - Nana-EC
     members:
-      - ata-nas
       - a-saksena
+      - ata-nas
+      - berryware
       - CMiville42
       - georgi-l95
+      - ivannov
       - jasperpotts
       - jsync-swirlds
       - mattp-swirldslabs
@@ -394,16 +126,156 @@ teams:
       - rbarker-dev
       - rockysingh
       - san-est
-      - ivannov
-      - berryware
   - name: hiero-block-node-internal-contributors
     maintainers:
       - AlfredoG87
+      - deshmukhpranali
       - jsync-swirlds
       - Nana-EC
-      - deshmukhpranali
     members:
       - SimiHunjan
+  - name: hiero-block-node-maintainers
+    maintainers:
+      - Nana-EC
+    members:
+      - AlfredoG87
+      - jasperpotts
+      - jsync-swirlds
+  - name: hiero-cli-committers
+    maintainers:
+      - Neurone
+    members:
+      - devmab
+      - matevszm
+      - misiek-blocky
+      - mmyslblocky
+      - piotrswierzy
+      - rozekmichal
+  - name: hiero-cli-maintainers
+    maintainers:
+      - Neurone
+    members:
+      - devmab
+      - jaycoolh
+      - misiek-blocky
+      - mmyslblocky
+      - piotrswierzy
+  - name: hiero-consensus-node-committers
+    maintainers:
+      - Ferparishuertas
+      - Nana-EC
+      - netopyr
+      - poulok
+    members:
+      - abies
+      - aderevets
+      - akdev
+      - akugal
+      - AlexKehayov
+      - anastasiya-kovaliova
+      - anthony-swirldslabs
+      - artemananiev
+      - bubo
+      - cliffclick
+      - cliffclick
+      - david-bakin-sl
+      - derektriley
+      - edward-swirldslabs
+      - Evdokia-Georgieva
+      - gkozyryatskyy
+      - ibankov
+      - imalygin
+      - IvanKavaldzhiev
+      - iwsimon
+      - Jeffrey-morgan34
+      - JivkoKelchev
+      - joshmarinacci
+      - jsync-swirlds
+      - litt3
+      - lukasz-hashgraph
+      - mhess-swl
+      - MiroslavGatsanoga
+      - mustafauzunn
+      - mxtartaglia-sl
+      - Neeharika-Sompalli
+      - petreze
+      - povolev15
+      - stoqnkpL
+      - stoyanov-st
+      - thenswan
+      - thomas-swirlds-labs
+      - timfn-hg
+      - timo0
+      - tinker-michaelj
+      - vtronkov
+  - name: hiero-consensus-node-consensus-codeowners
+    maintainers:
+      - poulok
+    members:
+      - abies
+      - litt3
+      - lpetrovic05
+      - mxtartaglia-sl
+      - netopyr
+      - timo0
+  - name: hiero-consensus-node-devops-codeowners
+    maintainers:
+      - dalvizu
+    members:
+      - allison-hashgraph
+      - beeradb
+      - cweagans
+      - ElijahLynn
+      - kfbr
+      - mahmoudian1
+      - nirbosl
+      - shezaan-hashgraph
+      - tannerjfco
+  - name: hiero-consensus-node-execution-codeowners
+    maintainers:
+      - netopyr
+    members:
+      - anastasiya-kovaliova
+      - derektriley
+      - Evdokia-Georgieva
+      - ibankov
+      - iwsimon
+      - JivkoKelchev
+      - joshmarinacci
+      - mhess-swl
+      - MiroslavGatsanoga
+      - Neeharika-Sompalli
+      - petreze
+      - povolev15
+      - thomas-swirlds-labs
+      - timfn-hg
+      - tinker-michaelj
+      - vtronkov
+  - name: hiero-consensus-node-foundation-codeowners
+    maintainers:
+      - artemananiev
+    members:
+      - akugal
+      - anthony-swirldslabs
+      - imalygin
+      - OlegMazurov
+      - rsinha
+      - thenswan
+  - name: hiero-consensus-node-internal-contributors
+    maintainers:
+      - artemananiev
+      - netopyr
+      - poulok
+    members:
+      - 0x-ds
+      - a-saksena
+      - aderevets
+      - akugal
+      - AlexKehayov
+      - Chinnmay
+      - Grigorov-Georgi
+      - SimiHunjan
+      - viniciusjssouza
   - name: hiero-consensus-node-maintainers
     maintainers:
       - Nana-EC
@@ -423,189 +295,445 @@ teams:
       - rbarker-dev
       - stoyanov-st
       - tinker-michaelj
-  - name: hiero-consensus-node-committers
-    maintainers:
-      - Nana-EC
-      - Ferparishuertas
-      - netopyr
-      - poulok
-    members:
-      - abies
-      - aderevets
-      - AlexKehayov
-      - akdev
-      - akugal
-      - anastasiya-kovaliova
-      - anthony-swirldslabs
-      - artemananiev
-      - bubo
-      - cliffclick
-      - david-bakin-sl
-      - derektriley
-      - edward-swirldslabs
-      - Evdokia-Georgieva
-      - gkozyryatskyy
-      - ibankov
-      - imalygin
-      - IvanKavaldzhiev
-      - iwsimon
-      - Jeffrey-morgan34
-      - JivkoKelchev
-      - joshmarinacci
-      - jsync-swirlds
-      - litt3
-      - lukasz-hashgraph
-      - mhess-swl
-      - MiroslavGatsanoga
-      - mustafauzunn
-      - mxtartaglia-sl
-      - Neeharika-Sompalli
-      - petreze
-      - povolev15
-      - stoqnkpL
-      - stoyanov-st
-      - thenswan
-      - thomas-swirlds-labs
-      - timfn-hg
-      - timo0
-      - tinker-michaelj
-      - vtronkov
-      - cliffclick
-  - name: hiero-consensus-node-internal-contributors
-    maintainers:
-      - netopyr
-      - poulok
-      - artemananiev
-    members:
-      - 0x-ds
-      - a-saksena
-      - aderevets
-      - akugal
-      - AlexKehayov
-      - Chinnmay
-      - Grigorov-Georgi
-      - viniciusjssouza
-      - SimiHunjan
-  - name: hiero-consensus-node-release-managers
-    maintainers:
-      - rbarker-dev
-      - nathanklick
-    members:
-      - poulok
-      - Nana-EC
-      - netopyr
-      - Ferparishuertas
-      - Jeffrey-morgan34
-      - AliNik4n
-      - steven-sheehy
-      - SimiHunjan
-      - rbair23
-      - dalvizu
-      - a-saksena
-      - olsentorfinn
-      - Mark-Swirlds
-      - ty-swirldslabs
-      - Reccetech
-      - akdev
   - name: hiero-consensus-node-release-engineers
     maintainers:
-      - rbarker-dev
       - nathanklick
+      - rbarker-dev
     members:
       - derektriley
-      - povolev15
-      - tinker-michaelj
-      - Neeharika-Sompalli
-      - mhess-swl
       - iwsimon
+      - mhess-swl
+      - Neeharika-Sompalli
+      - povolev15
       - thomas-swirlds-labs
-  - name: hiero-consensus-node-devops-codeowners
+      - tinker-michaelj
+  - name: hiero-consensus-node-release-managers
     maintainers:
+      - nathanklick
+      - rbarker-dev
+    members:
+      - a-saksena
+      - akdev
+      - AliNik4n
       - dalvizu
-    members:
-      - cweagans
-      - beeradb
-      - tannerjfco
-      - ElijahLynn
-      - mahmoudian1
-      - nirbosl
-      - kfbr
-      - shezaan-hashgraph
-      - allison-hashgraph
-  - name: hiero-consensus-node-execution-codeowners
-    maintainers:
+      - Ferparishuertas
+      - Jeffrey-morgan34
+      - Mark-Swirlds
+      - Nana-EC
       - netopyr
-    members:
-      - Neeharika-Sompalli
-      - tinker-michaelj
-      - anastasiya-kovaliova
-      - derektriley
-      - Evdokia-Georgieva
-      - ibankov
-      - iwsimon
-      - JivkoKelchev
-      - joshmarinacci
-      - mhess-swl
-      - MiroslavGatsanoga
-      - petreze
-      - povolev15
-      - thomas-swirlds-labs
-      - vtronkov
-      - timfn-hg
-  - name: hiero-consensus-node-consensus-codeowners
-    maintainers:
+      - olsentorfinn
       - poulok
-    members:
-      - lpetrovic05
-      - litt3
-      - mxtartaglia-sl
-      - timo0
-      - abies
-      - netopyr
+      - rbair23
+      - Reccetech
+      - SimiHunjan
+      - steven-sheehy
+      - ty-swirldslabs
   - name: hiero-consensus-node-smart-contract-codeowners
     maintainers:
       - Ferparishuertas
       - Nana-EC
     members:
+      - bubo
       - gkozyryatskyy
       - lukasz-hashgraph
       - lukelee-sl
       - stoyanov-st
-      - bubo
-  - name: hiero-consensus-node-foundation-codeowners
-    maintainers:
-      - artemananiev
-    members:
-      - OlegMazurov
-      - imalygin
-      - thenswan
-      - anthony-swirldslabs
-      - rsinha
-      - akugal
-  - name: hiero-consensus-specifications-maintainers
-    maintainers:
-      - kantorcodes
-      - itsbrandondev
-    members:
-      - rocketmay
-      - HGraphPunks
-      - chelleswf
   - name: hiero-consensus-specifications-committers
     maintainers:
-      - kantorcodes
       - itsbrandondev
+      - kantorcodes
     members:
-      - rocketmay
-      - HGraphPunks
       - chelleswf
+      - HGraphPunks
+      - rocketmay
       - sentx-dev
       - teacoat
-  - name: hiero-protobufs-maintainers
+  - name: hiero-consensus-specifications-maintainers
     maintainers:
-      - netopyr
+      - itsbrandondev
+      - kantorcodes
     members:
+      - chelleswf
+      - HGraphPunks
+      - rocketmay
+  - name: hiero-contracts-committers
+    maintainers:
+      - Ferparishuertas
+    members:
+      - AlfredoG87
+      - anastasiya-kovaliova
+      - derektriley
+      - ebadiere
+      - Evdokia-Georgieva
+      - georgi-l95
+      - ibankov
+      - isavov
+      - Ivo-Yankov
+      - iwsimon
+      - jasuwienas
+      - JivkoKelchev
+      - joshmarinacci
+      - mhess-swl
+      - MiroslavGatsanoga
+      - mwb-al
       - Neeharika-Sompalli
+      - netopyr
+      - petreze
+      - povolev15
+      - se7enarianelabs
+      - thomas-swirlds-labs
+      - timfn-hg
       - tinker-michaelj
+      - victor-yanev
+      - vtronkov
+  - name: hiero-contracts-internal-contributors
+    maintainers:
+      - Ferparishuertas
+    members:
+      - BartoszSolkaBD
+      - bootcodes
+      - SimiHunjan
+  - name: hiero-contracts-maintainers
+    maintainers:
+      - Ferparishuertas
+    members:
+      - acuarica
+      - bubo
+      - gkozyryatskyy
+      - konstantinabl
+      - lukasz-hashgraph
+      - lukelee-sl
+      - Nana-EC
+      - natanasow
+      - quiet-node
+      - simzzz
+      - stoyanov-st
+  - name: hiero-cryptography-committers
+    maintainers:
+      - anthony-swirldslabs
+      - rsinha
+    members:
+      - akugal
+      - imalygin
+      - mxtartaglia-sl
+      - thenswan
+      - timo0
+  - name: hiero-cryptography-maintainers
+    maintainers:
+      - anthony-swirldslabs
+      - rsinha
+    members:
+      - Jeffrey-morgan34
+      - pratyay85
+  - name: hiero-did-sdk-js-committers
+    maintainers:
+      - Reccetech
+    members:
+      - KononovAndrey
+      - tajang97
+  - name: hiero-did-sdk-js-maintainers
+    maintainers:
+      - AlexanderShenshin
+      - Reccetech
+    members:
+      - Artemkaaas
+      - ashcherbakov
+      - Diegoescalonaro
+      - dmueller2001
+      - drgorb
+      - KononovAndrey
+      - Toktar
+  - name: hiero-did-sdk-python-committers
+    maintainers:
+      - Reccetech
+    members:
+      - paulo-caldas
+      - tajang97
+  - name: hiero-did-sdk-python-maintainers
+    maintainers:
+      - Reccetech
+    members:
+      - AlexanderShenshin
+      - Artemkaaas
+      - ashcherbakov
+      - dmueller2001
+      - Toktar
+  - name: hiero-docs-committers
+    maintainers:
+      - SimiHunjan
+      - theekrystallee
+    members:
+      - deshmukhpranali
+  - name: hiero-docs-maintainers
+    maintainers:
+      - SimiHunjan
+      - theekrystallee
+    members:
+      - deshmukhpranali
+  - name: hiero-enterprise-java-committers
+    maintainers:
+      - sebtiem
+    members: []
+  - name: hiero-enterprise-java-maintainers
+    maintainers:
+      - hendrikebbers
+    members:
+       - manishdait
+       - Ndacyayisenga-droid
+  - name: hiero-enterprise-java-triage
+    maintainers:
+      - Ndacyayisenga-droid
+    members:
+      - aceppaluni
+  - name: hiero-ethereum-execution-spec-tests-committers
+    maintainers:
+      - Ferparishuertas
+    members:
+      - AlfredoG87
+      - ebadiere
+      - georgi-l95
+      - isavov
+      - Ivo-Yankov
+      - jasuwienas
+      - mwb-al
+      - se7enarianelabs
+      - victor-yanev
+  - name: hiero-ethereum-execution-spec-tests-internal-contributors
+    maintainers:
+      - Ferparishuertas
+    members:
+      - BartoszSolkaBD
+      - bootcodes
+  - name: hiero-ethereum-execution-spec-tests-maintainers
+    maintainers:
+      - Ferparishuertas
+    members:
+      - acuarica
+      - bubo
+      - gkozyryatskyy
+      - konstantinabl
+      - lukasz-hashgraph
+      - lukelee-sl
+      - Nana-EC
+      - natanasow
+      - quiet-node
+      - simzzz
+      - stoyanov-st
+  - name: hiero-gradle-conventions-committers
+    maintainers:
+      - andrewb1269
+      - rbarker-dev
+    members:
+      - san-est
+  - name: hiero-gradle-conventions-maintainers
+    maintainers:
+      - andrewb1269
+      - rbarker-dev
+    members:
+      - jjohannes
+      - nathanklick
+  - name: hiero-hederium-maintainers
+    maintainers:
+      - georgi-l95
+    members:
+      - Dosik13
+  - name: hiero-improvement-proposals-committers
+    maintainers:
+      - mgarbs
+      - RaphaelMessian
+      - sergmetelin
+    members:
+      - AliNik4n
+      - andrewb1269
+      - anighanta
+      - anvabr
+      - Ashe-Oro
+      - bguiz
+      - bugbytesinc
+      - cacampbell
+      - chung-chao
+      - cijujohn
+      - Cooper-Kunz
+      - Daniel-K-Ivanov
+      - danielnorkin
+      - david-bakin-sl
+      - derektriley
+      - dimitar-dinev
+      - donaldthibeau
+      - edward-swirldslabs
+      - EvelynLWong
+      - failfmi
+      - fessmm
+      - georgi-l95
+      - gerbert-vandenberghe
+      - gregscullard
+      - H-Bart
+      - itsbrandondev
+      - IvanKavaldzhiev
+      - Ivo-Yankov
+      - iwsimon
+      - janaakhterov
+      - jascks
+      - jayv80
+      - jnels124
+      - jsync-swirlds
+      - justin-atwell
+      - justynspooner
+      - kantorcodes
+      - kenthejr
+      - lbaird
+      - littletarzan
+      - lucashenning
+      - lukelee-sl
+      - Mark-Swirlds
+      - mehcode
+      - MiroslavGatsanoga
+      - mustafauzunn
+      - Nana-EC
+      - Neeharika-Sompalli
+      - netopyr
+      - Neurone
+      - nickpoorman
+      - paulatcalaxy
+      - petreze
+      - publu
+      - qnswirlds
+      - raykhoaza
+      - rbair23
+      - rbarker-dev
+      - RECDeFi
+      - rocketmay
+      - sam-at-luther
+      - scalemaildev
+      - se7enarianelabs
+      - SimiHunjan
+      - soharang
+      - som-web23
+      - statop
+      - steven-sheehy
+      - stoqnkpL
+      - stoyanov-st
+      - sumanair
+      - superboo
+      - swirlds-automation
+      - tannerjfco
+      - tim-mchale
+      - tinker-michaelj
+      - tmctl
+      - ty-swirldslabs
+  - name: hiero-improvement-proposals-maintainers
+    maintainers:
+      - mgarbs
+      - RaphaelMessian
+      - Reccetech
+      - sergmetelin
+    members: []
+  - name: hiero-json-rpc-relay-committers
+    maintainers:
+      - Ferparishuertas
+      - Nana-EC
+    members:
+      - acuarica
+      - AlfredoG87
+      - ebadiere
+      - georgi-l95
+      - isavov
+      - Ivo-Yankov
+      - jasuwienas
+      - konstantinabl
+      - lukelee-sl
+      - mwb-al
+      - natanasow
+      - quiet-node
+      - se7enarianelabs
+      - simzzz
+      - victor-yanev
+  - name: hiero-json-rpc-relay-internal-contributors
+    maintainers:
+      - Ferparishuertas
+      - Nana-EC
+    members:
+      - BartoszSolkaBD
+      - bootcodes
+      - SimiHunjan
+  - name: hiero-json-rpc-relay-maintainers
+    maintainers:
+      - Ferparishuertas
+      - Nana-EC
+    members:
+      - acuarica
+      - konstantinabl
+      - natanasow
+      - quiet-node
+      - simzzz
+  - name: hiero-local-node-automation
+    maintainers:
+      - hedera-local-node-bot
+    members: []
+  - name: hiero-local-node-committers
+    maintainers:
+      - georgi-l95
+      - Nana-EC
+      - natanasow
+    members:
+      - beeradb
+      - Ivo-Yankov
+      - konstantinabl
+      - nathanklick
+      - Neeharika-Sompalli
+      - victor-yanev
+  - name: hiero-local-node-maintainers
+    maintainers:
+      - Ivo-Yankov
+      - Nana-EC
+      - natanasow
+    members:
+      - georgi-l95
+  - name: hiero-mirror-node-automation
+    maintainers:
+      - hedera-github-bot
+    members: []
+  - name: hiero-mirror-node-committers
+    maintainers:
+      - steven-sheehy
+      - xin-hedera
+    members:
+      - ashumahajan
+      - bilyana-gospodinova
+      - filev94
+      - IvanKavaldzhiev
+      - jnels124
+      - kselveliev
+      - martingeorgiev1
+      - nickeynikolovv
+      - nirbosl
+      - sdimitrov9
+  - name: hiero-mirror-node-explorer-committers
+    maintainers:
+      - ericleponner
+      - svienot
+    members:
+      - SimiHunjan
+  - name: hiero-mirror-node-explorer-maintainers
+    maintainers:
+      - ericleponner
+      - svienot
+    members:
+      - SimiHunjan
+  - name: hiero-mirror-node-maintainers
+    maintainers:
+      - steven-sheehy
+    members:
+      - xin-hedera
+  - name: hiero-performance-engineers
+    maintainers:
+      - nathanklick
+      - rbarker-dev
+    members:
+      - alex-kuzmin-hg
+      - JeffreyDallas
+      - OlegMazurov
+      - tomzhenghedera
   - name: hiero-protobufs-committers
     maintainers:
       - Neeharika-Sompalli
@@ -624,476 +752,182 @@ teams:
       - povolev15
       - thomas-swirlds-labs
       - vtronkov
-  - name: hiero-cli-maintainers
+  - name: hiero-protobufs-maintainers
     maintainers:
-      - Neurone
-    members:
-      - piotrswierzy
-      - devmab
-      - mmyslblocky
-      - misiek-blocky
-      - jaycoolh
-  - name: hiero-cli-committers
-    maintainers:
-      - Neurone
-    members:
-      - devmab
-      - piotrswierzy
-      - misiek-blocky
-      - matevszm
-      - rozekmichal
-      - mmyslblocky
-  - name: hiero-cryptography-maintainers
-    maintainers:
-      - anthony-swirldslabs
-      - rsinha
-    members:
-      - pratyay85
-      - Jeffrey-morgan34
-  - name: hiero-cryptography-committers
-    maintainers:
-      - anthony-swirldslabs
-      - rsinha
-    members:
-      - akugal
-      - imalygin
-      - thenswan
-      - mxtartaglia-sl
-      - timo0
-  - name: hiero-docs-maintainers
-    maintainers:
-      - SimiHunjan
-      - theekrystallee
-    members:
-      - deshmukhpranali
-  - name: hiero-docs-committers
-    maintainers:
-      - SimiHunjan
-      - theekrystallee
-    members:
-      - deshmukhpranali
-  - name: hiero-mirror-node-explorer-maintainers
-    maintainers:
-      - svienot
-      - ericleponner
-    members:
-      - SimiHunjan
-  - name: hiero-mirror-node-explorer-committers
-    maintainers:
-      - svienot
-      - ericleponner
-    members:
-      - SimiHunjan
-  - name: hiero-performance-engineers
-    maintainers:
-      - nathanklick
-      - rbarker-dev
-    members:
-      - tomzhenghedera
-      - alex-kuzmin-hg
-      - OlegMazurov
-      - JeffreyDallas
-  - name: hiero-json-rpc-relay-maintainers
-    maintainers:
-      - Ferparishuertas
-      - Nana-EC
-    members:
-      - acuarica
-      - konstantinabl
-      - quiet-node
-      - simzzz
-      - natanasow
-  - name: hiero-json-rpc-relay-committers
-    maintainers:
-      - Ferparishuertas
-      - Nana-EC
-    members:
-      - acuarica
-      - AlfredoG87
-      - jasuwienas
-      - ebadiere
-      - georgi-l95
-      - isavov
-      - Ivo-Yankov
-      - konstantinabl
-      - lukelee-sl
-      - natanasow
-      - quiet-node
-      - simzzz
-      - victor-yanev
-      - mwb-al
-      - se7enarianelabs
-  - name: hiero-json-rpc-relay-internal-contributors
-    maintainers:
-      - Ferparishuertas
-      - Nana-EC
-    members:
-      - BartoszSolkaBD
-      - bootcodes
-      - SimiHunjan
-  - name: hiero-hederium-maintainers
-    maintainers:
-      - georgi-l95
-    members:
-      - Dosik13
-  - name: identity-collaboration-hub-maintainers
-    maintainers:
-      - Reccetech
-      - dmueller2001
-    members:
-      - Harasz
-      - ChangoBuitrago
-      - AlexanderShenshin
-      - Toktar
-      - ashcherbakov
-      - Artemkaaas
-  - name: identity-collaboration-hub-committers
-    maintainers:
-      - Reccetech
-      - AlexanderShenshin
-    members:
-      - ChangoBuitrago
-      - tajang97
-  - name: hiero-improvement-proposals-maintainers
-    maintainers:
-      - sergmetelin
-      - mgarbs
-      - RaphaelMessian
-      - Reccetech
-    members: []
-  - name: hiero-improvement-proposals-committers
-    maintainers:
-      - sergmetelin
-      - mgarbs
-      - RaphaelMessian
-    members:
-      - swirlds-automation
-      - kenthejr
-      - Daniel-K-Ivanov
-      - lbaird
-      - Cooper-Kunz
-      - SimiHunjan
-      - Nana-EC
-      - failfmi
-      - steven-sheehy
-      - stoqnkpL
-      - publu
       - netopyr
-      - rbarker-dev
-      - tinker-michaelj
-      - lukelee-sl
-      - mustafauzunn
-      - IvanKavaldzhiev
-      - MiroslavGatsanoga
-      - statop
+    members:
       - Neeharika-Sompalli
-      - Neurone
-      - H-Bart
-      - bugbytesinc
-      - sam-at-luther
-      - Mark-Swirlds
-      - edward-swirldslabs
-      - superboo
-      - scalemaildev
-      - itsbrandondev
-      - donaldthibeau
-      - danielnorkin
-      - ty-swirldslabs
-      - stoyanov-st
-      - rbair23
-      - kantorcodes
-      - lucashenning
-      - david-bakin-sl
-      - janaakhterov
-      - anighanta
-      - paulatcalaxy
-      - jayv80
-      - gregscullard
-      - mehcode
-      - RECDeFi
-      - jsync-swirlds
-      - iwsimon
-      - georgi-l95
-      - bguiz
-      - Ashe-Oro
-      - AliNik4n
-      - raykhoaza
-      - nickpoorman
-      - petreze
-      - qnswirlds
-      - rocketmay
-      - tannerjfco
-      - tim-mchale
-      - tmctl
-      - anvabr
-      - justin-atwell
-      - littletarzan
-      - se7enarianelabs
-      - som-web23
-      - andrewb1269
-      - cacampbell
-      - soharang
-      - chung-chao
-      - cijujohn
-      - derektriley
-      - dimitar-dinev
-      - EvelynLWong
-      - fessmm
-      - gerbert-vandenberghe
-      # Comment user cmdhema until 2FA is configured
-      # - cmdhema
-      - Ivo-Yankov
-      - jascks
-      - jnels124
-      - justynspooner
-      - sumanair
-  - name: hiero-website-maintainers
+      - tinker-michaelj
+  - name: hiero-sdk-cpp-committers
     maintainers:
-      - hendrikebbers
-    members:
-      - exploreriii
-      - aceppaluni
-      - danielmarv
-  - name: hiero-website-committers
-    maintainers:
-      - hendrikebbers
-    members:
-      - exploreriii
-      - aceppaluni
-      - Jexsie
-      - danielmarv
-  - name: hiero-website-triage
-    maintainers:
-      - hendrikebbers
-    members:
-      - Shivam-Batham
-      - Abhijeet2409
-  - name: homebrew-tools-maintainers
-    maintainers:
-      - rbarker-dev
-      - andrewb1269
-      - nathanklick
-    members:
-      - jeromy-cannon
-  - name: homebrew-tools-committers
-    maintainers:
-      - rbarker-dev
-      - andrewb1269
-      - nathanklick
-    members:
-      - hendrikebbers
-      - JeffreyDallas
-  - name: security-maintainers
-    maintainers:
-      - nathanklick
-    members:
-      - CMiville42
-      - VMN00B
-      - dr20240304
-      - reachtobhavesh
-      - mody-hashgraph
-      - diogper
-      - NMiller-swirlds
-      - afaling0725
-  - name: sdk-collaboration-hub-maintainers
-    maintainers:
-      - SimiHunjan
-      - hendrikebbers
       - rwalworth
     members:
-      - ddeskov-limechain
-  - name: sdk-collaboration-hub-committers
-    maintainers:
-      - nadineloepfe
-      - exploreriii
-      - RickyLB
-      - ivaylogarnev-limechain
-      - ivaylonikolov7
+      - agadzhalov
       - gsstoykov
-      - venilinvasilev
+  - name: hiero-sdk-cpp-maintainers
+    maintainers:
+      - rwalworth
+    members:
+      - gsstoykov
+      - SimiHunjan
+  - name: hiero-sdk-go-committers
+    maintainers:
+      - SimiHunjan
+    members:
+      - 0xivanov
+      - agadzhalov
+      - gsstoykov
+      - ivaylogarnev-limechain
+  - name: hiero-sdk-go-maintainers
+    maintainers:
+      - SimiHunjan
+    members:
+      - 0xivanov
+      - agadzhalov
+      - Dosik13
+      - gsstoykov
+  - name: hiero-sdk-good-first-issue-support
+    maintainers:
+      - hendrikebbers
+    members:
+      - aceppaluni
+      - Akshat8510
+      - exploreriii
+      - MonaaEid
+      - rwalworth
+      - tech0priyanshu
+  - name: hiero-sdk-java-committers
+    maintainers:
       - naydenovn
     members:
       - 0xivanov
-  - name: solo-admins
+      - agadzhalov
+      - emiliyank
+  - name: hiero-sdk-java-maintainers
     maintainers:
-      - nathanklick
-    members:
-      - jeromy-cannon
-      - leninmehedy
-  - name: solo-maintainers
-    maintainers:
-      - nathanklick
-    members:
-      - jeromy-cannon
-      - leninmehedy
-      - jan-milenkov
-  - name: solo-committers
-    maintainers:
-      - nathanklick
-      - jeromy-cannon
-      - leninmehedy
-      - jan-milenkov
-    members:
-      - matteriben
-      - olsentorfinn
-      - JeffreyDallas
-      - Ivo-Yankov
-      - alex-kuzmin-hg
-      - deshmukhpranali
-      - boris-bonin
-  - name: solo-internal-contributors
-    maintainers:
-      - nathanklick
-      - jeromy-cannon
-      - leninmehedy
-      - jan-milenkov
-    members:
-      - JeffreyDallas
-      - Ivo-Yankov
-      - alex-kuzmin-hg
-      - deshmukhpranali
       - SimiHunjan
-      - boris-bonin
-      - ddeskov-limechain
-  - name: solo-docs-admins
-    maintainers:
-      - nathanklick
     members:
-      - jeromy-cannon
-      - leninmehedy
-  - name: solo-docs-maintainers
+      - 0xivanov
+      - agadzhalov
+      - emiliyank
+      - mustafauzunn
+  - name: hiero-sdk-js-committers
     maintainers:
-      - deshmukhpranali
-      - jeromy-cannon
-      - nathanklick
-      - olsentorfinn
-      - Reccetech
-      - jan-milenkov
-      - Ivo-Yankov
-    members: []
-  - name: solo-docs-committers
-    maintainers:
-      - deshmukhpranali
-      - jeromy-cannon
-      - nathanklick
-      - olsentorfinn
-      - Reccetech
-    members:
-      - boris-bonin
-      - ddeskov-limechain
-  - name: tsc-eligibility-check-admins
-    maintainers:
-      - jwagantall
-      - ryjones
-    members: []
-  - name: tsc-eligibility-check-maintainers
-    maintainers:
-      - jwagantall
-      - ryjones
-    members:
-      - hendrikebbers
-  - name: tsc-eligibility-check-committers
-    maintainers:
-      - jwagantall
-      - ryjones
-    members:
-      - hendrikebbers
-  - name: hiero-ethereum-execution-spec-tests-maintainers
-    maintainers:
-      - Ferparishuertas
-    members:
-      - bubo
-      - gkozyryatskyy
-      - stoyanov-st
-      - Nana-EC
-      - lukelee-sl
-      - lukasz-hashgraph
-      - acuarica
-      - natanasow
-      - simzzz
-      - konstantinabl
-      - quiet-node
-  - name: hiero-ethereum-execution-spec-tests-committers
-    maintainers:
-      - Ferparishuertas
-    members:
-      - ebadiere
-      - Ivo-Yankov
-      - georgi-l95
-      - jasuwienas
-      - se7enarianelabs
-      - isavov
-      - AlfredoG87
-      - mwb-al
-      - victor-yanev
-  - name: hiero-ethereum-execution-spec-tests-internal-contributors
-    maintainers:
-      - Ferparishuertas
-    members:
-      - BartoszSolkaBD
-      - bootcodes
-  - name: hashgraph-online-standards-sdk-js-maintainers
-    maintainers:
-      - kantorcodes
-    members:
-      - rocketmay
-      - HGraphPunks
-  - name: hashgraph-online-standards-sdk-js-committers
-    maintainers:
-      - kantorcodes
-    members: []
-  - name: hiero-contracts-maintainers
-    maintainers:
-      - Ferparishuertas
-    members:
-      - bubo
-      - gkozyryatskyy
-      - stoyanov-st
-      - Nana-EC
-      - lukelee-sl
-      - lukasz-hashgraph
-      - acuarica
-      - natanasow
-      - simzzz
-      - konstantinabl
-      - quiet-node
-  - name: hiero-contracts-committers
-    maintainers:
-      - Ferparishuertas
-    members:
-      - ebadiere
-      - Ivo-Yankov
-      - jasuwienas
-      - georgi-l95
-      - se7enarianelabs
-      - isavov
-      - AlfredoG87
-      - mwb-al
-      - victor-yanev
-      - joshmarinacci
-      - netopyr
-      - derektriley
-      - MiroslavGatsanoga
-      - povolev15
-      - ibankov
-      - JivkoKelchev
-      - petreze
-      - tinker-michaelj
-      - Neeharika-Sompalli
-      - vtronkov
-      - mhess-swl
-      - iwsimon
-      - anastasiya-kovaliova
-      - Evdokia-Georgieva
-      - thomas-swirlds-labs
-      - timfn-hg
-  - name: hiero-contracts-internal-contributors
-    maintainers:
-      - Ferparishuertas
-    members:
-      - BartoszSolkaBD
-      - bootcodes
       - SimiHunjan
+    members:
+      - 0xivanov
+      - agadzhalov
+      - ivaylogarnev-limechain
+      - ivaylonikolov7
+      - mariodimitrovv
+      - venilinvasilev
+  - name: hiero-sdk-js-maintainers
+    maintainers:
+      - SimiHunjan
+    members:
+      - agadzhalov
+      - ivaylogarnev-limechain
+      - ivaylonikolov7
+      - venilinvasilev
+  - name: hiero-sdk-python-committers
+    maintainers:
+      - nadineloepfe
+    members:
+      - aceppaluni
+      - Adityarya11
+      - Akshat8510
+      - AntonioCeppellini
+      - Dosik13
+      - MonaaEid
+      - parvninama
+  - name: hiero-sdk-python-maintainers
+    maintainers:
+      - nadineloepfe
+    members:
+      - exploreriii
+      - manishdait
+  - name: hiero-sdk-python-triage
+    maintainers:
+      - exploreriii
+      - nadineloepfe
+    members:
+      - cheese-cakee
+      - danielmarv
+      - drtoxic69
+      - Mounil2005
+      - prajeeta15
+      - tech0priyanshu
+      - undefinedIsMyLife
+  - name: hiero-sdk-rust-committers
+    maintainers:
+      - RickyLB
+    members:
+      - agadzhalov
+      - ivaylogarnev-limechain
+      - ivaylonikolov7
+  - name: hiero-sdk-rust-maintainers
+    maintainers:
+      - gsstoykov
+      - RickyLB
+      - Sheng-Long
+    members:
+      - SimiHunjan
+  - name: hiero-sdk-swift-committers
+    maintainers:
+      - RickyLB
+    members:
+      - izik
+  - name: hiero-sdk-swift-maintainers
+    maintainers:
+      - rwalworth
+    members:
+      - ddeskov-limechain
+      - SimiHunjan
+  - name: hiero-sdk-tck-committers
+    maintainers:
+      - rwalworth
+    members:
+      - 0xivanov
+      - agadzhalov
+      - gsstoykov
+      - ivaylogarnev-limechain
+      - ivaylonikolov7
+      - mariodimitrovv
+      - RickyLB
+  - name: hiero-sdk-tck-maintainers
+    maintainers:
+      - rwalworth
+    members:
+      - SimiHunjan
+  - name: hiero-sdk-triage
+    maintainers:
+      - hendrikebbers
+    members:
+      - 0xivanov
+      - a-saksena
+      - aceppaluni
+      - Adityarya11
+      - ddeskov-limechain
+      - ddeskov-limechain
+      - ddeskov-limechain
+      - Dosik13
+      - exploreriii
+      - gsstoykov
+      - ivaylonikolov7
+      - mariodimitrovv
+      - mustafauzunn
+      - rwalworth
+      - venilinvasilev
+  - name: hiero-solo-action-committers
+    maintainers:
+      - hendrikebbers
+    members:
+      - Ndacyayisenga-droid
+  - name: hiero-solo-action-maintainers
+    maintainers:
+      - hendrikebbers
+    members:
+      - gsstoykov
   - name: hiero-triage
     maintainers:
       - a-saksena
@@ -1113,26 +947,72 @@ teams:
       - SimiHunjan
       - steven-sheehy
       - ty-swirldslabs
-  - name: heka-identity-platform-maintainers
+  - name: hiero-website-committers
+    maintainers:
+      - hendrikebbers
+    members:
+      - aceppaluni
+      - danielmarv
+      - exploreriii
+      - Jexsie
+  - name: hiero-website-maintainers
+    maintainers:
+      - hendrikebbers
+    members:
+      - aceppaluni
+      - danielmarv
+      - exploreriii
+  - name: hiero-website-triage
+    maintainers:
+      - hendrikebbers
+    members:
+      - Abhijeet2409
+      - Shivam-Batham
+  - name: homebrew-tools-committers
+    maintainers:
+      - andrewb1269
+      - nathanklick
+      - rbarker-dev
+    members:
+      - hendrikebbers
+      - JeffreyDallas
+  - name: homebrew-tools-maintainers
+    maintainers:
+      - andrewb1269
+      - nathanklick
+      - rbarker-dev
+    members:
+      - jeromy-cannon
+  - name: identity-collaboration-hub-committers
     maintainers:
       - AlexanderShenshin
+      - Reccetech
     members:
-      - Toktar
-      - ashcherbakov
-      - Artemkaaas
-  - name: heka-identity-platform-committers
-    maintainers:
-      - AlexanderShenshin
-    members:
-      - KononovAndrey
-      - paulo-caldas 
+      - ChangoBuitrago
       - tajang97
-  - name: roadmap-maintainers
+  - name: identity-collaboration-hub-maintainers
     maintainers:
-      - steven-sheehy
+      - dmueller2001
+      - Reccetech
     members:
-      - a-saksena
-      - rbair23
+      - AlexanderShenshin
+      - Artemkaaas
+      - ashcherbakov
+      - ChangoBuitrago
+      - Harasz
+      - Toktar
+  - name: lf-staff
+    maintainers:
+      - ryjones
+    members:
+      - christinaharter
+      - daniela-barbosa
+      - davidwboswell
+      - hartm
+      - jwagantall
+      - minyu66
+      - SeanBohan
+      - thelinuxfoundation
   - name: roadmap-committers
     maintainers:
       - a-saksena
@@ -1142,443 +1022,561 @@ teams:
       - mahmoudian1
       - poulok
       - theekrystallee
+  - name: roadmap-maintainers
+    maintainers:
+      - steven-sheehy
+    members:
+      - a-saksena
+      - rbair23
   - name: roadmap-viewers
     maintainers:
       - a-saksena
       - steven-sheehy
     members:
+      - abies
+      - akugal
+      - anthony-swirldslabs
+      - artemananiev
+      - arturre
       - berryware
+      - boris-bonin
+      - brunodam
+      - cweagans
+      - djsplice
       - imalygin
-      - quiet-node
-      - timfn-hg
-      - timo0
       - Ivo-Yankov
       - jan-milenkov
       - JeffreyDallas
       - jeromy-cannon
       - jnels124
-      - lpetrovic05
-      - abies
-      - netopyr
-      - mxtartaglia-sl
-      - akugal
-      - anthony-swirldslabs
-      - artemananiev
-      - thenswan
-      - rsinha
-      - boris-bonin
       - leninmehedy
-      - brunodam
-      - arturre
-      - djsplice
+      - lpetrovic05
+      - mxtartaglia-sl
+      - netopyr
       - nlindellalderman
+      - quiet-node
+      - rsinha
+      - thenswan
+      - timfn-hg
+      - timo0
       - tomzhenghedera
-      - cweagans
-  - name: hiero-enterprise-java-maintainers
+  - name: sdk-collaboration-hub-committers
+    maintainers:
+      - exploreriii
+      - gsstoykov
+      - ivaylogarnev-limechain
+      - ivaylonikolov7
+      - nadineloepfe
+      - naydenovn
+      - RickyLB
+      - venilinvasilev
+    members:
+      - 0xivanov
+  - name: sdk-collaboration-hub-maintainers
+    maintainers:
+      - hendrikebbers
+      - rwalworth
+      - SimiHunjan
+    members:
+      - ddeskov-limechain
+  - name: security-maintainers
+    maintainers:
+      - nathanklick
+    members:
+      - afaling0725
+      - CMiville42
+      - diogper
+      - dr20240304
+      - mody-hashgraph
+      - NMiller-swirlds
+      - reachtobhavesh
+      - VMN00B
+  - name: solo-admins
+    maintainers:
+      - nathanklick
+    members:
+      - jeromy-cannon
+      - leninmehedy
+  - name: solo-committers
+    maintainers:
+      - jan-milenkov
+      - jeromy-cannon
+      - leninmehedy
+      - nathanklick
+    members:
+      - alex-kuzmin-hg
+      - boris-bonin
+      - deshmukhpranali
+      - Ivo-Yankov
+      - JeffreyDallas
+      - matteriben
+      - olsentorfinn
+  - name: solo-docs-admins
+    maintainers:
+      - nathanklick
+    members:
+      - jeromy-cannon
+      - leninmehedy
+  - name: solo-docs-committers
+    maintainers:
+      - deshmukhpranali
+      - jeromy-cannon
+      - nathanklick
+      - olsentorfinn
+      - Reccetech
+    members:
+      - boris-bonin
+      - ddeskov-limechain
+  - name: solo-docs-maintainers
+    maintainers:
+      - deshmukhpranali
+      - Ivo-Yankov
+      - jan-milenkov
+      - jeromy-cannon
+      - nathanklick
+      - olsentorfinn
+      - Reccetech
+    members: []
+  - name: solo-internal-contributors
+    maintainers:
+      - jan-milenkov
+      - jeromy-cannon
+      - leninmehedy
+      - nathanklick
+    members:
+      - alex-kuzmin-hg
+      - boris-bonin
+      - ddeskov-limechain
+      - deshmukhpranali
+      - Ivo-Yankov
+      - JeffreyDallas
+      - SimiHunjan
+  - name: solo-maintainers
+    maintainers:
+      - nathanklick
+    members:
+      - jan-milenkov
+      - jeromy-cannon
+      - leninmehedy
+  - name: tsc
     maintainers:
       - hendrikebbers
     members:
-       - manishdait
-       - Ndacyayisenga-droid
-  - name: hiero-enterprise-java-committers
+      - georgi-l95
+      - itsbrandondev
+      - kantorcodes
+      - lbaird
+      - MilanWR
+      - popowycz
+      - rbair23
+      - stoqnkpL
+  - name: tsc-eligibility-check-admins
     maintainers:
-      - sebtiem
+      - jwagantall
+      - ryjones
     members: []
-  - name: hiero-enterprise-java-triage
+  - name: tsc-eligibility-check-committers
     maintainers:
-      - Ndacyayisenga-droid
+      - jwagantall
+      - ryjones
     members:
-      - aceppaluni
+      - hendrikebbers
+  - name: tsc-eligibility-check-maintainers
+    maintainers:
+      - jwagantall
+      - ryjones
+    members:
+      - hendrikebbers
 repositories:
-  - name: governance
+  - name: .github
     teams:
-      lf-staff: maintain
-      tsc: maintain
-      github-maintainers: maintain
-      security-maintainers: write
-      governance-write: write
-    visibility: public
-  - name: hiero-website
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-website-maintainers: maintain
-      hiero-website-committers: write
-      hiero-website-triage: triage
-      hiero-sdk-good-first-issue-support: triage
-      security-maintainers: triage
-    visibility: public
-  - name: hiero
-    teams:
-      tsc: maintain
       github-maintainers: maintain
       security-maintainers: triage
-    visibility: public
-  - name: tsc
-    teams:
       tsc: maintain
-      github-maintainers: maintain
-      security-maintainers: triage
     visibility: public
   - name: awesome-contributions
     teams:
       github-maintainers: maintain
       security-maintainers: triage
     visibility: public
-  - name: .github
+  - name: governance
     teams:
-      tsc: maintain
       github-maintainers: maintain
-      security-maintainers: triage
+      governance-write: write
+      lf-staff: maintain
+      security-maintainers: write
+      tsc: maintain
     visibility: public
-  - name: hiero-cli
+  - name: heka-identity-platform
     teams:
-      tsc: maintain
-      hiero-automation: write
       github-maintainers: maintain
-      hiero-cli-maintainers: maintain
-      hiero-cli-committers: write
+      heka-identity-platform-committers: write
+      heka-identity-platform-maintainers: maintain
       security-maintainers: triage
-  - name: hiero-ethereum-execution-spec-tests
-    teams:
       tsc: maintain
-      hiero-automation: write
-      github-maintainers: maintain
-      hiero-ethereum-execution-spec-tests-maintainers: maintain
-      hiero-ethereum-execution-spec-tests-committers: write
-      hiero-ethereum-execution-spec-tests-internal-contributors: triage
-      security-maintainers: triage
     visibility: public
-  - name: hiero-sdk-cpp
+  - name: hiero
     teams:
-      tsc: maintain
       github-maintainers: maintain
-      hiero-sdk-good-first-issue-support: triage
-      hiero-sdk-cpp-maintainers: maintain
-      hiero-sdk-cpp-committers: write
-      hiero-sdk-triage: triage
-      hiero-triage: triage
       security-maintainers: triage
-    visibility: public
-  - name: hiero-sdk-tck
-    teams:
       tsc: maintain
-      github-maintainers: maintain
-      hiero-sdk-tck-maintainers: maintain
-      hiero-sdk-tck-committers: write
-      hiero-sdk-triage: triage
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-gradle-conventions
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-gradle-conventions-maintainers: maintain
-      hiero-gradle-conventions-committers: write
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-sdk-go
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-sdk-go-maintainers: maintain
-      hiero-sdk-go-committers: write
-      hiero-sdk-triage: triage
-      hiero-triage: triage
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-local-node
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-local-node-maintainers: maintain
-      hiero-local-node-committers: write
-      hiero-local-node-automation: write
-      hiero-triage: triage
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-sdk-java
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-sdk-java-maintainers: maintain
-      hiero-sdk-java-committers: write
-      hiero-sdk-triage: triage
-      hiero-gradle-conventions-maintainers: write
-      hiero-triage: triage
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-sdk-js
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-sdk-good-first-issue-support: triage
-      hiero-sdk-js-maintainers: maintain
-      hiero-sdk-js-committers: write
-      hiero-sdk-triage: triage
-      hiero-triage: triage
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-sdk-swift
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-sdk-good-first-issue-support: triage
-      hiero-sdk-swift-maintainers: maintain
-      hiero-sdk-swift-committers: write
-      hiero-sdk-triage: triage
-      hiero-triage: triage
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-sdk-python
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-automation: write
-      hiero-sdk-good-first-issue-support: triage
-      hiero-sdk-python-maintainers: maintain
-      hiero-sdk-python-committers: write
-      hiero-sdk-python-triage: triage
-      hiero-sdk-triage: triage
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-did-sdk-js
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-did-sdk-js-maintainers: maintain
-      hiero-did-sdk-js-committers: write
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-did-sdk-python
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-did-sdk-python-maintainers: maintain
-      hiero-did-sdk-python-committers: write
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-docs
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-docs-maintainers: admin
-      hiero-docs-committers: write
-      hiero-triage: triage
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-consensus-node
-    teams:
-      tsc: maintain
-      hiero-automation: write
-      github-maintainers: maintain
-      hiero-consensus-node-maintainers: maintain
-      hiero-consensus-node-committers: write
-      hiero-consensus-node-internal-contributors: triage
-      hiero-consensus-node-release-managers: write
-      hiero-consensus-node-release-engineers: write
-      hiero-consensus-node-devops-codeowners: write
-      hiero-consensus-node-execution-codeowners: write
-      hiero-consensus-node-consensus-codeowners: write
-      hiero-consensus-node-smart-contract-codeowners: write
-      hiero-consensus-node-foundation-codeowners: write
-      hiero-mirror-node-maintainers: write
-      hiero-gradle-conventions-maintainers: write
-      hiero-performance-engineers: write
-      hiero-triage: triage
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-consensus-specifications
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-consensus-specifications-maintainers: admin
-      hiero-consensus-specifications-committers: write
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-mirror-node
-    teams:
-      tsc: maintain
-      hiero-automation: write
-      hiero-mirror-node-automation: admin
-      github-maintainers: maintain
-      hiero-mirror-node-committers: write
-      hiero-mirror-node-maintainers: admin
-      hiero-gradle-conventions-maintainers: write
-      hiero-triage: triage
-      security-maintainers: triage
     visibility: public
   - name: hiero-block-node
     teams:
-      tsc: maintain
-      hiero-automation: write
       github-maintainers: maintain
+      hiero-automation: write
       hiero-block-node-committers: write
       hiero-block-node-internal-contributors: triage
       hiero-block-node-maintainers: maintain
       hiero-gradle-conventions-maintainers: write
       hiero-triage: triage
       security-maintainers: triage
-    visibility: public
-  - name: hiero-sdk-rust
-    teams:
       tsc: maintain
+    visibility: public
+  - name: hiero-cli
+    teams:
       github-maintainers: maintain
-      hiero-sdk-rust-maintainers: maintain
-      hiero-sdk-rust-committers: write
-      hiero-sdk-triage: triage
+      hiero-automation: write
+      hiero-cli-committers: write
+      hiero-cli-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+  - name: hiero-consensus-node
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-consensus-node-committers: write
+      hiero-consensus-node-consensus-codeowners: write
+      hiero-consensus-node-devops-codeowners: write
+      hiero-consensus-node-execution-codeowners: write
+      hiero-consensus-node-foundation-codeowners: write
+      hiero-consensus-node-internal-contributors: triage
+      hiero-consensus-node-maintainers: maintain
+      hiero-consensus-node-release-engineers: write
+      hiero-consensus-node-release-managers: write
+      hiero-consensus-node-smart-contract-codeowners: write
+      hiero-gradle-conventions-maintainers: write
+      hiero-mirror-node-maintainers: write
+      hiero-performance-engineers: write
       hiero-triage: triage
       security-maintainers: triage
-    visibility: public
-  - name: hiero-solo-action
-    teams:
       tsc: maintain
-      github-maintainers: maintain
-      hiero-solo-action-maintainers: maintain
-      hiero-solo-action-committers: write
-      security-maintainers: triage
     visibility: public
-  - name: hiero-mirror-node-explorer
+  - name: hiero-consensus-specifications
     teams:
-      tsc: maintain
-      hiero-automation: write
-      hiero-triage: triage
       github-maintainers: maintain
-      hiero-mirror-node-explorer-maintainers: maintain
-      hiero-mirror-node-explorer-committers: write
+      hiero-consensus-specifications-committers: write
+      hiero-consensus-specifications-maintainers: admin
       security-maintainers: triage
-    visibility: public
-  - name: hiero-json-rpc-relay
-    teams:
       tsc: maintain
-      hiero-automation: write
-      hiero-triage: triage
-      github-maintainers: maintain
-      hiero-json-rpc-relay-maintainers: maintain
-      hiero-json-rpc-relay-committers: write
-      hiero-json-rpc-relay-internal-contributors: triage
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-hederium
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-hederium-maintainers: maintain
-      security-maintainers: triage
-    visibility: public
-  - name: identity-collaboration-hub
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      identity-collaboration-hub-maintainers: maintain
-      identity-collaboration-hub-committers: write
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-improvement-proposals
-    teams:
-      tsc: maintain
-      hiero-automation: write
-      github-maintainers: maintain
-      hiero-improvement-proposals-maintainers: maintain
-      hiero-improvement-proposals-committers: write
-      security-maintainers: triage
-    visibility: public
-  - name: homebrew-tools
-    teams:
-      tsc: maintain
-      hiero-automation: write
-      github-maintainers: maintain
-      homebrew-tools-maintainers: maintain
-      homebrew-tools-committers: write
-      security-maintainers: triage
-    visibility: public
-  - name: hiero-enterprise-java
-    teams:
-      tsc: maintain
-      github-maintainers: maintain
-      hiero-enterprise-java-maintainers: maintain
-      hiero-enterprise-java-committers: write
-      hiero-enterprise-java-triage: triage
-      hiero-sdk-triage: triage
-      security-maintainers: triage
-    visibility: public
-  - name: sdk-collaboration-hub
-    teams:
-      tsc: maintain
-      hiero-automation: write
-      github-maintainers: maintain
-      sdk-collaboration-hub-maintainers: maintain
-      sdk-collaboration-hub-committers: write
-      hiero-sdk-triage: triage
-      security-maintainers: triage
-    visibility: public
-  - name: solo
-    teams:
-      tsc: maintain
-      hiero-automation: write
-      hiero-triage: triage
-      github-maintainers: maintain
-      solo-admins: admin
-      solo-maintainers: maintain
-      solo-committers: write
-      solo-internal-contributors: triage
-      security-maintainers: triage
-    visibility: public
-  - name: solo-docs
-    teams:
-      tsc: maintain
-      hiero-automation: write
-      github-maintainers: maintain
-      solo-docs-admins: admin
-      solo-docs-maintainers: maintain
-      solo-docs-committers: write
-      security-maintainers: triage
-    visibility: public
-  - name: tsc-eligibility-check
-    teams:
-      tsc: maintain
-      hiero-automation: write
-      github-maintainers: maintain
-      tsc-eligibility-check-admins: admin
-      tsc-eligibility-check-maintainers: maintain
-      tsc-eligibility-check-committers: write
-      security-maintainers: triage
     visibility: public
   - name: hiero-contracts
     teams:
-      tsc: maintain
       github-maintainers: maintain
-      hiero-contracts-maintainers: maintain
+      hiero-automation: write
       hiero-contracts-committers: write
       hiero-contracts-internal-contributors: triage
+      hiero-contracts-maintainers: maintain
       hiero-triage: triage
       security-maintainers: triage
-      hiero-automation: write
-    visibility: public
-  - name: heka-identity-platform
-    teams:
       tsc: maintain
+    visibility: public
+  - name: hiero-cryptography
+    teams:
       github-maintainers: maintain
-      heka-identity-platform-maintainers: maintain
-      heka-identity-platform-committers: write
+      hiero-cryptography-committers: write
+      hiero-cryptography-maintainers: maintain
       security-maintainers: triage
+      hiero-automation: write
+      tsc: maintain
+    visibility: public
+  - name: hiero-did-sdk-js
+    teams:
+      github-maintainers: maintain
+      hiero-did-sdk-js-committers: write
+      hiero-did-sdk-js-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-did-sdk-python
+    teams:
+      github-maintainers: maintain
+      hiero-did-sdk-python-committers: write
+      hiero-did-sdk-python-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-docs
+    teams:
+      github-maintainers: maintain
+      hiero-docs-committers: write
+      hiero-docs-maintainers: admin
+      hiero-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-enterprise-java
+    teams:
+      github-maintainers: maintain
+      hiero-enterprise-java-committers: write
+      hiero-enterprise-java-maintainers: maintain
+      hiero-enterprise-java-triage: triage
+      hiero-sdk-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-ethereum-execution-spec-tests
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-ethereum-execution-spec-tests-committers: write
+      hiero-ethereum-execution-spec-tests-internal-contributors: triage
+      hiero-ethereum-execution-spec-tests-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-gradle-conventions
+    teams:
+      github-maintainers: maintain
+      hiero-gradle-conventions-committers: write
+      hiero-gradle-conventions-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-hederium
+    teams:
+      github-maintainers: maintain
+      hiero-hederium-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-improvement-proposals
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-improvement-proposals-committers: write
+      hiero-improvement-proposals-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-json-rpc-relay
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-json-rpc-relay-committers: write
+      hiero-json-rpc-relay-internal-contributors: triage
+      hiero-json-rpc-relay-maintainers: maintain
+      hiero-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-local-node
+    teams:
+      github-maintainers: maintain
+      hiero-local-node-automation: write
+      hiero-local-node-committers: write
+      hiero-local-node-maintainers: maintain
+      hiero-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-mirror-node
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-gradle-conventions-maintainers: write
+      hiero-mirror-node-automation: admin
+      hiero-mirror-node-committers: write
+      hiero-mirror-node-maintainers: admin
+      hiero-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-mirror-node-explorer
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-mirror-node-explorer-committers: write
+      hiero-mirror-node-explorer-maintainers: maintain
+      hiero-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-sdk-cpp
+    teams:
+      github-maintainers: maintain
+      hiero-sdk-cpp-committers: write
+      hiero-sdk-cpp-maintainers: maintain
+      hiero-sdk-good-first-issue-support: triage
+      hiero-sdk-triage: triage
+      hiero-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-sdk-go
+    teams:
+      github-maintainers: maintain
+      hiero-sdk-go-committers: write
+      hiero-sdk-go-maintainers: maintain
+      hiero-sdk-triage: triage
+      hiero-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-sdk-java
+    teams:
+      github-maintainers: maintain
+      hiero-gradle-conventions-maintainers: write
+      hiero-sdk-java-committers: write
+      hiero-sdk-java-maintainers: maintain
+      hiero-sdk-triage: triage
+      hiero-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-sdk-js
+    teams:
+      github-maintainers: maintain
+      hiero-sdk-good-first-issue-support: triage
+      hiero-sdk-js-committers: write
+      hiero-sdk-js-maintainers: maintain
+      hiero-sdk-triage: triage
+      hiero-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-sdk-python
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-sdk-good-first-issue-support: triage
+      hiero-sdk-python-committers: write
+      hiero-sdk-python-maintainers: maintain
+      hiero-sdk-python-triage: triage
+      hiero-sdk-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-sdk-rust
+    teams:
+      github-maintainers: maintain
+      hiero-sdk-rust-committers: write
+      hiero-sdk-rust-maintainers: maintain
+      hiero-sdk-triage: triage
+      hiero-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-sdk-swift
+    teams:
+      github-maintainers: maintain
+      hiero-sdk-good-first-issue-support: triage
+      hiero-sdk-swift-committers: write
+      hiero-sdk-swift-maintainers: maintain
+      hiero-sdk-triage: triage
+      hiero-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-sdk-tck
+    teams:
+      github-maintainers: maintain
+      hiero-sdk-tck-committers: write
+      hiero-sdk-tck-maintainers: maintain
+      hiero-sdk-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-solo-action
+    teams:
+      github-maintainers: maintain
+      hiero-solo-action-committers: write
+      hiero-solo-action-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-website
+    teams:
+      github-maintainers: maintain
+      hiero-sdk-good-first-issue-support: triage
+      hiero-website-committers: write
+      hiero-website-maintainers: maintain
+      hiero-website-triage: triage
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: homebrew-tools
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      homebrew-tools-committers: write
+      homebrew-tools-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: identity-collaboration-hub
+    teams:
+      github-maintainers: maintain
+      identity-collaboration-hub-committers: write
+      identity-collaboration-hub-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
     visibility: public
   - name: roadmap
     teams:
-      tsc: maintain
       github-maintainers: maintain
       hiero-triage: write
-      roadmap-maintainers: maintain
       roadmap-committers: write
+      roadmap-maintainers: maintain
       roadmap-viewers: read
       security-maintainers: triage
-    visibility: private
-  - name: hiero-cryptography
-    teams:
       tsc: maintain
+    visibility: private
+  - name: sdk-collaboration-hub
+    teams:
       github-maintainers: maintain
-      hiero-cryptography-maintainers: maintain
-      hiero-cryptography-committers: write
-      security-maintainers: triage
       hiero-automation: write
+      hiero-sdk-triage: triage
+      sdk-collaboration-hub-committers: write
+      sdk-collaboration-hub-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: solo
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-triage: triage
+      security-maintainers: triage
+      solo-admins: admin
+      solo-committers: write
+      solo-internal-contributors: triage
+      solo-maintainers: maintain
+      tsc: maintain
+    visibility: public
+  - name: solo-docs
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      security-maintainers: triage
+      solo-docs-admins: admin
+      solo-docs-committers: write
+      solo-docs-maintainers: maintain
+      tsc: maintain
+    visibility: public
+  - name: tsc
+    teams:
+      github-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: tsc-eligibility-check
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      security-maintainers: triage
+      tsc: maintain
+      tsc-eligibility-check-admins: admin
+      tsc-eligibility-check-committers: write
+      tsc-eligibility-check-maintainers: maintain
     visibility: public
