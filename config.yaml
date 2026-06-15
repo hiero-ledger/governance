@@ -1287,6 +1287,7 @@ repositories:
       hiero-cryptography-committers: write
       hiero-cryptography-maintainers: maintain
       security-maintainers: triage
+      hiero-automation: write
       tsc: maintain
     visibility: public
   - name: hiero-did-sdk-js
