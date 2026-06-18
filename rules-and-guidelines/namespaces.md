@@ -33,7 +33,7 @@ If a request creates a naming conflict, reserves a broad namespace, or delegates
 ## Registry Access and Curation
 
 Publishing access should be limited to the maintainers or release automation responsible for the repository that owns the artifact.
-Repository maintainers are responsible for keeping release automation, signing keys, tokens, and registry permissions aligned with Hiero security and release practices.
+LFDT is responsible for creating, storing and rotating signing keys, tokens and permissions. These are shared to the maintainers via GH secrets.
 
 The [Published Artifacts](#published-artifacts) section is the curated list of package names currently published or reserved by Hiero projects.
 When a project adds, removes, renames, transfers, or reserves an artifact, this document should be updated in the same pull request or in a related governance pull request.
