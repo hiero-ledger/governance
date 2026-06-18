@@ -800,6 +800,18 @@ teams:
       - Sheng-Long
       - SimiHunjan
       - venilinvasilev
+  - name: hiero-sdk-python-triage
+    maintainers:
+      - exploreriii
+      - nadineloepfe
+    members:
+      - cheese-cakee
+      - danielmarv
+      - drtoxic69
+      - Mounil2005
+      - prajeeta15
+      - tech0priyanshu
+      - undefinedIsMyLife
   - name: hiero-sdk-triage
     maintainers:
       - hendrikebbers
