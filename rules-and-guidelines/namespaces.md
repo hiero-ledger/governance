@@ -13,7 +13,7 @@ A purl follows the format `pkg:type/namespace/name@version` and allows us to ref
 - Projects may create sub-namespaces (e.g., `org.hiero.did` for DID-related artifacts), but the top-level namespace must always be a reserved Hiero namespace.
 - No two projects should publish artifacts to the same namespace. If a namespace conflict arises, coordinate with the TSC to resolve it.
 
-- Projects must document each namespace and package name they intend to publish before publishing artifacts under a Hiero-owned namespace.
+- Projects must document each namespace and package name they intend to publish before publishing artifacts under a Hiero-owned namespace in their README file.
 
 ## Requesting a Publishing Namespace
 
