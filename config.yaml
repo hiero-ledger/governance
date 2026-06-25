@@ -1316,6 +1316,8 @@ repositories:
       github-maintainers: maintain
       hiero-did-sdk-js-committers: write
       hiero-did-sdk-js-maintainers: maintain
+      hiero-did-sdk-committers: write
+      hiero-did-sdk-maintainers: maintain
       security-maintainers: triage
       tsc: maintain
     visibility: public
@@ -1324,6 +1326,8 @@ repositories:
       github-maintainers: maintain
       hiero-did-sdk-python-committers: write
       hiero-did-sdk-python-maintainers: maintain
+      hiero-did-sdk-committers: write
+      hiero-did-sdk-maintainers: maintain
       security-maintainers: triage
       tsc: maintain
     visibility: public
