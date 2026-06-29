@@ -1311,6 +1311,7 @@ repositories:
   - name: hiero-docs
     teams:
       github-maintainers: maintain
+      hiero-automation: write
       hiero-docs-committers: write
       hiero-docs-maintainers: admin
       hiero-triage: triage
