@@ -975,6 +975,7 @@ teams:
       - rbarker-dev
     members:
       - hendrikebbers
+      - Ivo-Yankov
       - JeffreyDallas
   - name: homebrew-tools-maintainers
     maintainers:
@@ -982,6 +983,7 @@ teams:
       - nathanklick
       - rbarker-dev
     members:
+      - jan-milenkov
       - jeromy-cannon
   - name: identity-collaboration-hub-committers
     maintainers:
@@ -1106,7 +1108,9 @@ teams:
     members:
       - alex-kuzmin-hg
       - boris-bonin
+      - ddeskov-limechain
       - deshmukhpranali
+      - Fantomasa
       - Ivo-Yankov
       - JeffreyDallas
       - matteriben
@@ -1127,6 +1131,7 @@ teams:
     members:
       - boris-bonin
       - ddeskov-limechain
+      - Fantomasa
   - name: solo-docs-maintainers
     maintainers:
       - deshmukhpranali
@@ -1150,6 +1155,7 @@ teams:
       - boris-bonin
       - ddeskov-limechain
       - deshmukhpranali
+      - Fantomasa
       - Ivo-Yankov
       - JeffreyDallas
       - SimiHunjan
