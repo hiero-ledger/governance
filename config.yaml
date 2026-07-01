@@ -207,6 +207,7 @@ teams:
       - timfn-hg
       - timo0
       - tinker-michaelj
+      - viniciusjssouza
       - vtronkov
   - name: hiero-consensus-node-consensus-codeowners
     maintainers:
@@ -250,6 +251,7 @@ teams:
       - thomas-swirlds-labs
       - timfn-hg
       - tinker-michaelj
+      - viniciusjssouza
       - vtronkov
   - name: hiero-consensus-node-foundation-codeowners
     maintainers:
@@ -275,7 +277,6 @@ teams:
       - Grigorov-Georgi
       - ruslanvelkov-beep
       - SimiHunjan
-      - viniciusjssouza
   - name: hiero-consensus-node-maintainers
     maintainers:
       - Nana-EC
