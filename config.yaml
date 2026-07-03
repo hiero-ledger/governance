@@ -865,8 +865,6 @@ teams:
       - exploreriii
       - manishdait
     members:
-      - exploreriii
-      - manishdait
   - name: hiero-sdk-python-triage
     maintainers:
       - exploreriii
