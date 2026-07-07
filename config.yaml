@@ -386,12 +386,14 @@ teams:
       - tinker-michaelj
       - victor-yanev
       - vtronkov
+      - BartoszSolkaBD
+      - bootcodes
   - name: hiero-contracts-internal-contributors
     maintainers:
       - Ferparishuertas
     members:
-      - BartoszSolkaBD
-      - bootcodes
+      - tgntr
+      - ValentinVPK
       - SimiHunjan
   - name: hiero-contracts-maintainers
     maintainers:
@@ -517,12 +519,15 @@ teams:
       - mwb-al
       - se7enarianelabs
       - victor-yanev
+      - BartoszSolkaBD
+      - bootcodes
   - name: hiero-ethereum-execution-spec-tests-internal-contributors
     maintainers:
       - Ferparishuertas
     members:
-      - BartoszSolkaBD
-      - bootcodes
+      - tgntr
+      - ValentinVPK
+
   - name: hiero-ethereum-execution-spec-tests-maintainers
     maintainers:
       - Ferparishuertas
@@ -667,13 +672,15 @@ teams:
       - se7enarianelabs
       - simzzz
       - victor-yanev
+      - BartoszSolkaBD
+      - bootcodes
   - name: hiero-json-rpc-relay-internal-contributors
     maintainers:
       - Ferparishuertas
       - Nana-EC
     members:
-      - BartoszSolkaBD
-      - bootcodes
+      - tgntr
+      - ValentinVPK
       - SimiHunjan
   - name: hiero-json-rpc-relay-maintainers
     maintainers:
