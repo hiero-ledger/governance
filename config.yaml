@@ -36,7 +36,6 @@ teams:
       - gsstoykov
       - Harasz
       - itsbrandondev
-      - ivaylogarnev-limechain
       - ivaylonikolov7
       - jasperpotts
       - jeromy-cannon
@@ -803,7 +802,6 @@ teams:
       - 0xivanov
       - agadzhalov
       - gsstoykov
-      - ivaylogarnev-limechain
   - name: hiero-sdk-go-maintainers
     maintainers:
       - SimiHunjan
@@ -843,16 +841,16 @@ teams:
     members:
       - 0xivanov
       - agadzhalov
-      - ivaylogarnev-limechain
       - ivaylonikolov7
       - mariodimitrovv
       - venilinvasilev
+      - Fantomasa
+      - ddeskov-limechain
   - name: hiero-sdk-js-maintainers
     maintainers:
       - SimiHunjan
     members:
       - agadzhalov
-      - ivaylogarnev-limechain
       - ivaylonikolov7
       - venilinvasilev
   - name: hiero-sdk-python-committers
@@ -887,7 +885,6 @@ teams:
       - RickyLB
     members:
       - agadzhalov
-      - ivaylogarnev-limechain
       - ivaylonikolov7
   - name: hiero-sdk-rust-maintainers
     maintainers:
@@ -914,7 +911,6 @@ teams:
       - 0xivanov
       - agadzhalov
       - gsstoykov
-      - ivaylogarnev-limechain
       - ivaylonikolov7
       - mariodimitrovv
       - RickyLB
@@ -1090,7 +1086,6 @@ teams:
     maintainers:
       - exploreriii
       - gsstoykov
-      - ivaylogarnev-limechain
       - ivaylonikolov7
       - nadineloepfe
       - naydenovn
