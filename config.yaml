@@ -855,7 +855,8 @@ teams:
       - venilinvasilev
   - name: hiero-sdk-python-committers
     maintainers:
-      - nadineloepfe
+      - exploreriii
+      - manishdait
     members:
       - aceppaluni
       - Adityarya11
@@ -866,22 +867,19 @@ teams:
       - parvninama
   - name: hiero-sdk-python-maintainers
     maintainers:
-      - nadineloepfe
-    members:
       - exploreriii
       - manishdait
+    members:
   - name: hiero-sdk-python-triage
     maintainers:
       - exploreriii
-      - nadineloepfe
+      - manishdait
     members:
       - cheese-cakee
       - danielmarv
-      - drtoxic69
       - Mounil2005
       - prajeeta15
       - tech0priyanshu
-      - undefinedIsMyLife
   - name: hiero-sdk-rust-committers
     maintainers:
       - RickyLB
