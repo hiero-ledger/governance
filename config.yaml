@@ -36,7 +36,6 @@ teams:
       - gsstoykov
       - Harasz
       - itsbrandondev
-      - ivaylogarnev-limechain
       - ivaylonikolov7
       - jasperpotts
       - jeromy-cannon
@@ -180,6 +179,7 @@ teams:
       - cliffclick
       - david-bakin-sl
       - derektriley
+      - diogper
       - edward-swirldslabs
       - Evdokia-Georgieva
       - gkozyryatskyy
@@ -207,6 +207,7 @@ teams:
       - timfn-hg
       - timo0
       - tinker-michaelj
+      - viniciusjssouza
       - vtronkov
   - name: hiero-consensus-node-consensus-codeowners
     maintainers:
@@ -250,6 +251,7 @@ teams:
       - thomas-swirlds-labs
       - timfn-hg
       - tinker-michaelj
+      - viniciusjssouza
       - vtronkov
   - name: hiero-consensus-node-foundation-codeowners
     maintainers:
@@ -272,10 +274,9 @@ teams:
       - aderevets
       - akugal
       - AlexKehayov
-      - Chinnmay
       - Grigorov-Georgi
+      - ruslanvelkov-beep
       - SimiHunjan
-      - viniciusjssouza
   - name: hiero-consensus-node-maintainers
     maintainers:
       - Nana-EC
@@ -386,12 +387,14 @@ teams:
       - tinker-michaelj
       - victor-yanev
       - vtronkov
+      - BartoszSolkaBD
+      - bootcodes
   - name: hiero-contracts-internal-contributors
     maintainers:
       - Ferparishuertas
     members:
-      - BartoszSolkaBD
-      - bootcodes
+      - tgntr
+      - ValentinVPK
       - SimiHunjan
   - name: hiero-contracts-maintainers
     maintainers:
@@ -425,6 +428,13 @@ teams:
     members:
       - Jeffrey-morgan34
       - pratyay85
+  - name: hiero-did-sdk-committers
+    maintainers:
+      - Reccetech
+    members:
+      - KononovAndrey
+      - paulo-caldas
+      - tajang97
   - name: hiero-did-sdk-js-committers
     maintainers:
       - Reccetech
@@ -443,6 +453,18 @@ teams:
       - drgorb
       - KononovAndrey
       - Toktar
+  - name: hiero-did-sdk-maintainers
+    maintainers:
+      - AlexanderShenshin
+      - Reccetech
+    members:
+      - Artemkaaas
+      - ashcherbakov
+      - Diegoescalonaro
+      - dmueller2001
+      - drgorb
+      - KononovAndrey
+      - Toktar 
   - name: hiero-did-sdk-python-committers
     maintainers:
       - Reccetech
@@ -498,12 +520,15 @@ teams:
       - mwb-al
       - se7enarianelabs
       - victor-yanev
+      - BartoszSolkaBD
+      - bootcodes
   - name: hiero-ethereum-execution-spec-tests-internal-contributors
     maintainers:
       - Ferparishuertas
     members:
-      - BartoszSolkaBD
-      - bootcodes
+      - tgntr
+      - ValentinVPK
+
   - name: hiero-ethereum-execution-spec-tests-maintainers
     maintainers:
       - Ferparishuertas
@@ -648,13 +673,15 @@ teams:
       - se7enarianelabs
       - simzzz
       - victor-yanev
+      - BartoszSolkaBD
+      - bootcodes
   - name: hiero-json-rpc-relay-internal-contributors
     maintainers:
       - Ferparishuertas
       - Nana-EC
     members:
-      - BartoszSolkaBD
-      - bootcodes
+      - tgntr
+      - ValentinVPK
       - SimiHunjan
   - name: hiero-json-rpc-relay-maintainers
     maintainers:
@@ -777,7 +804,6 @@ teams:
       - 0xivanov
       - agadzhalov
       - gsstoykov
-      - ivaylogarnev-limechain
   - name: hiero-sdk-go-maintainers
     maintainers:
       - SimiHunjan
@@ -817,53 +843,50 @@ teams:
     members:
       - 0xivanov
       - agadzhalov
-      - ivaylogarnev-limechain
       - ivaylonikolov7
       - mariodimitrovv
       - venilinvasilev
+      - Fantomasa
+      - ddeskov-limechain
   - name: hiero-sdk-js-maintainers
     maintainers:
       - SimiHunjan
     members:
       - agadzhalov
-      - ivaylogarnev-limechain
       - ivaylonikolov7
       - venilinvasilev
   - name: hiero-sdk-python-committers
     maintainers:
-      - nadineloepfe
+      - exploreriii
+      - manishdait
     members:
       - aceppaluni
       - Adityarya11
       - Akshat8510
       - AntonioCeppellini
       - Dosik13
-      - MonaaEid
       - parvninama
+      - danielmarv
+      - Mounil2005
   - name: hiero-sdk-python-maintainers
     maintainers:
-      - nadineloepfe
-    members:
       - exploreriii
       - manishdait
+    members:
+      - MonaaEid
   - name: hiero-sdk-python-triage
     maintainers:
       - exploreriii
-      - nadineloepfe
+      - manishdait
     members:
       - cheese-cakee
-      - danielmarv
-      - drtoxic69
-      - Mounil2005
       - prajeeta15
       - tech0priyanshu
-      - undefinedIsMyLife
   - name: hiero-sdk-rust-committers
     maintainers:
       - RickyLB
     members:
       - agadzhalov
-      - ivaylogarnev-limechain
       - ivaylonikolov7
   - name: hiero-sdk-rust-maintainers
     maintainers:
@@ -890,7 +913,6 @@ teams:
       - 0xivanov
       - agadzhalov
       - gsstoykov
-      - ivaylogarnev-limechain
       - ivaylonikolov7
       - mariodimitrovv
       - RickyLB
@@ -975,6 +997,7 @@ teams:
       - rbarker-dev
     members:
       - hendrikebbers
+      - Ivo-Yankov
       - JeffreyDallas
   - name: homebrew-tools-maintainers
     maintainers:
@@ -982,6 +1005,7 @@ teams:
       - nathanklick
       - rbarker-dev
     members:
+      - jan-milenkov
       - jeromy-cannon
   - name: identity-collaboration-hub-committers
     maintainers:
@@ -1064,7 +1088,6 @@ teams:
     maintainers:
       - exploreriii
       - gsstoykov
-      - ivaylogarnev-limechain
       - ivaylonikolov7
       - nadineloepfe
       - naydenovn
@@ -1106,7 +1129,9 @@ teams:
     members:
       - alex-kuzmin-hg
       - boris-bonin
+      - ddeskov-limechain
       - deshmukhpranali
+      - Fantomasa
       - Ivo-Yankov
       - JeffreyDallas
       - matteriben
@@ -1127,6 +1152,7 @@ teams:
     members:
       - boris-bonin
       - ddeskov-limechain
+      - Fantomasa
   - name: solo-docs-maintainers
     maintainers:
       - deshmukhpranali
@@ -1150,6 +1176,7 @@ teams:
       - boris-bonin
       - ddeskov-limechain
       - deshmukhpranali
+      - Fantomasa
       - Ivo-Yankov
       - JeffreyDallas
       - SimiHunjan
@@ -1297,6 +1324,8 @@ repositories:
       github-maintainers: maintain
       hiero-did-sdk-js-committers: write
       hiero-did-sdk-js-maintainers: maintain
+      hiero-did-sdk-committers: write
+      hiero-did-sdk-maintainers: maintain
       security-maintainers: triage
       tsc: maintain
     visibility: public
@@ -1305,12 +1334,15 @@ repositories:
       github-maintainers: maintain
       hiero-did-sdk-python-committers: write
       hiero-did-sdk-python-maintainers: maintain
+      hiero-did-sdk-committers: write
+      hiero-did-sdk-maintainers: maintain
       security-maintainers: triage
       tsc: maintain
     visibility: public
   - name: hiero-docs
     teams:
       github-maintainers: maintain
+      hiero-automation: write
       hiero-docs-committers: write
       hiero-docs-maintainers: admin
       hiero-triage: triage
