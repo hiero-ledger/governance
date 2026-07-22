@@ -912,9 +912,12 @@ teams:
     members:
       - 0xivanov
       - agadzhalov
+      - ddeskov-limechain
+      - Fantomasa
       - gsstoykov
       - ivaylonikolov7
       - mariodimitrovv
+      - mustafauzunn
       - RickyLB
   - name: hiero-sdk-tck-maintainers
     maintainers:
