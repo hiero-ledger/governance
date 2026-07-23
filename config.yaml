@@ -209,6 +209,13 @@ teams:
       - tinker-michaelj
       - viniciusjssouza
       - vtronkov
+  - name: hiero-consensus-node-ci-codeownrs
+    maintainers:
+      - rbarker-dev
+      - nathanklick
+      - andrewb1269
+    members:
+      - joshmarinacci
   - name: hiero-consensus-node-consensus-codeowners
     maintainers:
       - poulok
