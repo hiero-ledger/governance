@@ -804,6 +804,7 @@ teams:
       - 0xivanov
       - agadzhalov
       - gsstoykov
+      - radkomih
   - name: hiero-sdk-go-maintainers
     maintainers:
       - SimiHunjan
