@@ -863,21 +863,21 @@ teams:
       - Akshat8510
       - AntonioCeppellini
       - Dosik13
+      - MonaaEid
       - parvninama
-      - danielmarv
-      - Mounil2005
   - name: hiero-sdk-python-maintainers
     maintainers:
       - exploreriii
       - manishdait
     members:
-      - MonaaEid
   - name: hiero-sdk-python-triage
     maintainers:
       - exploreriii
       - manishdait
     members:
       - cheese-cakee
+      - danielmarv
+      - Mounil2005
       - prajeeta15
       - tech0priyanshu
   - name: hiero-sdk-rust-committers
