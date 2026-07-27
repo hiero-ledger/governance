@@ -209,7 +209,7 @@ teams:
       - tinker-michaelj
       - viniciusjssouza
       - vtronkov
-  - name: hiero-consensus-node-ci-codeownrs
+  - name: hiero-consensus-node-ci-codeowners
     maintainers:
       - rbarker-dev
       - nathanklick
@@ -1285,6 +1285,7 @@ repositories:
     teams:
       github-maintainers: maintain
       hiero-automation: write
+      hiero-consensus-node-ci-codeowners: write
       hiero-consensus-node-committers: write
       hiero-consensus-node-consensus-codeowners: write
       hiero-consensus-node-devops-codeowners: write
