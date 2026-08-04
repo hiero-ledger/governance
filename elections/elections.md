@@ -67,7 +67,7 @@ shall therefore be re-elected on September 1st, 2026 and every two years thereaf
 ### Upcoming Elections
 
 **2026**
-In 2026, Cohort B seats will be up for election, including 2 Maintainer seats, 1 End User seat, and 1 TSC seat.
+In 2026, Cohort B seats will be up for election, including 2 Maintainer seats, and 1 TSC Voted seat.
 Refer to the Nomination and Voting Procedure sections for more information. 
 
 ### Past Elections
