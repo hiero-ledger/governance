@@ -5,9 +5,11 @@ In September 2026, the Hiero Technical Steering Committee (TSC) will hold an ele
  - 2 Maintainer seats
  - 1 TSC Voted seat
 
-The **nomination** period for candidates will run from **August 24** (start of day UTC) to **September 6**, 2026 (end of day UTC).
-The **election** will be held from **September 7** (start of day UTC) to **September 21**, 2026 (end of day UTC).
+The **nomination** period for candidates will run from **August 25** (start of day UTC) to **September 8**, 2026 (end of day UTC).
+The **election** will be held from **September 8** (start of day UTC) to **September 20**, 2026 (end of day UTC).
 The **announcement** of the new TSC member will take place at the TSC meeting on **September 22**, 2026.
+
+![Election timeline](timeline.png)
 
 ## How to Nominate a Candidate
 
