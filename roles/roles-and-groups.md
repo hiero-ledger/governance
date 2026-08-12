@@ -62,23 +62,6 @@ The voting must be held via a GitHub PR (by proposing a change to the `config.ya
 A Committer has specific rights for the project.
 As an example, a Committer can assign people to issues, merge PRs, or create branches directly in a repository of the project.
 
-#### Responsibilities of a Committer
-
-A committer has certain responsibilities.
-Those responsibilities can be defined per project but in general they include:
-creating and laddering issues to incrementally train developers, reviewing pull requests to ensure they meet project standards, and actively contributing code for the benefit of the project.
-
-We expect that committers - if possible - join meetings that are relevant to the project.
-Those meetings are often community, review and or planning meetings like for example the "SDK community meeting".
-See our [public calender](https://zoom-lfx.platform.linuxfoundation.org/meetings/hiero?view=week) to see all Hiero related meetings.
-We expect committers to take part of discussions about the project on open channels.
-Those channels can be defined per project but in general it should be done on our [Discord](https://discord.gg/hyperledger).
-
-We know that several people with committer state can only work on the projects in their free time.
-We see the contributions of those people as useful as from people who work full-time on the project.
-Therefore we do not define minimum work time or response time for committers.
-The important part is to be part of the team :)
-
 #### Adding a Committer
 
 Any Committer or Maintainer of the given project can nominate a Contributor or Junior Committer to become a Committer based on the project's needs and following these steps:
@@ -115,21 +98,6 @@ the general structure of the project (fits our best practices, is secure, ...), 
 In addition, the Maintainers should report project updates to the Hiero **Technical Steering Committee** (TSC).
 Maintainers are responsible for keeping track of project Issues and Discussions and help pushing inactive conversations.
 It is a responsibility of the maintainers to close Issues and Discussions that are considered outdated or stale to the current goals of the project.
-
-#### Responsibilities of a Maintainer
-
-A maintainer has certain responsibilities.
-In general all responsibilities that described for committers fit for maintainers, too.
-
-More important is, that maintainers should see themselves as stewards of the projects.
-That includes:
-provide technical leadership for the project, provide leadership on the overall health and direction of the project to ensure it satisfies various scaling and stakeholder needs.
-
-Maintainers must also ensure a welcoming and nourishing environment for all developers and community members, laddering issues, reviewing pull requests and actively contributing code for the benefit of the project.
-
-We expect that maintainers join the monthly maintainers meetings.
-
-We expect that maintainers at least once a year give an update of the project state to the TSC and respond to feedback.
 
 #### Adding a Maintainer
 
