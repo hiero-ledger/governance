@@ -503,7 +503,8 @@ teams:
   - name: hiero-enterprise-java-committers
     maintainers:
       - sebtiem
-    members: []
+    members:
+      - aceppaluni
   - name: hiero-enterprise-java-maintainers
     maintainers:
       - hendrikebbers
