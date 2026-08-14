@@ -871,13 +871,11 @@ teams:
       - exploreriii
       - manishdait
     members:
-      - aceppaluni
       - Adityarya11
       - Akshat8510
       - AntonioCeppellini
       - Dosik13
       - parvninama
-      - danielmarv
       - Mounil2005
   - name: hiero-sdk-python-maintainers
     maintainers:
@@ -885,6 +883,8 @@ teams:
       - manishdait
     members:
       - MonaaEid
+      - aceppaluni
+      - danielmarv
   - name: hiero-sdk-python-triage
     maintainers:
       - exploreriii
