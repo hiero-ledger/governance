@@ -125,6 +125,8 @@ More important is, that maintainers should see themselves as stewards of the pro
 That includes:
 provide technical leadership for the project, provide leadership on the overall health and direction of the project to ensure it satisfies various scaling and stakeholder needs.
 
+Maintainers should actively encourage a diverse maintainer and contributor community and seek to avoid unnecessary concentration of project governance within a single organization. Organizational affiliation should be considered when evaluating the long-term sustainability and resilience of the project, while appointments should remain based on demonstrated contribution, trust, and project need.
+
 Maintainers must also ensure a welcoming and nourishing environment for all developers and community members, laddering issues, reviewing pull requests and actively contributing code for the benefit of the project.
 
 We expect that maintainers join the monthly maintainers meetings.
