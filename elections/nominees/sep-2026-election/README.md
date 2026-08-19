@@ -27,7 +27,8 @@ A nominee must fullfill the following requirements (as defined in the [TSC Chart
 >  - Demonstrate an advanced level of professional experience as engineers in the scope of the Project, and
 >  - Operate neutrally in discussions and put the goals and success of the Project in balance with any particular sub-project governed by the TSC.
 
-A PR (in this repo) that contains a new nomination file must be approved by the nominee before it can be merged.
+A PR needs to be created in the governance repo, as a new file under under https://github.com/hiero-ledger/governance/tree/main/elections/nominees/sep-2026-election.
+The PR can be created by the candidate themselves or by someone nominating the candidate which, in that case, it must be approved by the nominee before it can be merged.
 The nominee must review the nomination file and ensure that all information is correct, including the github username.
 Once the nominee has reviewed the file, they should comment on the PR with "I approve this nomination" to indicate their approval.
 
