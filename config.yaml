@@ -31,6 +31,7 @@ teams:
       - Ferparishuertas
       - georgi-l95
       - gsstoykov
+      - itsbrandondev
       - ivaylonikolov7
       - jasperpotts
       - jeromy-cannon
@@ -38,6 +39,7 @@ teams:
       - jsync-swirlds
       - kantorcodes
       - konstantinabl
+      - lbaird
       - leninmehedy
       - lpetrovic05
       - lukelee-sl
@@ -300,11 +302,13 @@ teams:
       - stoyanov-st
   - name: hiero-consensus-specifications-committers
     maintainers:
+      - itsbrandondev
       - kantorcodes
     members:
       - HGraphPunks
   - name: hiero-consensus-specifications-maintainers
     maintainers:
+      - itsbrandondev
       - kantorcodes
     members:
       - HGraphPunks
@@ -487,12 +491,14 @@ teams:
       - edward-swirldslabs
       - EvelynLWong
       - georgi-l95
+      - itsbrandondev
       - IvanKavaldzhiev
       - Ivo-Yankov
       - jnels124
       - jsync-swirlds
       - kantorcodes
       - lukelee-sl
+      - lbaird
       - Mark-Swirlds
       - mustafauzunn
       - Nana-EC
@@ -1014,6 +1020,7 @@ teams:
       - hendrikebbers
     members:
       - georgi-l95
+      - itsbrandondev
       - kantorcodes
       - lbaird
       - MilanWR
