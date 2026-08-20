@@ -13,6 +13,8 @@ The **announcement** of the new TSC member will take place at the TSC meeting on
 
 ## How to Nominate a Candidate
 
+A person can nominate themselves or can nominate someone. 
+
 To nominate a candidate, create a single markdown file titled "[candidate-name].md" with the name of the candidate as
 the file name (with spaces replaced by dashes). See [sample-nomination.md](sample-nomination.md) for a template to follow. 
 
@@ -25,11 +27,14 @@ A nominee must fullfill the following requirements (as defined in the [TSC Chart
 >  - Demonstrate an advanced level of professional experience as engineers in the scope of the Project, and
 >  - Operate neutrally in discussions and put the goals and success of the Project in balance with any particular sub-project governed by the TSC.
 
-A PR that contains a new nomination file must be approved by the nominee before it can be merged.
+A PR needs to be created in the governance repo, as a new file under under https://github.com/hiero-ledger/governance/tree/main/elections/nominees/sep-2026-election.
+The PR can be created by the candidate themselves or by someone nominating the candidate which, in that case, it must be approved by the nominee before it can be merged.
 The nominee must review the nomination file and ensure that all information is correct, including the github username.
 Once the nominee has reviewed the file, they should comment on the PR with "I approve this nomination" to indicate their approval.
 
 Any PR that fullfills the requirements before the end of the 9th September 2026 (UTC) will be considered for the election.
+
+For example nominations, look at past nominees under governance/elections/nominees.
 
 ## Who is allowed to vote
 
