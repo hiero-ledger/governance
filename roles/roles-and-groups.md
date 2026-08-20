@@ -116,6 +116,8 @@ In addition, the Maintainers should report project updates to the Hiero **Techni
 Maintainers are responsible for keeping track of project Issues and Discussions and help pushing inactive conversations.
 It is a responsibility of the maintainers to close Issues and Discussions that are considered outdated or stale to the current goals of the project.
 
+Hiero project roles supplement, rather than replace, the LFDT maintainer model. Repository-level maintainer scopes and responsibilities required by LFDT MUST remain documented in the applicable `MAINTAINERS.md`.
+
 #### Responsibilities of a Maintainer
 
 A maintainer has certain responsibilities.
