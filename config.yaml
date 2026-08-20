@@ -698,9 +698,9 @@ teams:
       - tech0priyanshu
   - name: hiero-sdk-java-committers
     maintainers:
-      - 0xivanov
-    members:
       - agadzhalov
+    members:
+      - 0xivanov
       - emiliyank
   - name: hiero-sdk-java-maintainers
     maintainers:
@@ -767,8 +767,9 @@ teams:
       - SimiHunjan
   - name: hiero-sdk-swift-committers
     maintainers:
+      - RickyLB
+    members:
       - izik
-    members: []
   - name: hiero-sdk-swift-maintainers
     maintainers:
       - rwalworth
