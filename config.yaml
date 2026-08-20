@@ -697,9 +697,9 @@ teams:
       - rwalworth
       - tech0priyanshu
   - name: hiero-sdk-java-committers
-    maintainers: []
-    members:
+    maintainers:
       - 0xivanov
+    members:
       - agadzhalov
       - emiliyank
   - name: hiero-sdk-java-maintainers
@@ -756,9 +756,9 @@ teams:
       - prajeeta15
       - tech0priyanshu
   - name: hiero-sdk-rust-committers
-    maintainers: []
-    members:
+    maintainers:
       - agadzhalov
+    members:
       - ivaylonikolov7
   - name: hiero-sdk-rust-maintainers
     maintainers:
@@ -766,9 +766,9 @@ teams:
     members:
       - SimiHunjan
   - name: hiero-sdk-swift-committers
-    maintainers: []
-    members:
+    maintainers:
       - izik
+    members: []
   - name: hiero-sdk-swift-maintainers
     maintainers:
       - rwalworth
