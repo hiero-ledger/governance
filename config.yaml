@@ -19,7 +19,6 @@ teams:
       - ryjones
     members:
       - 0xivanov
-      - acuarica
       - agadzhalov
       - AlexanderShenshin
       - AlfredoG87
@@ -27,14 +26,11 @@ teams:
       - deshmukhpranali
       - dmueller2001
       - Dosik13
-      - drgorb
       - ericleponner
       - exploreriii
       - Ferparishuertas
       - georgi-l95
       - gsstoykov
-      - Harasz
-      - itsbrandondev
       - ivaylonikolov7
       - jasperpotts
       - jeromy-cannon
@@ -47,7 +43,6 @@ teams:
       - lukelee-sl
       - mgarbs
       - MilanWR
-      - nadineloepfe
       - Nana-EC
       - natanasow
       - Neeharika-Sompalli
@@ -83,14 +78,11 @@ teams:
     maintainers:
       - AlexanderShenshin
     members:
-      - paulo-caldas
       - tajang97
   - name: heka-identity-platform-maintainers
     maintainers:
       - AlexanderShenshin
     members:
-      - Artemkaaas
-      - ashcherbakov
       - Toktar
   - name: hiero-automation
     maintainers:
@@ -211,7 +203,6 @@ teams:
       - kfbr
       - mahmoudian1
       - nirbosl
-      - shezaan-hashgraph
   - name: hiero-consensus-node-execution-codeowners
     maintainers:
       - netopyr
@@ -309,18 +300,13 @@ teams:
       - stoyanov-st
   - name: hiero-consensus-specifications-committers
     maintainers:
-      - itsbrandondev
       - kantorcodes
     members:
-      - chelleswf
       - HGraphPunks
-      - sentx-dev
   - name: hiero-consensus-specifications-maintainers
     maintainers:
-      - itsbrandondev
       - kantorcodes
     members:
-      - chelleswf
       - HGraphPunks
   - name: hiero-contracts-committers
     maintainers:
@@ -354,7 +340,6 @@ teams:
     maintainers:
       - Ferparishuertas
     members:
-      - acuarica
       - gkozyryatskyy
       - konstantinabl
       - lukasz-hashgraph
@@ -385,7 +370,6 @@ teams:
     maintainers:
       - Reccetech
     members:
-      - paulo-caldas
       - tajang97
   - name: hiero-did-sdk-js-committers
     maintainers:
@@ -397,34 +381,25 @@ teams:
       - AlexanderShenshin
       - Reccetech
     members:
-      - Artemkaaas
-      - ashcherbakov
       - dmueller2001
-      - drgorb
       - Toktar
   - name: hiero-did-sdk-maintainers
     maintainers:
       - AlexanderShenshin
       - Reccetech
     members:
-      - Artemkaaas
-      - ashcherbakov
       - dmueller2001
-      - drgorb
       - Toktar 
   - name: hiero-did-sdk-python-committers
     maintainers:
       - Reccetech
     members:
-      - paulo-caldas
       - tajang97
   - name: hiero-did-sdk-python-maintainers
     maintainers:
       - Reccetech
     members:
       - AlexanderShenshin
-      - Artemkaaas
-      - ashcherbakov
       - dmueller2001
       - Toktar
   - name: hiero-docs-committers
@@ -476,7 +451,6 @@ teams:
     maintainers:
       - Ferparishuertas
     members:
-      - acuarica
       - gkozyryatskyy
       - konstantinabl
       - lukasz-hashgraph
@@ -513,7 +487,6 @@ teams:
       - edward-swirldslabs
       - EvelynLWong
       - georgi-l95
-      - itsbrandondev
       - IvanKavaldzhiev
       - Ivo-Yankov
       - jnels124
@@ -547,7 +520,6 @@ teams:
       - Ferparishuertas
       - Nana-EC
     members:
-      - acuarica
       - AlfredoG87
       - georgi-l95
       - Ivo-Yankov
@@ -572,7 +544,6 @@ teams:
       - Ferparishuertas
       - Nana-EC
     members:
-      - acuarica
       - konstantinabl
       - natanasow
       - quiet-node
@@ -701,14 +672,12 @@ teams:
       - agadzhalov
     members:
       - 0xivanov
-      - emiliyank
   - name: hiero-sdk-java-maintainers
     maintainers:
       - SimiHunjan
     members:
       - 0xivanov
       - agadzhalov
-      - emiliyank
       - mustafauzunn
   - name: hiero-sdk-js-committers
     maintainers:
@@ -830,7 +799,6 @@ teams:
     members:
       - aceppaluni
       - akdev
-      - atul-hedera
       - dalvizu
       - Ferparishuertas
       - Jeffrey-morgan34
@@ -860,7 +828,6 @@ teams:
       - hendrikebbers
     members:
       - Abhijeet2409
-      - Shivam-Batham
   - name: homebrew-tools-committers
     maintainers:
       - andrewb1269
@@ -890,9 +857,6 @@ teams:
       - Reccetech
     members:
       - AlexanderShenshin
-      - Artemkaaas
-      - ashcherbakov
-      - Harasz
       - Toktar
   - name: lf-staff
     maintainers:
@@ -958,7 +922,6 @@ teams:
       - exploreriii
       - gsstoykov
       - ivaylonikolov7
-      - nadineloepfe
       - venilinvasilev
     members:
       - 0xivanov
@@ -973,13 +936,7 @@ teams:
     maintainers:
       - nathanklick
     members:
-      - afaling0725
       - diogper
-      - dr20240304
-      - mody-hashgraph
-      - NMiller-swirlds
-      - reachtobhavesh
-      - VMN00B
   - name: solo-admins
     maintainers:
       - nathanklick
@@ -1057,7 +1014,6 @@ teams:
       - hendrikebbers
     members:
       - georgi-l95
-      - itsbrandondev
       - kantorcodes
       - lbaird
       - MilanWR
