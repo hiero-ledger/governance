@@ -24,10 +24,7 @@ teams:
       - AlexanderShenshin
       - AlfredoG87
       - artemananiev
-      - bubo
-      - ChangoBuitrago
       - deshmukhpranali
-      - Diegoescalonaro
       - dmueller2001
       - Dosik13
       - drgorb
@@ -44,13 +41,10 @@ teams:
       - jjohannes
       - jsync-swirlds
       - kantorcodes
-      - KononovAndrey
       - konstantinabl
-      - lbaird
       - leninmehedy
       - lpetrovic05
       - lukelee-sl
-      - mattp-swirldslabs
       - mgarbs
       - MilanWR
       - nadineloepfe
@@ -60,16 +54,12 @@ teams:
       - netopyr
       - Neurone
       - OlegMazurov
-      - Perseverance
       - poulok
       - quiet-node
       - RaphaelMessian
       - rbair23
       - Reccetech
-      - RickyLB
       - rwalworth
-      - sergmetelin
-      - Sheng-Long
       - SimiHunjan
       - simzzz
       - steven-sheehy
@@ -89,12 +79,10 @@ teams:
       - kantorcodes
     members:
       - HGraphPunks
-      - rocketmay
   - name: heka-identity-platform-committers
     maintainers:
       - AlexanderShenshin
     members:
-      - KononovAndrey
       - paulo-caldas
       - tajang97
   - name: heka-identity-platform-maintainers
@@ -116,17 +104,14 @@ teams:
       - a-saksena
       - ata-nas
       - berryware
-      - CMiville42
       - georgi-l95
       - ivannov
       - jasperpotts
       - jsync-swirlds
-      - mattp-swirldslabs
       - mustafauzunn
       - rbair23
       - rbarker-dev
       - rockysingh
-      - san-est
   - name: hiero-block-node-internal-contributors
     maintainers:
       - AlfredoG87
@@ -157,7 +142,6 @@ teams:
       - Neurone
     members:
       - devmab
-      - jaycoolh
       - misiek-blocky
       - mmyslblocky
       - piotrswierzy
@@ -173,13 +157,10 @@ teams:
       - akdev
       - akugal
       - AlexKehayov
-      - anastasiya-kovaliova
       - anthony-swirldslabs
       - artemananiev
-      - bubo
       - cliffclick
       - cliffclick
-      - david-bakin-sl
       - derektriley
       - diogper
       - edward-swirldslabs
@@ -188,29 +169,23 @@ teams:
       - ibankov
       - imalygin
       - IvanKavaldzhiev
-      - iwsimon
       - Jeffrey-morgan34
       - JivkoKelchev
       - joshmarinacci
       - jsync-swirlds
-      - litt3
       - lukasz-hashgraph
       - mhess-swl
-      - MiroslavGatsanoga
       - mustafauzunn
       - mxtartaglia-sl
       - Neeharika-Sompalli
       - petreze
-      - povolev15
       - stoqnkpL
       - stoyanov-st
       - thenswan
-      - thomas-swirlds-labs
       - timfn-hg
       - timo0
       - tinker-michaelj
       - viniciusjssouza
-      - vtronkov
   - name: hiero-consensus-node-ci-codeowners
     maintainers:
       - rbarker-dev
@@ -223,7 +198,6 @@ teams:
       - poulok
     members:
       - abies
-      - litt3
       - lpetrovic05
       - mxtartaglia-sl
       - netopyr
@@ -233,35 +207,26 @@ teams:
       - dalvizu
     members:
       - allison-hashgraph
-      - beeradb
-      - cweagans
       - ElijahLynn
       - kfbr
       - mahmoudian1
       - nirbosl
       - shezaan-hashgraph
-      - tannerjfco
   - name: hiero-consensus-node-execution-codeowners
     maintainers:
       - netopyr
     members:
-      - anastasiya-kovaliova
       - derektriley
       - Evdokia-Georgieva
       - ibankov
-      - iwsimon
       - JivkoKelchev
       - joshmarinacci
       - mhess-swl
-      - MiroslavGatsanoga
       - Neeharika-Sompalli
       - petreze
-      - povolev15
-      - thomas-swirlds-labs
       - timfn-hg
       - tinker-michaelj
       - viniciusjssouza
-      - vtronkov
   - name: hiero-consensus-node-foundation-codeowners
     maintainers:
       - artemananiev
@@ -291,7 +256,6 @@ teams:
       - Nana-EC
     members:
       - artemananiev
-      - bubo
       - Ferparishuertas
       - jasperpotts
       - lpetrovic05
@@ -311,11 +275,8 @@ teams:
       - rbarker-dev
     members:
       - derektriley
-      - iwsimon
       - mhess-swl
       - Neeharika-Sompalli
-      - povolev15
-      - thomas-swirlds-labs
       - tinker-michaelj
   - name: hiero-consensus-node-release-managers
     maintainers:
@@ -324,7 +285,6 @@ teams:
     members:
       - a-saksena
       - akdev
-      - AliNik4n
       - dalvizu
       - Ferparishuertas
       - Jeffrey-morgan34
@@ -343,7 +303,6 @@ teams:
       - Ferparishuertas
       - Nana-EC
     members:
-      - bubo
       - gkozyryatskyy
       - lukasz-hashgraph
       - lukelee-sl
@@ -355,9 +314,7 @@ teams:
     members:
       - chelleswf
       - HGraphPunks
-      - rocketmay
       - sentx-dev
-      - teacoat
   - name: hiero-consensus-specifications-maintainers
     maintainers:
       - itsbrandondev
@@ -365,37 +322,25 @@ teams:
     members:
       - chelleswf
       - HGraphPunks
-      - rocketmay
   - name: hiero-contracts-committers
     maintainers:
       - Ferparishuertas
     members:
       - AlfredoG87
-      - anastasiya-kovaliova
       - derektriley
-      - ebadiere
       - Evdokia-Georgieva
       - georgi-l95
       - ibankov
-      - isavov
       - Ivo-Yankov
-      - iwsimon
       - jasuwienas
       - JivkoKelchev
       - joshmarinacci
       - mhess-swl
-      - MiroslavGatsanoga
-      - mwb-al
       - Neeharika-Sompalli
       - netopyr
       - petreze
-      - povolev15
-      - se7enarianelabs
-      - thomas-swirlds-labs
       - timfn-hg
       - tinker-michaelj
-      - victor-yanev
-      - vtronkov
       - BartoszSolkaBD
       - bootcodes
   - name: hiero-contracts-internal-contributors
@@ -410,7 +355,6 @@ teams:
       - Ferparishuertas
     members:
       - acuarica
-      - bubo
       - gkozyryatskyy
       - konstantinabl
       - lukasz-hashgraph
@@ -441,14 +385,12 @@ teams:
     maintainers:
       - Reccetech
     members:
-      - KononovAndrey
       - paulo-caldas
       - tajang97
   - name: hiero-did-sdk-js-committers
     maintainers:
       - Reccetech
     members:
-      - KononovAndrey
       - tajang97
   - name: hiero-did-sdk-js-maintainers
     maintainers:
@@ -457,10 +399,8 @@ teams:
     members:
       - Artemkaaas
       - ashcherbakov
-      - Diegoescalonaro
       - dmueller2001
       - drgorb
-      - KononovAndrey
       - Toktar
   - name: hiero-did-sdk-maintainers
     maintainers:
@@ -469,10 +409,8 @@ teams:
     members:
       - Artemkaaas
       - ashcherbakov
-      - Diegoescalonaro
       - dmueller2001
       - drgorb
-      - KononovAndrey
       - Toktar 
   - name: hiero-did-sdk-python-committers
     maintainers:
@@ -522,14 +460,9 @@ teams:
       - Ferparishuertas
     members:
       - AlfredoG87
-      - ebadiere
       - georgi-l95
-      - isavov
       - Ivo-Yankov
       - jasuwienas
-      - mwb-al
-      - se7enarianelabs
-      - victor-yanev
       - BartoszSolkaBD
       - bootcodes
   - name: hiero-ethereum-execution-spec-tests-internal-contributors
@@ -544,7 +477,6 @@ teams:
       - Ferparishuertas
     members:
       - acuarica
-      - bubo
       - gkozyryatskyy
       - konstantinabl
       - lukasz-hashgraph
@@ -558,8 +490,7 @@ teams:
     maintainers:
       - andrewb1269
       - rbarker-dev
-    members:
-      - san-est
+    members: []
   - name: hiero-gradle-conventions-maintainers
     maintainers:
       - andrewb1269
@@ -576,92 +507,40 @@ teams:
     maintainers:
       - mgarbs
       - RaphaelMessian
-      - sergmetelin
     members:
-      - AliNik4n
       - andrewb1269
-      - anighanta
-      - anvabr
-      - Ashe-Oro
-      - bguiz
-      - bugbytesinc
-      - cacampbell
-      - chung-chao
-      - cijujohn
-      - Cooper-Kunz
-      - Daniel-K-Ivanov
-      - danielnorkin
-      - david-bakin-sl
       - derektriley
-      - dimitar-dinev
-      - donaldthibeau
       - edward-swirldslabs
       - EvelynLWong
-      - failfmi
-      - fessmm
       - georgi-l95
-      - gerbert-vandenberghe
-      - gregscullard
-      - H-Bart
       - itsbrandondev
       - IvanKavaldzhiev
       - Ivo-Yankov
-      - iwsimon
-      - janaakhterov
-      - jascks
-      - jayv80
       - jnels124
       - jsync-swirlds
-      - justin-atwell
-      - justynspooner
       - kantorcodes
-      - kenthejr
-      - lbaird
-      - littletarzan
-      - lucashenning
       - lukelee-sl
       - Mark-Swirlds
-      - mehcode
-      - MiroslavGatsanoga
       - mustafauzunn
       - Nana-EC
       - Neeharika-Sompalli
       - netopyr
       - Neurone
-      - nickpoorman
-      - paulatcalaxy
       - petreze
-      - publu
-      - qnswirlds
-      - raykhoaza
       - rbair23
       - rbarker-dev
-      - RECDeFi
-      - rocketmay
-      - sam-at-luther
-      - scalemaildev
-      - se7enarianelabs
       - SimiHunjan
-      - soharang
-      - som-web23
-      - statop
       - steven-sheehy
       - stoqnkpL
       - stoyanov-st
-      - sumanair
-      - superboo
       - swirlds-automation
-      - tannerjfco
-      - tim-mchale
       - tinker-michaelj
-      - tmctl
       - ty-swirldslabs
   - name: hiero-improvement-proposals-maintainers
     maintainers:
       - mgarbs
       - RaphaelMessian
       - Reccetech
-      - sergmetelin
     members: []
   - name: hiero-json-rpc-relay-committers
     maintainers:
@@ -670,19 +549,14 @@ teams:
     members:
       - acuarica
       - AlfredoG87
-      - ebadiere
       - georgi-l95
-      - isavov
       - Ivo-Yankov
       - jasuwienas
       - konstantinabl
       - lukelee-sl
-      - mwb-al
       - natanasow
       - quiet-node
-      - se7enarianelabs
       - simzzz
-      - victor-yanev
       - BartoszSolkaBD
       - bootcodes
   - name: hiero-json-rpc-relay-internal-contributors
@@ -713,12 +587,10 @@ teams:
       - Nana-EC
       - natanasow
     members:
-      - beeradb
       - Ivo-Yankov
       - konstantinabl
       - nathanklick
       - Neeharika-Sompalli
-      - victor-yanev
   - name: hiero-local-node-maintainers
     maintainers:
       - Ivo-Yankov
@@ -737,12 +609,9 @@ teams:
     members:
       - ashumahajan
       - bilyana-gospodinova
-      - filev94
       - IvanKavaldzhiev
       - jnels124
-      - kselveliev
       - martingeorgiev1
-      - nickeynikolovv
       - nirbosl
       - sdimitrov9
   - name: hiero-mirror-node-explorer-committers
@@ -777,18 +646,12 @@ teams:
       - netopyr
       - tinker-michaelj
     members:
-      - anastasiya-kovaliova
       - derektriley
       - Evdokia-Georgieva
       - ibankov
-      - iwsimon
       - JivkoKelchev
       - mhess-swl
-      - MiroslavGatsanoga
       - petreze
-      - povolev15
-      - thomas-swirlds-labs
-      - vtronkov
   - name: hiero-protobufs-maintainers
     maintainers:
       - netopyr
@@ -834,8 +697,7 @@ teams:
       - rwalworth
       - tech0priyanshu
   - name: hiero-sdk-java-committers
-    maintainers:
-      - naydenovn
+    maintainers: []
     members:
       - 0xivanov
       - agadzhalov
@@ -894,21 +756,17 @@ teams:
       - prajeeta15
       - tech0priyanshu
   - name: hiero-sdk-rust-committers
-    maintainers:
-      - RickyLB
+    maintainers: []
     members:
       - agadzhalov
       - ivaylonikolov7
   - name: hiero-sdk-rust-maintainers
     maintainers:
       - gsstoykov
-      - RickyLB
-      - Sheng-Long
     members:
       - SimiHunjan
   - name: hiero-sdk-swift-committers
-    maintainers:
-      - RickyLB
+    maintainers: []
     members:
       - izik
   - name: hiero-sdk-swift-maintainers
@@ -929,7 +787,6 @@ teams:
       - ivaylonikolov7
       - mariodimitrovv
       - mustafauzunn
-      - RickyLB
   - name: hiero-sdk-tck-maintainers
     maintainers:
       - rwalworth
@@ -973,7 +830,6 @@ teams:
       - aceppaluni
       - akdev
       - atul-hedera
-      - cweagans
       - dalvizu
       - Ferparishuertas
       - Jeffrey-morgan34
@@ -1026,7 +882,6 @@ teams:
       - AlexanderShenshin
       - Reccetech
     members:
-      - ChangoBuitrago
       - tajang97
   - name: identity-collaboration-hub-maintainers
     maintainers:
@@ -1036,7 +891,6 @@ teams:
       - AlexanderShenshin
       - Artemkaaas
       - ashcherbakov
-      - ChangoBuitrago
       - Harasz
       - Toktar
   - name: lf-staff
@@ -1080,7 +934,6 @@ teams:
       - berryware
       - boris-bonin
       - brunodam
-      - cweagans
       - djsplice
       - imalygin
       - Ivo-Yankov
@@ -1105,8 +958,6 @@ teams:
       - gsstoykov
       - ivaylonikolov7
       - nadineloepfe
-      - naydenovn
-      - RickyLB
       - venilinvasilev
     members:
       - 0xivanov
@@ -1122,7 +973,6 @@ teams:
       - nathanklick
     members:
       - afaling0725
-      - CMiville42
       - diogper
       - dr20240304
       - mody-hashgraph
@@ -1149,7 +999,6 @@ teams:
       - Fantomasa
       - Ivo-Yankov
       - JeffreyDallas
-      - matteriben
       - olsentorfinn
   - name: solo-docs-admins
     maintainers:
@@ -1209,9 +1058,7 @@ teams:
       - georgi-l95
       - itsbrandondev
       - kantorcodes
-      - lbaird
       - MilanWR
-      - popowycz
       - rbair23
       - stoqnkpL
   - name: tsc-eligibility-check-admins
