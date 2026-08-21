@@ -94,15 +94,11 @@ teams:
     maintainers:
       - AlexanderShenshin
     members:
-      - KononovAndrey
-      - paulo-caldas
       - tajang97
   - name: heka-identity-platform-maintainers
     maintainers:
       - AlexanderShenshin
     members:
-      - Artemkaaas
-      - ashcherbakov
       - Toktar
   - name: hiero-automation
     maintainers:
