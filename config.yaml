@@ -1027,8 +1027,8 @@ teams:
     members:
   - name: identity-collaboration-hub-maintainers
     maintainers:
-    members:
       - AlexanderShenshin
+    members:
       - Toktar
   - name: lf-staff
     maintainers:
