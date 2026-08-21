@@ -1024,20 +1024,11 @@ teams:
   - name: identity-collaboration-hub-committers
     maintainers:
       - AlexanderShenshin
-      - Reccetech
     members:
-      - ChangoBuitrago
-      - tajang97
   - name: identity-collaboration-hub-maintainers
     maintainers:
-      - dmueller2001
-      - Reccetech
     members:
       - AlexanderShenshin
-      - Artemkaaas
-      - ashcherbakov
-      - ChangoBuitrago
-      - Harasz
       - Toktar
   - name: lf-staff
     maintainers:
