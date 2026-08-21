@@ -223,7 +223,6 @@ teams:
       - poulok
     members:
       - abies
-      - litt3
       - lpetrovic05
       - mxtartaglia-sl
       - netopyr
@@ -233,35 +232,24 @@ teams:
       - dalvizu
     members:
       - allison-hashgraph
-      - beeradb
-      - cweagans
       - ElijahLynn
       - kfbr
       - mahmoudian1
-      - nirbosl
-      - shezaan-hashgraph
-      - tannerjfco
   - name: hiero-consensus-node-execution-codeowners
     maintainers:
       - netopyr
     members:
-      - anastasiya-kovaliova
       - derektriley
       - Evdokia-Georgieva
       - ibankov
-      - iwsimon
       - JivkoKelchev
       - joshmarinacci
       - mhess-swl
-      - MiroslavGatsanoga
       - Neeharika-Sompalli
       - petreze
-      - povolev15
-      - thomas-swirlds-labs
       - timfn-hg
       - tinker-michaelj
       - viniciusjssouza
-      - vtronkov
   - name: hiero-consensus-node-foundation-codeowners
     maintainers:
       - artemananiev
@@ -270,7 +258,6 @@ teams:
       - anthony-swirldslabs
       - imalygin
       - OlegMazurov
-      - rsinha
       - thenswan
   - name: hiero-consensus-node-internal-contributors
     maintainers:
@@ -279,7 +266,6 @@ teams:
       - poulok
     members:
       - 0x-ds
-      - a-saksena
       - aderevets
       - akugal
       - AlexKehayov
@@ -311,39 +297,30 @@ teams:
       - rbarker-dev
     members:
       - derektriley
-      - iwsimon
       - mhess-swl
       - Neeharika-Sompalli
-      - povolev15
-      - thomas-swirlds-labs
       - tinker-michaelj
   - name: hiero-consensus-node-release-managers
     maintainers:
       - nathanklick
       - rbarker-dev
     members:
-      - a-saksena
       - akdev
-      - AliNik4n
       - dalvizu
       - Ferparishuertas
       - Jeffrey-morgan34
       - Mark-Swirlds
       - Nana-EC
       - netopyr
-      - olsentorfinn
       - poulok
       - rbair23
-      - Reccetech
       - SimiHunjan
       - steven-sheehy
-      - ty-swirldslabs
   - name: hiero-consensus-node-smart-contract-codeowners
     maintainers:
       - Ferparishuertas
       - Nana-EC
     members:
-      - bubo
       - gkozyryatskyy
       - lukasz-hashgraph
       - lukelee-sl
