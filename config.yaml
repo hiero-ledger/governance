@@ -439,10 +439,7 @@ teams:
       - pratyay85
   - name: hiero-did-sdk-committers
     maintainers:
-      - Reccetech
     members:
-      - KononovAndrey
-      - paulo-caldas
       - tajang97
   - name: hiero-did-sdk-js-committers
     maintainers:
@@ -465,14 +462,7 @@ teams:
   - name: hiero-did-sdk-maintainers
     maintainers:
       - AlexanderShenshin
-      - Reccetech
     members:
-      - Artemkaaas
-      - ashcherbakov
-      - Diegoescalonaro
-      - dmueller2001
-      - drgorb
-      - KononovAndrey
       - Toktar 
   - name: hiero-did-sdk-python-committers
     maintainers:
