@@ -709,23 +709,18 @@ teams:
     members: []
   - name: hiero-local-node-committers
     maintainers:
-      - georgi-l95
       - Nana-EC
       - natanasow
     members:
-      - beeradb
       - Ivo-Yankov
       - konstantinabl
       - nathanklick
-      - Neeharika-Sompalli
-      - victor-yanev
   - name: hiero-local-node-maintainers
     maintainers:
       - Ivo-Yankov
       - Nana-EC
       - natanasow
     members:
-      - georgi-l95
   - name: hiero-mirror-node-automation
     maintainers:
       - hedera-github-bot
