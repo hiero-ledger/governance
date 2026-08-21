@@ -439,6 +439,7 @@ teams:
       - pratyay85
   - name: hiero-did-sdk-committers
     maintainers:
+      - AlexanderShenshin
     members:
       - tajang97
   - name: hiero-did-sdk-js-committers
