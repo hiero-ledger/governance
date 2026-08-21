@@ -938,11 +938,22 @@ teams:
       - SimiHunjan
     members:
       - ddeskov-limechain
+
+# DO NOT MODIFY GROUP BELOW
   - name: security-maintainers
     maintainers:
       - nathanklick
     members:
+      - afaling0725
+      - CMiville42
       - diogper
+      - dr20240304
+      - mody-hashgraph
+      - NMiller-swirlds
+      - reachtobhavesh
+      - VMN00B
+# DO NOT MODIFY GROUP ABOVE
+
   - name: solo-admins
     maintainers:
       - nathanklick
