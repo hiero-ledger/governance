@@ -116,17 +116,11 @@ teams:
       - a-saksena
       - ata-nas
       - berryware
-      - CMiville42
-      - georgi-l95
       - ivannov
       - jasperpotts
       - jsync-swirlds
-      - mattp-swirldslabs
-      - mustafauzunn
-      - rbair23
       - rbarker-dev
       - rockysingh
-      - san-est
   - name: hiero-block-node-internal-contributors
     maintainers:
       - AlfredoG87
@@ -134,7 +128,6 @@ teams:
       - jsync-swirlds
       - Nana-EC
     members:
-      - SimiHunjan
   - name: hiero-block-node-maintainers
     maintainers:
       - Nana-EC
