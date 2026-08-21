@@ -353,19 +353,14 @@ teams:
       - itsbrandondev
       - kantorcodes
     members:
-      - chelleswf
       - HGraphPunks
-      - rocketmay
-      - sentx-dev
       - teacoat
   - name: hiero-consensus-specifications-maintainers
     maintainers:
       - itsbrandondev
       - kantorcodes
     members:
-      - chelleswf
       - HGraphPunks
-      - rocketmay
   - name: hiero-contracts-committers
     maintainers:
       - Ferparishuertas
