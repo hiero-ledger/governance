@@ -666,39 +666,25 @@ teams:
   - name: hiero-json-rpc-relay-committers
     maintainers:
       - Ferparishuertas
-      - Nana-EC
     members:
-      - acuarica
-      - AlfredoG87
-      - ebadiere
-      - georgi-l95
-      - isavov
       - Ivo-Yankov
       - jasuwienas
       - konstantinabl
-      - lukelee-sl
-      - mwb-al
       - natanasow
       - quiet-node
-      - se7enarianelabs
       - simzzz
-      - victor-yanev
       - BartoszSolkaBD
       - bootcodes
   - name: hiero-json-rpc-relay-internal-contributors
     maintainers:
       - Ferparishuertas
-      - Nana-EC
     members:
       - tgntr
       - ValentinVPK
-      - SimiHunjan
   - name: hiero-json-rpc-relay-maintainers
     maintainers:
       - Ferparishuertas
-      - Nana-EC
     members:
-      - acuarica
       - konstantinabl
       - natanasow
       - quiet-node
