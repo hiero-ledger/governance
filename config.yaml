@@ -850,7 +850,6 @@ teams:
       - mustafauzunn
   - name: hiero-sdk-js-committers
     maintainers:
-      - SimiHunjan
     members:
       - 0xivanov
       - agadzhalov
@@ -861,7 +860,6 @@ teams:
       - venilinvasilev
   - name: hiero-sdk-js-maintainers
     maintainers:
-      - SimiHunjan
     members:
       - agadzhalov
       - ivaylonikolov7
