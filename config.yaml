@@ -448,19 +448,12 @@ teams:
     maintainers:
       - Reccetech
     members:
-      - KononovAndrey
       - tajang97
   - name: hiero-did-sdk-js-maintainers
     maintainers:
       - AlexanderShenshin
       - Reccetech
     members:
-      - Artemkaaas
-      - ashcherbakov
-      - Diegoescalonaro
-      - dmueller2001
-      - drgorb
-      - KononovAndrey
       - Toktar
   - name: hiero-did-sdk-maintainers
     maintainers:
