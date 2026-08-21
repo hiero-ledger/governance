@@ -928,13 +928,10 @@ teams:
       - gsstoykov
       - ivaylonikolov7
       - mariodimitrovv
-      - mustafauzunn
-      - RickyLB
   - name: hiero-sdk-tck-maintainers
     maintainers:
       - rwalworth
     members:
-      - SimiHunjan
   - name: hiero-sdk-triage
     maintainers:
       - hendrikebbers
