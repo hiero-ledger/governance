@@ -477,17 +477,12 @@ teams:
   - name: hiero-did-sdk-python-committers
     maintainers:
       - Reccetech
-    members:
-      - paulo-caldas
-      - tajang97
+    members: []
   - name: hiero-did-sdk-python-maintainers
     maintainers:
       - Reccetech
     members:
       - AlexanderShenshin
-      - Artemkaaas
-      - ashcherbakov
-      - dmueller2001
       - Toktar
   - name: hiero-docs-committers
     maintainers:
