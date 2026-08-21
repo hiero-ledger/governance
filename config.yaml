@@ -1134,12 +1134,10 @@ teams:
       - nathanklick
     members:
       - jeromy-cannon
-      - leninmehedy
   - name: solo-committers
     maintainers:
       - jan-milenkov
       - jeromy-cannon
-      - leninmehedy
       - nathanklick
     members:
       - alex-kuzmin-hg
@@ -1149,20 +1147,17 @@ teams:
       - Fantomasa
       - Ivo-Yankov
       - JeffreyDallas
-      - matteriben
       - olsentorfinn
   - name: solo-docs-admins
     maintainers:
       - nathanklick
     members:
       - jeromy-cannon
-      - leninmehedy
   - name: solo-docs-committers
     maintainers:
       - deshmukhpranali
       - jeromy-cannon
       - nathanklick
-      - olsentorfinn
       - Reccetech
     members:
       - boris-bonin
@@ -1175,7 +1170,6 @@ teams:
       - jan-milenkov
       - jeromy-cannon
       - nathanklick
-      - olsentorfinn
       - Reccetech
       - JeffreyDallas
       - SimiHunjan
@@ -1184,7 +1178,6 @@ teams:
     maintainers:
       - jan-milenkov
       - jeromy-cannon
-      - leninmehedy
       - nathanklick
     members:
       - alex-kuzmin-hg
@@ -1201,7 +1194,6 @@ teams:
     members:
       - jan-milenkov
       - jeromy-cannon
-      - leninmehedy
   - name: tsc
     maintainers:
       - hendrikebbers
