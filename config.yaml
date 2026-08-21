@@ -424,12 +424,7 @@ teams:
     maintainers:
       - anthony-swirldslabs
       - rsinha
-    members:
-      - akugal
-      - imalygin
-      - mxtartaglia-sl
-      - thenswan
-      - timo0
+    members: []
   - name: hiero-cryptography-maintainers
     maintainers:
       - anthony-swirldslabs
