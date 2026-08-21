@@ -1104,9 +1104,6 @@ teams:
       - exploreriii
       - gsstoykov
       - ivaylonikolov7
-      - nadineloepfe
-      - naydenovn
-      - RickyLB
       - venilinvasilev
     members:
       - 0xivanov
@@ -1114,7 +1111,6 @@ teams:
     maintainers:
       - hendrikebbers
       - rwalworth
-      - SimiHunjan
     members:
       - ddeskov-limechain
   - name: security-maintainers
