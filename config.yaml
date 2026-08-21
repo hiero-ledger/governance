@@ -569,9 +569,7 @@ teams:
       - nathanklick
   - name: hiero-hederium-maintainers
     maintainers:
-      - georgi-l95
     members:
-      - Dosik13
   - name: hiero-improvement-proposals-committers
     maintainers:
       - mgarbs
