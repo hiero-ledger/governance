@@ -799,7 +799,6 @@ teams:
     maintainers:
       - rwalworth
     members:
-      - agadzhalov
       - gsstoykov
   - name: hiero-sdk-cpp-maintainers
     maintainers:
