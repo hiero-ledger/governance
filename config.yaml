@@ -576,28 +576,36 @@ teams:
     maintainers:
       - mgarbs
       - RaphaelMessian
+      - sergmetelin
     members:
       - andrewb1269
       - anighanta
       - chung-chao
-      - Cooper-Kunz
       - derektriley
       - dimitar-dinev
       - donaldthibeau
       - edward-swirldslabs
       - EvelynLWong
       - gerbert-vandenberghe
+      - gregscullard
+      - georgi-l95
       - H-Bart
+      - itsbrandondev
       - IvanKavaldzhiev
       - janaakhterov
       - jayv80
       - jsync-swirlds
-      - justin-atwell
+      - justynspooner
+      - kantorcodes
+      - kenthejr
+      - lbaird
+      - littletarzan
       - lucashenning
       - Mark-Swirlds
       - mehcode
       - Nana-EC
       - Neeharika-Sompalli
+      - netopyr
       - Neurone
       - paulatcalaxy
       - publu
@@ -605,14 +613,16 @@ teams:
       - raykhoaza
       - rbair23
       - rbarker-dev
-      - RECDeFi
+      - rocketmay
       - scalemaildev
+      - SimiHunjan
       - som-web23
       - steven-sheehy
       - stoqnkpL
       - stoyanov-st
       - superboo
       - swirlds-automation
+      - tinker-michaelj
       - ty-swirldslabs
   - name: hiero-improvement-proposals-maintainers
     maintainers:
