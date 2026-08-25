@@ -558,7 +558,7 @@ teams:
     maintainers:
       - andrewb1269
       - rbarker-dev
-    members:
+    members: []
   - name: hiero-gradle-conventions-maintainers
     maintainers:
       - andrewb1269
