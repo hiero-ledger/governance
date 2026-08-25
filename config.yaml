@@ -370,8 +370,17 @@ teams:
     maintainers:
       - Ferparishuertas
     members:
+      - derektriley
       - georgi-l95
+      - ibankov
       - jasuwienas
+      - JivkoKelchev
+      - joshmarinacci
+      - mhess-swl
+      - Neeharika-Sompalli
+      - petreze
+      - timfn-hg
+      - tinker-michaelj
       - BartoszSolkaBD
       - bootcodes
   - name: hiero-contracts-internal-contributors
