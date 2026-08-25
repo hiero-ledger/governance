@@ -932,6 +932,7 @@ teams:
     maintainers:
       - rwalworth
     members:
+      - SimiHunjan
   - name: hiero-sdk-triage
     maintainers:
       - hendrikebbers
