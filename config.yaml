@@ -683,6 +683,7 @@ teams:
   - name: hiero-json-rpc-relay-maintainers
     maintainers:
       - Ferparishuertas
+      - Nana-EC
     members:
       - konstantinabl
       - natanasow
