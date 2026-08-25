@@ -1137,18 +1137,21 @@ teams:
       - leninmehedy
   - name: solo-build-actions-committers
     maintainers:
-      - boris-bonin
+      - jeromy-cannon
+      - nathanklick
+      - jan-milenkov
     members:
+      - boris-bonin
       - ddeskov-limechain
       - Fantomasa
       - Ivo-Yankov
       - JeffreyDallas
   - name: solo-build-actions-maintainers
     maintainers:
-      - jan-milenkov
-    members:
       - jeromy-cannon
       - nathanklick
+    members:
+      - jan-milenkov
   - name: solo-committers
     maintainers:
       - jan-milenkov
