@@ -315,7 +315,6 @@ teams:
     members:
       - gkozyryatskyy
       - lukasz-hashgraph
-      - lukelee-sl
       - stoyanov-st
   - name: hiero-consensus-specifications-committers
     maintainers:
