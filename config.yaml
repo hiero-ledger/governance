@@ -721,7 +721,7 @@ teams:
       - Ivo-Yankov
       - Nana-EC
       - natanasow
-    members:
+    members: []
   - name: hiero-mirror-node-automation
     maintainers:
       - hedera-github-bot
