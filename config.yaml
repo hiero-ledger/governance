@@ -1135,6 +1135,23 @@ teams:
     members:
       - jeromy-cannon
       - leninmehedy
+  - name: solo-build-actions-committers
+    maintainers:
+      - jeromy-cannon
+      - nathanklick
+      - jan-milenkov
+    members:
+      - boris-bonin
+      - ddeskov-limechain
+      - Fantomasa
+      - Ivo-Yankov
+      - JeffreyDallas
+  - name: solo-build-actions-maintainers
+    maintainers:
+      - jeromy-cannon
+      - nathanklick
+    members:
+      - jan-milenkov
   - name: solo-committers
     maintainers:
       - jan-milenkov
@@ -1602,6 +1619,18 @@ repositories:
       solo-committers: write
       solo-internal-contributors: triage
       solo-maintainers: maintain
+      tsc: maintain
+    visibility: public
+  - name: solo-build-actions
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-triage: triage
+      security-maintainers: triage
+      solo-admins: admin
+      solo-build-actions-committers: write
+      solo-internal-contributors: triage
+      solo-build-actions-maintainers: maintain
       tsc: maintain
     visibility: public
   - name: solo-docs
