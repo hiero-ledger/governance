@@ -307,6 +307,7 @@ teams:
       - Reccetech
       - SimiHunjan
       - steven-sheehy
+      - ty-swirldslabs
   - name: hiero-consensus-node-smart-contract-codeowners
     maintainers:
       - Ferparishuertas
