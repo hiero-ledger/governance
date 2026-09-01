@@ -248,6 +248,7 @@ teams:
       - anthony-swirldslabs
       - imalygin
       - OlegMazurov
+      - rsinha
       - thenswan
   - name: hiero-consensus-node-internal-contributors
     maintainers:
