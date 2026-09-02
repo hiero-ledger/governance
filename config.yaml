@@ -1052,16 +1052,11 @@ teams:
       - a-saksena
       - steven-sheehy
     members:
-      - kfbr
-      - mahmoudian1
-      - poulok
-      - theekrystallee
   - name: roadmap-maintainers
     maintainers:
       - steven-sheehy
     members:
       - a-saksena
-      - rbair23
   - name: roadmap-viewers
     maintainers:
       - a-saksena
