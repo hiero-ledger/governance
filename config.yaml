@@ -218,6 +218,7 @@ teams:
       - andrewb1269
     members:
       - joshmarinacci
+      - imalygin
   - name: hiero-consensus-node-consensus-codeowners
     maintainers:
       - poulok
