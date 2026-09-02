@@ -173,13 +173,10 @@ teams:
       - akdev
       - akugal
       - AlexKehayov
-      - anastasiya-kovaliova
       - anthony-swirldslabs
       - artemananiev
-      - bubo
       - cliffclick
       - cliffclick
-      - david-bakin-sl
       - derektriley
       - diogper
       - edward-swirldslabs
@@ -187,30 +184,22 @@ teams:
       - gkozyryatskyy
       - ibankov
       - imalygin
-      - IvanKavaldzhiev
-      - iwsimon
       - Jeffrey-morgan34
       - JivkoKelchev
       - joshmarinacci
       - jsync-swirlds
-      - litt3
       - lukasz-hashgraph
       - mhess-swl
-      - MiroslavGatsanoga
-      - mustafauzunn
       - mxtartaglia-sl
       - Neeharika-Sompalli
       - petreze
-      - povolev15
       - stoqnkpL
       - stoyanov-st
       - thenswan
-      - thomas-swirlds-labs
       - timfn-hg
       - timo0
       - tinker-michaelj
       - viniciusjssouza
-      - vtronkov
   - name: hiero-consensus-node-ci-codeowners
     maintainers:
       - rbarker-dev
@@ -224,7 +213,6 @@ teams:
       - poulok
     members:
       - abies
-      - litt3
       - lpetrovic05
       - mxtartaglia-sl
       - netopyr
@@ -234,35 +222,25 @@ teams:
       - dalvizu
     members:
       - allison-hashgraph
-      - beeradb
       - cweagans
       - ElijahLynn
       - kfbr
       - mahmoudian1
-      - nirbosl
-      - shezaan-hashgraph
-      - tannerjfco
   - name: hiero-consensus-node-execution-codeowners
     maintainers:
       - netopyr
     members:
-      - anastasiya-kovaliova
       - derektriley
       - Evdokia-Georgieva
       - ibankov
-      - iwsimon
       - JivkoKelchev
       - joshmarinacci
       - mhess-swl
-      - MiroslavGatsanoga
       - Neeharika-Sompalli
       - petreze
-      - povolev15
-      - thomas-swirlds-labs
       - timfn-hg
       - tinker-michaelj
       - viniciusjssouza
-      - vtronkov
   - name: hiero-consensus-node-foundation-codeowners
     maintainers:
       - artemananiev
@@ -292,7 +270,6 @@ teams:
       - Nana-EC
     members:
       - artemananiev
-      - bubo
       - Ferparishuertas
       - jasperpotts
       - lpetrovic05
@@ -312,11 +289,8 @@ teams:
       - rbarker-dev
     members:
       - derektriley
-      - iwsimon
       - mhess-swl
       - Neeharika-Sompalli
-      - povolev15
-      - thomas-swirlds-labs
       - tinker-michaelj
   - name: hiero-consensus-node-release-managers
     maintainers:
@@ -325,14 +299,12 @@ teams:
     members:
       - a-saksena
       - akdev
-      - AliNik4n
       - dalvizu
       - Ferparishuertas
       - Jeffrey-morgan34
       - Mark-Swirlds
       - Nana-EC
       - netopyr
-      - olsentorfinn
       - poulok
       - rbair23
       - Reccetech
@@ -344,10 +316,8 @@ teams:
       - Ferparishuertas
       - Nana-EC
     members:
-      - bubo
       - gkozyryatskyy
       - lukasz-hashgraph
-      - lukelee-sl
       - stoyanov-st
   - name: hiero-consensus-specifications-committers
     maintainers:
