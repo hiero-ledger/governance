@@ -117,16 +117,12 @@ teams:
       - ata-nas
       - berryware
       - CMiville42
-      - georgi-l95
       - ivannov
       - jasperpotts
       - jsync-swirlds
-      - mattp-swirldslabs
-      - mustafauzunn
       - rbair23
       - rbarker-dev
       - rockysingh
-      - san-est
   - name: hiero-block-node-internal-contributors
     maintainers:
       - AlfredoG87
