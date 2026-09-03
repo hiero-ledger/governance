@@ -399,8 +399,6 @@ teams:
     maintainers:
       - Ferparishuertas
     members:
-      - tgntr
-      - ValentinVPK
       - SimiHunjan
   - name: hiero-contracts-maintainers
     maintainers:
@@ -415,6 +413,8 @@ teams:
       - Nana-EC
       - natanasow
       - quiet-node
+      - tgntr
+      - ValentinVPK
       - simzzz
       - stoyanov-st
   - name: hiero-cryptography-committers
@@ -533,8 +533,6 @@ teams:
     maintainers:
       - Ferparishuertas
     members:
-      - tgntr
-      - ValentinVPK
 
   - name: hiero-ethereum-execution-spec-tests-maintainers
     maintainers:
@@ -551,6 +549,8 @@ teams:
       - quiet-node
       - simzzz
       - stoyanov-st
+      - tgntr
+      - ValentinVPK
   - name: hiero-gradle-conventions-committers
     maintainers:
       - andrewb1269
@@ -686,8 +686,6 @@ teams:
       - Ferparishuertas
       - Nana-EC
     members:
-      - tgntr
-      - ValentinVPK
       - SimiHunjan
   - name: hiero-json-rpc-relay-maintainers
     maintainers:
@@ -699,6 +697,8 @@ teams:
       - natanasow
       - quiet-node
       - simzzz
+      - tgntr
+      - ValentinVPK
   - name: hiero-local-node-automation
     maintainers:
       - hedera-local-node-bot
