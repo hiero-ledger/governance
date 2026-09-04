@@ -888,15 +888,12 @@ teams:
       - tech0priyanshu
   - name: hiero-sdk-rust-committers
     maintainers:
-      - RickyLB
+      - gsstoykov
     members:
-      - agadzhalov
       - ivaylonikolov7
   - name: hiero-sdk-rust-maintainers
     maintainers:
       - gsstoykov
-      - RickyLB
-      - Sheng-Long
     members:
       - SimiHunjan
   - name: hiero-sdk-swift-committers
