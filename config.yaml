@@ -901,7 +901,7 @@ teams:
       - SimiHunjan
   - name: hiero-sdk-swift-committers
     maintainers:
-      - RickyLB
+      - rwalworth
     members:
       - izik
   - name: hiero-sdk-swift-maintainers
