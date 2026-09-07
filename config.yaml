@@ -700,8 +700,6 @@ teams:
       - natanasow
       - quiet-node
       - simzzz
-      - tgntr
-      - ValentinVPK
   - name: hiero-local-node-automation
     maintainers:
       - hedera-local-node-bot
