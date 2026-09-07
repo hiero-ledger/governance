@@ -395,6 +395,9 @@ teams:
       - vtronkov
       - BartoszSolkaBD
       - bootcodes
+      - tgntr
+      - ValentinVPK
+      
   - name: hiero-contracts-internal-contributors
     maintainers:
       - Ferparishuertas
@@ -413,8 +416,6 @@ teams:
       - Nana-EC
       - natanasow
       - quiet-node
-      - tgntr
-      - ValentinVPK
       - simzzz
       - stoyanov-st
   - name: hiero-cryptography-committers
@@ -529,6 +530,8 @@ teams:
       - victor-yanev
       - BartoszSolkaBD
       - bootcodes
+      - tgntr
+      - ValentinVPK
   - name: hiero-ethereum-execution-spec-tests-internal-contributors
     maintainers:
       - Ferparishuertas
@@ -549,8 +552,6 @@ teams:
       - quiet-node
       - simzzz
       - stoyanov-st
-      - tgntr
-      - ValentinVPK
   - name: hiero-gradle-conventions-committers
     maintainers:
       - andrewb1269
@@ -681,6 +682,8 @@ teams:
       - victor-yanev
       - BartoszSolkaBD
       - bootcodes
+      - tgntr
+      - ValentinVPK
   - name: hiero-json-rpc-relay-internal-contributors
     maintainers:
       - Ferparishuertas
