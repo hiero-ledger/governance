@@ -230,14 +230,12 @@ teams:
       - dalvizu
     members:
       - allison-hashgraph
-      - beeradb
       - cweagans
       - ElijahLynn
       - kfbr
       - mahmoudian1
       - nirbosl
       - shezaan-hashgraph
-      - tannerjfco
   - name: hiero-consensus-node-execution-codeowners
     maintainers:
       - netopyr
