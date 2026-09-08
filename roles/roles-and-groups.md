@@ -17,7 +17,8 @@ A person can have multiple roles in multiple projects.
 Any person who contributes to a project is a Contributor.
 A contribution can be anything from opening an issue, to writing code, to writing documentation, etc.
 We honor legitimate contributions to the project, and we want to make sure that all contributions are recognized.
-A Contributor can be nominated by a Committer or a Maintainer to become a Junior Committer or Committer based on the project's needs and the quality of their contributions.
+A Contributor can be nominated by a Committer or a Maintainer to become a Junior Committer based on the project's needs and the quality of their contributions.
+The Junior Committer role is a prerequisite for becoming a Committer, so that a Contributor gains experience of triage and review before being granted merge rights.
 The following are some guidelines to help Contributors become active contributors to the project:
 
   - **Start Contributing**: Submit pull requests, report bugs, improve documentation, review code. Show consistency and quality in your contributions.
@@ -44,6 +45,7 @@ Junior Committers are encouraged to continue contributing and growing their invo
 A Contributor can be nominated by any Committer or Maintainer of the project to become a Junior Committer:
 
 - **Eligibility**: A Contributor who has shown regular activity on the project over a period of several weeks (e.g., opening issues, submitting pull requests, participating in discussions or reviews) can be nominated. Given the lightweight nature of this role, the barrier for approval should be kept low.
+  See [Advancement Qualifications](./advancement-qualifications.md#junior-committer) for the contribution categories a nomination should evidence.
 - **Nomination and voting**: The nomination follows the [Creating a PR](#creating-a-pr-to-add-or-remove-a-person-for-a-specific-role) and [Voting](#voting) processes described below.
 
 #### Removing a Junior Committer
@@ -64,11 +66,13 @@ As an example, a Committer can assign people to issues, merge PRs, or create bra
 
 #### Adding a Committer
 
-Any Committer or Maintainer of the given project can nominate a Contributor or Junior Committer to become a Committer based on the project's needs and following these steps:
+A nominee must already hold the Junior Committer role on the project.
+Any Committer or Maintainer of the given project can nominate a Junior Committer to become a Committer based on the project's needs and following these steps:
 
 - **Define your project's needs**: A repository should have a minimum of Committers to ensure a project's sustainability and resilience.
   The exact number should be determined by the project Maintainers based on the size and pace of the project's development, taking into account the overall activity level and ensuring a fair voting process.
 - **Review eligibility**: Quality contributions and a reasonable time contributing to the project (often 3-6 months) is the general acceptable baseline for eligibility to become a Committer.
+  See [Advancement Qualifications](./advancement-qualifications.md#committer) for the contribution categories a nomination should evidence.
   It is up to the project maintainers to determine the number of contributions required for promotion eligibility.
   This threshold may vary depending on factors such as the project's size and pace of development.
 - **Evaluate your project's performance**: Committers and Maintainers should monitor their project health and velocity and make decisions about whether the project needs more Committers.
@@ -107,6 +111,7 @@ A Committer of a project can be nominated to become a Maintainer:
   It is not necessarily a goal for the committer to become a maintainer unless the project's needs require it to have more maintainers.
 - **Nomination and voting**: The nomination follows the [Creating a PR](#creating-a-pr-to-add-or-remove-a-person-for-a-specific-role) and [Voting](#voting) processes described below.
   The PR should describe the basis reached for nominating the Maintainer.
+  See [Advancement Qualifications](./advancement-qualifications.md#maintainer) for the contribution categories a nomination should evidence.
 
 #### Removing a Maintainer
 
