@@ -1159,6 +1159,23 @@ teams:
       - JeffreyDallas
       - matteriben
       - olsentorfinn
+  - name: solo-containers-committers
+    maintainers:
+      - jan-milenkov
+      - jeromy-cannon
+      - nathanklick
+    members:
+      - boris-bonin
+      - ddeskov-limechain
+      - Fantomasa
+  - name: solo-containers-maintainers
+    maintainers:
+      - jeromy-cannon
+      - nathanklick
+    members:
+      - jan-milenkov
+      - Ivo-Yankov
+      - JeffreyDallas
   - name: solo-docs-admins
     maintainers:
       - nathanklick
@@ -1622,6 +1639,16 @@ repositories:
       solo-build-actions-committers: write
       solo-internal-contributors: triage
       solo-build-actions-maintainers: maintain
+      tsc: maintain
+    visibility: public
+  - name: solo-containers
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-triage: triage
+      security-maintainers: triage
+      solo-containers-committers: write
+      solo-containers-maintainers: maintain
       tsc: maintain
     visibility: public
   - name: solo-docs
