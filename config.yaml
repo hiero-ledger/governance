@@ -1111,15 +1111,15 @@ teams:
   - name: security-maintainers
     maintainers:
       - nathanklick
+      - dr20240304
     members:
       - afaling0725
       - CMiville42
       - diogper
       - dr20240304
-      - mody-hashgraph
-      - NMiller-swirlds
-      - reachtobhavesh
       - VMN00B
+      - sinh3ck
+      - MukeshJaiswal01
   - name: solo-admins
     maintainers:
       - nathanklick
