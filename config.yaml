@@ -1160,6 +1160,7 @@ teams:
       - olsentorfinn
   - name: solo-containers-committers
     maintainers:
+      - jan-milenkov
       - jeromy-cannon
       - nathanklick
     members:
