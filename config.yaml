@@ -365,32 +365,17 @@ teams:
     maintainers:
       - Ferparishuertas
     members:
-      - AlfredoG87
-      - anastasiya-kovaliova
       - derektriley
-      - ebadiere
-      - Evdokia-Georgieva
       - georgi-l95
       - ibankov
-      - isavov
-      - Ivo-Yankov
-      - iwsimon
       - jasuwienas
       - JivkoKelchev
       - joshmarinacci
       - mhess-swl
-      - MiroslavGatsanoga
-      - mwb-al
       - Neeharika-Sompalli
-      - netopyr
       - petreze
-      - povolev15
-      - se7enarianelabs
-      - thomas-swirlds-labs
       - timfn-hg
       - tinker-michaelj
-      - victor-yanev
-      - vtronkov
       - BartoszSolkaBD
       - bootcodes
       - tgntr
@@ -405,12 +390,8 @@ teams:
     maintainers:
       - Ferparishuertas
     members:
-      - acuarica
-      - bubo
       - gkozyryatskyy
-      - konstantinabl
       - lukasz-hashgraph
-      - lukelee-sl
       - Nana-EC
       - natanasow
       - quiet-node
