@@ -8,6 +8,7 @@ teams:
       - brunodam
       - jeromy-cannon
       - leninmehedy
+      - exploreriii
   - name: governance-write
     maintainers:
       - andrewb1269
@@ -116,16 +117,12 @@ teams:
       - ata-nas
       - berryware
       - CMiville42
-      - georgi-l95
       - ivannov
       - jasperpotts
       - jsync-swirlds
-      - mattp-swirldslabs
-      - mustafauzunn
       - rbair23
       - rbarker-dev
       - rockysingh
-      - san-est
   - name: hiero-block-node-internal-contributors
     maintainers:
       - AlfredoG87
@@ -217,6 +214,7 @@ teams:
       - andrewb1269
     members:
       - joshmarinacci
+      - imalygin
   - name: hiero-consensus-node-consensus-codeowners
     maintainers:
       - poulok
@@ -232,14 +230,12 @@ teams:
       - dalvizu
     members:
       - allison-hashgraph
-      - beeradb
       - cweagans
       - ElijahLynn
       - kfbr
       - mahmoudian1
       - nirbosl
       - shezaan-hashgraph
-      - tannerjfco
   - name: hiero-consensus-node-execution-codeowners
     maintainers:
       - netopyr
@@ -397,12 +393,13 @@ teams:
       - vtronkov
       - BartoszSolkaBD
       - bootcodes
+      - tgntr
+      - ValentinVPK
+      
   - name: hiero-contracts-internal-contributors
     maintainers:
       - Ferparishuertas
     members:
-      - tgntr
-      - ValentinVPK
       - SimiHunjan
   - name: hiero-contracts-maintainers
     maintainers:
@@ -531,12 +528,12 @@ teams:
       - victor-yanev
       - BartoszSolkaBD
       - bootcodes
+      - tgntr
+      - ValentinVPK
   - name: hiero-ethereum-execution-spec-tests-internal-contributors
     maintainers:
       - Ferparishuertas
     members:
-      - tgntr
-      - ValentinVPK
 
   - name: hiero-ethereum-execution-spec-tests-maintainers
     maintainers:
@@ -557,8 +554,7 @@ teams:
     maintainers:
       - andrewb1269
       - rbarker-dev
-    members:
-      - san-est
+    members: []
   - name: hiero-gradle-conventions-maintainers
     maintainers:
       - andrewb1269
@@ -684,13 +680,13 @@ teams:
       - victor-yanev
       - BartoszSolkaBD
       - bootcodes
+      - tgntr
+      - ValentinVPK
   - name: hiero-json-rpc-relay-internal-contributors
     maintainers:
       - Ferparishuertas
       - Nana-EC
     members:
-      - tgntr
-      - ValentinVPK
       - SimiHunjan
   - name: hiero-json-rpc-relay-maintainers
     maintainers:
@@ -736,12 +732,9 @@ teams:
     members:
       - ashumahajan
       - bilyana-gospodinova
-      - filev94
       - IvanKavaldzhiev
       - jnels124
-      - kselveliev
       - martingeorgiev1
-      - nickeynikolovv
       - nirbosl
       - sdimitrov9
   - name: hiero-mirror-node-explorer-committers
@@ -870,13 +863,11 @@ teams:
       - exploreriii
       - manishdait
     members:
-      - aceppaluni
       - Adityarya11
       - Akshat8510
       - AntonioCeppellini
       - Dosik13
       - parvninama
-      - danielmarv
       - Mounil2005
   - name: hiero-sdk-python-maintainers
     maintainers:
@@ -884,6 +875,8 @@ teams:
       - manishdait
     members:
       - MonaaEid
+      - aceppaluni
+      - danielmarv
   - name: hiero-sdk-python-triage
     maintainers:
       - exploreriii
@@ -1002,7 +995,6 @@ teams:
       - hendrikebbers
     members:
       - Abhijeet2409
-      - Shivam-Batham
   - name: homebrew-tools-committers
     maintainers:
       - andrewb1269
@@ -1119,21 +1111,37 @@ teams:
   - name: security-maintainers
     maintainers:
       - nathanklick
+      - dr20240304
     members:
       - afaling0725
       - CMiville42
       - diogper
-      - dr20240304
-      - mody-hashgraph
-      - NMiller-swirlds
-      - reachtobhavesh
       - VMN00B
+      - sinh3ck
+      - MukeshJaiswal01
   - name: solo-admins
     maintainers:
       - nathanklick
     members:
       - jeromy-cannon
       - leninmehedy
+  - name: solo-build-actions-committers
+    maintainers:
+      - jeromy-cannon
+      - nathanklick
+      - jan-milenkov
+    members:
+      - boris-bonin
+      - ddeskov-limechain
+      - Fantomasa
+      - Ivo-Yankov
+      - JeffreyDallas
+  - name: solo-build-actions-maintainers
+    maintainers:
+      - jeromy-cannon
+      - nathanklick
+    members:
+      - jan-milenkov
   - name: solo-committers
     maintainers:
       - jan-milenkov
@@ -1601,6 +1609,18 @@ repositories:
       solo-committers: write
       solo-internal-contributors: triage
       solo-maintainers: maintain
+      tsc: maintain
+    visibility: public
+  - name: solo-build-actions
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-triage: triage
+      security-maintainers: triage
+      solo-admins: admin
+      solo-build-actions-committers: write
+      solo-internal-contributors: triage
+      solo-build-actions-maintainers: maintain
       tsc: maintain
     visibility: public
   - name: solo-docs

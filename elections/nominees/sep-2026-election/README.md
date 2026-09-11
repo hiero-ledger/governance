@@ -1,4 +1,3 @@
-
 # Hiero TSC Nominees for September 2026 Election
 
 In September 2026, the Hiero Technical Steering Committee (TSC) will hold an election for:
@@ -6,17 +5,19 @@ In September 2026, the Hiero Technical Steering Committee (TSC) will hold an ele
  - 1 TSC Voted seat
 
 The **nomination** period for candidates will run from **August 25** (start of day UTC) to **September 8**, 2026 (end of day UTC).
-The **election** will be held from **September 8** (start of day UTC) to **September 20**, 2026 (end of day UTC).
-The **announcement** of the new TSC member will take place at the TSC meeting on **September 22**, 2026.
+The **election** (via 2 ballots) will be held from **September 9** (start of day UTC) to **October 2**, 2026 (end of day UTC).
+The **announcement** of the new TSC member will take place at the TSC meeting on **October 6**, 2026.
 
 ![Election timeline](timeline.png)
 
 ## How to Nominate a Candidate
 
+A person can nominate themselves or can nominate someone. 
+
 To nominate a candidate, create a single markdown file titled "[candidate-name].md" with the name of the candidate as
 the file name (with spaces replaced by dashes). See [sample-nomination.md](sample-nomination.md) for a template to follow. 
 
-A nominee must fullfill the following requirements (as defined in the [TSC Charter](https://github.com/hiero-ledger/governance/blob/main/hiero-technical-charter.md)):
+A nominee must fulfill the following requirements (as defined in the [TSC Charter](https://github.com/hiero-ledger/governance/blob/main/hiero-technical-charter.md)):
 
 > - TSC Members are expected to cover deep technical domains including consensus technologies,
 >   technical operations, tokenization, smart contracts, ecosystem applications such as wallets, exchanges, etc. (3.viii. in charter)
@@ -25,19 +26,24 @@ A nominee must fullfill the following requirements (as defined in the [TSC Chart
 >  - Demonstrate an advanced level of professional experience as engineers in the scope of the Project, and
 >  - Operate neutrally in discussions and put the goals and success of the Project in balance with any particular sub-project governed by the TSC.
 
-A PR that contains a new nomination file must be approved by the nominee before it can be merged.
+A PR needs to be created in the governance repo, as a new file under under https://github.com/hiero-ledger/governance/tree/main/elections/nominees/sep-2026-election.
+The PR can be created by the candidate themselves or by someone nominating the candidate which, in that case, it must be approved by the nominee before it can be merged.
 The nominee must review the nomination file and ensure that all information is correct, including the github username.
 Once the nominee has reviewed the file, they should comment on the PR with "I approve this nomination" to indicate their approval.
 
-Any PR that fullfills the requirements before the end of the 9th September 2026 (UTC) will be considered for the election.
+All PRs that matches the requirements before the end of the 8th September 2026 (UTC) will be considered for the election.
+
+For example nominations, look at past nominees under governance/elections/nominees.
 
 ## Who is allowed to vote
 
-Every [maintainer](https://github.com/hiero-ledger/governance/blob/main/roles/roles-and-groups.md#maintainers) of the Hiero project is allowed to vote.
-You can find an overview on all our maintainer groups and the individual maintainers [here](https://github.com/orgs/hiero-ledger/teams?query=maintainer).
+Ballot 1 
+All [maintainers](https://github.com/hiero-ledger/governance/blob/main/roles/roles-and-groups.md#maintainers) of the Hiero project are eligible to vote for 2 candidates in Ballot 1.
+
+Ballot 2
+All [TSC](https://hiero.org/tsc) members are eligible to vote for 1 candidate in Ballot 2. 
 
 ## How can I vote
 
-As mentioned the election is open for voting until **September 21**, 2026 (end of day UTC).
-If you are a maintainer you should have received an invite to the voting as a GitHub notification.
+If you are a maintainer or a TSC member you should have received an invite to the voting as a GitHub notification.
 If you have questions about that tool or the voting process the [video we recorded for a previous election](https://www.youtube.com/watch?v=aF-eLgFQQwg) might be helpfull.
