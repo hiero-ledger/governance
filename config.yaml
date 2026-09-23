@@ -1175,6 +1175,23 @@ teams:
       - jan-milenkov
       - Ivo-Yankov
       - JeffreyDallas
+  - name: solo-containers-committers
+    maintainers:
+      - jan-milenkov
+      - jeromy-cannon
+      - nathanklick
+    members:
+      - boris-bonin
+      - ddeskov-limechain
+      - Fantomasa
+  - name: solo-containers-maintainers
+    maintainers:
+      - jeromy-cannon
+      - nathanklick
+    members:
+      - jan-milenkov
+      - Ivo-Yankov
+      - JeffreyDallas
   - name: solo-docs-admins
     maintainers:
       - nathanklick
