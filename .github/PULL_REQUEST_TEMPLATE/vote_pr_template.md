@@ -9,6 +9,29 @@ This pull request changes the following:
 
 - closes `#<issue_number>`
 
+## Nomination evidence
+
+Per [Advancement Qualifications](../../roles/advancement-qualifications.md), a nomination cites links where possible, so that voters can check the basis for themselves. Remove any category that does not apply to the role
+being nominated for.
+
+**Active since:** `<date>` - `<describe the pattern of activity, not only the total>`
+
+**Authoring:** `<links to merged PRs>`
+
+**Reviewing:** `<links to reviews, noting what each one found>`
+
+**Triage:** `<links to issues triaged>`
+
+**Issue authorship:** `<links to issues opened>`
+
+**Community support:** `<links to Discussions or issue threads where they helped someone; meeting minutes>`
+
+**Judgement / stewardship:** `<links or a short description>`
+
+**Why now:** `<what the project needs and why this person meets it>`
+
+The project's thresholds for this role are published in its `TEAM.md` or `MAINTAINERS.md`.
+
 ## Voting
 
 ### Voting is required
