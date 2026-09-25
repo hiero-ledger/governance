@@ -887,6 +887,8 @@ teams:
       - RickyLB
     members:
       - agadzhalov
+      - ddeskov-limechain
+      - Fantomasa
       - ivaylonikolov7
   - name: hiero-sdk-rust-maintainers
     maintainers:
