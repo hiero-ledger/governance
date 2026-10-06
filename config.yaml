@@ -848,6 +848,11 @@ teams:
       - ivaylonikolov7
       - mariodimitrovv
       - venilinvasilev
+  - name: hiero-sdk-js-junior-committers
+    maintainers:
+      - SimiHunjan
+    members:
+      - Jexsie
   - name: hiero-sdk-js-maintainers
     maintainers:
       - SimiHunjan
@@ -1531,6 +1536,7 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-js-committers: write
+      hiero-sdk-js-junior-committers: triage
       hiero-sdk-js-maintainers: maintain
       hiero-sdk-triage: triage
       hiero-triage: triage
