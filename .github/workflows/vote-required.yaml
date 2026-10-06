@@ -1,0 +1,90 @@
+name: "Vote Required"
+
+# Publishes the "Vote required" commit status on pull requests.
+#
+# * PRs that do not change team membership in config.yaml pass immediately.
+# * PRs that add or remove members/maintainers of an existing team only pass
+#   once GitVote has reported a passed vote on the PR (or a maintainer applied
+#   the "vote-exempt" label). See roles/roles-and-groups.md#voting.
+#
+# pull_request_target is used on purpose: PRs come from forks and the status
+# must be written with a token that has write access. No code from the PR is
+# checked out or executed; only its config.yaml is read as data.
+on:
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - labeled
+      - unlabeled
+  issue_comment:
+    types:
+      - created
+      - edited
+      - deleted
+
+defaults:
+  run:
+    shell: bash
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+  statuses: write
+
+concurrency:
+  group: vote-required-${{ github.event.pull_request.number || github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  vote-required:
+    name: Vote Required
+    # issue_comment also fires for plain issues; only act on pull requests.
+    if: github.event_name == 'pull_request_target' || github.event.issue.pull_request
+    runs-on: hiero-governance-linux-medium
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b # v2.15.0
+        with:
+          egress-policy: audit
+
+      - name: Checkout main (base repository only)
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Setup Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --quiet "pyyaml==6.0.2"
+
+      - name: Extract config.yaml at merge-base and PR head
+        id: configs
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number }}
+        run: |
+          git fetch --quiet origin "refs/pull/${PR_NUMBER}/head:refs/remotes/pr/${PR_NUMBER}"
+          MERGE_BASE="$(git merge-base origin/main "refs/remotes/pr/${PR_NUMBER}")"
+          git show "${MERGE_BASE}:config.yaml" > /tmp/config.base.yaml
+          git show "refs/remotes/pr/${PR_NUMBER}:config.yaml" > /tmp/config.head.yaml
+          echo "merge-base ${MERGE_BASE}"
+
+      - name: Evaluate vote requirement
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          python .github/scripts/vote_required.py \
+            --repo "${GITHUB_REPOSITORY}" \
+            --pr "${PR_NUMBER}" \
+            --base-config /tmp/config.base.yaml \
+            --head-config /tmp/config.head.yaml \
+            --run-url "${RUN_URL}"

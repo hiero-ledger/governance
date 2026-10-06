@@ -15,6 +15,9 @@ This pull request changes the following:
 
 Per the guidelines outlined in the `roles-and-groups.md` in this repository votes should be cast as follows:
 
+The `Vote required` status check on this pull request stays red until GitVote reports a passed vote here.
+A maintainer starts the vote by commenting the matching `/vote-<profile>` command.
+
 - Vote <span style="color:green">**in favor**</span> of the candidate's promotion by **approving** the PR with a **comment indicating approval**.
 - Vote <span style="color:red">**against**</span> the candidate's promotion by **posting a comment in the PR along with their explanation**.
 - Vote <span style="color:orange">**to abstain**</span> by **posting a comment in the PR along with their explanation**.

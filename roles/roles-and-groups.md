@@ -364,6 +364,29 @@ For Maintainers and Committers voting on new candidates:
 - A candidate can also be nominated for removal from the teams if they break code of conduct or has consistently made contributions that are affecting the team.
 - The voting process for removing a candidate is the same as the process for promoting a candidate (via PR).
 
+### Enforcement in the governance repository
+
+The rule above is enforced by the `Vote required` status check on pull requests against this repository
+(workflow [`vote-required.yaml`](../.github/workflows/vote-required.yaml)).
+The check compares the team membership in `config.yaml` between the pull request and `main`:
+
+- If no member or maintainer of an existing team is added or removed, the check passes immediately.
+  Documentation changes, repository settings, and new teams created through the TSC project process are not affected.
+- If members or maintainers of an existing team are added or removed, the check posts a comment listing the exact role
+  changes under vote and stays red until GitVote reports a passed vote on that pull request.
+  It is pending while the vote is open, and it fails when no vote has been started, when the vote did not pass, or when
+  the role changes were modified after the vote closed (in that case the vote must be re-run).
+- The check does not bind the Hiero Ledger GitHub maintainers (`github-maintainers`), the TSC, and LF staff
+  (`lf-staff`).
+  When a pull request is blocked because the binding voters are unavailable or unresponsive, any of them can apply the
+  `vote-exempt` label, state the reason in a comment, and merge the pull request.
+  The same workaround applies to reverting changes that were merged without a vote, to continuity situations decided by
+  the TSC, and to votes that pass under the rule above but are reported as failed by GitVote because voters who did not
+  vote were counted.
+  The label is ignored when it was applied by anyone else, and the check records who applied it.
+
+The check only reads `config.yaml` from the pull request as data; it never runs code from the pull request.
+
 
 ## Usage of GitHub CODEOWNERS in combination with our roles, teams, and rights
 
