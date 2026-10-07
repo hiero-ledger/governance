@@ -83,7 +83,7 @@ The important part is to be part of the team and provide valuable content :)
 
 #### Adding a Committer
 
-A nominee must already hold the Junior Committer role on the project.
+A nominee must already hold the Junior Committer role on the project, except under exceptional circumstances that will be defined separately.
 Any Committer or Maintainer of the given project can nominate a Junior Committer to become a Committer based on the project's needs and following these steps:
 
 - **Define your project's needs**: A repository should have a minimum of Committers to ensure a project's sustainability and resilience.
