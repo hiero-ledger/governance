@@ -126,6 +126,33 @@ See [Advancement Qualifications](advancement-qualifications.md) for what is coun
 **Why now:** The project needs more reviewers for the transaction module, and @example-dev has reviewed there consistently for six months.
 ```
 
+## What does a published threshold table look like?
+
+The table below is an illustrative example for a fictional mid-sized repository.
+It merges around ten pull requests a week and has three Maintainers and five Committers.
+The numbers are that project's choices, not Hiero recommendations.
+A project with a tenth of that volume would set lower numbers rather than copy these.
+Copy the [advancement template](https://github.com/hiero-ledger/governance/blob/main/templates/maintainers-advancement.md) into your MAINTAINERS.md and replace the example values with your own.
+
+| Role | Pillar | Example SDK's threshold |
+| --- | --- | --- |
+| Junior Committer | Presence | Active in most weeks over the last 8 weeks |
+| Junior Committer | Authoring | 5 merged pull requests |
+| Junior Committer | Reviewing | 6 reviews |
+| Junior Committer | Triage and issues | 8 issues, in any mix |
+| Committer | Presence | Sustained activity over the last 6 months |
+| Committer | Authoring | 20 merged pull requests |
+| Committer | Reviewing | 20 technical reviews, at least 5 of which found a defect before merge |
+| Committer | Triage | 20 issues triaged |
+| Committer | Issues | 10 issues opened that someone else completed |
+| Committer | Breadth | 3 areas of the codebase, or depth in one area |
+| Maintainer | Standing | Committer for at least 6 months |
+| Maintainer | Technical mastery | 10 merged changes to core or cross-cutting components |
+| Maintainer | Design leadership | 1 adopted proposal, decision, or substantial refactor |
+| Maintainer | Reviewing | 40 final-stage reviews, at least 10 of which blocked or redirected a change |
+| Maintainer | Stewardship | 5 project-health contributions |
+| Maintainer | Mentorship | 2 Contributors helped toward a role |
+
 ## How do I know when someone deserves to be added to the `code-owner` group?
     
 A person should be considered for the `code-owner` group if they are already a committer or a maintainer and they have the knowledge and experience in that area to provide deep and meaningful reviews.

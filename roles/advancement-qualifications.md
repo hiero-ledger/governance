@@ -77,6 +77,7 @@ Also weighed: handling of public API evolution and breaking changes; diagnosing 
 
 Each project sets a threshold for every row above and publishes them in its MAINTAINERS.md, using the [advancement template](../templates/maintainers-advancement.md).
 The template carries example values to adjust, not defaults to inherit.
+A completed table for a fictional mid-sized repository is shown in the [FAQ](./committer-and-maintainer-faq.md#what-does-a-published-threshold-table-look-like).
 A project publishes its thresholds before nominating under this framework.
 Until it does, the guidance in [Roles and Groups](./roles-and-groups.md) applies on its own.
 A project that labels issue difficulty may add a difficulty floor to any row.
