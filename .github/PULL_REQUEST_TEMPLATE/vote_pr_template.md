@@ -11,8 +11,10 @@ This pull request changes the following:
 
 ## Nomination evidence
 
-Per [Advancement Qualifications](../../roles/advancement-qualifications.md), a nomination cites links where possible, so that voters can check the basis for themselves. Remove any category that does not apply to the role
+Per [Advancement Qualifications](https://github.com/hiero-ledger/governance/blob/main/roles/advancement-qualifications.md), a nomination must include at least one analytics reference (Hiero Analytics, LFX Insights, or GitHub Insights) and a link for each item cited, so voters can verify participation. Remove any category that does not apply to the role
 being nominated for.
+
+**Analytics:** `<link to the nominee's profile or dashboard, scoped to the repository>`
 
 **Active since:** `<date>` - `<describe the pattern of activity, not only the total>`
 
@@ -30,7 +32,7 @@ being nominated for.
 
 **Why now:** `<what the project needs and why this person meets it>`
 
-The project's thresholds for this role are published in its `TEAM.md` or `MAINTAINERS.md`.
+The project's thresholds for this role are published in its `MAINTAINERS.md`.
 
 ## Voting
 
