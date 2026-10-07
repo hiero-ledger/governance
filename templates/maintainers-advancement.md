@@ -1,12 +1,28 @@
 ## Advancement
 
-This project follows the Hiero [default advancement qualifications](https://github.com/hiero-ledger/governance/blob/main/roles/advancement-qualifications.md) with the overrides below; rows not listed use the default.
+This project applies the Hiero [Advancement Qualifications](https://github.com/hiero-ledger/governance/blob/main/roles/advancement-qualifications.md) pillars with the thresholds below.
+Values in italics are examples from the template; replace each with this project's own.
 
-| Role | Category | This project's threshold |
+| Role | Pillar | This project's threshold |
 | --- | --- | --- |
-| *Committer* | *Authoring* | *e.g. 30 merged pull requests, at least 10 of them in the core module* |
+| Junior Committer | Presence | *Active in most weeks over the last 8 weeks* |
+| Junior Committer | Authoring | *5 merged pull requests* |
+| Junior Committer | Reviewing | *6 reviews* |
+| Junior Committer | Triage and issues | *8 issues, in any mix* |
+| Committer | Presence | *Sustained activity over the last 6 months* |
+| Committer | Authoring | *20 merged pull requests* |
+| Committer | Reviewing | *20 technical reviews, at least 5 of which found a defect before merge* |
+| Committer | Triage | *20 issues triaged* |
+| Committer | Issues | *10 issues opened that someone else completed* |
+| Committer | Breadth | *3 areas of the codebase, or depth in one area* |
+| Maintainer | Standing | *Committer for at least 6 months* |
+| Maintainer | Technical mastery | *10 merged changes to core or cross-cutting components* |
+| Maintainer | Design leadership | *1 adopted proposal, decision, or substantial refactor* |
+| Maintainer | Reviewing | *40 final-stage reviews, at least 10 of which blocked or redirected a change* |
+| Maintainer | Stewardship | *5 project-health contributions* |
+| Maintainer | Mentorship | *2 Contributors helped toward a role* |
 
-<!-- The next table is optional. Include it only if this project labels issue difficulty. -->
+<!-- Optional. Include only if this project labels issue difficulty. -->
 
 | Level | Label | Used as a floor for |
 | --- | --- | --- |

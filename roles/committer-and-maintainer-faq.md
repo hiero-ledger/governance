@@ -34,7 +34,7 @@ Here are some general guidelines that should be considered when determining if s
 - The candidate is trusted and reliable enough to be granted `write` permission to the project, including the ability to create branches, open PRs, merge PRs, and write tickets among others.
     
 Details can also be found in this [doc](roles-and-groups.md).
-The default thresholds for each role are set out in [Advancement Qualifications](advancement-qualifications.md).
+The pillars for each role are set out in [Advancement Qualifications](advancement-qualifications.md), and the thresholds in the project's MAINTAINERS.md.
 
 ## How do I know when someone deserves to be promoted from the committer group to the maintainer group?
     
@@ -45,7 +45,7 @@ Here are some general guidelines that should be considered when determining if s
 - The candidate shows interest in and cares about the management of the project.
 - The candidate is highly trusted. Their opinion is taken seriously enough to warrant a vote in future decisions.
 
-The default thresholds for each role are set out in [Advancement Qualifications](advancement-qualifications.md).
+The pillars for each role are set out in [Advancement Qualifications](advancement-qualifications.md), and the thresholds in the project's MAINTAINERS.md.
 
 ## Do I need a role before I can build a record toward one?
 
