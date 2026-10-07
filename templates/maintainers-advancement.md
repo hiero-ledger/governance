@@ -2,6 +2,7 @@
 
 This project applies the Hiero [Advancement Qualifications](https://github.com/hiero-ledger/governance/blob/main/roles/advancement-qualifications.md) pillars with the thresholds below.
 Values in italics are examples from the template; replace each with this project's own.
+Add a row for any additional pillar this project declares, and remove the example row if none apply.
 
 | Role | Pillar | This project's threshold |
 | --- | --- | --- |
@@ -21,6 +22,7 @@ Values in italics are examples from the template; replace each with this project
 | Maintainer | Reviewing | *40 final-stage reviews, at least 10 of which blocked or redirected a change* |
 | Maintainer | Stewardship | *5 project-health contributions* |
 | Maintainer | Mentorship | *2 Contributors helped toward a role* |
+| *Maintainer* | *Additional pillar declared by this project, e.g. Release ownership* | *e.g. 2 releases cut and announced* |
 
 <!-- Optional. Include only if this project labels issue difficulty. -->
 

@@ -28,6 +28,8 @@ Authoring counts merged pull requests, not opened ones, unless a project says ot
 
 Each table lists what is counted for the role.
 The project sets the threshold for every row.
+The pillars are not an exhaustive list.
+A project may declare additional pillars in its MAINTAINERS.md, for instance where the codebase is particularly complex or a role carries duties such as release ownership.
 
 ### Junior Committer
 
