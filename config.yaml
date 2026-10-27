@@ -739,12 +739,14 @@ teams:
       - svienot
     members:
       - SimiHunjan
+      - steven-sheehy
   - name: hiero-mirror-node-explorer-maintainers
     maintainers:
       - ericleponner
       - svienot
     members:
       - SimiHunjan
+      - steven-sheehy
   - name: hiero-mirror-node-maintainers
     maintainers:
       - steven-sheehy
