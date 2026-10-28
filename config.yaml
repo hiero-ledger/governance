@@ -783,6 +783,31 @@ teams:
     members:
       - Neeharika-Sompalli
       - tinker-michaelj
+  - name: hiero-sdk-committers
+    maintainers:
+      - nadineloepfe
+      - rwalworth
+      - SimiHunjan
+    members:
+      - 0xivanov
+      - aceppaluni
+      - Adityarya11
+      - agadzhalov
+      - Akshat8510
+      - AntonioCeppellini
+      - Dosik13
+      - emiliyank
+      - exploreriii
+      - gsstoykov
+      - ivaylogarnev-limechain
+      - ivaylonikolov7
+      - izik
+      - mariodimitrovv
+      - MonaaEid
+      - naydenovn
+      - parvninama
+      - RickyLB
+      - venilinvasilev
   - name: hiero-sdk-cpp-committers
     maintainers:
       - rwalworth
@@ -857,6 +882,27 @@ teams:
       - ddeskov-limechain
       - Fantomasa
       - ivaylonikolov7
+      - venilinvasilev
+  - name: hiero-sdk-maintainers
+    maintainers:
+      - hendrikebbers
+      - nadineloepfe
+      - rwalworth
+    members:
+      - 0xivanov
+      - agadzhalov
+      - ddeskov-limechain
+      - Dosik13
+      - emiliyank
+      - exploreriii
+      - gsstoykov
+      - ivaylogarnev-limechain
+      - ivaylonikolov7
+      - manishdait
+      - mustafauzunn
+      - RickyLB
+      - Sheng-Long
+      - SimiHunjan
       - venilinvasilev
   - name: hiero-sdk-python-committers
     maintainers:
@@ -1492,6 +1538,8 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-cpp-committers: write
       hiero-sdk-cpp-maintainers: maintain
+      hiero-sdk-committers: write
+      hiero-sdk-maintainers: maintain
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-triage: triage
       hiero-triage: triage
@@ -1503,6 +1551,8 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-go-committers: write
       hiero-sdk-go-maintainers: maintain
+      hiero-sdk-committers: write
+      hiero-sdk-maintainers: maintain
       hiero-sdk-triage: triage
       hiero-triage: triage
       security-maintainers: triage
@@ -1514,6 +1564,8 @@ repositories:
       hiero-gradle-conventions-maintainers: write
       hiero-sdk-java-committers: write
       hiero-sdk-java-maintainers: maintain
+      hiero-sdk-committers: write
+      hiero-sdk-maintainers: maintain
       hiero-sdk-triage: triage
       hiero-triage: triage
       security-maintainers: triage
@@ -1526,6 +1578,8 @@ repositories:
       hiero-sdk-js-committers: write
       hiero-sdk-js-junior-committers: triage
       hiero-sdk-js-maintainers: maintain
+      hiero-sdk-committers: write
+      hiero-sdk-maintainers: maintain
       hiero-sdk-triage: triage
       hiero-triage: triage
       security-maintainers: triage
@@ -1538,6 +1592,8 @@ repositories:
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-python-committers: write
       hiero-sdk-python-maintainers: maintain
+      hiero-sdk-committers: write
+      hiero-sdk-maintainers: maintain
       hiero-sdk-python-triage: triage
       hiero-sdk-triage: triage
       security-maintainers: triage
@@ -1548,6 +1604,8 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-rust-committers: write
       hiero-sdk-rust-maintainers: maintain
+      hiero-sdk-committers: write
+      hiero-sdk-maintainers: maintain
       hiero-sdk-triage: triage
       hiero-triage: triage
       security-maintainers: triage
@@ -1559,6 +1617,8 @@ repositories:
       hiero-sdk-good-first-issue-support: triage
       hiero-sdk-swift-committers: write
       hiero-sdk-swift-maintainers: maintain
+      hiero-sdk-committers: write
+      hiero-sdk-maintainers: maintain
       hiero-sdk-triage: triage
       hiero-triage: triage
       security-maintainers: triage
@@ -1569,6 +1629,8 @@ repositories:
       github-maintainers: maintain
       hiero-sdk-tck-committers: write
       hiero-sdk-tck-maintainers: maintain
+      hiero-sdk-committers: write
+      hiero-sdk-maintainers: maintain
       hiero-sdk-triage: triage
       security-maintainers: triage
       tsc: maintain
@@ -1625,6 +1687,8 @@ repositories:
       hiero-sdk-triage: triage
       sdk-collaboration-hub-committers: write
       sdk-collaboration-hub-maintainers: maintain
+      hiero-sdk-committers: write
+      hiero-sdk-maintainers: maintain
       security-maintainers: triage
       tsc: maintain
     visibility: public
