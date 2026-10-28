@@ -746,7 +746,6 @@ teams:
       - svienot
     members:
       - SimiHunjan
-      - steven-sheehy
   - name: hiero-mirror-node-maintainers
     maintainers:
       - steven-sheehy
