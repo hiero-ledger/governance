@@ -108,6 +108,16 @@ teams:
     maintainers:
       - swirlds-automation
     members: []
+  - name: hiero-agentic-support-committers
+    maintainers:
+      - hendrikebbers
+    members:
+      - aceppaluni
+      - exploreriii
+  - name: hiero-agentic-support-maintainers
+    maintainers:
+      - hendrikebbers
+    members: []
   - name: hiero-block-node-committers
     maintainers:
       - AlfredoG87
@@ -1299,6 +1309,16 @@ repositories:
   - name: hiero
     teams:
       github-maintainers: maintain
+      security-maintainers: triage
+      tsc: maintain
+    visibility: public
+  - name: hiero-agentic-support
+    teams:
+      github-maintainers: maintain
+      hiero-automation: write
+      hiero-agentic-support-committers: write
+      hiero-agentic-support-maintainers: maintain
+      hiero-triage: triage
       security-maintainers: triage
       tsc: maintain
     visibility: public
