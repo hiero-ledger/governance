@@ -827,6 +827,7 @@ teams:
     members:
       - 0xivanov
       - agadzhalov
+      - ddeskov-limechain
   - name: hiero-sdk-java-maintainers
     maintainers:
       - SimiHunjan
