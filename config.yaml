@@ -811,6 +811,7 @@ teams:
     members:
       - 0xivanov
       - agadzhalov
+      - ddeskov-limechain
       - gsstoykov
       - radkomih
   - name: hiero-sdk-go-maintainers
