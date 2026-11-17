@@ -4,7 +4,7 @@ The following criteria are defined by the Hiero TSC and must be met for a projec
 
 ## Hiero’s Mission and Technical Charter
 
-- The project must align with [Hiero’s technical charter and core mission](technical-charter.md).
+- The project must align with [Hiero’s technical charter and core mission](https://github.com/hiero-ledger/governance/blob/main/hiero-technical-charter.md).
 - A project must be primarily related to the network (such as a wallet app) rather than only incidentally using the network (such as a game with a built-in wallet).
 
 ## Governance
