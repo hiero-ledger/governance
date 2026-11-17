@@ -2,7 +2,7 @@
 
 This file contains an overview of our rules for roles and teams.
 
-For project-based exceptions to any of these rules and how to request an exception, please refer to the following [Tracker](https://github.com/hiero-ledger/governance/blob/main/project-rules-exceptions.md)
+For project-based exceptions to any of these rules and how to request an exception, please refer to the following [Tracker](https://github.com/hiero-ledger/governance/blob/main/rules-and-guidelines/project-rules-exceptions.md)
 
 ## Definition of project roles
 
@@ -233,7 +233,7 @@ Internal Contributors are added via a PR to the `config.yaml` file and must rece
 
 ## Creating a PR to add or remove a person for a specific role
 
-When a person is nominated to become a Junior Committer, Committer, or Maintainer, a PR should be created against the [`config.yaml`](config.yaml) file.
+When a person is nominated to become a Junior Committer, Committer, or Maintainer, a PR should be created against the [`config.yaml`](https://github.com/hiero-ledger/governance/blob/main/config.yaml) file.
 The file is a configuration for https://clowarden.io that is used as tool to manage all Hiero repos.
 The file contains all maintainer, committer, and junior committer teams and their members.
 The file follows the defined syntax of clowarden that looks like this:
