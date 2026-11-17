@@ -138,7 +138,7 @@ Some important rules to make Hacktoberfest a success for the contributors and fo
   If a person creates multiple PRs that are labeled by spam that person will be excluded from Hacktoberfest automatically.
 - It often makes sense to link to our [CONTRIBUTING.md](https://github.com/hiero-ledger/.github/blob/main/CONTRIBUTING.md) file since that contains a good overview of our rules and workflows.
 
-More information about the specific rules and workflows of Hacktoberfest can be found [here](https://hacktoberfest.com/participation/).
+More information about the specific rules and workflows of Hacktoberfest can be found [here](https://hacktoberfest.com/).
 
 Hacktoberfest has been a great way for us to attract new contributors and grow our community.
 With your help, we can make sure this year’s experience is both positive and rewarding for everyone involved.
