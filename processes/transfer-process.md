@@ -2,7 +2,7 @@
 
 This document shows the workflow for transferring any (public or private) project to Hiero and advises on several best
 practices for setting up a good open-source project that fits the pattern we use in Hiero.
-In general a project that should be transferred to Hiero must fulfill the [Hiero Project Criteria](project-criteria.md).
+In general a project that should be transferred to Hiero must fulfill the [Hiero Project Criteria](https://github.com/hiero-ledger/governance/blob/main/rules-and-guidelines/project-criteria.md).
 Please review the document before starting the transfer process.
 
 ## Getting in touch with the Hiero community
@@ -26,12 +26,12 @@ A project must fulfill the following requirements:
 - Each commit of a project must be GPG signed.
   More information can be found [here](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
 - LFDT must support the project licenses and all transient dependencies.
-  A complete list of all supported licenses can be found [here](https://lf-decentralized-trust.github.io/governance/governing-documents/allowed-third-party-licenses.html).
+  A complete list of all supported licenses can be found [here](https://lf-decentralized-trust.github.io/governance/governing-documents/allowed-third-party-licenses).
   If a needed license is not listed in that document, the TSC can be contacted for further discussion.
 - A project must contain specific files defining the LFDT Code of Conduct and more.
-  A detailed overview can be found [here](https://lf-decentralized-trust.github.io/governance/governing-documents/repository-structure.html).
+  A detailed overview can be found [here](https://lf-decentralized-trust.github.io/governance/governing-documents/repository-structure).
   We have already covered several of those files at [https://github.com/hiero-ledger/.github](https://github.com/hiero-ledger/.github).
-- LFDT defined some [best practices for projects](https://lf-decentralized-trust.github.io/governance/guidelines/project-best-practices.html).
+- LFDT defined some [best practices for projects](https://lf-decentralized-trust.github.io/governance/guidelines/project-best-practices).
   We recommend to fulfill as many of those as possible.
 
 ## Project sponsors
@@ -53,14 +53,14 @@ A template for such issue including information about the expected content and i
 The TSC will review the submitter of the proposal to a TSC meeting and provide a slot to introduce the project.
 Here the TSC can ask any additional questions regarding the project and the project proposal.
 As a next step and final the TSC will decide (by voting) if the project will be added directly to the [hiero-ledger org](https://github.com/hiero-ledger).
-The TSC will use the criteria defined in the [Hiero Project Criteria](project-criteria.md) to vote on the project.
+The TSC will use the criteria defined in the [Hiero Project Criteria](https://github.com/hiero-ledger/governance/blob/main/rules-and-guidelines/project-criteria.md) to vote on the project.
 For some projects the TSC might suggest to transfer it to the [LF Decentralized Trust labs](https://lf-decentralized-trust-labs.github.io).
 This allows the project to mature and align with industry standards before it is potentially transferred to Hiero.
 
 ## Defining maintainers and committers for the project
 
 The project needs to define in their project proposal the initial list of maintainers and committers that will be collaborating in the project.
-This happens by doing a PR against the governance repo as described [here](../roles/roles-and-groups.md#creating-a-pr-to-nominate-a-person-as-committer-or-maintainer).
+This happens by doing a PR against the governance repo as described [here](https://github.com/hiero-ledger/governance/blob/main/roles/roles-and-groups.md#creating-a-pr-to-add-or-remove-a-person-for-a-specific-role).
 That PR should be done by the person / group that initiated the project proposal.
 If you have any questions about creating that PR or need help please contact a member of [LF Staff](https://github.com/orgs/hiero-ledger/teams/lf-staff).
 
