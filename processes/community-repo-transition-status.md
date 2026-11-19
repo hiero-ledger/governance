@@ -37,7 +37,7 @@ The following table contains an overview of the initial steps that need to be do
 
 **DCO check & remediation** - We need to ensure that all commits on the main branch are DCO signed. This can be accomplished by retroactively signing commits through an empty signed commit on the repository.
 
-**License check & remediation** - Check if the repo license and the licenses of all transitive dependencies are compatible with the [LFDT guidelines](https://lf-decentralized-trust.github.io/governance/governing-documents/allowed-third-party-licenses.html).
+**License check & remediation** - Check if the repo license and the licenses of all transitive dependencies are compatible with the [LFDT guidelines](https://lf-decentralized-trust.github.io/governance/governing-documents/allowed-third-party-licenses/).
 
 **user rights** - Users, groups and rights are managed by the `config.yaml` file in the [governance](https://github.com/LFDT-Hiero/governance) repo. We will create custom groups for each repo. That groups must be created and added to the specific repos in the `config.yaml`.
 

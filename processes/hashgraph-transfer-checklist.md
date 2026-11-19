@@ -115,7 +115,7 @@ The following steps shall occur to transfer a repository into Hiero from a sourc
 - The TA has verified the appropriate secrets needed by the workflows are defined in the github repository
 - The TA has verified that appropriate variables have been defined in the new repository
 - The TA has updated the CODEOWNERS file to include the teams defined on the [Hiero-Ledger][hiero] repository
-- The TA will update the [transition.md](https://github.com/hiero-ledger/hiero/blob/main/transition.md) document to show the transition is complete.
+- The TA will update the [hedera-repo-transition-status.md](https://github.com/hiero-ledger/governance/blob/main/processes/hedera-repo-transition-status.md) document to show the transition is complete.
 
 At this point the repository is considered **transferred**.
 

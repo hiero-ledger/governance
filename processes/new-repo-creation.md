@@ -4,7 +4,7 @@
 
 - Review our [Project Criteria guidelines](https://github.com/hiero-ledger/governance/blob/main/rules-and-guidelines/project-criteria.md).
   These guidelines will ensure that the project:
-  - Is able to adapt to [Hiero's mission](https://github.com/hiero-ledger/hiero/blob/main/project-criteria.md#hieros-mission-and-technical-charter).
+  - Is able to adapt to [Hiero's mission](https://github.com/hiero-ledger/governance/blob/main/rules-and-guidelines/project-criteria.md#hieros-mission-and-technical-charter).
   - Participants understand the basis of Open Source collaboration.
   - Has an [adequate license](https://lf-decentralized-trust.github.io/governance/governing-documents/allowed-third-party-licenses/#approved-licenses-for-allowlist).
   - Is willing to promote participation and growth alongside other projects in the organization.

@@ -5,9 +5,8 @@ We will do the transition in phases and several different tasks need to be done 
 Therefore, we created a matrix that shows the state of all projects for that the transition has been started or is planned for the near future.
 Next to the matrix that is shown in this document we create issues for each repo that should be transfered.
 The issues might contain more detailed information about the transition state as shown in the matrix.
-A list of all issues can be found [here](https://github.com/LFDT-Hiero/tsc/issues/5).
 
-A step-by-step guide for doing the transition of a repository can be found [here](https://github.com/hiero-ledger/hiero/blob/main/hashgraph-transfer.md).
+A step-by-step guide for doing the transition of a repository can be found [here](https://github.com/hiero-ledger/governance/blob/main/processes/hashgraph-transfer-checklist.md).
 
 ## Initial steps
 
@@ -44,6 +43,6 @@ The following table contains an overview of the initial steps that need to be do
 
 **automatic License check** - Check if the repo is automatically checked for licensing issues
 
-**License remediation** - Check if the repo license and the licenses of all transitive dependencies are compatible with the [LFDT guidelines](https://lf-decentralized-trust.github.io/governance/governing-documents/allowed-third-party-licenses.html).
+**License remediation** - Check if the repo license and the licenses of all transitive dependencies are compatible with the [LFDT guidelines](https://lf-decentralized-trust.github.io/governance/governing-documents/allowed-third-party-licenses).
 
 **user rights** - Users, groups and rights are managed by the `config.yaml` file in the https://github.com/LFDT-Hiero/governance repo. We will create custom groups for each repo. That groups must be created and added to the specific repos in the `config.yaml`.
